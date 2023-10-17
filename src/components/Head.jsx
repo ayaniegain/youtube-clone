@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux';
-import { toggleMenu,incSalary } from '../utils/appSlice';
+import { toggleMenu } from '../utils/appSlice';
 
 
 function Head() { 

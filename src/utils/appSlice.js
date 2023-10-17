@@ -4,19 +4,18 @@ const appSlice = createSlice({
     name:'app',
     initialState:{
         isMenuOpen: true,
-        value:0
     },
     reducers:{
         toggleMenu:(state)=>{
             state.isMenuOpen=! state.isMenuOpen
         },
-        incSalary:(state,action)=>{
-            state.value=`${action.payload}`
+        closeSidebar:(state,action)=>{
+            state.isMenuOpen=false
         }
 
     }
 
 })
 
-export const {toggleMenu,incSalary} =appSlice.actions;
+export const {toggleMenu,closeSidebar} =appSlice.actions;
 export default appSlice.reducer;
