@@ -1,3257 +1,160 @@
 const GOOGLE_API_KEY='AIzaSyBWA4B5sXa3DWb8n4KqkxNQWBZQqPqm7Sg'
 
-export const YOUTUBE_VIDEO_API =`https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=US&key=${GOOGLE_API_KEY}`;
+// export const YOUTUBE_VIDEO_API =`https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=US&key=${GOOGLE_API_KEY}`;
 
 export const YOUTUBE_SEARCH_API ="http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
 
+export const OFFSET_LIVE_CHAT=20;
 
 export const youtube_sample=
 {
     "kind": "youtube#videoListResponse",
-    "etag": "4VoLoyGv8EEK5arrmMLwOOhvLq0",
+    "etag": "UfLrMhEIQiV-F3GS4D08YrF1b1I",
     "items": [
     {
     "kind": "youtube#video",
-    "etag": "sSkcuulBawfq7T76gVhepEGuJ0k",
-    "id": "5oExKMYIE9U",
+    "etag": "7E5gw0QD0cYMtNehBhP7mR2MYaI",
+    "id": "5xC5QDZRpzs",
     "snippet": {
-    "publishedAt": "2023-10-15T05:30:35Z",
-    "channelId": "UCFFbwnve3yF62-tVXkTyHqg",
-    "title": "KALAASTAR - Full Video | Honey 3.0 | Yo Yo Honey Singh & Sonakshi Sinha | Zee Music Originals",
-    "description": "👉🏻 SUBSCRIBE to Zee Music Company - https://bit.ly/2yPcBkS \n\nSong: Kalaastar\nSinger: Yo Yo Honey Singh\nFeaturing: Sonakshi Sinha\nComposer: Rony Ajnali & Gill Machhrai\nLyrics: Rony Ajnali & Gill Machhrai\nMusic: Bass Yogi \nMix & Master: Jaymeet\nGuitars: Faizan Rahman\n\nProduced by: Zee Music Company\nDigital Strategy: RajDeep Mayer\nDirector: Jonas Beck\nLine Producer: Shanya Valies\nProduction Manager: Dilba Yasin\nDigital Marketing/Promotions: RDM Media\nPoster: RDM Media\nD.O.P: Tobias van Daal\n1st AC: Krijn Windjes\nGaffer: Jan Nelemans\nBestboy: Mees Blaak\nLight Assistant: Leon de Haas\nSound Operator: Ralf de Krijger\nCrane Operator: Bram Marijnissen\n\nYYHS Management Team: Rohit Chhabra, Aanchal Kohli, Nikunj Khanna\n\nArt Director: Cheriva Volney\nArt Assistant: Charity Sumter\nProduction Assistant: Julie van Zolingen\nProduction Assistant: Yoshua Nahar\nMakeup Artist YYHS: Beyzanur Pinarbasi\nMakeup Artist Sonakshi: Heema Datani\nHairstylist Sonakshi: Hair By Jssca\nStylist Sonakshi: Sanam Ratansi\nActor Boyfriend Sonakshi: Alper Aykut Showpony\n\nEdit: Frogalised Productions\nGrading: Raoel Hulst\n\nBig Thanks to:\nGrey Bottle Props\nBreda International Airport - Location Manager: Michiel van Dijk\nCamping Vliegenbos Amsterdam\nEventcity Aalsmeer\nTaets Art and Event Park\nPrison Escape and the city of Doetinchem, The Netherlands\nNhm Car Casting\n\n#yoyohoneysingh #sonakshisinha\n\n\nMusic on Zee Music Company\n\nConnect with us on :\nTwitter - https://www.twitter.com/ZeeMusicCompany\nFacebook - https://www.facebook.com/zeemusiccompany\nInstagram - https://www.instagram.com/zeemusiccompany\nYouTube - http://bit.ly/TYZMC",
+    "publishedAt": "2023-10-18T02:20:38Z",
+    "channelId": "UCSo19KhHogXxu3sFsOpqrcQ",
+    "title": "México 2-2 Alemania - HIGHLIGHTS | Amistoso Internacional | TUDN",
+    "description": "La mayor oferta de partidos de la Liga Mx en ViX: https://vix.com/es-es/deportes?utm_medium=organic_social&utm_source=youtube&utm_campaign=evergreen&utm_content=ed_sports\n\nMéxico gusta y empata contra una Alemania que por momentos fue controlada por el Tricolor.",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/5oExKMYIE9U/default.jpg",
+    "url": "https://i.ytimg.com/vi/5xC5QDZRpzs/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/5oExKMYIE9U/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/5xC5QDZRpzs/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/5oExKMYIE9U/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/5xC5QDZRpzs/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/5oExKMYIE9U/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/5xC5QDZRpzs/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/5oExKMYIE9U/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/5xC5QDZRpzs/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "Zee Music Company",
+    "channelTitle": "TUDN USA",
     "tags": [
-    "kalaastar teaser",
-    "kalaastar song",
-    "kalaastar",
-    "kalaastar honey singh",
-    "yo yo honey singh",
-    "kalaastar official song",
-    "yo yo honey singh new song",
-    "yo yo honey singh songs",
-    "yo yo honey singh dance songs",
-    "kalaastar yo yo honey singh",
-    "new honey singh songs",
-    "latest honey singh songs",
-    "kalaastar honey song",
-    "sonakshi sinha new songs",
-    "sonakshi sinha songs",
-    "honey singh new songs",
-    "kalastar",
-    "kalastaar",
-    "kala star",
-    "kalaa star",
-    "sonakshi",
-    "kalaastar song yo yo honey singh",
-    "kalastar honey",
-    "desi kalakar"
-    ],
-    "categoryId": "10",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "KALAASTAR - Full Video | Honey 3.0 | Yo Yo Honey Singh & Sonakshi Sinha | Zee Music Originals",
-    "description": "👉🏻 SUBSCRIBE to Zee Music Company - https://bit.ly/2yPcBkS \n\nSong: Kalaastar\nSinger: Yo Yo Honey Singh\nFeaturing: Sonakshi Sinha\nComposer: Rony Ajnali & Gill Machhrai\nLyrics: Rony Ajnali & Gill Machhrai\nMusic: Bass Yogi \nMix & Master: Jaymeet\nGuitars: Faizan Rahman\n\nProduced by: Zee Music Company\nDigital Strategy: RajDeep Mayer\nDirector: Jonas Beck\nLine Producer: Shanya Valies\nProduction Manager: Dilba Yasin\nDigital Marketing/Promotions: RDM Media\nPoster: RDM Media\nD.O.P: Tobias van Daal\n1st AC: Krijn Windjes\nGaffer: Jan Nelemans\nBestboy: Mees Blaak\nLight Assistant: Leon de Haas\nSound Operator: Ralf de Krijger\nCrane Operator: Bram Marijnissen\n\nYYHS Management Team: Rohit Chhabra, Aanchal Kohli, Nikunj Khanna\n\nArt Director: Cheriva Volney\nArt Assistant: Charity Sumter\nProduction Assistant: Julie van Zolingen\nProduction Assistant: Yoshua Nahar\nMakeup Artist YYHS: Beyzanur Pinarbasi\nMakeup Artist Sonakshi: Heema Datani\nHairstylist Sonakshi: Hair By Jssca\nStylist Sonakshi: Sanam Ratansi\nActor Boyfriend Sonakshi: Alper Aykut Showpony\n\nEdit: Frogalised Productions\nGrading: Raoel Hulst\n\nBig Thanks to:\nGrey Bottle Props\nBreda International Airport - Location Manager: Michiel van Dijk\nCamping Vliegenbos Amsterdam\nEventcity Aalsmeer\nTaets Art and Event Park\nPrison Escape and the city of Doetinchem, The Netherlands\nNhm Car Casting\n\n#yoyohoneysingh #sonakshisinha\n\n\nMusic on Zee Music Company\n\nConnect with us on :\nTwitter - https://www.twitter.com/ZeeMusicCompany\nFacebook - https://www.facebook.com/zeemusiccompany\nInstagram - https://www.instagram.com/zeemusiccompany\nYouTube - http://bit.ly/TYZMC"
-    },
-    "defaultAudioLanguage": "hi"
-    },
-    "contentDetails": {
-    "duration": "PT4M30S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "true",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "41213938",
-    "likeCount": "6263409",
-    "favoriteCount": "0",
-    "commentCount": "705139"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "jezpb4KKESaqYgNDd4q41JWp8WU",
-    "id": "vEjTUDjjU6A",
-    "snippet": {
-    "publishedAt": "2023-10-16T06:30:08Z",
-    "channelId": "UCbTLwN10NoCU4WDzLf1JMOA",
-    "title": "Tiger 3 Trailer | Salman Khan, Katrina Kaif, Emraan Hashmi | Maneesh Sharma | YRF Spy Universe",
-    "description": "Tiger and Zoya are back - to save the country and their family. This time it’s personal! #Tiger3 arriving in cinemas on 12th November. Releasing in Hindi, Tamil & Telugu.\nPre-book your BMS voucher now: https://bit.ly/Tiger3BMSoffer\n\n► Subscribe Now: https://goo.gl/xs3mrY 🔔 Stay updated!\n► YRF New Releases: https://www.youtube.com/playlist?list=PLCB05E03DA939D484\n\nStay in the filmy loop:\n► Like us on Facebook: Facebook/yrf\n► Follow us on Twitter: Twitter/yrf\n► Follow us on Instagram: Instagram/yrf\n► Visit us on: yashrajfilms.com\n\n🎬 Movie Credits:\nStarring: Salman Khan, Katrina Kaif, Emraan Hashmi \nDirector: Maneesh Sharma\nProducer: Aditya Chopra\nCo-Producer: Akshaye Widhani\nScreenplay: Shridhar Raghavan\nDirector of Photography: Anay Om Goswamy (ISC)\nMusic: Pritam\nLyrics: Irshad Kamil, Amitabh Bhattacharya \nDialogues: Anckur Chaudhry \nStory: Aditya Chopra\nAssociate Producer: Rishabh Chopra\nExecutive Producers: Sudhanshu Kumar, Sanjay Shivalkar\nProduction Designer: Mayur Sharma  \nEditor: Rameshwar S. Bhagat\nDirector of Choreography: Vaibhavi Merchant\nSound: Pritam Das, Ganesh Gangadharan\nAction Directors: Franz Spilhaus, Oh Sea Young, Sunil Rodrigues (ROD)\nBackground Music: Tanuj Tiku\nCostume Designers: Anaita Shroff Adajania, Alvira Khan Agnihotri, Ashley Rebello, Darshan Jalan \nVisual Effects Studio: yFX \nCasting Director: Shanoo Sharma \nTrailers & Promos: Mohit Sajnaney \nRelease Date: 12 November 2023\n \nTiger 3 Trailer:\nBackground Music: Tanuj Tiku \nOriginal Tiger Theme Composition: Julius Packiam\n\nAbout YRF Spy Universe:\nYRF Spy Universe is a first of its kind cinematic universe of spy thriller films in India. The first film in the universe, \"Ek Tha Tiger,\" starring Salman Khan and Katrina Kaif was released in 2012, followed by its sequel \"Tiger Zinda Hai\" in 2017. The third film in the universe, \"War,\" was released in 2019 and starred Hrithik Roshan and Tiger Shroff in pivotal roles. The recent release Pathaan (2023) starring Shah Rukh Khan, Deepika Padukone and John Abraham is the fourth instalment in the spy universe franchise.\n\nAll the films of the Spy Universe are blockbusters with Pathaan being the all-time highest grossing Hindi film ever. The YRF Spy Universe is now one of the biggest IP’s in the history of Indian cinema. The next film from this franchise is Tiger 3 releasing this Diwali!\n\nYRF Spy Universe films boast of incredible visual spectacles with high-octane action sequences, thrilling plot-lines, power-packed characters and musical chartbusters.\n\n#Tiger3Trailer #yrf50 #YRFSpyUniverse #yrfnewreleases #yrf #tiger3 #yashraj #yashrajfilms #yrfmovies #yrfmusic #yashchopra #adityachopra #salmankhan #katrinakaif #emraanhashmi #maneeshsharma #newmovie #newmovie2023 #bollywoodmovie #bollywoodmovie2023 #tiger3trailer\n\n© Yash Raj Films Pvt. Ltd.",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/vEjTUDjjU6A/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/vEjTUDjjU6A/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/vEjTUDjjU6A/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/vEjTUDjjU6A/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/vEjTUDjjU6A/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "YRF",
-    "tags": [
-    "katrina kaif",
-    "emraan hashmi",
-    "tiger 3",
-    "tiger 3 trailer",
-    "tiger 3 ka trailer",
-    "tiger trailer",
-    "salman khan trailer",
-    "katrina kaif trailer",
-    "emraan hashmi trailer",
-    "salman khan new trailer",
-    "salman khan tiger 3 trailer",
-    "tiger 3 trailer teaser",
-    "tiger3 trailer",
-    "tiger 3 movie ka trailer",
-    "new movie trailer",
-    "new trailers",
-    "trailers 2023",
-    "new movie trailers 2023",
-    "bollywood movies trailer",
-    "सलमान ख़ान",
-    "टाइगर 3 ट्रेलर",
-    "indian movie trailers",
-    "katrina kaif movie trailer",
-    "hindi movie trailer"
-    ],
-    "categoryId": "1",
-    "liveBroadcastContent": "none",
-    "defaultLanguage": "en-GB",
-    "localized": {
-    "title": "Tiger 3 Trailer | Salman Khan, Katrina Kaif, Emraan Hashmi | Maneesh Sharma | YRF Spy Universe",
-    "description": "Tiger and Zoya are back - to save the country and their family. This time it’s personal! #Tiger3 arriving in cinemas on 12th November. Releasing in Hindi, Tamil & Telugu.\nPre-book your BMS voucher now: https://bit.ly/Tiger3BMSoffer\n\n► Subscribe Now: https://goo.gl/xs3mrY 🔔 Stay updated!\n► YRF New Releases: https://www.youtube.com/playlist?list=PLCB05E03DA939D484\n\nStay in the filmy loop:\n► Like us on Facebook: Facebook/yrf\n► Follow us on Twitter: Twitter/yrf\n► Follow us on Instagram: Instagram/yrf\n► Visit us on: yashrajfilms.com\n\n🎬 Movie Credits:\nStarring: Salman Khan, Katrina Kaif, Emraan Hashmi \nDirector: Maneesh Sharma\nProducer: Aditya Chopra\nCo-Producer: Akshaye Widhani\nScreenplay: Shridhar Raghavan\nDirector of Photography: Anay Om Goswamy (ISC)\nMusic: Pritam\nLyrics: Irshad Kamil, Amitabh Bhattacharya \nDialogues: Anckur Chaudhry \nStory: Aditya Chopra\nAssociate Producer: Rishabh Chopra\nExecutive Producers: Sudhanshu Kumar, Sanjay Shivalkar\nProduction Designer: Mayur Sharma  \nEditor: Rameshwar S. Bhagat\nDirector of Choreography: Vaibhavi Merchant\nSound: Pritam Das, Ganesh Gangadharan\nAction Directors: Franz Spilhaus, Oh Sea Young, Sunil Rodrigues (ROD)\nBackground Music: Tanuj Tiku\nCostume Designers: Anaita Shroff Adajania, Alvira Khan Agnihotri, Ashley Rebello, Darshan Jalan \nVisual Effects Studio: yFX \nCasting Director: Shanoo Sharma \nTrailers & Promos: Mohit Sajnaney \nRelease Date: 12 November 2023\n \nTiger 3 Trailer:\nBackground Music: Tanuj Tiku \nOriginal Tiger Theme Composition: Julius Packiam\n\nAbout YRF Spy Universe:\nYRF Spy Universe is a first of its kind cinematic universe of spy thriller films in India. The first film in the universe, \"Ek Tha Tiger,\" starring Salman Khan and Katrina Kaif was released in 2012, followed by its sequel \"Tiger Zinda Hai\" in 2017. The third film in the universe, \"War,\" was released in 2019 and starred Hrithik Roshan and Tiger Shroff in pivotal roles. The recent release Pathaan (2023) starring Shah Rukh Khan, Deepika Padukone and John Abraham is the fourth instalment in the spy universe franchise.\n\nAll the films of the Spy Universe are blockbusters with Pathaan being the all-time highest grossing Hindi film ever. The YRF Spy Universe is now one of the biggest IP’s in the history of Indian cinema. The next film from this franchise is Tiger 3 releasing this Diwali!\n\nYRF Spy Universe films boast of incredible visual spectacles with high-octane action sequences, thrilling plot-lines, power-packed characters and musical chartbusters.\n\n#Tiger3Trailer #yrf50 #YRFSpyUniverse #yrfnewreleases #yrf #tiger3 #yashraj #yashrajfilms #yrfmovies #yrfmusic #yashchopra #adityachopra #salmankhan #katrinakaif #emraanhashmi #maneeshsharma #newmovie #newmovie2023 #bollywoodmovie #bollywoodmovie2023 #tiger3trailer\n\n© Yash Raj Films Pvt. Ltd."
-    },
-    "defaultAudioLanguage": "hi"
-    },
-    "contentDetails": {
-    "duration": "PT2M51S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "true",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "26711099",
-    "likeCount": "1136959",
-    "favoriteCount": "0",
-    "commentCount": "96083"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "_fYco88R48sGCBcOHL0DCFJYYPc",
-    "id": "9F1hF-y5Juw",
-    "snippet": {
-    "publishedAt": "2023-10-16T04:47:36Z",
-    "channelId": "UCZM82IdwJeS1As0lPZu5_Xg",
-    "title": "😍😍 HAPPY NEWS | 💃💃தாத்தா பாட்டி ஆகிட்டோம் | குட்டி பாப்பா வந்தாச்சு",
-    "description": "Mail id:hemaskitchen74@gmail.com\n\nFacebook: https://www.facebook.com/profile.php?id=100044325975044\n\nInsta Id: my Insta account: https://www.instagram.com/hemas_kitchen_ch/?hl=en\n\nNamma Ooru \nWebsite link:\nhttps://www.nammaoorushopping.com\n\ncontact No:\n73053 73004",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/9F1hF-y5Juw/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/9F1hF-y5Juw/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/9F1hF-y5Juw/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/9F1hF-y5Juw/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/9F1hF-y5Juw/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Hema's Kitchen",
-    "categoryId": "22",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "😍😍 HAPPY NEWS | 💃💃தாத்தா பாட்டி ஆகிட்டோம் | குட்டி பாப்பா வந்தாச்சு",
-    "description": "Mail id:hemaskitchen74@gmail.com\n\nFacebook: https://www.facebook.com/profile.php?id=100044325975044\n\nInsta Id: my Insta account: https://www.instagram.com/hemas_kitchen_ch/?hl=en\n\nNamma Ooru \nWebsite link:\nhttps://www.nammaoorushopping.com\n\ncontact No:\n73053 73004"
-    }
-    },
-    "contentDetails": {
-    "duration": "PT12M30S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "448249",
-    "likeCount": "10270",
-    "favoriteCount": "0",
-    "commentCount": "769"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "t3fm4SR6X0t-KwW7jbpQp0PEEf0",
-    "id": "2yCS9tpckQw",
-    "snippet": {
-    "publishedAt": "2023-10-16T06:04:34Z",
-    "channelId": "UCfm7ruQ8mPzPyw0w7e7pqEA",
-    "title": "Saindhav Teaser - Telugu | Venkatesh Daggubati |Nawazuddin, Arya| Sailesh Kolanu |Santhosh Narayanan",
-    "description": "Watch the teaser of Saindhav in Telugu!\n\n#Saindhav is an upcoming New Age Action Film Starring Venkatesh Daggubati in the Lead Role, Co-starring Baby Sara, Nawazuddin Siddiqui, Arya, Shraddha Srinath, Ruhani Sharma, Andrea Jeremiah. Written & Directed By Dr. Sailesh Kolanu. Music by Santhosh  Narayanan, DOP by S.Manikandan, Editing by Garry Bh, Produced by Venkat Boyanapalli On Niharika Entertainment banner. Worldwide Releasing in theatres for Sankranthi on Jan 13th, 2024.\n\nCast - #VenkateshDaggubati , Baby Sara, Nawazuddin Siddiqui, Arya, Shraddha Srinath, Ruhani Sharma, Andrea Jeremiah, Jisshu sen gupta, Mukesh Rishi and others…\n\nCrew - \nWritten & Directed By Dr. Sailesh Kolanu\nProducer : Venkat Boyanapalli \nBanner : Niharika Entertainment\nCo Producer : Kishore Thallur\nDOP : S.Manikandan \nMusic : Santosh Narayan \nEditor : Garry Bh\nProduction Designer : Avinash Kolla\nVFX Supervisor : Praveen Ghanta\nExecutive Producer : S Venkatarathnam (Venkat)\nSound Design - Sync Cinema\nSound Mix - Aravind Menon \nPRO : Vamsi Shekar\nPublicity Designer : Anil & Bhanu \nMarketing : CZONE Digital Network\n\nFor more updates about Niharika Entertainment :\nSubscribe :- https://youtube.com/@NiharikaEnt\nTwitter :- https://twitter.com/NiharikaEnt\nInstagram :- https://www.instagram.com/NiharikaEnt\nFacebook :- https://www.facebook.com/NiharikaEnt",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/2yCS9tpckQw/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/2yCS9tpckQw/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/2yCS9tpckQw/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/2yCS9tpckQw/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/2yCS9tpckQw/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Niharika Entertainment",
-    "tags": [
-    "Saindhav Teaser",
-    "saindhav",
-    "saindhav telugu teaser",
-    "venkatesh saindhav",
-    "venkatesh saindhav teaser",
-    "saindhav hd teaser",
-    "venkatesh upcoming films",
-    "venkatesh movies",
-    "venkatesh daggubati",
-    "sailesh kolanu",
-    "sailesh kolanu saindhav",
-    "venkatesh saindhav movie teaser",
-    "saindhav movie teaser",
-    "latest movie teaser"
-    ],
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Saindhav Teaser - Telugu | Venkatesh Daggubati |Nawazuddin, Arya| Sailesh Kolanu |Santhosh Narayanan",
-    "description": "Watch the teaser of Saindhav in Telugu!\n\n#Saindhav is an upcoming New Age Action Film Starring Venkatesh Daggubati in the Lead Role, Co-starring Baby Sara, Nawazuddin Siddiqui, Arya, Shraddha Srinath, Ruhani Sharma, Andrea Jeremiah. Written & Directed By Dr. Sailesh Kolanu. Music by Santhosh  Narayanan, DOP by S.Manikandan, Editing by Garry Bh, Produced by Venkat Boyanapalli On Niharika Entertainment banner. Worldwide Releasing in theatres for Sankranthi on Jan 13th, 2024.\n\nCast - #VenkateshDaggubati , Baby Sara, Nawazuddin Siddiqui, Arya, Shraddha Srinath, Ruhani Sharma, Andrea Jeremiah, Jisshu sen gupta, Mukesh Rishi and others…\n\nCrew - \nWritten & Directed By Dr. Sailesh Kolanu\nProducer : Venkat Boyanapalli \nBanner : Niharika Entertainment\nCo Producer : Kishore Thallur\nDOP : S.Manikandan \nMusic : Santosh Narayan \nEditor : Garry Bh\nProduction Designer : Avinash Kolla\nVFX Supervisor : Praveen Ghanta\nExecutive Producer : S Venkatarathnam (Venkat)\nSound Design - Sync Cinema\nSound Mix - Aravind Menon \nPRO : Vamsi Shekar\nPublicity Designer : Anil & Bhanu \nMarketing : CZONE Digital Network\n\nFor more updates about Niharika Entertainment :\nSubscribe :- https://youtube.com/@NiharikaEnt\nTwitter :- https://twitter.com/NiharikaEnt\nInstagram :- https://www.instagram.com/NiharikaEnt\nFacebook :- https://www.facebook.com/NiharikaEnt"
-    },
-    "defaultAudioLanguage": "en"
-    },
-    "contentDetails": {
-    "duration": "PT1M58S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "true",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "1807059",
-    "likeCount": "79506",
-    "favoriteCount": "0",
-    "commentCount": "2103"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "94COkHZZIIJlmeqPrVjSbqOMPqE",
-    "id": "hPOEwPXD8AY",
-    "snippet": {
-    "publishedAt": "2023-10-15T18:49:19Z",
-    "channelId": "UCkkNMVAtU3CBn0fV_qC6ZJQ",
-    "title": "Bigg Boss 17 PROMO: Abhishek Ne Ki Sunny Arun Se PHYSICAL FIGHT, Ankita Hui Vicky Se Naraaz",
-    "description": "#ankitalokhande #tehelkaprank #abhishekkumar #ishamalviya #munawarfaruqui #biggboss17 #bb17 \n\nFor more videos and daily updates:\nSubscribe Now - https://www.youtube.com/user/tellybytes\n\nFollow Us On Instagram -  https://www.instagram.com/tellybytesofficial/?hl=en \nLike Us On Facebook - https://m.facebook.com/pg/TellyBytes/\nFollow Us On Twitter - TellyBytes (@bytes_telly): https://twitter.com/bytes_telly?s=09",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/hPOEwPXD8AY/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/hPOEwPXD8AY/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/hPOEwPXD8AY/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/hPOEwPXD8AY/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/hPOEwPXD8AY/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Telly Bytes - Tele News India",
-    "tags": [
-    "bigg boss 17 episode 1",
-    "bigg boss 17 full episode today",
-    "bigg boss 17 promo today",
-    "bigg boss 17 today episode",
-    "bigg boss 17 new promo",
-    "bigg boss 17 new promo today",
-    "bigg boss 17 live",
-    "Bigg Boss 17 Live Feed",
-    "Bigg Boss 17 promo",
-    "bigg boss 17 15 october 2023",
-    "bigg boss 17 today episode promo",
-    "bigg boss 17 contestants list 2023",
-    "bb 17 new promo",
-    "bigg boss 17 aishwarya sharma",
-    "bigg boss livestream",
-    "Bigg Boss 2023",
-    "munawar faruqui bigg boss 17",
-    "bigg boss 17 telly bytes"
-    ],
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "defaultLanguage": "en-IN",
-    "localized": {
-    "title": "Bigg Boss 17 PROMO: Abhishek Ne Ki Sunny Arun Se PHYSICAL FIGHT, Ankita Hui Vicky Se Naraaz",
-    "description": "#ankitalokhande #tehelkaprank #abhishekkumar #ishamalviya #munawarfaruqui #biggboss17 #bb17 \n\nFor more videos and daily updates:\nSubscribe Now - https://www.youtube.com/user/tellybytes\n\nFollow Us On Instagram -  https://www.instagram.com/tellybytesofficial/?hl=en \nLike Us On Facebook - https://m.facebook.com/pg/TellyBytes/\nFollow Us On Twitter - TellyBytes (@bytes_telly): https://twitter.com/bytes_telly?s=09"
-    },
-    "defaultAudioLanguage": "hi"
-    },
-    "contentDetails": {
-    "duration": "PT1M",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "1197506",
-    "likeCount": "12190",
-    "favoriteCount": "0",
-    "commentCount": "1208"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "TFyRAeo666qX5CNvhNZGxOGYE0A",
-    "id": "fqbM2-_L3rQ",
-    "snippet": {
-    "publishedAt": "2023-10-16T03:30:18Z",
-    "channelId": "UCX8pnu3DYUnx8qy8V_c6oHg",
-    "title": "SELLING 10 LUXURY CARS FROM MY SHOWROOM",
-    "description": "SELLING 10 LUXURY CARS FROM MY SHOWROOM | CAR FOR SALE #15\n\nSubscribe to our Second YouTube Channel: https://www.youtube.com/c/UjjwalGamer\n\n\nShare, Support, Subscribe!!!\nSubscribe: http://bit.ly/technogamerz\nDiscord : https://bit.ly/ujjwaldiscord\nYoutube: https://www.youtube.com/c/TechnoGamerzOfficial\nTwitter:  https://www.twitter.com/ujjwalgamer\nFacebook: https://www.facebook.com/technogamerz\nFacebook Myself: https://www.facebook.com/ujjwalgamer\nInstagram: https://instagram.com/ujjwalgamer\nGoogle Plus: https://plus.google.com/+TechnoGamerzOfficial\nWebsite: https://technogamerz.in/\nMerchandise: https://shop.technogamerz.in/\n\n\nBusiness Email : technogamerzofficial@gmail.com\n\n\nAbout : Techno Gamerz is a YouTube Channel, where you will find gaming videos in Hindi, I hope this video was Useful and you liked it, if you did press the thumbs up button.",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/fqbM2-_L3rQ/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/fqbM2-_L3rQ/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/fqbM2-_L3rQ/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/fqbM2-_L3rQ/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/fqbM2-_L3rQ/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Techno Gamerz",
-    "tags": [
-    "car for sale",
-    "car showroom",
-    "dealership",
-    "supercar",
-    "lamborghini",
-    "simulator",
-    "funny",
-    "ujjwal",
-    "techno gamerz"
-    ],
-    "categoryId": "20",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "SELLING 10 LUXURY CARS FROM MY SHOWROOM",
-    "description": "SELLING 10 LUXURY CARS FROM MY SHOWROOM | CAR FOR SALE #15\n\nSubscribe to our Second YouTube Channel: https://www.youtube.com/c/UjjwalGamer\n\n\nShare, Support, Subscribe!!!\nSubscribe: http://bit.ly/technogamerz\nDiscord : https://bit.ly/ujjwaldiscord\nYoutube: https://www.youtube.com/c/TechnoGamerzOfficial\nTwitter:  https://www.twitter.com/ujjwalgamer\nFacebook: https://www.facebook.com/technogamerz\nFacebook Myself: https://www.facebook.com/ujjwalgamer\nInstagram: https://instagram.com/ujjwalgamer\nGoogle Plus: https://plus.google.com/+TechnoGamerzOfficial\nWebsite: https://technogamerz.in/\nMerchandise: https://shop.technogamerz.in/\n\n\nBusiness Email : technogamerzofficial@gmail.com\n\n\nAbout : Techno Gamerz is a YouTube Channel, where you will find gaming videos in Hindi, I hope this video was Useful and you liked it, if you did press the thumbs up button."
-    },
-    "defaultAudioLanguage": "en-IN"
-    },
-    "contentDetails": {
-    "duration": "PT26M35S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "3703624",
-    "likeCount": "303449",
-    "favoriteCount": "0",
-    "commentCount": "24403"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "1k76bp5tDOR5CUhLflZZu5t8nL0",
-    "id": "xhg5D7YNmhA",
-    "snippet": {
-    "publishedAt": "2023-10-16T00:45:03Z",
-    "channelId": "UC22nIfOTM7KLIQuFGMKzQbg",
-    "title": "#Video | दुलरी मयरिया | #Pawan Singh | Dulri Mayariya | Chandani Singh | Bhojpuri Devi Geet 2023",
-    "description": "Subscribe करें  :- http://goo.gl/ip2lbk\n\nआप सब इस गाने का Reels बनाए - Make Your Reels :- https://www.instagram.com/reels/audio/873406363998290/\n\n♪ Audio Credits ♪ \nSong - Dulri Mayariya \nSinger - Pawan Singh \nLyrics - Raushan Singh Vishwas\nMusic Director - Priyanshu Singh\nActress - Chandani Singh\nCompany/ Label - Wave Music \n\n📽️ Video Credits 📽️\nVideo Director - Ravi Pandit \nChoreographer - Vishal Gupta\nEditor - Deepak Pandit\nD.i - Rohit Singh\nD.O.P - Ranjeet Singh\nSahyog : Amit Singh & Vicky Singh\nParikalpna: Deepak Singh  \nDigital Marketing - Lokdhun \nWhatsapp - 9718776677\nVG - 33516\n\n♪Full Song Available on♪ \n♪ Spotify :\n♪ Instagram Reels : https://www.instagram.com/reels/audio/873406363998290/\n♪ Gaana : \n♪ Jio Saavn : \n♪ Wynk : \n♪ Apple Music : \n♪ Amazon Prime Music : \n♪ YouTube Music : \n♪ Hungama : \n♪ Resso : \n\nConnected with us !\n👉 Follow us on Instagram :- https://www.instagram.com/wavemusic/\n👉 Like us on Facebook :- https://www.facebook.com/WaveMusicIndiaofficial \n\npawan singh devi geet\npawan singh dulri mayariya \ncham cham chamke lal chunari\nhamar dulari mayariya aa gaili\npawan singh devi geet 2023\ndulri mayariya pawan singh new song\npawan singh bhakti song\npawan singh new devi geet 2023\nhamar dulari mayariya aa gail\npawan singh new song\nhamar dulari mayariya \nmayariya aa gaili\npawan singh devi geet \npawan singh ke gana\npawan singh ka new devi geet 2023\npawan singh new devi geet\ndevi geet dulri mayariya \npawan singh ka new devi geet 2023\npawan singh devi geet wave music \npawan singh devi geet 2023\npawan singh navratri song\npawan singh ka devi geet\nnew devi geet pawan singh\nmata bhajan pawan singh\npawan singh bhojpuri song\npawan singh navratri song\npawan singh mata bhajan\npawan singh navratri geet \nnavratri mata bhajan\nnavratri song\nnavratri dj song \n\n#PawanSingh #DeviGeet #DulriMayariya #PriyanshuSingh #WaveMusic\n#DeviGeet #MataBhajan #BhaktiGeet",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/xhg5D7YNmhA/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/xhg5D7YNmhA/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/xhg5D7YNmhA/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/xhg5D7YNmhA/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/xhg5D7YNmhA/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Wave Music",
-    "tags": [
-    "Dulri Mayariya",
-    "Pawan Singh",
-    "Dulri Mayariya Pawan Singh",
-    "dulri mayariya video",
-    "pawan singh",
-    "Pawan Singh Dulri Mayariya",
-    "dulri mayariya pawan singh",
-    "pawan singh dulri mayariya",
-    "pawan singh devi geet",
-    "pawan singh new devi geet",
-    "pawan singh new song",
-    "new song pawan singh",
-    "bhojpuri devi geet",
-    "pawan singh ke devi geet",
-    "pawan singh devi geet 2023",
-    "dulri mayariya pawan singh song",
-    "dulri mayariya bhojpuri song",
-    "devi geet",
-    "hamar dulari mayariya aa gaili",
-    "devi geet video"
-    ],
-    "categoryId": "10",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "#Video | दुलरी मयरिया | #Pawan Singh | Dulri Mayariya | Chandani Singh | Bhojpuri Devi Geet 2023",
-    "description": "Subscribe करें  :- http://goo.gl/ip2lbk\n\nआप सब इस गाने का Reels बनाए - Make Your Reels :- https://www.instagram.com/reels/audio/873406363998290/\n\n♪ Audio Credits ♪ \nSong - Dulri Mayariya \nSinger - Pawan Singh \nLyrics - Raushan Singh Vishwas\nMusic Director - Priyanshu Singh\nActress - Chandani Singh\nCompany/ Label - Wave Music \n\n📽️ Video Credits 📽️\nVideo Director - Ravi Pandit \nChoreographer - Vishal Gupta\nEditor - Deepak Pandit\nD.i - Rohit Singh\nD.O.P - Ranjeet Singh\nSahyog : Amit Singh & Vicky Singh\nParikalpna: Deepak Singh  \nDigital Marketing - Lokdhun \nWhatsapp - 9718776677\nVG - 33516\n\n♪Full Song Available on♪ \n♪ Spotify :\n♪ Instagram Reels : https://www.instagram.com/reels/audio/873406363998290/\n♪ Gaana : \n♪ Jio Saavn : \n♪ Wynk : \n♪ Apple Music : \n♪ Amazon Prime Music : \n♪ YouTube Music : \n♪ Hungama : \n♪ Resso : \n\nConnected with us !\n👉 Follow us on Instagram :- https://www.instagram.com/wavemusic/\n👉 Like us on Facebook :- https://www.facebook.com/WaveMusicIndiaofficial \n\npawan singh devi geet\npawan singh dulri mayariya \ncham cham chamke lal chunari\nhamar dulari mayariya aa gaili\npawan singh devi geet 2023\ndulri mayariya pawan singh new song\npawan singh bhakti song\npawan singh new devi geet 2023\nhamar dulari mayariya aa gail\npawan singh new song\nhamar dulari mayariya \nmayariya aa gaili\npawan singh devi geet \npawan singh ke gana\npawan singh ka new devi geet 2023\npawan singh new devi geet\ndevi geet dulri mayariya \npawan singh ka new devi geet 2023\npawan singh devi geet wave music \npawan singh devi geet 2023\npawan singh navratri song\npawan singh ka devi geet\nnew devi geet pawan singh\nmata bhajan pawan singh\npawan singh bhojpuri song\npawan singh navratri song\npawan singh mata bhajan\npawan singh navratri geet \nnavratri mata bhajan\nnavratri song\nnavratri dj song \n\n#PawanSingh #DeviGeet #DulriMayariya #PriyanshuSingh #WaveMusic\n#DeviGeet #MataBhajan #BhaktiGeet"
-    },
-    "defaultAudioLanguage": "zxx"
-    },
-    "contentDetails": {
-    "duration": "PT4M2S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "1274126",
-    "likeCount": "115615",
-    "favoriteCount": "0",
-    "commentCount": "15885"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "rTySOBqf1VYFDn_QvXwXLUieJew",
-    "id": "HAUxmNFkPfk",
-    "snippet": {
-    "publishedAt": "2023-10-14T01:45:32Z",
-    "channelId": "UCdsQsaeI8pQZtgrMmbjGUug",
-    "title": "Durga Ji Ki Aarti - Jai Ambe Gauri Full with Lyrics | Mata Ki Aarti | Mata Ke Bhajan | Durga Aarti",
-    "description": "Durga Ji Ki Aarti - Jai Ambe Gauri Full with Lyrics | Mata Ki Aarti | Mata Ke Bhajan | Durga Aarti\n\n🔔 आप सभी भक्तों से अनुरोध है कि आप @SpiritualIndia चैनल को सब्सक्राइब करें व भजनो का आनंद ले व अन्य भक्तों के साथ Share करें व Like जरूर करें\nhttp://bit.ly/NovaSpiritualIndia\n\n📱 Listen to Your Favourite Bhakti Songs in Audio & Video, Download the Mobile App\nAndroid: http://bit.ly/BhajanBhaktiApp\n\nDurga Maa Songs\n🙏🏻 Durga Chalisa - https://youtu.be/3onSwks7JaM\n🙏🏻 Durga Amritwani - https://youtu.be/ehohsaAIs2c\n🙏🏻 Durga Gatha - https://youtu.be/-AoagFfj1ss\n\nFull Audio Song Available On\n🎧 Jio Saavn - http://bit.ly/38R9F6N\n🎧 Gaana - http://bit.ly/38NrSC5\n🎧 WYNK - http://bit.ly/3im1N0j\n🎧 Spotify - http://spoti.fi/3nLZKUc\n🎧 Apple Music - http://apple.co/3ihLpxK\n🎧 Amazon Music - https://amzn.to/3qFuaJR\n\nSet 'Jai Ambe Gauri' song as your Mobile Callertune (India Only)\n🎵 Airtel Subscribers Dial 5432117468259\n🎵 Vodafone Subscribers Dial 53712091659\n🎵 Idea Subscribers Dial 5678912091659\n🎵 BSNL (South / East) Subscribers sms BT 12091659 To 56700\n🎵 BSNL (North / West) Subscribers sms BT 7423723 To 56700\n\nCredits:\nTitle: Jai Ambe Gauri Aarti\nSinger: Alka Yagnik\nMusic Director: Navin-Manish\nEdit & Gfx : Prem Graphics PG\nLabel: Music Nova\n\nLyrics:\nजय अम्बे गौरी मैया जय श्यामा गौरी\nJai Ambe Gauri Maiya Jai Shyama Gauri\nतुमको निशदिन ध्यावत\nTumko Nishadin Dhyavat\nहरि ब्रह्मा शिवरी\nHari Bramha Shivari\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nमांग सिंदूर विराजत टीको मृगमद को\nMang Sindur Virajat, Tiko Mrigamad Ko\nमैया टीको मृगमद को\nMaiya Tiko Mrigamad Ko\nउज्ज्वल से दो नैना उज्ज्वल से दो नैना\nUjjval Se Do Naina Ujjval Se Do Naina\nचंद्रवदन नीको\nChandravadan Niko\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nकनक समान कलेवर रक्ताम्बर राजै\nKanak Saman Kalevar, Raktambar Raje\nमैया रक्ताम्बर राजै\nMaiya Raktambar Raje\nरक्तपुष्प गल माला रक्तपुष्प गल माला\nRaktpushp Gal Mala, Raktpushp Gal Mala\nकण्ठन पर साजै\nKanthan Par Saje\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nकेहरि वाहन राजत खड्ग खप्परधारी\nKehari Vahan Rajat, Khadag Khappar Dhari,\nमैया खड्ग खप्परधारी\nMaiyan Khadag Khappar Dhari\nसुर नर मुनि जन सेवत सुर नर मुनि जन सेवत\nSur-Nar-Munijan Sevat Sur-Nar-Munijan Sevat\nतिनके दुखहारी\nTinake Dukhahari\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nकानन कुण्डल शोभित नासाग्रे मोती\nKaanan Kundal Shobhit, Nasagre Moti,\nमैया नासाग्रे मोती\nMaiya Nasagre Moti\nकोटिक चन्द्र दिवाकर कोटिक चन्द्र दिवाकर\nKotik Chandra Divakar Kotik Chandra Divakar\nराजत सम ज्योति\nRajat Sam Jyoti\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nशुम्भ-निशुम्भ बिदारे महिषासुर घाती\nShumbh-Nishumbh Bidare Mahishasur Ghati\nमैया महिषासुर घाती\nMaiya Mahishasur Ghati,\nधूम्र विलोचन नैना धूम्र विलोचन नैना\nDhumr Vilochan Naina Dhumr Vilochan Naina\nनिशिदिन मदमाती\nNishadin Madamati\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nचण्ड-मुण्ड संहारे, शोणित बीज हरे\nChand-Mund Sanhare, Shonit Bij Hare\nमैया शोणित बीज हरे\nMaiya Shonit Bij Hare\nमधु-कैटभ दो‌उ मारे मधु-कैटभ दो‌उ मारे\nMadhu-Kaitabh Dou Mare Madhu-Kaitabh Dou Mare\nसुर भयहीन करे\nSur Bhayahin Kare\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nब्रहमाणी रुद्राणी तुम कमला रानी,\nBramhani, Rudrani, Tum Kamala Rani,\nमैया तुम कमला रानी\nMaiya Tum Kamala Rani\nआगम-निगम बखानी आगम-निगम बखानी\nAgam Nigam Bakhani Agam Nigam Bakhani\nतुम शिव पटरानी\nTum Shiv Patarani\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nचौंसठ योगिनी गावत, नृत्य करत भैरव\nChausath Yogini Gavat, Nritya Karat Bhairu\nनृत्य करत भैरव\nNritya Karat Bhairu\nबाजत ताल मृदंगा, बाजत ताल मृदंगा\nBajat Tal Mridanga, Bajat Tal Mridanga\nऔर बाजत डमरु\nAru Baajat Damaru\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nतुम ही जग की माता, तुम ही हो भरता\nTum Hi Jag Ki Mata, Tum Hi Ho Bharata\nमैया तुम ही हो भरता\nMaiya Tum Hi Ho Bharata\nभक्‍तन की दु:ख हरता भक्‍तन की दु:ख हरता\nBhaktan Ki Dukh Harta Bhaktan Ki Dukh Harta\nसुख सम्पत्ति करता\nSukh Sampati Karta\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nभुजा चार अति शोभित, वर-मुद्रा धारी\nBhuja Char Ati Shobhi, Varamudra Dhari\nमैया वर-मुद्रा धारी\nMaiya Varamudra Dhari\nमनवान्छित फल पावत मनवान्छित फल पावत\nManvanchhit Fal Pavat Manvanchhit Fal Pavat\nसेवत नर-नारी\nSevat Nar Nari\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nकन्चन थाल विराजत, अगर कपूर बाती\nKanchan Thal Virajat, Agar Kapur Bati\nमैया अगर कपूर बाती\nMaiya Agar Kapur Bati\nश्रीमालकेतु में राजत, श्रीमालकेतु में राजत\nShrimalaketu Mein Rajat Shrimalaketu Mein Rajat\nकोटि रतन ज्योति\nKoti Ratan Jyoti\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nश्री अम्बेजी की आरती जो को‌ई नर गावै\nShri Ambe Ji Ki Aarti Jo Koi Nar Gave\nकहत शिवानन्द स्वामी कहत शिवानन्द स्वामी\nKahat Shivanand Swami Kahat Shivanand Swami\nसुख सम्पत्ति पावै\nSukh-Sampatti Pave\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nजय अम्बे गौरी मैया जय श्यामा गौरी\nJai Ambe Gauri, Maiya Jai Shyama Gauri\nतुमको निशदिन ध्यावत\nTumko Nishadin Dhyavat\nहरि ब्रह्मा शिवरी\nHari Bramha Shivari\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nJoin Us\n⦿ YouTube: http://bit.ly/NovaSpiritualIndia\n⦿ Facebook: https://www.facebook.com/NovaSpiritualIndia\n⦿ Instagram: https://www.instagram.com/nova.spiritual.india\n⦿ Android App: http://bit.ly/BhajanBhaktiApp\n⦿ Website: https://www.medianova.in\n\n#DurgaAarti #JaiAmbeGauri #AlkaYagnik",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/HAUxmNFkPfk/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/HAUxmNFkPfk/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/HAUxmNFkPfk/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/HAUxmNFkPfk/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/HAUxmNFkPfk/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Nova Spiritual India",
-    "tags": [
-    "durga aarti",
-    "durga ji ki aarti",
-    "durga mata ki aarti",
-    "mata ki aarti",
-    "jai ambe gauri",
-    "aarti",
-    "आरती",
-    "aarti durga mata ji ki",
-    "maa durga aarti",
-    "durga maa aarti",
-    "durga maa ki aarti",
-    "durga mata aarti",
-    "mata ji ki aarti",
-    "durga mata",
-    "sherawali mata ki aarti",
-    "aarti aarti",
-    "bhakti song",
-    "दुर्गा मां की आरती",
-    "navratri aarti",
-    "mata aarti",
-    "mata",
-    "arti",
-    "mata ke bhajan",
-    "mata rani ke bhajan",
-    "mata rani song",
-    "morning bhajan",
-    "bhajan songs",
-    "durga puja song",
-    "navratri song",
-    "bhajan",
-    "arti mata ki"
-    ],
-    "categoryId": "10",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Durga Ji Ki Aarti - Jai Ambe Gauri Full with Lyrics | Mata Ki Aarti | Mata Ke Bhajan | Durga Aarti",
-    "description": "Durga Ji Ki Aarti - Jai Ambe Gauri Full with Lyrics | Mata Ki Aarti | Mata Ke Bhajan | Durga Aarti\n\n🔔 आप सभी भक्तों से अनुरोध है कि आप @SpiritualIndia चैनल को सब्सक्राइब करें व भजनो का आनंद ले व अन्य भक्तों के साथ Share करें व Like जरूर करें\nhttp://bit.ly/NovaSpiritualIndia\n\n📱 Listen to Your Favourite Bhakti Songs in Audio & Video, Download the Mobile App\nAndroid: http://bit.ly/BhajanBhaktiApp\n\nDurga Maa Songs\n🙏🏻 Durga Chalisa - https://youtu.be/3onSwks7JaM\n🙏🏻 Durga Amritwani - https://youtu.be/ehohsaAIs2c\n🙏🏻 Durga Gatha - https://youtu.be/-AoagFfj1ss\n\nFull Audio Song Available On\n🎧 Jio Saavn - http://bit.ly/38R9F6N\n🎧 Gaana - http://bit.ly/38NrSC5\n🎧 WYNK - http://bit.ly/3im1N0j\n🎧 Spotify - http://spoti.fi/3nLZKUc\n🎧 Apple Music - http://apple.co/3ihLpxK\n🎧 Amazon Music - https://amzn.to/3qFuaJR\n\nSet 'Jai Ambe Gauri' song as your Mobile Callertune (India Only)\n🎵 Airtel Subscribers Dial 5432117468259\n🎵 Vodafone Subscribers Dial 53712091659\n🎵 Idea Subscribers Dial 5678912091659\n🎵 BSNL (South / East) Subscribers sms BT 12091659 To 56700\n🎵 BSNL (North / West) Subscribers sms BT 7423723 To 56700\n\nCredits:\nTitle: Jai Ambe Gauri Aarti\nSinger: Alka Yagnik\nMusic Director: Navin-Manish\nEdit & Gfx : Prem Graphics PG\nLabel: Music Nova\n\nLyrics:\nजय अम्बे गौरी मैया जय श्यामा गौरी\nJai Ambe Gauri Maiya Jai Shyama Gauri\nतुमको निशदिन ध्यावत\nTumko Nishadin Dhyavat\nहरि ब्रह्मा शिवरी\nHari Bramha Shivari\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nमांग सिंदूर विराजत टीको मृगमद को\nMang Sindur Virajat, Tiko Mrigamad Ko\nमैया टीको मृगमद को\nMaiya Tiko Mrigamad Ko\nउज्ज्वल से दो नैना उज्ज्वल से दो नैना\nUjjval Se Do Naina Ujjval Se Do Naina\nचंद्रवदन नीको\nChandravadan Niko\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nकनक समान कलेवर रक्ताम्बर राजै\nKanak Saman Kalevar, Raktambar Raje\nमैया रक्ताम्बर राजै\nMaiya Raktambar Raje\nरक्तपुष्प गल माला रक्तपुष्प गल माला\nRaktpushp Gal Mala, Raktpushp Gal Mala\nकण्ठन पर साजै\nKanthan Par Saje\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nकेहरि वाहन राजत खड्ग खप्परधारी\nKehari Vahan Rajat, Khadag Khappar Dhari,\nमैया खड्ग खप्परधारी\nMaiyan Khadag Khappar Dhari\nसुर नर मुनि जन सेवत सुर नर मुनि जन सेवत\nSur-Nar-Munijan Sevat Sur-Nar-Munijan Sevat\nतिनके दुखहारी\nTinake Dukhahari\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nकानन कुण्डल शोभित नासाग्रे मोती\nKaanan Kundal Shobhit, Nasagre Moti,\nमैया नासाग्रे मोती\nMaiya Nasagre Moti\nकोटिक चन्द्र दिवाकर कोटिक चन्द्र दिवाकर\nKotik Chandra Divakar Kotik Chandra Divakar\nराजत सम ज्योति\nRajat Sam Jyoti\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nशुम्भ-निशुम्भ बिदारे महिषासुर घाती\nShumbh-Nishumbh Bidare Mahishasur Ghati\nमैया महिषासुर घाती\nMaiya Mahishasur Ghati,\nधूम्र विलोचन नैना धूम्र विलोचन नैना\nDhumr Vilochan Naina Dhumr Vilochan Naina\nनिशिदिन मदमाती\nNishadin Madamati\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nचण्ड-मुण्ड संहारे, शोणित बीज हरे\nChand-Mund Sanhare, Shonit Bij Hare\nमैया शोणित बीज हरे\nMaiya Shonit Bij Hare\nमधु-कैटभ दो‌उ मारे मधु-कैटभ दो‌उ मारे\nMadhu-Kaitabh Dou Mare Madhu-Kaitabh Dou Mare\nसुर भयहीन करे\nSur Bhayahin Kare\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nब्रहमाणी रुद्राणी तुम कमला रानी,\nBramhani, Rudrani, Tum Kamala Rani,\nमैया तुम कमला रानी\nMaiya Tum Kamala Rani\nआगम-निगम बखानी आगम-निगम बखानी\nAgam Nigam Bakhani Agam Nigam Bakhani\nतुम शिव पटरानी\nTum Shiv Patarani\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nचौंसठ योगिनी गावत, नृत्य करत भैरव\nChausath Yogini Gavat, Nritya Karat Bhairu\nनृत्य करत भैरव\nNritya Karat Bhairu\nबाजत ताल मृदंगा, बाजत ताल मृदंगा\nBajat Tal Mridanga, Bajat Tal Mridanga\nऔर बाजत डमरु\nAru Baajat Damaru\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nतुम ही जग की माता, तुम ही हो भरता\nTum Hi Jag Ki Mata, Tum Hi Ho Bharata\nमैया तुम ही हो भरता\nMaiya Tum Hi Ho Bharata\nभक्‍तन की दु:ख हरता भक्‍तन की दु:ख हरता\nBhaktan Ki Dukh Harta Bhaktan Ki Dukh Harta\nसुख सम्पत्ति करता\nSukh Sampati Karta\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nभुजा चार अति शोभित, वर-मुद्रा धारी\nBhuja Char Ati Shobhi, Varamudra Dhari\nमैया वर-मुद्रा धारी\nMaiya Varamudra Dhari\nमनवान्छित फल पावत मनवान्छित फल पावत\nManvanchhit Fal Pavat Manvanchhit Fal Pavat\nसेवत नर-नारी\nSevat Nar Nari\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nकन्चन थाल विराजत, अगर कपूर बाती\nKanchan Thal Virajat, Agar Kapur Bati\nमैया अगर कपूर बाती\nMaiya Agar Kapur Bati\nश्रीमालकेतु में राजत, श्रीमालकेतु में राजत\nShrimalaketu Mein Rajat Shrimalaketu Mein Rajat\nकोटि रतन ज्योति\nKoti Ratan Jyoti\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nश्री अम्बेजी की आरती जो को‌ई नर गावै\nShri Ambe Ji Ki Aarti Jo Koi Nar Gave\nकहत शिवानन्द स्वामी कहत शिवानन्द स्वामी\nKahat Shivanand Swami Kahat Shivanand Swami\nसुख सम्पत्ति पावै\nSukh-Sampatti Pave\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nजय अम्बे गौरी मैया जय श्यामा गौरी\nJai Ambe Gauri, Maiya Jai Shyama Gauri\nतुमको निशदिन ध्यावत\nTumko Nishadin Dhyavat\nहरि ब्रह्मा शिवरी\nHari Bramha Shivari\nॐ जय अम्बे गौरी\nOm Jai Ambe Gauri\n\nJoin Us\n⦿ YouTube: http://bit.ly/NovaSpiritualIndia\n⦿ Facebook: https://www.facebook.com/NovaSpiritualIndia\n⦿ Instagram: https://www.instagram.com/nova.spiritual.india\n⦿ Android App: http://bit.ly/BhajanBhaktiApp\n⦿ Website: https://www.medianova.in\n\n#DurgaAarti #JaiAmbeGauri #AlkaYagnik"
-    },
-    "defaultAudioLanguage": "hi"
-    },
-    "contentDetails": {
-    "duration": "PT8M8S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "true",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "3978714",
-    "likeCount": "46300",
-    "favoriteCount": "0",
-    "commentCount": "2954"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "m0blmKqMEHWRldW7ccf9qPxFLNA",
-    "id": "rUZ2PkRw1Wo",
-    "snippet": {
-    "publishedAt": "2023-10-15T08:52:06Z",
-    "channelId": "UC0QKe0NgW-b0oZvnB5vqiJw",
-    "title": "Every Indian Mom | Ft. Tena Jaiin | The Paayal Jain",
-    "description": "Hey Guys ,\nThis video shows different behavious of Every Indian Mom . This is a very comic and relatable video . Mom packing birthday gift for neighbour 's child . Packing birthday gift and giving multiple instructions to behave properly in family gatherings with relatives . 90's style cake , samosa , dhokla chips . Indian Mom always convincing daughter to get married and not to be too choosy for the right guy for being husband . Boys , sundays and cricket matches . Chintu on the early sunday morning trying to sneakout to play bat ball with his friends . Savitri being the strict mom , took him to sabzi mandi . Navratri and durga maa pooja , navratri Fast food , Navratri vrat khana , bhabhi making everything for nanad and beti feeding them with hindu fast food , sabudana , kuttu , makhana , aloo , samak and avoiding onion , garlic Fasting all 9 days then preparing for kanjak . Guests coming suddendly with Ramleela Vip passes watching ram sita hanuman and excitment of going to dussehra mela ravan . Moms bragging about how modern they are and they give so much freedom to their kids , on the contrary daughter is having flashbacks of how her mom so strict . Mom waking childern on sunday despite everyone's holiday , she works all the days of the week cooking fresh breakfast , aloo ke parathe , watching them eat makes her happy and she sacrifices her own food for the love of her child . Moms when gives threat to leave the house , goes sit in the stairs , then in mandir , whole indian family goes out searching for maa , daughter crying for mom , she comes back . Maa Vs beti . Maa Beti during school picnic , school holiday homework . school exams , those exam days hiding answer sheets from her , moms during holi ,  Indian parents about privacy and using facebook , instagram social media , comparing their kids with other topper kids , not ever satisfied with their excellence , warning daughter about sex when she enters her college life , daughter and her first period , freaking out on periods , over feeding beti and then blaming her for being over weight bubbly child and not letting do dieting , surprising mom on her birthday with gift and cake mother gets shocked and scolds her for wasting money , never happy , Mothers and their millions of excuses when it comes to exercising or changing life. Mummy shouting , gossiping, watching serials and many more crazy situations. Still our mothers love us and we love our mother so much\nRelish and Relive your Childhood Memories.. You will have major nostalgia\nDo share it with your friends and family especially guests .. Comment down your Fav Part, \nLike, Share and \nSubscribe to our Channel - http://bit.ly/thepaayaljain | Press Bell Icon\n\nCast \nPaayal Jain : https://www.instagram.com/thepaayalja...\nTena Jaiin : https://www.instagram.com/tenajaiin/?...\n\nScript , Direction , Screenplay By : Paayal Jain , Tena Jaiin\nDop : Imran Khan\nCam Assist : Farid Ahmad\nEditor : Sahil Arora\nThumbnail by : Shanu Jannat\n\n#indianmom #mom #moms #mothers #mummy #themummy #momcomedy #mummycomedy #indianaunty  #middleclass #middleclassfamily #indian #mom #moms #mother #mummy #bhaibehen #bhai #behen #behan #sister #siblings #bhabhi #nanad #saas #bahu #navratri #maadurga #durgamaa #durga #cholepuri #vrat #falahari #fasting #dussehra #ramleela #ram #hanuman #ravan #sita",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/rUZ2PkRw1Wo/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/rUZ2PkRw1Wo/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/rUZ2PkRw1Wo/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/rUZ2PkRw1Wo/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/rUZ2PkRw1Wo/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "The Paayal Jain",
-    "tags": [
-    "comedy video",
-    "family",
-    "the paayal jain new video",
-    "the payal jain new video",
-    "Tena Jaiin",
-    "paayal",
-    "mummy",
-    "mummy funny video",
-    "funny indian mom video",
-    "funny mom video",
-    "maa vs beti",
-    "daughter",
-    "maa comedy",
-    "beti comedy",
-    "indian mom",
-    "beti",
-    "indian moms",
-    "moms from india",
-    "Every Indian Mom",
-    "every",
-    "indian",
-    "mom",
-    "mom comedy",
-    "viral",
-    "vs",
-    "school",
-    "exams",
-    "mother",
-    "payal",
-    "navratri",
-    "kanjak",
-    "dussehra",
-    "paayal mother video",
-    "ramleela",
-    "the paayal jain",
-    "diwali",
-    "beta",
-    "tena",
-    "ram",
-    "hanuman",
-    "ravan",
-    "maa beta",
-    "middle class",
-    "90's",
-    "birthday"
-    ],
-    "categoryId": "23",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Every Indian Mom | Ft. Tena Jaiin | The Paayal Jain",
-    "description": "Hey Guys ,\nThis video shows different behavious of Every Indian Mom . This is a very comic and relatable video . Mom packing birthday gift for neighbour 's child . Packing birthday gift and giving multiple instructions to behave properly in family gatherings with relatives . 90's style cake , samosa , dhokla chips . Indian Mom always convincing daughter to get married and not to be too choosy for the right guy for being husband . Boys , sundays and cricket matches . Chintu on the early sunday morning trying to sneakout to play bat ball with his friends . Savitri being the strict mom , took him to sabzi mandi . Navratri and durga maa pooja , navratri Fast food , Navratri vrat khana , bhabhi making everything for nanad and beti feeding them with hindu fast food , sabudana , kuttu , makhana , aloo , samak and avoiding onion , garlic Fasting all 9 days then preparing for kanjak . Guests coming suddendly with Ramleela Vip passes watching ram sita hanuman and excitment of going to dussehra mela ravan . Moms bragging about how modern they are and they give so much freedom to their kids , on the contrary daughter is having flashbacks of how her mom so strict . Mom waking childern on sunday despite everyone's holiday , she works all the days of the week cooking fresh breakfast , aloo ke parathe , watching them eat makes her happy and she sacrifices her own food for the love of her child . Moms when gives threat to leave the house , goes sit in the stairs , then in mandir , whole indian family goes out searching for maa , daughter crying for mom , she comes back . Maa Vs beti . Maa Beti during school picnic , school holiday homework . school exams , those exam days hiding answer sheets from her , moms during holi ,  Indian parents about privacy and using facebook , instagram social media , comparing their kids with other topper kids , not ever satisfied with their excellence , warning daughter about sex when she enters her college life , daughter and her first period , freaking out on periods , over feeding beti and then blaming her for being over weight bubbly child and not letting do dieting , surprising mom on her birthday with gift and cake mother gets shocked and scolds her for wasting money , never happy , Mothers and their millions of excuses when it comes to exercising or changing life. Mummy shouting , gossiping, watching serials and many more crazy situations. Still our mothers love us and we love our mother so much\nRelish and Relive your Childhood Memories.. You will have major nostalgia\nDo share it with your friends and family especially guests .. Comment down your Fav Part, \nLike, Share and \nSubscribe to our Channel - http://bit.ly/thepaayaljain | Press Bell Icon\n\nCast \nPaayal Jain : https://www.instagram.com/thepaayalja...\nTena Jaiin : https://www.instagram.com/tenajaiin/?...\n\nScript , Direction , Screenplay By : Paayal Jain , Tena Jaiin\nDop : Imran Khan\nCam Assist : Farid Ahmad\nEditor : Sahil Arora\nThumbnail by : Shanu Jannat\n\n#indianmom #mom #moms #mothers #mummy #themummy #momcomedy #mummycomedy #indianaunty  #middleclass #middleclassfamily #indian #mom #moms #mother #mummy #bhaibehen #bhai #behen #behan #sister #siblings #bhabhi #nanad #saas #bahu #navratri #maadurga #durgamaa #durga #cholepuri #vrat #falahari #fasting #dussehra #ramleela #ram #hanuman #ravan #sita"
-    },
-    "defaultAudioLanguage": "en"
-    },
-    "contentDetails": {
-    "duration": "PT35M26S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "1405900",
-    "likeCount": "71910",
-    "favoriteCount": "0",
-    "commentCount": "6746"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "E2IoYNs-B7RIvOef6WfkIZ4zn2M",
-    "id": "PGqYmtptnwk",
-    "snippet": {
-    "publishedAt": "2023-10-15T09:35:13Z",
-    "channelId": "UC8RPTOUzbVhqmOlFbbqstJA",
-    "title": "KALAASTAR - Honey 3.0 | Yo Yo Honey Singh & Sonakshi Sinha | Zee Music Originals | Judwaaz",
-    "description": "SUBSCRIBE! New Videos Every Day!\n\nShop Our Exclusive Merchandise : https://www.judwaaz.in\n\nConnect with us on :\n► Subscribe : http://www.youtube.com/judwaazmusic\n► Follow us on Instagram: http://www.instagram.com/judwaazmusic\n► Follow us on Twitter: https://www.twitter.com/judwaazofficial\n► Like us on Facebook: https://www.facebook.com/judwaazofficial\n\nSubscribe Bakwaas With Judwaaz :\nhttps://www.youtube.com/@bwjudwaaz  \n\nOriginal Credits & : \n\nhttps://www.youtube.com/watch?v=5oExKMYIE9U\n\nSong: Kalaastar\nSinger: Yo Yo Honey Singh\nFeaturing: Sonakshi Sinha\nComposer: Rony Ajnali & Gill Machhrai\nLyrics: Rony Ajnali & Gill Machhrai\nMusic: Bass Yogi \nMix & Master: Jaymeet\nGuitars: Faizan Rahman\n\nProduced by: Zee Music Company\nDitigal Strategy: RajDeep Mayer\nDirector: Jonas Beck\nLine Producer: Shanya Valies\nProduction Manager: Dilba Yasin\nD.O.P: Tobias van Daal\n1st AC: Krijn Windjes\nGaffer: Jan Nelemans\nBestboy: Mees Blaak\nLight Assistant: Leon de Haas\nSound Operator: Ralf de Krijger\nCrane Operator: Bram Marijnissen\n\nYYHS Management Team: Rohit Chhabra, Aanchal Kohli, Nikunj Khanna\n\nArt Director: Cheriva Volney\nArt Assistant: Charity Sumter\nProduction Assistant: Julie van Zolingen\nProduction Assistant: Yoshua Nahar\nMakeup Artist YYHS: Beyzanur Pinarbasi\nMakeup Artist Sonakshi: Heema Datani\nHairstylist Sonakshi: Hair By Jssca\nStylist Sonakshi: Sanam Ratansi\nActor Boyfriend Sonakshi: Alper Aykut Showpony\n\nEdit: Frogalised Productions\nGrading: Raoel Hulst\n\n*DISCLAIMER: This Following Audio/Video is Strictly meant for Promotional Purpose. We Do not Wish to make any Commercial Use of this & Intended to Showcase the Creativity Of the Artist Involved.*\n\n*The original Copyright(s) is (are) Solely owned by the Companies/Original-Artist(s)/Record-label(s).All the contents are intended to Showcase the creativity of the artist involved and is strictly done for a promotional purpose.*\n\n*DISCLAIMER: As per 3rd Section of Fair use guidelines Borrowing small bits of material from an original work is more likely to be considered fair use. Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for fair use. \n\n#Judwaaz #YoYoHoneySingh #SonakshiSinha #Kalaastar",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/PGqYmtptnwk/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/PGqYmtptnwk/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/PGqYmtptnwk/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/PGqYmtptnwk/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/PGqYmtptnwk/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Judwaaz TV",
-    "categoryId": "23",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "KALAASTAR - Honey 3.0 | Yo Yo Honey Singh & Sonakshi Sinha | Zee Music Originals | Judwaaz",
-    "description": "SUBSCRIBE! New Videos Every Day!\n\nShop Our Exclusive Merchandise : https://www.judwaaz.in\n\nConnect with us on :\n► Subscribe : http://www.youtube.com/judwaazmusic\n► Follow us on Instagram: http://www.instagram.com/judwaazmusic\n► Follow us on Twitter: https://www.twitter.com/judwaazofficial\n► Like us on Facebook: https://www.facebook.com/judwaazofficial\n\nSubscribe Bakwaas With Judwaaz :\nhttps://www.youtube.com/@bwjudwaaz  \n\nOriginal Credits & : \n\nhttps://www.youtube.com/watch?v=5oExKMYIE9U\n\nSong: Kalaastar\nSinger: Yo Yo Honey Singh\nFeaturing: Sonakshi Sinha\nComposer: Rony Ajnali & Gill Machhrai\nLyrics: Rony Ajnali & Gill Machhrai\nMusic: Bass Yogi \nMix & Master: Jaymeet\nGuitars: Faizan Rahman\n\nProduced by: Zee Music Company\nDitigal Strategy: RajDeep Mayer\nDirector: Jonas Beck\nLine Producer: Shanya Valies\nProduction Manager: Dilba Yasin\nD.O.P: Tobias van Daal\n1st AC: Krijn Windjes\nGaffer: Jan Nelemans\nBestboy: Mees Blaak\nLight Assistant: Leon de Haas\nSound Operator: Ralf de Krijger\nCrane Operator: Bram Marijnissen\n\nYYHS Management Team: Rohit Chhabra, Aanchal Kohli, Nikunj Khanna\n\nArt Director: Cheriva Volney\nArt Assistant: Charity Sumter\nProduction Assistant: Julie van Zolingen\nProduction Assistant: Yoshua Nahar\nMakeup Artist YYHS: Beyzanur Pinarbasi\nMakeup Artist Sonakshi: Heema Datani\nHairstylist Sonakshi: Hair By Jssca\nStylist Sonakshi: Sanam Ratansi\nActor Boyfriend Sonakshi: Alper Aykut Showpony\n\nEdit: Frogalised Productions\nGrading: Raoel Hulst\n\n*DISCLAIMER: This Following Audio/Video is Strictly meant for Promotional Purpose. We Do not Wish to make any Commercial Use of this & Intended to Showcase the Creativity Of the Artist Involved.*\n\n*The original Copyright(s) is (are) Solely owned by the Companies/Original-Artist(s)/Record-label(s).All the contents are intended to Showcase the creativity of the artist involved and is strictly done for a promotional purpose.*\n\n*DISCLAIMER: As per 3rd Section of Fair use guidelines Borrowing small bits of material from an original work is more likely to be considered fair use. Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for fair use. \n\n#Judwaaz #YoYoHoneySingh #SonakshiSinha #Kalaastar"
-    }
-    },
-    "contentDetails": {
-    "duration": "PT16M33S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": false,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "1088592",
-    "likeCount": "99864",
-    "favoriteCount": "0",
-    "commentCount": "4586"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "IXV4ziOKEQmMRfHHHZY1krtmEeI",
-    "id": "QbYi7W89T0o",
-    "snippet": {
-    "publishedAt": "2023-10-15T07:30:13Z",
-    "channelId": "UCKnNrlSJF_hWoBSz1lY_D7g",
-    "title": "Every Indian YouTuber Ever | Secret Trailer",
-    "description": "Every Indian YouTuber ever | Secret Trailer \n__________________________\nFollow me on Instagram : - \n https://instagram.com/not_your_type_yt?utm_medium=copy_link\n\nDiscord :-  \nhttps://dsc.gg/notyourtype\n\nChinxx :- \nhttps://instagram.com/chinxx_xd?utm_medium=copy_link\n\nSubhajit kar :- https://instagram.com/_subhajitkar_?igshid=NDk5N2NlZjQ=\n\nSuman manna :- https://instagram.com/sumanna010?igshid=MzRlODBiNWFlZA==",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/QbYi7W89T0o/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/QbYi7W89T0o/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/QbYi7W89T0o/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/QbYi7W89T0o/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/QbYi7W89T0o/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "NOT YOUR TYPE",
-    "tags": [
-    "Slayypoint",
-    "carry minati",
-    "indian trips",
-    "Sourav joshi vlogs",
-    "indian vlogs",
-    "school trips",
-    "techno gamers",
-    "types of people in india",
-    "Angry Prash",
-    "thugesh",
-    "carry minati vloggers",
-    "carry minati Sourav joshi",
-    "NOT YOUR TYPE",
-    "Close Enough Parody",
-    "Sourabh Joshi vlogs kunali",
-    "Sourabh Joshi vlogs Piyush"
-    ],
-    "categoryId": "22",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Every Indian YouTuber Ever | Secret Trailer",
-    "description": "Every Indian YouTuber ever | Secret Trailer \n__________________________\nFollow me on Instagram : - \n https://instagram.com/not_your_type_yt?utm_medium=copy_link\n\nDiscord :-  \nhttps://dsc.gg/notyourtype\n\nChinxx :- \nhttps://instagram.com/chinxx_xd?utm_medium=copy_link\n\nSubhajit kar :- https://instagram.com/_subhajitkar_?igshid=NDk5N2NlZjQ=\n\nSuman manna :- https://instagram.com/sumanna010?igshid=MzRlODBiNWFlZA=="
-    }
-    },
-    "contentDetails": {
-    "duration": "PT2M31S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "1306860",
-    "likeCount": "191206",
-    "favoriteCount": "0",
-    "commentCount": "8809"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "XCgiGt6bv9D2Ncn_MJQeDCncpac",
-    "id": "2KDKL5h6S8o",
-    "snippet": {
-    "publishedAt": "2023-10-15T06:10:22Z",
-    "channelId": "UCSB-L3HN2tJoizsxR45vUFQ",
-    "title": "Sarkar Series | Vinayak Mali Comedy",
-    "description": "Advance your software development and data science career to new heights by acquiring right skills. Check out:\nhttps://www.scaler.com/?utm_source=brandedcontent&utm_medium=VinayakMaliOct2023&utm_campaign=brand_scaler_academy_brandedcontent_VinayakMaliOct2023_branded-content-video-campaign-VinayakMaliOct2023-15Oct2023_india_all&utm_id=brandedcontent&utm_content=YT-description\n#SCALER #WhereTheHungryLearn\n\nCameraman\nusama sendole\ndhanraj bhagat\naditya aglave\n\nCast\nSaurbh patil\nHinal Patil \nYogesh Pawar\najay \nsunny desale\nSwapnil Lahane\nSwapnil Mhatre\nNidhi Jadhav\nSahil Mali\nGanesh Dalvi\n\nMusic\nAGRI KING आगरी किंग BADAMCHA BADSHAH SUJEET PATIL SONG\nhttps://www.youtube.com/watch?v=uaVgKcD5d-4\n\nthumbnail \nJasmit patil \n\nManagement team\nSaurbh patil \nAlshay\nSuresh jadhav\nSudir joshi\nMayur madhvi \n\nEditor\nYash bangar\n\nBackground music\nDj Owns\nakshay patil\nviren patil\nShubham Kondilkar \nNilesh Dhoble (Sound Squad Studio)\nMusician :- \nRudratej Shete\nPratham Govekar\nJagrut Patil\n\nspecial thanks\nPrachiti nilesh patil\nRohit jagtap ( अध्यक्ष - भारतीय जनता युवा मोर्चा पनवेल शहर )\nsaurabh patil\nOmkar ashok patil",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/2KDKL5h6S8o/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/2KDKL5h6S8o/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/2KDKL5h6S8o/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/2KDKL5h6S8o/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/2KDKL5h6S8o/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Vinayak Mali",
-    "categoryId": "22",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Sarkar Series | Vinayak Mali Comedy",
-    "description": "Advance your software development and data science career to new heights by acquiring right skills. Check out:\nhttps://www.scaler.com/?utm_source=brandedcontent&utm_medium=VinayakMaliOct2023&utm_campaign=brand_scaler_academy_brandedcontent_VinayakMaliOct2023_branded-content-video-campaign-VinayakMaliOct2023-15Oct2023_india_all&utm_id=brandedcontent&utm_content=YT-description\n#SCALER #WhereTheHungryLearn\n\nCameraman\nusama sendole\ndhanraj bhagat\naditya aglave\n\nCast\nSaurbh patil\nHinal Patil \nYogesh Pawar\najay \nsunny desale\nSwapnil Lahane\nSwapnil Mhatre\nNidhi Jadhav\nSahil Mali\nGanesh Dalvi\n\nMusic\nAGRI KING आगरी किंग BADAMCHA BADSHAH SUJEET PATIL SONG\nhttps://www.youtube.com/watch?v=uaVgKcD5d-4\n\nthumbnail \nJasmit patil \n\nManagement team\nSaurbh patil \nAlshay\nSuresh jadhav\nSudir joshi\nMayur madhvi \n\nEditor\nYash bangar\n\nBackground music\nDj Owns\nakshay patil\nviren patil\nShubham Kondilkar \nNilesh Dhoble (Sound Squad Studio)\nMusician :- \nRudratej Shete\nPratham Govekar\nJagrut Patil\n\nspecial thanks\nPrachiti nilesh patil\nRohit jagtap ( अध्यक्ष - भारतीय जनता युवा मोर्चा पनवेल शहर )\nsaurabh patil\nOmkar ashok patil"
-    },
-    "defaultAudioLanguage": "mr"
-    },
-    "contentDetails": {
-    "duration": "PT17M36S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "485343",
-    "likeCount": "28506",
-    "favoriteCount": "0",
-    "commentCount": "611"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "1ve4uKkwmZSlHqF9AQhoP9Z-oeY",
-    "id": "cfuxD2iKK8c",
-    "snippet": {
-    "publishedAt": "2023-10-16T04:38:02Z",
-    "channelId": "UCrzx3ZPXEZpzEGLF1gIuORQ",
-    "title": "Telusu Kada Announcement | Siddhu Jonnalagadda | Raashii | Srinidhi | Neeraja Kona | Thaman S",
-    "description": "Telusu Kada Title Announcement video on People Media Factory. #TelusuKada 2023 Latest Telugu movie ft. Siddhu Jonnalagadda, Raashii Khanna, Srinidhi Shetty & others. Directed by Neeraja Kona. A Thaman S Musical. Produced by TG Vishwa Prasad, Co-Produced by Vivek Kuchibhotla under People Media Factory banner. \n\n#PMF30 #SiddhuJonnalagadda #RaashiiKhanna #SrinidhiShetty #NeerajaKona #ThamanS #PeopleMediaFactory #TGVishwaPrasad #VivekKuchibhotla #TelusuKadaMovie #TelusuKadaTeluguMovie #PMF30Title #PeopleMediaFactory30\n\nTELUSU KADA MOVIE DETAILS:\nWRITTEN & DIRECTED BY NEERAJA KONA      \nPRODUCER : TG VISHWA PRASAD\nCO-PRODUCER : VIVEK KUCHIBHOTLA    \nMUSIC : THAMAN S    \nD.O.P : YUVRAJ J      \nEDITOR : SREEKAR PRASAD\nCOSTUME DESIGNER : ARCHANA RAO  \nPRODUCTION DESIGNER : AVINASH KOLLA \nWRITERS: BHRADWAJ MUNIMANIKYM, MITHUN CHAITANYA\nCREATIVE PRODUCER :  KRITHI PRASAD  \nEXECUTIVE PRODUCERS : S.VENKATARATHNAM [VENKAT], SUKUMAR KINNERA\nPRO: VAMSI SHEKAR\nCHIEF  CO-DIRECTOR : SHIVARAMAKRISHNA\n\nSinger - Ravi G \nLyricist - KK \n\nProgrammed & Arranged by -Thaman S \nAdditional programming - Osho & Chaitu \nWoodwinds - Naveen ( Mumbai ) \nSolo Violin - Sandilya ( HYD ) \nLive String Section Recorded at Chennai ( Uno Studios ) by - Biju James \nArranged by - thaman S \nConducted by - ravi Raagav \nTubular Bells & Glocken - Osho V \nRecorded at Prasad Labs ( HYD ) by - OSHO V \nMixed & Mastered By - Shadab Rayeen \nAt New Edge ( mumbai ) & New Edge  ( Ny) \nAssisted by - Pukhraj & Anup \nMusicians Co Ordinator - Manikandan K\nStudio Mangers - Sridhar & Seenu \nStudio Staff - Raju Ranjith Lingam Kannan & Raghuraman\n\nClick Here To Watch :\n\nBubblegum Teaser : https://youtu.be/Kh7yFEN5Ptg\n\nNandini Reddy & Rahul Ravindran Interview With Sapta Saagaralu Dhati Team: https://youtu.be/QQuXtqJQb6o\n\nSapta Sagaralu Dhaati (Side A) Team Q&A With Media : https://youtu.be/gJmrDLvoxE4\n\nNandini Reddy & Rahul Ravindran Interview With Sapta Saagaralu Dhati Team Side B : https://youtu.be/jO2Jo31WUqk\n\nBRO Movie Making : https://youtu.be/bQ1C_5VfcWY\n\n☛ For latest news: http://bit.ly/2w15qTo\n\n-----------------------------------------------------------------------\nPeople Media Factory is a film production company established by TG Vishwa Prasad. Many successful films are being made under this production banner and are currently very diligent with line-up of movies.\n\n☛ Subscribe to YouTube Channel: http://bit.ly/2vFJAEh\n☛ Like us on Facebook: http://bit.ly/2whPjAS\n☛ Like us on Twitter: http://bit.ly/2wSo8ue\n☛ Visit Our Website: http://bit.ly/2x6KjMl",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/cfuxD2iKK8c/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/cfuxD2iKK8c/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/cfuxD2iKK8c/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/cfuxD2iKK8c/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/cfuxD2iKK8c/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "People Media Factory",
-    "tags": [
-    "Telusu Kada Announcement",
-    "Telusu Kada",
-    "Siddhu Jonnalagadda",
-    "Raashii Khanna",
-    "Srinidhi Shetty",
-    "Neeraja Kona",
-    "Thaman S",
-    "PMF30",
-    "People Media Factory",
-    "Telusu Kada Movie",
-    "Telusu Kada Telugu Movie",
-    "Telusu Kada Title",
-    "Telusu Kada Teaser",
-    "Telusu Kada Telugu Movie Teaser",
-    "Siddhu Jonnalagadda New Movie",
-    "Siddhu Jonnalagadda Movies",
-    "Raashi Khanna Movies",
-    "2023 Latest Telugu Movies",
-    "Telusu Kada 2023 Telugu Movie",
-    "Telusu Kada Trailer",
-    "Telusu Kada Movie Songs",
-    "Raashii Movies",
-    "DJ Tillu",
-    "KGF"
-    ],
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "defaultLanguage": "en",
-    "localized": {
-    "title": "Telusu Kada Announcement | Siddhu Jonnalagadda | Raashii | Srinidhi | Neeraja Kona | Thaman S",
-    "description": "Telusu Kada Title Announcement video on People Media Factory. #TelusuKada 2023 Latest Telugu movie ft. Siddhu Jonnalagadda, Raashii Khanna, Srinidhi Shetty & others. Directed by Neeraja Kona. A Thaman S Musical. Produced by TG Vishwa Prasad, Co-Produced by Vivek Kuchibhotla under People Media Factory banner. \n\n#PMF30 #SiddhuJonnalagadda #RaashiiKhanna #SrinidhiShetty #NeerajaKona #ThamanS #PeopleMediaFactory #TGVishwaPrasad #VivekKuchibhotla #TelusuKadaMovie #TelusuKadaTeluguMovie #PMF30Title #PeopleMediaFactory30\n\nTELUSU KADA MOVIE DETAILS:\nWRITTEN & DIRECTED BY NEERAJA KONA      \nPRODUCER : TG VISHWA PRASAD\nCO-PRODUCER : VIVEK KUCHIBHOTLA    \nMUSIC : THAMAN S    \nD.O.P : YUVRAJ J      \nEDITOR : SREEKAR PRASAD\nCOSTUME DESIGNER : ARCHANA RAO  \nPRODUCTION DESIGNER : AVINASH KOLLA \nWRITERS: BHRADWAJ MUNIMANIKYM, MITHUN CHAITANYA\nCREATIVE PRODUCER :  KRITHI PRASAD  \nEXECUTIVE PRODUCERS : S.VENKATARATHNAM [VENKAT], SUKUMAR KINNERA\nPRO: VAMSI SHEKAR\nCHIEF  CO-DIRECTOR : SHIVARAMAKRISHNA\n\nSinger - Ravi G \nLyricist - KK \n\nProgrammed & Arranged by -Thaman S \nAdditional programming - Osho & Chaitu \nWoodwinds - Naveen ( Mumbai ) \nSolo Violin - Sandilya ( HYD ) \nLive String Section Recorded at Chennai ( Uno Studios ) by - Biju James \nArranged by - thaman S \nConducted by - ravi Raagav \nTubular Bells & Glocken - Osho V \nRecorded at Prasad Labs ( HYD ) by - OSHO V \nMixed & Mastered By - Shadab Rayeen \nAt New Edge ( mumbai ) & New Edge  ( Ny) \nAssisted by - Pukhraj & Anup \nMusicians Co Ordinator - Manikandan K\nStudio Mangers - Sridhar & Seenu \nStudio Staff - Raju Ranjith Lingam Kannan & Raghuraman\n\nClick Here To Watch :\n\nBubblegum Teaser : https://youtu.be/Kh7yFEN5Ptg\n\nNandini Reddy & Rahul Ravindran Interview With Sapta Saagaralu Dhati Team: https://youtu.be/QQuXtqJQb6o\n\nSapta Sagaralu Dhaati (Side A) Team Q&A With Media : https://youtu.be/gJmrDLvoxE4\n\nNandini Reddy & Rahul Ravindran Interview With Sapta Saagaralu Dhati Team Side B : https://youtu.be/jO2Jo31WUqk\n\nBRO Movie Making : https://youtu.be/bQ1C_5VfcWY\n\n☛ For latest news: http://bit.ly/2w15qTo\n\n-----------------------------------------------------------------------\nPeople Media Factory is a film production company established by TG Vishwa Prasad. Many successful films are being made under this production banner and are currently very diligent with line-up of movies.\n\n☛ Subscribe to YouTube Channel: http://bit.ly/2vFJAEh\n☛ Like us on Facebook: http://bit.ly/2whPjAS\n☛ Like us on Twitter: http://bit.ly/2wSo8ue\n☛ Visit Our Website: http://bit.ly/2x6KjMl"
-    },
-    "defaultAudioLanguage": "te"
-    },
-    "contentDetails": {
-    "duration": "PT1M24S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "559848",
-    "likeCount": "21822",
-    "favoriteCount": "0",
-    "commentCount": "360"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "8u3tUa-rS9uXW4ur4nFXNpJ8pO8",
-    "id": "krXGJzt6vLQ",
-    "snippet": {
-    "publishedAt": "2023-10-13T07:00:43Z",
-    "channelId": "UCbSWf4PKXPbMHe-rPIBD0bQ",
-    "title": "Samबहादुर - Official Teaser | Vicky Kaushal | Meghna Gulzar | Ronnie S | In Cinemas 01.12.2023",
-    "description": "ज़िंदगी उनकी. इतिहास हमारा.\n\n#Samबहादुर Teaser out now.\nIn cinemas 1.12.2023\n\nRSVP Presents\nSamबहादुर\nDirected by Meghna Gulzar\nProduced by Ronnie Screwvala\n\nWritten by Bhavani Iyer, Shantanu Srivastava, Meghna Gulzar\nCinematographer - Jay I. Patel\nAssociate Producer - Maharrsh Shah\nEditor - Nitin Baid\nMusic Directors - Shankar Ehsan Loy\nLyrics - Gulzar\nProduction Design - Subrata Chakraborty, Amit Ray\nSound Design - Kunal Sharma\nAction Director - Parvez Shaikh\nCreative Producer - Pashan Jal, Sonia Kanwar, Sanaya Irani Zohrabi\nHead of Distribution - Jeewan Joshi\nMake up and Hair - Srikant Desai\nCostume Designer - Sachin Lovelekar, Divvya Gambhir, Nidhhi Gambhir\nOriginal Background Score - Ketan Sodha\nCasting Director - Nandini Srikent, Karan Mally, Kashish Arora\nSupervising Executive Producer - Prafull Sharma\nExecutive Producer - Ravi S. Tiwari\nLine Producer - Ankita Chowfin\nFirst Assistant Director - Chandradeep Singh Rathore\nSound Recordist - Sanjay Kurian Kinattukara\nVFX Supervisor - Vishal Kapoor\nPost Producers - Zahoor Qadir (Absolute Studios), Kapil Madnani (The Post Co.)\nColorist - Robert Lang (After Studios)\nRe-Recording Mixer - Devajit Changmai (Futureworks Media Ltd)\nBehind The Scenes - Triace Entertainment\nPublicity Stills - Saurabh Gupta\nDefense Consultant - Col. Manish Sarin (Retd)\nPublicity Design - Parass Kanani (House Of Awe)\nMedia Consultant - Hype\nDigital Agency - Everymedia\nVisual Promotions - Jayesh Shikarkhane & Team\n\n#SamBahadur #VickyKaushal #MeghnaGulzar #SamManekshaw #FatimaSanaShaikh #SanyaMalhotra #RSVP #RonnieScrewvala",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/krXGJzt6vLQ/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/krXGJzt6vLQ/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/krXGJzt6vLQ/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/krXGJzt6vLQ/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/krXGJzt6vLQ/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "RSVP Movies",
-    "tags": [
-    "SamBahadur",
-    "Vicky Kaushal",
-    "Meghna Gulzar",
-    "Sam Manekshaw",
-    "Fatima Sana Shaikh",
-    "Sanya Malhotra",
-    "RSVP",
-    "RSVP Movies",
-    "Ronnie Screwvala",
-    "Sam Bahadur"
-    ],
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Samबहादुर - Official Teaser | Vicky Kaushal | Meghna Gulzar | Ronnie S | In Cinemas 01.12.2023",
-    "description": "ज़िंदगी उनकी. इतिहास हमारा.\n\n#Samबहादुर Teaser out now.\nIn cinemas 1.12.2023\n\nRSVP Presents\nSamबहादुर\nDirected by Meghna Gulzar\nProduced by Ronnie Screwvala\n\nWritten by Bhavani Iyer, Shantanu Srivastava, Meghna Gulzar\nCinematographer - Jay I. Patel\nAssociate Producer - Maharrsh Shah\nEditor - Nitin Baid\nMusic Directors - Shankar Ehsan Loy\nLyrics - Gulzar\nProduction Design - Subrata Chakraborty, Amit Ray\nSound Design - Kunal Sharma\nAction Director - Parvez Shaikh\nCreative Producer - Pashan Jal, Sonia Kanwar, Sanaya Irani Zohrabi\nHead of Distribution - Jeewan Joshi\nMake up and Hair - Srikant Desai\nCostume Designer - Sachin Lovelekar, Divvya Gambhir, Nidhhi Gambhir\nOriginal Background Score - Ketan Sodha\nCasting Director - Nandini Srikent, Karan Mally, Kashish Arora\nSupervising Executive Producer - Prafull Sharma\nExecutive Producer - Ravi S. Tiwari\nLine Producer - Ankita Chowfin\nFirst Assistant Director - Chandradeep Singh Rathore\nSound Recordist - Sanjay Kurian Kinattukara\nVFX Supervisor - Vishal Kapoor\nPost Producers - Zahoor Qadir (Absolute Studios), Kapil Madnani (The Post Co.)\nColorist - Robert Lang (After Studios)\nRe-Recording Mixer - Devajit Changmai (Futureworks Media Ltd)\nBehind The Scenes - Triace Entertainment\nPublicity Stills - Saurabh Gupta\nDefense Consultant - Col. Manish Sarin (Retd)\nPublicity Design - Parass Kanani (House Of Awe)\nMedia Consultant - Hype\nDigital Agency - Everymedia\nVisual Promotions - Jayesh Shikarkhane & Team\n\n#SamBahadur #VickyKaushal #MeghnaGulzar #SamManekshaw #FatimaSanaShaikh #SanyaMalhotra #RSVP #RonnieScrewvala"
-    },
-    "defaultAudioLanguage": "en"
-    },
-    "contentDetails": {
-    "duration": "PT1M26S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "true",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "14081281",
-    "likeCount": "268509",
-    "favoriteCount": "0",
-    "commentCount": "10819"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "LT6x3j73z3lAgERDkSuPT5K39II",
-    "id": "ysVswEeqWaU",
-    "snippet": {
-    "publishedAt": "2023-10-15T05:30:13Z",
-    "channelId": "UCxuRUI3Z0f70BcYyyFg9mbw",
-    "title": "Good News ఏమిటి అంటే We are Pregnant || @Mahishivan || Tamada Media",
-    "description": "Hello Everyone, This is Mahishivan a Telugu serial actress and i acted in Vadhinamma serial and shashirekhaParinayam serial \nAnd also ishmartjodi season2 reality show with my husband. now we on Zee Telugu FAMILY NO 1 along with out cute princess HARINI, and many others TV shows .. now me and my family coming with our own YouTube channel to entertain you guys so please\nDo support and bless us all with ur love. and mainly subscribe to our channel. stay connected for more updates .. thank you so much\nWith  lots of love urs MAHISHIVAN and HARINI \n\nSubscribe now 👉🏻 https://youtube.com/c/Mahishivan\n\nFor paid collaboration or brand promotions mail us on \nShivanagg@gmail.com\n\n\nLike, Comment and Share \nDon't forget to subscribe : https://www.youtube.com/c/Mahishivan\n\nPowered By #TamadaMedia\n\nFollow Us On \nhttps://www.instagram.com/mahishivan9_official/\n\nhttps://www.instagram.com/shivanag_shivan/\n\nhttps://www.instagram.com/princessharini_official/\n\n #Mahishivan #Shivnagshivan #Maheswari #Pregnancy  #Pregnancytest\n#Teluguserial  #Teluguserials #sTollywood #Telugu #Teluguactress #nishamilana #cutiepie #topserial #Harini #Harinipapa #TeluguSerialActress #TeluguActress  #TeluguSerialHeroines",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/ysVswEeqWaU/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/ysVswEeqWaU/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/ysVswEeqWaU/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/ysVswEeqWaU/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/ysVswEeqWaU/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Mahishivan",
-    "tags": [
-    "pregnancy test",
-    "Mahishivan",
-    "Shivanag",
-    "maheshwari",
-    "pregnancy symptoms",
-    "pregnancy care",
-    "pregnancy cravings",
-    "mahishivan",
-    "Harini",
-    "shivnag shivan",
-    "mahi shivan",
-    "mahishivan youtube channel",
-    "shivanag maheshwari",
-    "serial actress mahishivan",
-    "actress mahishivan",
-    "vadinamma serial",
-    "serial actress",
-    "harini videos",
-    "telugu serial actress",
-    "trending video",
-    "mahishivan video",
-    "surprise",
-    "pregnant",
-    "family",
-    "zeetelugu",
-    "starmaa",
-    "familyno1"
-    ],
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "defaultLanguage": "en-IN",
-    "localized": {
-    "title": "Good News ఏమిటి అంటే We are Pregnant || @Mahishivan || Tamada Media",
-    "description": "Hello Everyone, This is Mahishivan a Telugu serial actress and i acted in Vadhinamma serial and shashirekhaParinayam serial \nAnd also ishmartjodi season2 reality show with my husband. now we on Zee Telugu FAMILY NO 1 along with out cute princess HARINI, and many others TV shows .. now me and my family coming with our own YouTube channel to entertain you guys so please\nDo support and bless us all with ur love. and mainly subscribe to our channel. stay connected for more updates .. thank you so much\nWith  lots of love urs MAHISHIVAN and HARINI \n\nSubscribe now 👉🏻 https://youtube.com/c/Mahishivan\n\nFor paid collaboration or brand promotions mail us on \nShivanagg@gmail.com\n\n\nLike, Comment and Share \nDon't forget to subscribe : https://www.youtube.com/c/Mahishivan\n\nPowered By #TamadaMedia\n\nFollow Us On \nhttps://www.instagram.com/mahishivan9_official/\n\nhttps://www.instagram.com/shivanag_shivan/\n\nhttps://www.instagram.com/princessharini_official/\n\n #Mahishivan #Shivnagshivan #Maheswari #Pregnancy  #Pregnancytest\n#Teluguserial  #Teluguserials #sTollywood #Telugu #Teluguactress #nishamilana #cutiepie #topserial #Harini #Harinipapa #TeluguSerialActress #TeluguActress  #TeluguSerialHeroines"
-    },
-    "defaultAudioLanguage": "te"
-    },
-    "contentDetails": {
-    "duration": "PT19M46S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "1203829",
-    "likeCount": "34675",
-    "favoriteCount": "0",
-    "commentCount": "3326"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "sdPWqW9g_ca9wdxrAHLJ1VKF1Zk",
-    "id": "6OvGbF9ATWw",
-    "snippet": {
-    "publishedAt": "2023-10-14T17:36:51Z",
-    "channelId": "UCvOKCA1sZ10NTd2BPGQKmfg",
-    "title": "Lokesh Exclusive Part 2 | Leo-வில் வரும் single shot மக்களால் பேசப்படும் | Gobinath",
-    "description": "The Exclusive Interview with Lokesh Kanagaraj talks about the experience of making Leo, especially \"The Single Shot.\". About LCU and a lot more! Watch the Full Interview and tell your feedback. I hope you guys love it.\n\nLeo Fever is real and high. \n#gobinath  #leo #Exclusive #lokeshkanagaraj #lokeshinterview #vijayleo  \n\n__________________\nFor more Motivational Speech, Subscribe to the official channel here 👉 https://www.youtube.com/@GobinathOfficial/videos\n\nWatch Full Video :\n\nGobinath Interviews👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdagR4sSucEB-nm9H8R9yLClo \n\nRare Interviews👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdahBt7eNL8w0vyhXZY27gl19\n\nGobinath Vlogs👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdagq_XnaBA2LJJ1hvfWKNGko\n\nGobinath Speech👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdaiBhRdmw9McFX8O1owVt5EY\n\nRandom Pages👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdahcDyJkqD_kb9PcErM9FsSW\n\nThe Shades👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdaiKRWyFL1qcnKutayRa6VrX\n\nFor more updates, follow me on :\nFacebook: https://www.facebook.com/gobinath04\nInstagram: https://www.instagram.com/gobinathsocial/\nTwitter: https://twitter.com/Gobinath_C",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/6OvGbF9ATWw/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/6OvGbF9ATWw/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/6OvGbF9ATWw/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/6OvGbF9ATWw/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/6OvGbF9ATWw/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Gobinath",
-    "tags": [
-    "gobinath",
-    "neeya naana gobinath",
-    "gobinath chandran",
-    "gobinath speech",
-    "vijay tv gobinath",
-    "gobinath videos",
-    "gobinath motivational speech",
-    "NeeyaNaana",
-    "VijayTV",
-    "VijayTelevision",
-    "gobinath official channel",
-    "gopinath speech",
-    "gopinath",
-    "gobinath best speech",
-    "gopinath motivational speech in tamil",
-    "leo",
-    "Leo Lcu",
-    "lokesh",
-    "lokeshkanagaraj interview",
-    "leo interview",
-    "leo cast",
-    "leo update",
-    "vijay",
-    "vijay new movie update",
-    "Tamil movie",
-    "LEO LCU VA",
-    "Leo interview",
-    "Vijay Next Movie",
-    "Leo collection"
-    ],
-    "categoryId": "22",
-    "liveBroadcastContent": "none",
-    "defaultLanguage": "en",
-    "localized": {
-    "title": "Lokesh Exclusive Part 2 | Leo-வில் வரும் single shot மக்களால் பேசப்படும் | Gobinath",
-    "description": "The Exclusive Interview with Lokesh Kanagaraj talks about the experience of making Leo, especially \"The Single Shot.\". About LCU and a lot more! Watch the Full Interview and tell your feedback. I hope you guys love it.\n\nLeo Fever is real and high. \n#gobinath  #leo #Exclusive #lokeshkanagaraj #lokeshinterview #vijayleo  \n\n__________________\nFor more Motivational Speech, Subscribe to the official channel here 👉 https://www.youtube.com/@GobinathOfficial/videos\n\nWatch Full Video :\n\nGobinath Interviews👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdagR4sSucEB-nm9H8R9yLClo \n\nRare Interviews👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdahBt7eNL8w0vyhXZY27gl19\n\nGobinath Vlogs👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdagq_XnaBA2LJJ1hvfWKNGko\n\nGobinath Speech👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdaiBhRdmw9McFX8O1owVt5EY\n\nRandom Pages👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdahcDyJkqD_kb9PcErM9FsSW\n\nThe Shades👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdaiKRWyFL1qcnKutayRa6VrX\n\nFor more updates, follow me on :\nFacebook: https://www.facebook.com/gobinath04\nInstagram: https://www.instagram.com/gobinathsocial/\nTwitter: https://twitter.com/Gobinath_C"
-    },
-    "defaultAudioLanguage": "ta"
-    },
-    "contentDetails": {
-    "duration": "PT19M4S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "597823",
-    "likeCount": "23294",
-    "favoriteCount": "0",
-    "commentCount": "679"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "ZCfcw8G2QQrQioKnHdI8_583J8U",
-    "id": "cd3wXz5bso4",
-    "snippet": {
-    "publishedAt": "2023-10-15T18:14:02Z",
-    "channelId": "UC4GSblxbWPSa1uk5SG3MYIw",
-    "title": "Finally BIg Boss 17 Mei Salman Khan Sir Ne Bula Hi Liya 😍",
-    "description": "UK07_Rider YT \"---------------------------------------------------------------------------\n\nGiveaway Channel Video - https://youtu.be/1iRJ0QGvYMI\nMusic 30 Days Free Subscription\nhttp://share.epidemicsound.com/uko7ri...\n\n​\nInstagram\nhttps://www.instagram.com/anurag_dobhal\n​Facebook-\nhttps://www.facebook.com/theuko7rider \n\n\n​\n​For Business And Collaboration\nanuragdobhaluk@gmail.com\nx\nPeace xdxdxdxdxd.....\n\n\nWhat do i use to film?\nLaptop- https://amzn.to/33Hj1xA​​​​​​​​\n​Canon 80D  - https://amzn.to/33U7dsd​​​​​​​​\n​Canon Lens 10-18 mm  - https://amzn.to/2JdjDlb​​​​​​​​\n​Sony A7III - https://amzn.to/2UBVr11​​​​​​​​\n​Sony Lens Sigma 16mm - https://amzn.to/2JdjFJP​​​​​​​​\n​Sony Lens Sigma 50mm - https://amzn.to/2xpJKmw​​​​​​​​\n​Rode Micro - https://amzn.to/3akCozg​​​​​​​​\n​Ring Light with Silver Light Stand Lighting Kit Dimmable 42W 3200-5600K - https://amzn.to/33GzwKu​​​​​​​​\n​One Plus 6t - https://amzn.to/3bpmN1s​​​​​​​​\n​Gorilla pod - https://amzn.to/3aj2HFP​​​​​​​​\n​Tripod- https://amzn.to/2Ui40z6​​​​​​​​\n​Wired headphones- https://amzn.to/2xpZRQF​​​​​​​​\n​KTM Accessories - https://amzn.to/2UgmUqf​​​​​​​​\n​\n\nCopyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for \"fair use\" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use.",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/cd3wXz5bso4/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/cd3wXz5bso4/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/cd3wXz5bso4/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/cd3wXz5bso4/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/cd3wXz5bso4/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "The UK07 Rider",
-    "tags": [
-    "sourav joshi",
-    "sourav joshi vlogs",
-    "piyush joshi vlogs",
-    "piyush joshi gaming",
-    "family videos",
-    "family vlogs",
-    "daily vlogger",
-    "daily vlogging",
-    "daily vlogs",
-    "travel vlogs",
-    "playing with family",
-    "family vlog",
-    "next music video shoot",
-    "music video shoot",
-    "travel videos",
-    "travel vlog",
-    "UK07 Rider",
-    "The Uk07 Rider",
-    "Babu Bhaiya",
-    "new superbike",
-    "delivery",
-    "Supra India",
-    "Mk4",
-    "New Supercar",
-    "Dubai Vlogs",
-    "Dubai"
-    ],
-    "categoryId": "22",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Finally BIg Boss 17 Mei Salman Khan Sir Ne Bula Hi Liya 😍",
-    "description": "UK07_Rider YT \"---------------------------------------------------------------------------\n\nGiveaway Channel Video - https://youtu.be/1iRJ0QGvYMI\nMusic 30 Days Free Subscription\nhttp://share.epidemicsound.com/uko7ri...\n\n​\nInstagram\nhttps://www.instagram.com/anurag_dobhal\n​Facebook-\nhttps://www.facebook.com/theuko7rider \n\n\n​\n​For Business And Collaboration\nanuragdobhaluk@gmail.com\nx\nPeace xdxdxdxdxd.....\n\n\nWhat do i use to film?\nLaptop- https://amzn.to/33Hj1xA​​​​​​​​\n​Canon 80D  - https://amzn.to/33U7dsd​​​​​​​​\n​Canon Lens 10-18 mm  - https://amzn.to/2JdjDlb​​​​​​​​\n​Sony A7III - https://amzn.to/2UBVr11​​​​​​​​\n​Sony Lens Sigma 16mm - https://amzn.to/2JdjFJP​​​​​​​​\n​Sony Lens Sigma 50mm - https://amzn.to/2xpJKmw​​​​​​​​\n​Rode Micro - https://amzn.to/3akCozg​​​​​​​​\n​Ring Light with Silver Light Stand Lighting Kit Dimmable 42W 3200-5600K - https://amzn.to/33GzwKu​​​​​​​​\n​One Plus 6t - https://amzn.to/3bpmN1s​​​​​​​​\n​Gorilla pod - https://amzn.to/3aj2HFP​​​​​​​​\n​Tripod- https://amzn.to/2Ui40z6​​​​​​​​\n​Wired headphones- https://amzn.to/2xpZRQF​​​​​​​​\n​KTM Accessories - https://amzn.to/2UgmUqf​​​​​​​​\n​\n\nCopyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for \"fair use\" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use."
-    }
-    },
-    "contentDetails": {
-    "duration": "PT24M1S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "908581",
-    "likeCount": "143590",
-    "favoriteCount": "0",
-    "commentCount": "15091"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "Nl_nchJ0wGoHs8dfyZxvXKds5yk",
-    "id": "j-miVfnE9Wg",
-    "snippet": {
-    "publishedAt": "2023-10-15T04:00:12Z",
-    "channelId": "UChpUSSTjbH8Ou8wz7wpkCTg",
-    "title": "🌺ఎంగిలి పూల బతుకమ్మ💥| 😂village comedy|5star channel//Laxmi-srikanth videos#comedy #trending",
-    "description": "Hii Frnds My New Shortfilm ||🌺ఎంగిలి పూల బతుకమ్మ💥  || Village Comedy Video || plz watch like share and Subscribe for more updates.....\n\nSpecial Thanks\nMangli Official\nMangili Bathukamma Song 2023 | Full Song\nhttps://youtu.be/OOL2gj2Ewe0?si=sMQ-jqn6vLjsZafe\n\nBhakthi Channel\nChitthu Chitthula Bomma Banthkamma Full Song\nhttps://youtu.be/RvYNO4LpExY?si=KfKtkCeXUVadTir0\n\nManagement : 5Star Laxmi ✨\nWritten :5star Laxmi , srikanth,Anil\nEditing: 5 Star Srikanth✨\nCamera : Thirumalesh\nDirection: 5star Laxmi ,srikanth ,Anil \nCosting: 5starlaxmi anil , srikanth , ramya ,siri, Laddu (anil)\nThirumalesh,Raju,spoorthi,swarna,bujjamma\n\nOur Village Location\nVillage : Kondapur & Ambaripet\nMandal : Velgatoor\nDistrict : Jagityal\nState : Telangana\n.........................................................................................................................\n#5starchannelvideos \n#laxmivideos \n#bathukammavideos \n#entertainmentvideos \n#2022bathukammacomedyvideos\n#comedyvideos \n#01trendingvideos \n#comedyvideos \n#villagelifestyle \n#laxmi \n#srikanthvidoes\n#newtrendingstatus \n#lovesong \n#newcomedyvideo2020 \n#bathukammasongs2022 \n#telugucomedy \n#fastivalspecial \n#dandiya \n#dasara \n#2022 \n#comedyvideos \n#folksongs \n#trending \n#trendingshorts \n#saddulabathukamma\n#dasararangoli\n#comedy \n#village",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/j-miVfnE9Wg/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/j-miVfnE9Wg/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/j-miVfnE9Wg/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/j-miVfnE9Wg/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/j-miVfnE9Wg/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "5 STAR",
-    "tags": [
-    "creative thinks",
-    "my village show",
-    "Gangavva videos",
-    "junnu videos",
-    "manaplle",
-    "village videos",
-    "5star channel",
-    "laxmi videos",
-    "anil geela vlogs",
-    "a to z videos",
-    "village patas",
-    "creative thinks a to z",
-    "village mix",
-    "funny videos",
-    "bigboss",
-    "prank videos",
-    "filmoji"
-    ],
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "🌺ఎంగిలి పూల బతుకమ్మ💥| 😂village comedy|5star channel//Laxmi-srikanth videos#comedy #trending",
-    "description": "Hii Frnds My New Shortfilm ||🌺ఎంగిలి పూల బతుకమ్మ💥  || Village Comedy Video || plz watch like share and Subscribe for more updates.....\n\nSpecial Thanks\nMangli Official\nMangili Bathukamma Song 2023 | Full Song\nhttps://youtu.be/OOL2gj2Ewe0?si=sMQ-jqn6vLjsZafe\n\nBhakthi Channel\nChitthu Chitthula Bomma Banthkamma Full Song\nhttps://youtu.be/RvYNO4LpExY?si=KfKtkCeXUVadTir0\n\nManagement : 5Star Laxmi ✨\nWritten :5star Laxmi , srikanth,Anil\nEditing: 5 Star Srikanth✨\nCamera : Thirumalesh\nDirection: 5star Laxmi ,srikanth ,Anil \nCosting: 5starlaxmi anil , srikanth , ramya ,siri, Laddu (anil)\nThirumalesh,Raju,spoorthi,swarna,bujjamma\n\nOur Village Location\nVillage : Kondapur & Ambaripet\nMandal : Velgatoor\nDistrict : Jagityal\nState : Telangana\n.........................................................................................................................\n#5starchannelvideos \n#laxmivideos \n#bathukammavideos \n#entertainmentvideos \n#2022bathukammacomedyvideos\n#comedyvideos \n#01trendingvideos \n#comedyvideos \n#villagelifestyle \n#laxmi \n#srikanthvidoes\n#newtrendingstatus \n#lovesong \n#newcomedyvideo2020 \n#bathukammasongs2022 \n#telugucomedy \n#fastivalspecial \n#dandiya \n#dasara \n#2022 \n#comedyvideos \n#folksongs \n#trending \n#trendingshorts \n#saddulabathukamma\n#dasararangoli\n#comedy \n#village"
-    }
-    },
-    "contentDetails": {
-    "duration": "PT16M8S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "230810",
-    "likeCount": "7297",
-    "favoriteCount": "0",
-    "commentCount": "194"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "IuZ8F4gi22ySIvRUa_G-DSpms4g",
-    "id": "d3eHeA1DKng",
-    "snippet": {
-    "publishedAt": "2023-10-14T13:26:51Z",
-    "channelId": "UClfll_TO6FpOPLUg4Aawhlw",
-    "title": "Whole Beef Omelette Making | പോത്ത് ഇറച്ചി ഓംലെറ്റ് ഉണ്ടാക്കിയാലോ  | M4 Tech |",
-    "description": "Omelette Making With Whole Beef",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/d3eHeA1DKng/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/d3eHeA1DKng/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/d3eHeA1DKng/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/d3eHeA1DKng/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/d3eHeA1DKng/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "M4 Tech",
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Whole Beef Omelette Making | പോത്ത് ഇറച്ചി ഓംലെറ്റ് ഉണ്ടാക്കിയാലോ  | M4 Tech |",
-    "description": "Omelette Making With Whole Beef"
-    },
-    "defaultAudioLanguage": "en-GB"
-    },
-    "contentDetails": {
-    "duration": "PT15M42S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "593298",
-    "likeCount": "37457",
-    "favoriteCount": "0",
-    "commentCount": "1243"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "YUXJyCTYxY2UGkQm55No12J66iA",
-    "id": "sa87K99zz1I",
-    "snippet": {
-    "publishedAt": "2023-10-16T06:25:31Z",
-    "channelId": "UCNhaliLwhGH9wX3pe9bFTbA",
-    "title": "Leo | My Expectation |  Lokesh Kanagaraj | Malayalam",
-    "description": "",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/sa87K99zz1I/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/sa87K99zz1I/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/sa87K99zz1I/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/sa87K99zz1I/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/sa87K99zz1I/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "LifeofShazzam",
-    "categoryId": "22",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Leo | My Expectation |  Lokesh Kanagaraj | Malayalam",
-    "description": ""
-    }
-    },
-    "contentDetails": {
-    "duration": "PT8M58S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "265836",
-    "likeCount": "35315",
-    "favoriteCount": "0",
-    "commentCount": "1871"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "W9dsGgowjfB_Cwgg7ilGuvC-1sQ",
-    "id": "J1iFIkkEduI",
-    "snippet": {
-    "publishedAt": "2023-10-13T14:10:08Z",
-    "channelId": "UCk3JZr7eS3pg5AGEvBdEvFg",
-    "title": "MANDI BIRYANI | 3 Full Goat Arabian Mutton Mandi Recipe Cooking In Village | Kuzhi Mandhi Biryani",
-    "description": "Today in our village, we cook mutton mandi recipe by cooking three full goats. Kuzhi Mandi recipe is one of the famous Arabian food which is cooking meat and rice together in underground. We do the same traditional Arabian method to get the real taste of the mandi Recipe.\n\n We tasted Mutton Mandhi for the first time in our life! Really Tasty!",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/J1iFIkkEduI/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/J1iFIkkEduI/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/J1iFIkkEduI/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/J1iFIkkEduI/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/J1iFIkkEduI/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Village Cooking Channel",
-    "tags": [
-    "mutton mandi recipe",
-    "mutton mandi",
-    "mandi biryani",
-    "kuzhimanthi",
-    "kuzhi mandi",
-    "mandi recipe"
-    ],
-    "categoryId": "26",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "MANDI BIRYANI | 3 Full Goat Arabian Mutton Mandi Recipe Cooking In Village | Kuzhi Mandhi Biryani",
-    "description": "Today in our village, we cook mutton mandi recipe by cooking three full goats. Kuzhi Mandi recipe is one of the famous Arabian food which is cooking meat and rice together in underground. We do the same traditional Arabian method to get the real taste of the mandi Recipe.\n\n We tasted Mutton Mandhi for the first time in our life! Really Tasty!"
-    },
-    "defaultAudioLanguage": "en-US"
-    },
-    "contentDetails": {
-    "duration": "PT12M10S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "3708284",
-    "likeCount": "150791",
-    "favoriteCount": "0",
-    "commentCount": "3524"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "HPzOcKS0YoRRi_7qR54ovfZoK7w",
-    "id": "OUYQAf83ix8",
-    "snippet": {
-    "publishedAt": "2023-10-16T04:30:06Z",
-    "channelId": "UCum5kIr4aqgn9Dc21JdYCWA",
-    "title": "HUMARA NEW HOUSE | Armaan Malik",
-    "description": "#payalmalik #kritikamalik #chirayumalik #vlog \n\nOur new song: https://youtu.be/PiErXFTsLPQ?si=o3WivaGdQ-diy1Qh\n\nTulsi Farm\nContact No: 9988777516, 9988777509\nLocation: Zirakpur Chandigarh\n\nFollow us on Instagram:\nKritika Malik - https://instagram.com/kritika_malik_9\nPayal Malik - https://instagram.com/payal_malik_53\nArmaan Malik - https://instagram.com/armaan_malik\n\nMy Facebook Page -\nhttps://www.facebook.com/Kritika-Malik-101562412208961/\n\n\nDisclaimer: DISCLAIMER: Please don't go out of your way to or hate on anyone I talk about in my videos, this channel is to entertain people and I usually focus on joking about what the people are doing not the individual themselves, please don't go spreading hate it's all for laughs.",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/OUYQAf83ix8/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/OUYQAf83ix8/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/OUYQAf83ix8/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/OUYQAf83ix8/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/OUYQAf83ix8/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Armaan Malik",
-    "categoryId": "22",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "HUMARA NEW HOUSE | Armaan Malik",
-    "description": "#payalmalik #kritikamalik #chirayumalik #vlog \n\nOur new song: https://youtu.be/PiErXFTsLPQ?si=o3WivaGdQ-diy1Qh\n\nTulsi Farm\nContact No: 9988777516, 9988777509\nLocation: Zirakpur Chandigarh\n\nFollow us on Instagram:\nKritika Malik - https://instagram.com/kritika_malik_9\nPayal Malik - https://instagram.com/payal_malik_53\nArmaan Malik - https://instagram.com/armaan_malik\n\nMy Facebook Page -\nhttps://www.facebook.com/Kritika-Malik-101562412208961/\n\n\nDisclaimer: DISCLAIMER: Please don't go out of your way to or hate on anyone I talk about in my videos, this channel is to entertain people and I usually focus on joking about what the people are doing not the individual themselves, please don't go spreading hate it's all for laughs."
-    }
-    },
-    "contentDetails": {
-    "duration": "PT19M16S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "583057",
-    "likeCount": "26974",
-    "favoriteCount": "0",
-    "commentCount": "2010"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "tEviDS-4gB6UxRTFe_Emzhm4FHU",
-    "id": "dcdSgbJVk8Y",
-    "snippet": {
-    "publishedAt": "2023-10-16T05:26:23Z",
-    "channelId": "UCLNItyVW0epTrMVA3DxQglg",
-    "title": "Bigg Boss House Divided In 3 Parts | Bigg Boss 17",
-    "description": "Bigg Boss ka khoobsurat mahaulla bata 3 makaan mein. Jab ghar chalaane ki zimmedaari aayegi toh kya hoga iss mahaul mein? 👁😨🔥\n\nDekhiye #BiggBoss17, Mon-Fri 10PM & Sat-Sun 9PM sirf #Colors aur JioCinema par.  \n\n#BB17 #BiggbBoss17 \n#SalmanKhan \n\n#HyundaiIndia\n@DaburIndiaLtd\n@TresemmeIndia\n@iamappyfizz\n#ChingsSecret\n@GlanceScreen\n@harpicindia6\n\n#MannaraChopra #MunawarFaruqui  #AishwaryaSharma #NeilBhatt #NavidSoel  @TheUK07Rider #SanaRaeesKhan #JignaVora #SoniaBansal #KhanZaadi  @TehelkaPrank #AnkitaLokhande  #VickyJain  #IshaMalviya  @AebyBorntoshine #RinkuDhawan \n@achanakbayanakgaming\n\nSubscribe to Colors TV: http://www.youtube.com/user/colorstv?sub_confirmation=1\r\n\r\nFollow us on Google+: https://plus.google.com/+colorstv\r\nFollow us on Facebook: https://www.facebook.com/ColorsTV\r\nFollow us on Twitter: https://twitter.com/ColorsTV",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/dcdSgbJVk8Y/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/dcdSgbJVk8Y/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/dcdSgbJVk8Y/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/dcdSgbJVk8Y/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/dcdSgbJVk8Y/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Colors",
-    "tags": [
-    "colors tv",
-    "colorstv",
-    "hindi serials"
-    ],
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Bigg Boss House Divided In 3 Parts | Bigg Boss 17",
-    "description": "Bigg Boss ka khoobsurat mahaulla bata 3 makaan mein. Jab ghar chalaane ki zimmedaari aayegi toh kya hoga iss mahaul mein? 👁😨🔥\n\nDekhiye #BiggBoss17, Mon-Fri 10PM & Sat-Sun 9PM sirf #Colors aur JioCinema par.  \n\n#BB17 #BiggbBoss17 \n#SalmanKhan \n\n#HyundaiIndia\n@DaburIndiaLtd\n@TresemmeIndia\n@iamappyfizz\n#ChingsSecret\n@GlanceScreen\n@harpicindia6\n\n#MannaraChopra #MunawarFaruqui  #AishwaryaSharma #NeilBhatt #NavidSoel  @TheUK07Rider #SanaRaeesKhan #JignaVora #SoniaBansal #KhanZaadi  @TehelkaPrank #AnkitaLokhande  #VickyJain  #IshaMalviya  @AebyBorntoshine #RinkuDhawan \n@achanakbayanakgaming\n\nSubscribe to Colors TV: http://www.youtube.com/user/colorstv?sub_confirmation=1\r\n\r\nFollow us on Google+: https://plus.google.com/+colorstv\r\nFollow us on Facebook: https://www.facebook.com/ColorsTV\r\nFollow us on Twitter: https://twitter.com/ColorsTV"
-    },
-    "defaultAudioLanguage": "hi"
-    },
-    "contentDetails": {
-    "duration": "PT23S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": false,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "388028",
-    "likeCount": "5245",
-    "favoriteCount": "0",
-    "commentCount": "468"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "IZPEQO8ZUj77JuP86F0iAbtV78c",
-    "id": "WEB2ZQDiY1Y",
-    "snippet": {
-    "publishedAt": "2023-10-13T16:17:12Z",
-    "channelId": "UCvOKCA1sZ10NTd2BPGQKmfg",
-    "title": "Lokesh Exclusive | I know what people want.. Lokesh is confident about Leo | Gobinath",
-    "description": "#gobinath #lokeshexclusive #leo #lokeshkanagaraj #lokeshinterview #leoupdate \n\nThe talk of the town Lokesh is all set and confident about his upcoming multi-starrer.. Watch this exclusive interview from Lokesh Kanagaraj who reveals few surprise about Leo..\n \nThank you Team LITTLETALKS\n\n\n__________________\nFor more Motivational Speech, Subscribe to the official channel here 👉 https://www.youtube.com/@GobinathOfficial/videos\n\nWatch Full Video :\n\nGobinath Interviews👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdagR4sSucEB-nm9H8R9yLClo \n\nRare Interviews👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdahBt7eNL8w0vyhXZY27gl19\n\nGobinath Vlogs👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdagq_XnaBA2LJJ1hvfWKNGko\n\nGobinath Speech👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdaiBhRdmw9McFX8O1owVt5EY\n\nRandom Pages👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdahcDyJkqD_kb9PcErM9FsSW\n\nThe Shades👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdaiKRWyFL1qcnKutayRa6VrX\n\nFor more updates, follow me on :\nFacebook: https://www.facebook.com/gobinath04\nInstagram: https://www.instagram.com/gobinathsocial/\nTwitter: https://twitter.com/Gobinath_C",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/WEB2ZQDiY1Y/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/WEB2ZQDiY1Y/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/WEB2ZQDiY1Y/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/WEB2ZQDiY1Y/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/WEB2ZQDiY1Y/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Gobinath",
-    "tags": [
-    "gobinath",
-    "neeya naana gobinath",
-    "gobinath chandran",
-    "gobinath speech",
-    "vijay tv gobinath",
-    "gobinath videos",
-    "gobinath motivational speech",
-    "NeeyaNaana",
-    "VijayTV",
-    "VijayTelevision",
-    "gobinath official channel",
-    "gopinath speech",
-    "gopinath",
-    "gobinath best speech",
-    "gopinath motivational speech in tamil",
-    "lokesh kanagaraj interview",
-    "leo update",
-    "lakesh kanagaraj interview",
-    "lokesh and gobinath interview",
-    "leo update tamil",
-    "gobinath video",
-    "lokesh leo interview",
-    "lokesh interview latest"
-    ],
-    "categoryId": "22",
-    "liveBroadcastContent": "none",
-    "defaultLanguage": "en",
-    "localized": {
-    "title": "Lokesh Exclusive | I know what people want.. Lokesh is confident about Leo | Gobinath",
-    "description": "#gobinath #lokeshexclusive #leo #lokeshkanagaraj #lokeshinterview #leoupdate \n\nThe talk of the town Lokesh is all set and confident about his upcoming multi-starrer.. Watch this exclusive interview from Lokesh Kanagaraj who reveals few surprise about Leo..\n \nThank you Team LITTLETALKS\n\n\n__________________\nFor more Motivational Speech, Subscribe to the official channel here 👉 https://www.youtube.com/@GobinathOfficial/videos\n\nWatch Full Video :\n\nGobinath Interviews👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdagR4sSucEB-nm9H8R9yLClo \n\nRare Interviews👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdahBt7eNL8w0vyhXZY27gl19\n\nGobinath Vlogs👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdagq_XnaBA2LJJ1hvfWKNGko\n\nGobinath Speech👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdaiBhRdmw9McFX8O1owVt5EY\n\nRandom Pages👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdahcDyJkqD_kb9PcErM9FsSW\n\nThe Shades👉 https://www.youtube.com/playlist?list=PLLXUYLDzIdaiKRWyFL1qcnKutayRa6VrX\n\nFor more updates, follow me on :\nFacebook: https://www.facebook.com/gobinath04\nInstagram: https://www.instagram.com/gobinathsocial/\nTwitter: https://twitter.com/Gobinath_C"
-    },
-    "defaultAudioLanguage": "ta"
-    },
-    "contentDetails": {
-    "duration": "PT20M37S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "1359490",
-    "likeCount": "58344",
-    "favoriteCount": "0",
-    "commentCount": "1059"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "H5Fup8YqMa6tg8eBH2ZM8hc-Jw0",
-    "id": "nsHNdxtisIc",
-    "snippet": {
-    "publishedAt": "2023-10-14T13:20:26Z",
-    "channelId": "UCh5bICCatQ70Fx4-jwAmWKQ",
-    "title": "My Problems in Durga Puja Ep02 | Oh Ki Lagche Returns | The Bong Guy",
-    "description": "Join this channel to support my works :\nhttps://www.youtube.com/channel/UCh5bICCatQ70Fx4-jwAmWKQ/join\n\n\nTime Up Webseries : https://www.youtube.com/playlist?list=PLUX6REBfl997W6WOg7uRSc9eSNAhm5lKg\n\n\nDiscord Link : https://discord.gg/thebongguy\n\n\n\n\n\nSubscribe my 2nd channel here :  @Your Bong Guy   https://www.youtube.com/channel/UCCOfQUhuRSMojOoBQuPNjqQ\n\nMy facebook profile: https://www.facebook.com/kiran.dutta.7587\nMy Instagram profile: https://www.instagram.com/yourbongguy/\nMy Facebook Page : https://www.facebook.com/iamthebongguy\nTwitter : https://twitter.com/TheBongGuy\nwatch my other videos.Thank you \n\nDisclaimer: All the jokes here are for fun and entertainment purpose.Don't hate anyone for my videos.Laugh and leave.",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/nsHNdxtisIc/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/nsHNdxtisIc/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/nsHNdxtisIc/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/nsHNdxtisIc/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/nsHNdxtisIc/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "The Bong Guy",
-    "tags": [
-    "the bong guy",
-    "e kemon cinema bong guy",
-    "e kemon cinema",
-    "e kemon serial",
-    "kiran dutta",
-    "movie roast bong guy",
-    "bong guy vs ankush",
-    "bong guy vs dev",
-    "oh ki lagche bong guy",
-    "bong guy tiktok roast",
-    "bong guy new roast",
-    "bong guy funny movie review",
-    "bong guy vs cinebap",
-    "bong guy roast",
-    "bong guy bhut",
-    "zeffer vs rii",
-    "amusing rii",
-    "sraddho vlog",
-    "golap fuler cha",
-    "oh ki lagche 2",
-    "bong guy durga puja"
-    ],
-    "categoryId": "23",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "My Problems in Durga Puja Ep02 | Oh Ki Lagche Returns | The Bong Guy",
-    "description": "Join this channel to support my works :\nhttps://www.youtube.com/channel/UCh5bICCatQ70Fx4-jwAmWKQ/join\n\n\nTime Up Webseries : https://www.youtube.com/playlist?list=PLUX6REBfl997W6WOg7uRSc9eSNAhm5lKg\n\n\nDiscord Link : https://discord.gg/thebongguy\n\n\n\n\n\nSubscribe my 2nd channel here :  @Your Bong Guy   https://www.youtube.com/channel/UCCOfQUhuRSMojOoBQuPNjqQ\n\nMy facebook profile: https://www.facebook.com/kiran.dutta.7587\nMy Instagram profile: https://www.instagram.com/yourbongguy/\nMy Facebook Page : https://www.facebook.com/iamthebongguy\nTwitter : https://twitter.com/TheBongGuy\nwatch my other videos.Thank you \n\nDisclaimer: All the jokes here are for fun and entertainment purpose.Don't hate anyone for my videos.Laugh and leave."
-    },
-    "defaultAudioLanguage": "bn"
-    },
-    "contentDetails": {
-    "duration": "PT3M22S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "894608",
-    "likeCount": "147986",
-    "favoriteCount": "0",
-    "commentCount": "5488"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "oXmUGUcZHcR5UMJD8zITyWZUFW4",
-    "id": "QrFJNAc19ag",
-    "snippet": {
-    "publishedAt": "2023-10-15T07:07:00Z",
-    "channelId": "UC2zTRxJjjNYZpdXHk_blEHg",
-    "title": "ഞാൻ വീണ്ടും അമ്മുമ്മ ആയി | സന്തോഷം പങ്കു വയ്ക്കുന്നു | നാടൻ ഊണും | മുളക് കറി ഉണക്കനെത്തോളി തോരൻ",
-    "description": "Mulaku Curry :\n\nCoconut oil -  4 tbs\nMustard Seeds -  1 tsp\nCurry Leaves\ndry red chillies -  3 - 4 nos\nTurmeric powder - 1/4 tsp\nSambar Chillies -  250 gms\nTurmeric powder -  1/4 tsp\nSalt( according to taste )\nSmall onion -  150 gms\nTamarind ( One Gooseberry Size )\nKashmiri chilli powder -  2 tsp +   1 tsp\nCoriander Powder -  1/2 tsp\nAsafoetida powder -  1/2 tsp\nFenugreek powder -  1/4 tsp\n.........................................\nsambar cheera thoran:\n\nCoconut -  1  Cup\ngreen chillies- 2 nos\nSmall onion  -  3 nos\nGarlic- 2 Flakes\nCumin seeds - 1/2 tsp\nTurmeric powder -  1/2 tsp\nCoconut oil -  1 1/2 tbs\nMustard Seeds- 1 tsp\nUzhunnu parippu( Black Gram ) -  1 tbs\nCurry Leaves\nSmall onion -  3 tbs\ndry red chillies -  4 nos\nSalt( according to taste )\nSambar Cheera\nCoconut oil -  1 tsp\n.........................................\nPacha thakkali curry:\n\nWater -  3 Cups\nDRUMSTICK  -  2 nos\nGreen tomatoes - 10 nos\nTurmeric powder -  1/2 tsp\nKashmiri chilli powder- 1 tsp\nSalt( according to taste )\nCoconut -  1  Cup\ngreen chillies - 2 nos\nSmall onion -  3 nos\nCumin seeds - 1/2 tsp\nTurmeric powder -  1/4 tsp\nChana Dal -  1/2 Cup + Turmeric powder -  1/4 tsp\nWater\nSalt( according to taste )\nCoconut oil -  1 1/2  tbs\nMustard Seeds  - 1 tsp\nFenugreek -  1/4 tsp\nCurry Leaves\nDry red  chillies -  3 nos\nSmall onion- 5 nos\nKashmiri chilli powder -  1/2 tsp\n.........................................\nUnakka netholi thoran:\n\nunakkameen  (netholi)\nSmall onion  -  20 nos\nWater- 2 Cups\nSalt( according to taste )\nCoconut  -  1 1/2 Cup\nSmall onion- 5 nos\nTurmeric powder -  3/4 tsp\nKashmiri chilli powder - 3 tsp\nCoconut oil -  2 tbs\nMustard Seeds -  1 tsp\nDry red  chillies -  3 -  4 nos\nCurry Leaves\n.........................................\n◆◆◆ Stay Connected With Me:- ◆◆◆\n ◆ YouTube: http://bit.ly/LekshmiNairVlogs \n ◆ Facebook Page: https://www.facebook.com/drlekshminairofficial\n ◆ Facebook Profile: https://www.facebook.com/lekshmi.nair.5070\n ◆ Insta: https://www.instagram.com/lekshminair20 \n ◆ Official Blog: https://www.lekshminair.com \n\n●●● For Business Enquiries, Contact●●●\n ◆ Email: contact@lekshminair.com\n ◆ WhatsApp: http://wa.me/919746969808\n ◆ Send Message/SMS (Only): (+91) 97469 69808 (Calls Disabled)\n\n◆◆ About Me ◆◆\nIt’s me Lekshmi Nair, a celebrity culinary expert. Cooking has always been my passion. Since my childhood, I loved experimenting and trying new dishes and recipes. This YouTube channel ‘#LekshmiNairVlogs’ is my latest venture to share my recipes with you and to be connected with you.",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/QrFJNAc19ag/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/QrFJNAc19ag/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/QrFJNAc19ag/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/QrFJNAc19ag/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/QrFJNAc19ag/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Lekshmi Nair",
-    "tags": [
-    "celebrity vlogs",
-    "malayalam celebrity vlogs",
-    "lekshmi nair vlogs",
-    "trending celebrity vlogs"
-    ],
-    "categoryId": "26",
-    "liveBroadcastContent": "none",
-    "defaultLanguage": "ml",
-    "localized": {
-    "title": "ഞാൻ വീണ്ടും അമ്മുമ്മ ആയി | സന്തോഷം പങ്കു വയ്ക്കുന്നു | നാടൻ ഊണും | മുളക് കറി ഉണക്കനെത്തോളി തോരൻ",
-    "description": "Mulaku Curry :\n\nCoconut oil -  4 tbs\nMustard Seeds -  1 tsp\nCurry Leaves\ndry red chillies -  3 - 4 nos\nTurmeric powder - 1/4 tsp\nSambar Chillies -  250 gms\nTurmeric powder -  1/4 tsp\nSalt( according to taste )\nSmall onion -  150 gms\nTamarind ( One Gooseberry Size )\nKashmiri chilli powder -  2 tsp +   1 tsp\nCoriander Powder -  1/2 tsp\nAsafoetida powder -  1/2 tsp\nFenugreek powder -  1/4 tsp\n.........................................\nsambar cheera thoran:\n\nCoconut -  1  Cup\ngreen chillies- 2 nos\nSmall onion  -  3 nos\nGarlic- 2 Flakes\nCumin seeds - 1/2 tsp\nTurmeric powder -  1/2 tsp\nCoconut oil -  1 1/2 tbs\nMustard Seeds- 1 tsp\nUzhunnu parippu( Black Gram ) -  1 tbs\nCurry Leaves\nSmall onion -  3 tbs\ndry red chillies -  4 nos\nSalt( according to taste )\nSambar Cheera\nCoconut oil -  1 tsp\n.........................................\nPacha thakkali curry:\n\nWater -  3 Cups\nDRUMSTICK  -  2 nos\nGreen tomatoes - 10 nos\nTurmeric powder -  1/2 tsp\nKashmiri chilli powder- 1 tsp\nSalt( according to taste )\nCoconut -  1  Cup\ngreen chillies - 2 nos\nSmall onion -  3 nos\nCumin seeds - 1/2 tsp\nTurmeric powder -  1/4 tsp\nChana Dal -  1/2 Cup + Turmeric powder -  1/4 tsp\nWater\nSalt( according to taste )\nCoconut oil -  1 1/2  tbs\nMustard Seeds  - 1 tsp\nFenugreek -  1/4 tsp\nCurry Leaves\nDry red  chillies -  3 nos\nSmall onion- 5 nos\nKashmiri chilli powder -  1/2 tsp\n.........................................\nUnakka netholi thoran:\n\nunakkameen  (netholi)\nSmall onion  -  20 nos\nWater- 2 Cups\nSalt( according to taste )\nCoconut  -  1 1/2 Cup\nSmall onion- 5 nos\nTurmeric powder -  3/4 tsp\nKashmiri chilli powder - 3 tsp\nCoconut oil -  2 tbs\nMustard Seeds -  1 tsp\nDry red  chillies -  3 -  4 nos\nCurry Leaves\n.........................................\n◆◆◆ Stay Connected With Me:- ◆◆◆\n ◆ YouTube: http://bit.ly/LekshmiNairVlogs \n ◆ Facebook Page: https://www.facebook.com/drlekshminairofficial\n ◆ Facebook Profile: https://www.facebook.com/lekshmi.nair.5070\n ◆ Insta: https://www.instagram.com/lekshminair20 \n ◆ Official Blog: https://www.lekshminair.com \n\n●●● For Business Enquiries, Contact●●●\n ◆ Email: contact@lekshminair.com\n ◆ WhatsApp: http://wa.me/919746969808\n ◆ Send Message/SMS (Only): (+91) 97469 69808 (Calls Disabled)\n\n◆◆ About Me ◆◆\nIt’s me Lekshmi Nair, a celebrity culinary expert. Cooking has always been my passion. Since my childhood, I loved experimenting and trying new dishes and recipes. This YouTube channel ‘#LekshmiNairVlogs’ is my latest venture to share my recipes with you and to be connected with you."
-    },
-    "defaultAudioLanguage": "en"
-    },
-    "contentDetails": {
-    "duration": "PT27M41S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "184536",
-    "likeCount": "4033",
-    "favoriteCount": "0",
-    "commentCount": "1005"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "fnRazADIbe3mqHBc1bAdFGbGYUA",
-    "id": "ecnZB2ih_w8",
-    "snippet": {
-    "publishedAt": "2023-10-14T13:52:15Z",
-    "channelId": "UCAGpAMprjGtyK4N0pSuVbaw",
-    "title": "28th Birthday Vlog | Ahaana Krishna",
-    "description": "Here’s a Memoir of my 28th Birthday 🎂 Thankyou for all your wishes! It truly means so much to me! 😘\n\nMy Strawberry Cake is from Mia’s Cupcakery - https://instagram.com/mias.cupcakery?igshid=MzRlODBiNWFlZA==  🎂🍓\n\nMusic Track : \nMarried Life by Aylex\nA New Day by Shandr\nPromises by Walen\nSource : https://freetouse.com/music/\n\nEnglish Subtitles are available ☺️\n\n#AhaanaKrishna #28thBirthday #BirthdayVlog 😋",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/ecnZB2ih_w8/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/ecnZB2ih_w8/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/ecnZB2ih_w8/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/ecnZB2ih_w8/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/ecnZB2ih_w8/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Ahaana Krishna",
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "28th Birthday Vlog | Ahaana Krishna",
-    "description": "Here’s a Memoir of my 28th Birthday 🎂 Thankyou for all your wishes! It truly means so much to me! 😘\n\nMy Strawberry Cake is from Mia’s Cupcakery - https://instagram.com/mias.cupcakery?igshid=MzRlODBiNWFlZA==  🎂🍓\n\nMusic Track : \nMarried Life by Aylex\nA New Day by Shandr\nPromises by Walen\nSource : https://freetouse.com/music/\n\nEnglish Subtitles are available ☺️\n\n#AhaanaKrishna #28thBirthday #BirthdayVlog 😋"
-    },
-    "defaultAudioLanguage": "en"
-    },
-    "contentDetails": {
-    "duration": "PT27M28S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "true",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "961146",
-    "likeCount": "28179",
-    "favoriteCount": "0",
-    "commentCount": "1970"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "Fk2t2SA0Qw4Bpv9mzQ82jbHKksI",
-    "id": "FNODzwlA68A",
-    "snippet": {
-    "publishedAt": "2023-10-15T07:15:02Z",
-    "channelId": "UCQfBN7Ut5TiZJAhMo_Rgfyw",
-    "title": "I WATCHED IND VS PAK WORLD CUP MATCH😍 - VLOG 43",
-    "description": "As you guys know the drill like, comment and subscribe.\n\nInstagram - https://www.instagram.com/snaxgaming/\n\nLoco - https://loco.onelink.me/65Kg/SnaxGaming\n\nDiscord - https://discord.gg/RXQEmY2UdB\n\nFb - https://www.facebook.com/SnaxGamingBGMI/\n\nTwitter - https://twitter.com/snaxgamingg/statu...\n\nManaged by  8bit Creatives - https://www.instagram.com/p/CQAxc5On2\n\nBusiness email - snax@8bitcreatives.in\n\nStreamer at - s8ul.esports\n\n#snaxgaming",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/FNODzwlA68A/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/FNODzwlA68A/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/FNODzwlA68A/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/FNODzwlA68A/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/FNODzwlA68A/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Snax Gaming",
-    "tags": [
-    "snaxgaming",
-    "Gamer",
-    "Bgmi",
-    "Vlog",
-    "Worldcup",
-    "Cricket",
-    "Indvspak",
-    "Ahmedabad",
-    "Cricketvlog",
-    "Teamindia",
-    "Sports",
-    "Vlogger",
-    "Lifestyle",
-    "Travel",
-    "Fun",
-    "Adventure"
-    ],
-    "categoryId": "20",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "I WATCHED IND VS PAK WORLD CUP MATCH😍 - VLOG 43",
-    "description": "As you guys know the drill like, comment and subscribe.\n\nInstagram - https://www.instagram.com/snaxgaming/\n\nLoco - https://loco.onelink.me/65Kg/SnaxGaming\n\nDiscord - https://discord.gg/RXQEmY2UdB\n\nFb - https://www.facebook.com/SnaxGamingBGMI/\n\nTwitter - https://twitter.com/snaxgamingg/statu...\n\nManaged by  8bit Creatives - https://www.instagram.com/p/CQAxc5On2\n\nBusiness email - snax@8bitcreatives.in\n\nStreamer at - s8ul.esports\n\n#snaxgaming"
-    }
-    },
-    "contentDetails": {
-    "duration": "PT18M16S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "465344",
-    "likeCount": "49054",
-    "favoriteCount": "0",
-    "commentCount": "1057"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "Ir-DM00FsQGYqPCJDnuIWiNJ3MA",
-    "id": "4_cZOKeGelY",
-    "snippet": {
-    "publishedAt": "2023-10-14T14:59:53Z",
-    "channelId": "UCeWqACGRU5gT0BXeFhrixWA",
-    "title": "RoHITMAN Sharma is Back with a Bang | I Am Still With My Men in Green | #CWC23 | Shoaib Akhtar",
-    "description": "RoHITMAN Sharma is Back with a Bang | I Am Still With My Men in Green | #CWC23 | Shoaib Akhtar\n\n#INDvPAK | #ShoaibAkhtar\n\nWelcome to the Official Channel of Shoaib Akhtar aka the Rawalpindi Express - the world’s faster bowler and now at the centre of one of the fastest growing YouTube channels. \n\nThe channel offers a rare insight into the life of Shoaib Akhtar as he shares his expert opinion, interacts with his fans and talks to some of the current and past sports celebrities.\n\nShoaib Akhtar’s YouTube channel is managed by Dot Republic Media. All Copyrights Reserved.\n\nSubscribe to get all the latest updates from the Rawalpindi Express:\nhttps://bit.ly/SubscribeNowShoaibAkhtar",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/4_cZOKeGelY/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/4_cZOKeGelY/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/4_cZOKeGelY/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/4_cZOKeGelY/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/4_cZOKeGelY/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Shoaib Akhtar",
-    "tags": [
-    "shoaib akhtar",
-    "world Cup 2023",
-    "ICC Cricket World Cup",
-    "Cricket World Cup 2023",
-    "Cricket World Cup",
-    "ICC Men Cricket World Cup 2023",
-    "ICC Men Cricket World Cup",
-    "Pakistan World Cup 2023",
-    "ICC Cricket world Cup india",
-    "Shoaib Akhtar World Cup 2023",
-    "Countdown Begins for the Indo-Pak Match",
-    "Pakistan vs India",
-    "pakistan vs india world cup 2023",
-    "pakistan vs india world cup",
-    "india world cup 2023",
-    "pakistan world cup 2023",
-    "Very Disappointed Performance By Pakistan",
-    "India Beat Pakistan"
+    "Televisa",
+    "Deportes",
+    "TUDN",
+    "TUDN México",
+    "Univision",
+    "Televisa deportes",
+    "TUDN USA",
+    "soccer",
+    "futbol mexicano",
+    "Seleccion mexicana",
+    "Mexico vs alemania resumen",
+    "convocatoria mexico",
+    "chino huerta seleccion",
+    "jimmy lozano",
+    "amistoso mexico",
+    "México 2-2 Alemania",
+    "Gol México",
+    "Resumen México",
+    "Resumen Alemania"
     ],
     "categoryId": "17",
     "liveBroadcastContent": "none",
     "localized": {
-    "title": "RoHITMAN Sharma is Back with a Bang | I Am Still With My Men in Green | #CWC23 | Shoaib Akhtar",
-    "description": "RoHITMAN Sharma is Back with a Bang | I Am Still With My Men in Green | #CWC23 | Shoaib Akhtar\n\n#INDvPAK | #ShoaibAkhtar\n\nWelcome to the Official Channel of Shoaib Akhtar aka the Rawalpindi Express - the world’s faster bowler and now at the centre of one of the fastest growing YouTube channels. \n\nThe channel offers a rare insight into the life of Shoaib Akhtar as he shares his expert opinion, interacts with his fans and talks to some of the current and past sports celebrities.\n\nShoaib Akhtar’s YouTube channel is managed by Dot Republic Media. All Copyrights Reserved.\n\nSubscribe to get all the latest updates from the Rawalpindi Express:\nhttps://bit.ly/SubscribeNowShoaibAkhtar"
-    },
-    "defaultAudioLanguage": "en"
+    "title": "México 2-2 Alemania - HIGHLIGHTS | Amistoso Internacional | TUDN",
+    "description": "La mayor oferta de partidos de la Liga Mx en ViX: https://vix.com/es-es/deportes?utm_medium=organic_social&utm_source=youtube&utm_campaign=evergreen&utm_content=ed_sports\n\nMéxico gusta y empata contra una Alemania que por momentos fue controlada por el Tricolor."
+    }
     },
     "contentDetails": {
-    "duration": "PT5M24S",
+    "duration": "PT12M17S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
     "licensedContent": true,
+    "regionRestriction": {
+    "allowed": [
+    "PR",
+    "US"
+    ]
+    },
     "contentRating": {},
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "1582106",
-    "likeCount": "75832",
+    "viewCount": "732919",
+    "likeCount": "8144",
     "favoriteCount": "0",
-    "commentCount": "9300"
+    "commentCount": "1629"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "gnNJYlh8Vu_LVGHSyC0EzaUT9Ys",
-    "id": "PiErXFTsLPQ",
+    "etag": "HwiTSWH6Hu2GbunifrY9_IeVnhg",
+    "id": "_jICVrlX8h8",
     "snippet": {
-    "publishedAt": "2023-10-16T04:30:11Z",
-    "channelId": "UC6xapOB7vJNidsYNny6f9Tw",
-    "title": "Search Andy Chora (Official Video) Armaan Malik | Shobi Sarwan | Payal Malik | Kritika Malik",
-    "description": "Number 1 Records Presents Official Video of Latest New Punjabi , Haryanvi Song 2023 '\"Search Andy Chora '\" Sung By Armaan Malik & Shobi Sarwan \n\nStarring :- Armaan Malik , Payal Malik ,Kritika Malik , Shobi Sarwan\nSinger :- Armaan Malik ,Shobi Sarwan\nMusic/Compose :- KP Music\nLyrics :- Sukhvir Rattoke , Rohit Paharliya\nMix master :- Sumit Grover\nDop /Edit :-  Puneet Chalana \nAsst Dop & Gaffer :-  Sukhan \nVideo Grade :-  Onkar Singh \nVfx :-  Yaad Aulakh\nFocus Puller :-  Suresh \nRonin Operator :- Pawan\nCamera Equipment :-  Saya Films \nJimmy Jip :- Sonu \nProduction :-  Shoot In A Day \nProduction Assistant :-  Hardik\nAssistant Director  :- Samar Khan , Karan Barnala\nPhotography :-  Xavier Photography\nMakeup :- Neeraj \nChoregrapher :- Ravi Thapa & Vishu\nCostume Designer :-  Rajat Manchanda\nSpot :-(Rohit,Rahul,Golu,Ajey,Ankul,\nAnil,Jatin,Monu,biru,Ashu,Vishu)\nFood :- OM and Team\nTransport :- Diljit travel\nDancer :- Sandy Team\nJunior Artist  :- Sagar team \nBouncer  :- Ashwani\nLocation :- Hlv Film City\nSpecial Thanks :- Hitesh Lucky Verma (CEO Hlv Filmcity ) Rohit Soni ( GM Hlv Filmcity)\n                               \nDirector :- Armaan Malik & The Ayub Khan\n\nPresentation & Producer :- Armaan Malik \nhttps://www.instagram.com/armaan__mal...\n\nPublicity Design :- F1 Digitals \nLabel :- Number 1 Records\n\nListen Full Song:-\niTune : https://music.apple.com/in/album/search-andy-chora-single/1695003892\nAmazon : https://music.amazon.com/albums/B0C9QQKG6J\nSpotify : https://open.spotify.com/album/0eH5QfWaaf3DowMiBanchU\nJiosavan : https://www.jiosaavn.com/song/search-andy-chora/AikTZQRxYno\nWynk : https://wynk.in/music/album/search-andy-chora/bl_3617224062720\n\n Follow Number 1 Records on 👇\nFollow on Instagram - https://instagram.com/number1recordso...\nSubscribe on Youtube- https://bit.ly/3fyRiJJ",
+    "publishedAt": "2023-10-18T04:36:56Z",
+    "channelId": "UCzU8-lZlRfkV3nj0RzAZdrQ",
+    "title": "PERÚ vs. ARGENTINA [0-2] | RESUMEN | ELIMINATORIAS SUDAMERICANAS | FECHA 3",
+    "description": "¡Argentina pisó fuerte en Lima y se llevó otro triunfo! Venció a Perú por 2-0 con un doblete de Lionel Messi y sigue con puntaje perfecto en las #EliminatoriasSudamericanas 🔝🇦🇷\n\n#CreeEnGrande\n\nSuscríbete I Inscreva-se I Subscribe: http://bit.ly/CONMEBOL\n\nFacebook: facebook.com/CONMEBOL\nInstagram: instagram.com/conmebol/\nTwitter: twitter.com/CONMEBOL",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/PiErXFTsLPQ/default.jpg",
+    "url": "https://i.ytimg.com/vi/_jICVrlX8h8/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/PiErXFTsLPQ/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/_jICVrlX8h8/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/PiErXFTsLPQ/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/_jICVrlX8h8/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/PiErXFTsLPQ/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/_jICVrlX8h8/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/PiErXFTsLPQ/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/_jICVrlX8h8/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "Number 1 Records",
+    "channelTitle": "CONMEBOL",
     "tags": [
-    "New song.",
-    "New haryanvi song",
-    "new punjabi song",
-    "armaan malik song",
-    "family fitnees",
-    "search andy chora song",
-    "armaan malik new song",
-    "payal malik song",
-    "kritika malik song",
-    "shobi sarwan song",
-    "Latest punjabi haryanvi song",
-    "punjabi haryanvi song",
-    "haryanvi punjabi mix song",
-    "punjabi haryanvi mix song",
-    "armaan malik latest song",
-    "shobi sarwan latest song",
-    "andy chora",
-    "andy chora armaan malik",
-    "andy chora song",
-    "andy chora armaan malik song",
-    "search andy chora song 2023",
-    "armaan malik songs"
-    ],
-    "categoryId": "10",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Search Andy Chora (Official Video) Armaan Malik | Shobi Sarwan | Payal Malik | Kritika Malik",
-    "description": "Number 1 Records Presents Official Video of Latest New Punjabi , Haryanvi Song 2023 '\"Search Andy Chora '\" Sung By Armaan Malik & Shobi Sarwan \n\nStarring :- Armaan Malik , Payal Malik ,Kritika Malik , Shobi Sarwan\nSinger :- Armaan Malik ,Shobi Sarwan\nMusic/Compose :- KP Music\nLyrics :- Sukhvir Rattoke , Rohit Paharliya\nMix master :- Sumit Grover\nDop /Edit :-  Puneet Chalana \nAsst Dop & Gaffer :-  Sukhan \nVideo Grade :-  Onkar Singh \nVfx :-  Yaad Aulakh\nFocus Puller :-  Suresh \nRonin Operator :- Pawan\nCamera Equipment :-  Saya Films \nJimmy Jip :- Sonu \nProduction :-  Shoot In A Day \nProduction Assistant :-  Hardik\nAssistant Director  :- Samar Khan , Karan Barnala\nPhotography :-  Xavier Photography\nMakeup :- Neeraj \nChoregrapher :- Ravi Thapa & Vishu\nCostume Designer :-  Rajat Manchanda\nSpot :-(Rohit,Rahul,Golu,Ajey,Ankul,\nAnil,Jatin,Monu,biru,Ashu,Vishu)\nFood :- OM and Team\nTransport :- Diljit travel\nDancer :- Sandy Team\nJunior Artist  :- Sagar team \nBouncer  :- Ashwani\nLocation :- Hlv Film City\nSpecial Thanks :- Hitesh Lucky Verma (CEO Hlv Filmcity ) Rohit Soni ( GM Hlv Filmcity)\n                               \nDirector :- Armaan Malik & The Ayub Khan\n\nPresentation & Producer :- Armaan Malik \nhttps://www.instagram.com/armaan__mal...\n\nPublicity Design :- F1 Digitals \nLabel :- Number 1 Records\n\nListen Full Song:-\niTune : https://music.apple.com/in/album/search-andy-chora-single/1695003892\nAmazon : https://music.amazon.com/albums/B0C9QQKG6J\nSpotify : https://open.spotify.com/album/0eH5QfWaaf3DowMiBanchU\nJiosavan : https://www.jiosaavn.com/song/search-andy-chora/AikTZQRxYno\nWynk : https://wynk.in/music/album/search-andy-chora/bl_3617224062720\n\n Follow Number 1 Records on 👇\nFollow on Instagram - https://instagram.com/number1recordso...\nSubscribe on Youtube- https://bit.ly/3fyRiJJ"
-    },
-    "defaultAudioLanguage": "en-IN"
-    },
-    "contentDetails": {
-    "duration": "PT2M56S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "120564",
-    "likeCount": "17097",
-    "favoriteCount": "0",
-    "commentCount": "898"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "JVJUz4KX9iKW7sx2JGMu803RBGE",
-    "id": "o-TyLkfZsbc",
-    "snippet": {
-    "publishedAt": "2023-10-14T02:45:10Z",
-    "channelId": "UCBu8GHpHy9vX8ixdTb38kIQ",
-    "title": "Best 3D PEN ART Wins CHALLENGE ✏️😍",
-    "description": "",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/o-TyLkfZsbc/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/o-TyLkfZsbc/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/o-TyLkfZsbc/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/o-TyLkfZsbc/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/o-TyLkfZsbc/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Pragati Verma",
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Best 3D PEN ART Wins CHALLENGE ✏️😍",
-    "description": ""
-    },
-    "defaultAudioLanguage": "en"
-    },
-    "contentDetails": {
-    "duration": "PT9M4S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "true",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "1443997",
-    "likeCount": "41242",
-    "favoriteCount": "0",
-    "commentCount": "3148"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "0zYEbdeL7Mi0EtprI2NPFNHi7Co",
-    "id": "iVyi-Rrg7QU",
-    "snippet": {
-    "publishedAt": "2023-10-15T15:49:46Z",
-    "channelId": "UCGdBbIvBfP5KwnkD1tIvGRA",
-    "title": "రేణు దేశాయ్ మీ కొడుకుని త్వరగా హీరో చేయండి : Vijayendra Prasad | Tiger Nageswara Rao | 10TV Ent",
-    "description": "రేణు దేశాయ్ మీ కొడుకుని త్వరగా హీరో చేయండి : Vijayendra Prasad | Tiger Nageswara Rao | 10TV Ent #VijayendraPrasad #tigernageswararao #raviteja #10tvet #nupursanon #GayatriBharadwaj\nFor More Updates \nWatch 10TV LIVE  - https://www.youtube.com/watch?v=byG7EGw9NPs\n\n☛ Subscribe us @ https://bit.ly/2Fc6rhb\n☛ Subscribe to our Agriculture channel: https://bit.ly/327z4Te\n☛ Website: http://www.10tv.in\n☛ Facebook: https://www.facebook.com/10TVNewsTelugu/\n☛ Twitter:  https://twitter.com/10TVNewsTelugu\n☛ Instagram: https://bit.ly/3oK0AUu\n\n\n10tv News Channel Owned by Spoorthi Communications Private Limited. 10Tv is one of the leading News channels which the delivers National and International And Regional News Streaming 24/7.10Tv has its wings spread all over the world to deliver the trustful news.Channel Dedicated to General News, LiveReports, Breaking News, Sports News, Weather News, Entertainments, Business Updates, Big Debates, Exclusive Interviews etc.\n\n\nThank You For Visiting..\nVisit Again -Team 10TV",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/iVyi-Rrg7QU/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/iVyi-Rrg7QU/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/iVyi-Rrg7QU/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/iVyi-Rrg7QU/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/iVyi-Rrg7QU/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "10TV Entertainment",
-    "tags": [
-    "Tiger Nageswara Rao Pre Release Event LIVE",
-    "Tiger Nageswara Rao Pre Release Event",
-    "Tiger Nageswara Rao",
-    "Ravi Teja",
-    "Gayatri Bharadwaj",
-    "Nupur Sanon",
-    "Renu Desai",
-    "Ravi Teja Speech",
-    "Gayatri Bharadwaj Speech",
-    "Nupur Sanon Speech",
-    "Renu Desai Speech",
-    "10TV Live Telugu",
-    "10TV Latest Updates",
-    "10tv entertainment"
-    ],
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "రేణు దేశాయ్ మీ కొడుకుని త్వరగా హీరో చేయండి : Vijayendra Prasad | Tiger Nageswara Rao | 10TV Ent",
-    "description": "రేణు దేశాయ్ మీ కొడుకుని త్వరగా హీరో చేయండి : Vijayendra Prasad | Tiger Nageswara Rao | 10TV Ent #VijayendraPrasad #tigernageswararao #raviteja #10tvet #nupursanon #GayatriBharadwaj\nFor More Updates \nWatch 10TV LIVE  - https://www.youtube.com/watch?v=byG7EGw9NPs\n\n☛ Subscribe us @ https://bit.ly/2Fc6rhb\n☛ Subscribe to our Agriculture channel: https://bit.ly/327z4Te\n☛ Website: http://www.10tv.in\n☛ Facebook: https://www.facebook.com/10TVNewsTelugu/\n☛ Twitter:  https://twitter.com/10TVNewsTelugu\n☛ Instagram: https://bit.ly/3oK0AUu\n\n\n10tv News Channel Owned by Spoorthi Communications Private Limited. 10Tv is one of the leading News channels which the delivers National and International And Regional News Streaming 24/7.10Tv has its wings spread all over the world to deliver the trustful news.Channel Dedicated to General News, LiveReports, Breaking News, Sports News, Weather News, Entertainments, Business Updates, Big Debates, Exclusive Interviews etc.\n\n\nThank You For Visiting..\nVisit Again -Team 10TV"
-    },
-    "defaultAudioLanguage": "te"
-    },
-    "contentDetails": {
-    "duration": "PT2M1S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "106430",
-    "likeCount": "1760",
-    "favoriteCount": "0",
-    "commentCount": "39"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "ak30qZEgNqSZV7bex3r4qyE9gnY",
-    "id": "OOL2gj2Ewe0",
-    "snippet": {
-    "publishedAt": "2023-10-12T04:00:12Z",
-    "channelId": "UC91m634trv4XQcJzOWQo4qQ",
-    "title": "Mangli Bathukamma Song 2023 | Full Song | Kasarla Shyam | Suresh Bobbili | Janulyri | Damu Reddy",
-    "description": "Mangli Bathukamma Song 2023 | Full Song | Kasarla Shyam | Suresh Bobbili | Janulyri | Damu Reddy\n\n#mangli  #MangliBathukammaSong #manglisongs  #bathukammasongs2023 #manglinewsong #indravati #kasarlashyam #sureshbobbili #janulyrifolksongs \n\n\nDirector- Damu Reddy \nLyrics- Kasarla Shyam \nSekarana - Nagavva\nSinger - Mangli \nMusic - Suresh Bobbili \nCherographer- Janulyri \nDOP- Thirupati \nEditor - Prabhu Deva\nPublicity - Rana \nColorist - Aryan Mouli \nExcutive Producer - Shiva Chauhan \nSpecial Thanks - Goudicherla Venkateshwarlu (Jenwada)\n\nAudio Credits \nKeyboards:-Chicky \nFlute:-Raghava Sai\nViolin:-Sandiliya Pisapati \nGuitars:- Arun chiluveru \nTapes:- Anil Robin, Chiru mothukuri, Vikram venkataapuram\nStudio:- The Soundocck HYD\nEngeneers:-Aditya, Bhanu Prasad\nMixing & Master:- Suresh bobbili (Bobbili sounds)\nManager:- Bharath Gundamalla\nMusic arranger:-Kumar kadari",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/OOL2gj2Ewe0/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/OOL2gj2Ewe0/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/OOL2gj2Ewe0/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/OOL2gj2Ewe0/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/OOL2gj2Ewe0/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Mangli Official",
-    "tags": [
-    "Mangli",
-    "Mangli songs",
-    "Bathukamma",
-    "Bathukamma song",
-    "Bathukamma songs",
-    "Mangli bathukamma song",
-    "mangli new song",
-    "Mangli latest",
-    "Bathukamma Song 2023",
-    "Mangli Songs",
-    "Mangli Bathukamma Song",
-    "Bathukamma Song",
-    "telangana bathukamma song",
-    "mangli songs",
-    "telangana folk songs",
-    "bathukamma songs",
-    "telangana songs",
-    "bathukamma",
-    "bathukamma video songs",
-    "bathukamma song",
-    "latest bathukamma song",
-    "kasarla Shyam",
-    "Mangli New Song",
-    "Bathukamma 2023",
-    "Bathukamma Songs",
-    "2023 bathukamma songs",
-    "mangli song"
-    ],
-    "categoryId": "10",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Mangli Bathukamma Song 2023 | Full Song | Kasarla Shyam | Suresh Bobbili | Janulyri | Damu Reddy",
-    "description": "Mangli Bathukamma Song 2023 | Full Song | Kasarla Shyam | Suresh Bobbili | Janulyri | Damu Reddy\n\n#mangli  #MangliBathukammaSong #manglisongs  #bathukammasongs2023 #manglinewsong #indravati #kasarlashyam #sureshbobbili #janulyrifolksongs \n\n\nDirector- Damu Reddy \nLyrics- Kasarla Shyam \nSekarana - Nagavva\nSinger - Mangli \nMusic - Suresh Bobbili \nCherographer- Janulyri \nDOP- Thirupati \nEditor - Prabhu Deva\nPublicity - Rana \nColorist - Aryan Mouli \nExcutive Producer - Shiva Chauhan \nSpecial Thanks - Goudicherla Venkateshwarlu (Jenwada)\n\nAudio Credits \nKeyboards:-Chicky \nFlute:-Raghava Sai\nViolin:-Sandiliya Pisapati \nGuitars:- Arun chiluveru \nTapes:- Anil Robin, Chiru mothukuri, Vikram venkataapuram\nStudio:- The Soundocck HYD\nEngeneers:-Aditya, Bhanu Prasad\nMixing & Master:- Suresh bobbili (Bobbili sounds)\nManager:- Bharath Gundamalla\nMusic arranger:-Kumar kadari"
-    }
-    },
-    "contentDetails": {
-    "duration": "PT4M35S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "3443468",
-    "likeCount": "47472",
-    "favoriteCount": "0",
-    "commentCount": "1127"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "JSD_yR9ZLDgxHX80WfddngqQing",
-    "id": "NXHXImeDm2Y",
-    "snippet": {
-    "publishedAt": "2023-10-15T06:30:09Z",
-    "channelId": "UC4aTcVTewbHtLeV8eK3enwA",
-    "title": "Aagaaz by Munawar Faruqui | 3 Days - 6 Shows | Standup Comedy",
-    "description": "Intro Song: https://www.youtube.com/watch?v=UsOjsMl6LlY\nOutro Song: https://www.youtube.com/watch?v=ijOM7vzJiTY\n\nShot and Recorded by We Smile Media Team\nTeam Munawar: Nitin Menghani, Sadakat Khan, Siddhanth Rajwani and Sagar Punjabi\n\nMunawar Faruqui 2.0: https://www.youtube.com/channel/UCO5GqSfyhN36PJ-oSXqR9Uw\n\nFollow Me on Spotify: https://spoti.fi/2SIVQCa\n\nJoin my mailing list and get early updates on live shows in your city, content, and merchandise: https://forms.gle/2pF8QCEi6qWDAe4K6 \n\n#standupcomedy  #munawarfaruqui #comedy",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/NXHXImeDm2Y/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/NXHXImeDm2Y/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/NXHXImeDm2Y/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/NXHXImeDm2Y/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/NXHXImeDm2Y/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Munawar Faruqui",
-    "categoryId": "23",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Aagaaz by Munawar Faruqui | 3 Days - 6 Shows | Standup Comedy",
-    "description": "Intro Song: https://www.youtube.com/watch?v=UsOjsMl6LlY\nOutro Song: https://www.youtube.com/watch?v=ijOM7vzJiTY\n\nShot and Recorded by We Smile Media Team\nTeam Munawar: Nitin Menghani, Sadakat Khan, Siddhanth Rajwani and Sagar Punjabi\n\nMunawar Faruqui 2.0: https://www.youtube.com/channel/UCO5GqSfyhN36PJ-oSXqR9Uw\n\nFollow Me on Spotify: https://spoti.fi/2SIVQCa\n\nJoin my mailing list and get early updates on live shows in your city, content, and merchandise: https://forms.gle/2pF8QCEi6qWDAe4K6 \n\n#standupcomedy  #munawarfaruqui #comedy"
-    },
-    "defaultAudioLanguage": "en-IN"
-    },
-    "contentDetails": {
-    "duration": "PT14M18S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "783523",
-    "likeCount": "81107",
-    "favoriteCount": "0",
-    "commentCount": "2509"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "wh-M-UbciUEYuKmJT8BVRn4Yo38",
-    "id": "VVVzSLXjcHI",
-    "snippet": {
-    "publishedAt": "2023-10-13T07:00:11Z",
-    "channelId": "UCr8Tl18qM93nNMDh4CLVqKA",
-    "title": "VYOOHAM TRAILER | RAMGOPAL VARMA | వ్యూహం ట్రైలర్",
-    "description": "#vyooham #ramgopalvarma #rgv \n\n\nVYOOHAM is a film whose story revolves around the sudden circumstances which rose around the sudden death of Y S R and the subsequent plots which were weaved by various concerned.\n\n\nCast:\nAjmal Amir, Manasa Radhakrishnan, Dhanunjay Prabhune, Surabhi Prabhavati, Rekha Surekha, Vasu Inturi, Kota Jayaram, Elina Tuteja\n\n\nCrew:\nDIRECTOR : Ramgopal Varma\nDOP : Sajeesh Rajendran, \nEditor : Manish Thakurr\nMusic : Anand",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/VVVzSLXjcHI/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/VVVzSLXjcHI/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/VVVzSLXjcHI/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/VVVzSLXjcHI/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/VVVzSLXjcHI/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "RGV",
-    "tags": [
-    "rgv vyooham movie teaser",
-    "vyooham movie",
-    "vyooham movie official teaser",
-    "rgv vyooham movie official teaser",
-    "vyooham trailer",
-    "rgv vyooham movie",
-    "vyuham movie",
-    "vyuham movie trailer",
-    "rgv vyuham movie",
-    "ys bharathi vyooham movie",
-    "ramgopal varma's 'vyooham' movie teaser",
-    "vyooham teaser",
-    "vyuham trailer",
-    "vyuham movie rgv",
-    "rgv's vyooham movie",
-    "vyooham movie official teaser 2",
-    "rgv",
-    "jagan",
-    "cbn",
-    "pawan kalyan",
-    "vyuham",
-    "#Vyooham",
-    "#RGV",
-    "#Ramgopalvarma",
-    "pk",
-    "official trailer"
-    ],
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "defaultLanguage": "en-IN",
-    "localized": {
-    "title": "VYOOHAM TRAILER | RAMGOPAL VARMA | వ్యూహం ట్రైలర్",
-    "description": "#vyooham #ramgopalvarma #rgv \n\n\nVYOOHAM is a film whose story revolves around the sudden circumstances which rose around the sudden death of Y S R and the subsequent plots which were weaved by various concerned.\n\n\nCast:\nAjmal Amir, Manasa Radhakrishnan, Dhanunjay Prabhune, Surabhi Prabhavati, Rekha Surekha, Vasu Inturi, Kota Jayaram, Elina Tuteja\n\n\nCrew:\nDIRECTOR : Ramgopal Varma\nDOP : Sajeesh Rajendran, \nEditor : Manish Thakurr\nMusic : Anand"
-    },
-    "defaultAudioLanguage": "te"
-    },
-    "contentDetails": {
-    "duration": "PT2M21S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "true",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "826768",
-    "likeCount": "29914",
-    "favoriteCount": "0",
-    "commentCount": "2611"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "Uswdt-i1L_lr_ovCn5jcdngqIIw",
-    "id": "8M4XASb0VgE",
-    "snippet": {
-    "publishedAt": "2023-10-15T22:30:00Z",
-    "channelId": "UC7ZivIYRB0fMSGh-THcTYbw",
-    "title": "ब्रह्मचारिणी माता आरती - Brahmacharini Mata Aarti by Anuradha Paudwal - नवरात्रि दूसरे दिन की आरती",
-    "description": "आरती देवी ब्रह्मचारिणी जी की | Navratri Day 2 Aarti | Maa Brahmacharini Aarti | Navratri Nau Devi Aarti\nजय अम्बे ब्रह्मचारिणी माता आरती देवी ब्रह्मचारिणी को समर्पित है। देवी ब्रह्मचारिणी माता पार्वती के नौ अवतारों में से एक हैं और नवरात्रि के दूसरे दिन उनकी पूजा की जाती है।\nAarti: Brahmacharini Aarti\nSinger: Anuradha Paudwal\nMusic Director: Dr. Sanjayraj Gaurinandan (SRG)\nLyrics: Shivpoojan Patwa\n\n#navratriday2 #brahmachariniaarti #aarti \n#shemaroobhakti \n\nTop Devi Bhajan, Aarti, Gatha\n\nAnuradha Paudwal Mata Ke Bhajans-    https://youtu.be/WvRjiGCPNVw\nDurga Mantra -                                           https://youtu.be/3UrBxim1KFc\nLaxmi Aarti -                                               https://youtu.be/oec7CXRAfeE\nOm Jai Laxmi Mata -                                 https://youtu.be/zdZ67AM47u8\nMahalakshmi Stotra -                                https://youtu.be/13FH5CEUL4I\n\n\nJoin Us On\nFaceBook :   https://www.facebook.com/ShemarooBhakti\nTwitter      :   https://twitter.com/ShemarooBhakti\nInstagram :  https://www.instagram.com/shemaroobhakti\nSharechat :  https://sharechat.com/profile/shemaroobhakti\n\nअपने दिन को सकारात्मक ऊर्जा से भरने के लिए सब्सक्राइब कीजिये और अपने मित्र परिवार के साथ शेर कीजिये\n🔔 Subscribe NOW: \nhttps://www.youtube.com/@ShemarooBhakti",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/8M4XASb0VgE/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/8M4XASb0VgE/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/8M4XASb0VgE/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/8M4XASb0VgE/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/8M4XASb0VgE/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Shemaroo Bhakti",
-    "tags": [
-    "देवी ब्रह्मचारिणी आरती",
-    "ब्रह्मचारिणी माता आरती",
-    "आरती देवी ब्रह्मचारिणी जी की",
-    "मां ब्रह्मचारिणी की आरती",
-    "Maa Brahmacharini Aarti",
-    "Maa Brahmacharini Puja",
-    "ब्रह्मचारिणी की आरती",
-    "navratri day two aarti",
-    "brahmacharini aarti",
-    "Brahmacharini aarti by anuradha paudwal",
-    "navaratri songs",
-    "Navratra top navratri bhajans",
-    "durga puja",
-    "durga pooja",
-    "devi puja",
-    "देवी भजन",
-    "vaishno devi aarti",
-    "नवरात्री स्पेशल भजन",
-    "navratri bhajan",
-    "navratri bhajan 2023",
-    "SHEMAROO BHAKTI"
-    ],
-    "categoryId": "10",
-    "liveBroadcastContent": "none",
-    "defaultLanguage": "en",
-    "localized": {
-    "title": "ब्रह्मचारिणी माता आरती - Brahmacharini Mata Aarti by Anuradha Paudwal - नवरात्रि दूसरे दिन की आरती",
-    "description": "आरती देवी ब्रह्मचारिणी जी की | Navratri Day 2 Aarti | Maa Brahmacharini Aarti | Navratri Nau Devi Aarti\nजय अम्बे ब्रह्मचारिणी माता आरती देवी ब्रह्मचारिणी को समर्पित है। देवी ब्रह्मचारिणी माता पार्वती के नौ अवतारों में से एक हैं और नवरात्रि के दूसरे दिन उनकी पूजा की जाती है।\nAarti: Brahmacharini Aarti\nSinger: Anuradha Paudwal\nMusic Director: Dr. Sanjayraj Gaurinandan (SRG)\nLyrics: Shivpoojan Patwa\n\n#navratriday2 #brahmachariniaarti #aarti \n#shemaroobhakti \n\nTop Devi Bhajan, Aarti, Gatha\n\nAnuradha Paudwal Mata Ke Bhajans-    https://youtu.be/WvRjiGCPNVw\nDurga Mantra -                                           https://youtu.be/3UrBxim1KFc\nLaxmi Aarti -                                               https://youtu.be/oec7CXRAfeE\nOm Jai Laxmi Mata -                                 https://youtu.be/zdZ67AM47u8\nMahalakshmi Stotra -                                https://youtu.be/13FH5CEUL4I\n\n\nJoin Us On\nFaceBook :   https://www.facebook.com/ShemarooBhakti\nTwitter      :   https://twitter.com/ShemarooBhakti\nInstagram :  https://www.instagram.com/shemaroobhakti\nSharechat :  https://sharechat.com/profile/shemaroobhakti\n\nअपने दिन को सकारात्मक ऊर्जा से भरने के लिए सब्सक्राइब कीजिये और अपने मित्र परिवार के साथ शेर कीजिये\n🔔 Subscribe NOW: \nhttps://www.youtube.com/@ShemarooBhakti"
-    },
-    "defaultAudioLanguage": "hi"
-    },
-    "contentDetails": {
-    "duration": "PT5M46S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "96632",
-    "likeCount": "2164",
-    "favoriteCount": "0",
-    "commentCount": "122"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "-C_q-BJLIFohzM4v4KCglVtzwZU",
-    "id": "owxJRSAGNT4",
-    "snippet": {
-    "publishedAt": "2023-10-15T03:25:40Z",
-    "channelId": "UC2woPAI_KMAR25R_oezEQqw",
-    "title": "Gaanja Shankar - First High | Sai Dharam Tej | Naga Vamsi S | Sampath Nandi | Bheems Ceciroleo",
-    "description": "Presenting you all the FIRST HIGH of our #GaanjaShankar 😎🔥 ft. Our MEGA SUPREME Hero #SaiDharamTej in a never before MASSS SURGE! 🔥\n\nA #SampathNandi maSSS Hurricane 🌀\n\nRe-defining the MASS with this MASSive combination 💥\n\nGaanja Shankar is our upcoming telugu feature film starring Mega Supreme Sai Dharam Tej in Lead Role. Directed by Sampath Nandi. Produced by S. Naga Vamsi & Sai Soujanya. Music by Bheems Ceciroleo. Cinematography by Rishi Punjabi. Production Design by AS Prakash.\n\nCast & Crew: \nStarring: Sai Dharam Tej\nWritten & Directed by: Sampath Nandi\nMusic Director: Bheems Ceciroleo\nDOP: Rishi Punjabi\nArt Director: A.S. Prakash\nProducers: Naga Vamsi S - Sai Soujanya\nProduction: Sithara Entertainments, Fortune Four Cinemas\nPresenter: Srikara Studios\n\n\n► Subscribe: http://youtube.com/SitharaEntertainments\n► Like: https://facebook.com/SitharaEntertainments\n► Follow: http://instagram.com/SitharaEntertainments\n► Follow: https://twitter.com/SitharaEnts",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/owxJRSAGNT4/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/owxJRSAGNT4/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/owxJRSAGNT4/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/owxJRSAGNT4/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/owxJRSAGNT4/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Sithara Entertainments",
-    "tags": [
-    "Sithara Entertainments",
-    "gaanja shankar",
-    "sdt17",
-    "sdt 17 first look",
-    "gaanja shankar first high",
-    "gaanja shankar first look",
-    "sai dharam tej",
-    "sampath nandi",
-    "s naga vamsi",
-    "sai soujany",
-    "Bheems Ceciroleo",
-    "gaanja shankar announcement",
-    "gaanja shankar movie",
-    "sai tej",
-    "sampath nandi gaanja shankar movie",
-    "first high of gaanja shankar"
-    ],
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "defaultLanguage": "en",
-    "localized": {
-    "title": "Gaanja Shankar - First High | Sai Dharam Tej | Naga Vamsi S | Sampath Nandi | Bheems Ceciroleo",
-    "description": "Presenting you all the FIRST HIGH of our #GaanjaShankar 😎🔥 ft. Our MEGA SUPREME Hero #SaiDharamTej in a never before MASSS SURGE! 🔥\n\nA #SampathNandi maSSS Hurricane 🌀\n\nRe-defining the MASS with this MASSive combination 💥\n\nGaanja Shankar is our upcoming telugu feature film starring Mega Supreme Sai Dharam Tej in Lead Role. Directed by Sampath Nandi. Produced by S. Naga Vamsi & Sai Soujanya. Music by Bheems Ceciroleo. Cinematography by Rishi Punjabi. Production Design by AS Prakash.\n\nCast & Crew: \nStarring: Sai Dharam Tej\nWritten & Directed by: Sampath Nandi\nMusic Director: Bheems Ceciroleo\nDOP: Rishi Punjabi\nArt Director: A.S. Prakash\nProducers: Naga Vamsi S - Sai Soujanya\nProduction: Sithara Entertainments, Fortune Four Cinemas\nPresenter: Srikara Studios\n\n\n► Subscribe: http://youtube.com/SitharaEntertainments\n► Like: https://facebook.com/SitharaEntertainments\n► Follow: http://instagram.com/SitharaEntertainments\n► Follow: https://twitter.com/SitharaEnts"
-    },
-    "defaultAudioLanguage": "te"
-    },
-    "contentDetails": {
-    "duration": "PT1M40S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "955990",
-    "likeCount": "49096",
-    "favoriteCount": "0",
-    "commentCount": "903"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "tgwn0oi37wGTH76srkhGGS89Dqo",
-    "id": "kcTV3G-Wi34",
-    "snippet": {
-    "publishedAt": "2023-10-11T13:00:09Z",
-    "channelId": "UCn4rEMqKtwBQ6-oEwbd4PcA",
-    "title": "LEO - Anbenum Lyric | Thalapathy Vijay | Lokesh Kanagaraj | Anirudh Ravichander",
-    "description": "Song Title : Anbenum\nAlbum / Movie : Leo\nComposed by Anirudh Ravichander\nLyrics - Vishnu Edavan\nVocals - Anirudh Ravichander & Lothika\n\nComposed, Arranged & Programmed by Anirudh Ravichander\nAcoustic & Electric Guitar by Keba Jeremiah\nSolo Cello by Balaji Supervised by Balasubramaniam \nVocal Harmonies by Jishnu Vijayan\nKeyboard, Synth & Rhythm Programmed by Anirudh Ravichander\nRhythm Produced by Shashank Vijay\nAdditional Keyboard Programmed IC, Arish-Pradeep PJ, Jishnu Vijayan\nMusic Advisor - Ananthakrrishnan\nCreative Consultant - Sajith Satya\n\nRecorded at\nAlbuquerque Records, Chennai,Engineered by Srinivasan M, Shivakiran S, Rajesh\nKannan\nUNO Records,Engineered by Biju James, Assisted by Abin Ponnachan\nMixed by Vinay Sridhar & Srinivasan M at Albuquerque Records, Chennai\nMastered by Luca Pretolesi at Studio DMI, Las Vegas, Assisted by\nMusic Coordinator - Velavan B\n\nStarring - Thalapathy Vijay, Sanjay Dutt, Trisha, Priya Anand, Arjun, Mansoor Ali Khan\nWritten & Directed by Lokesh Kanagaraj\nProducer : Lalit Kumar\nCo Producer : Jagadish Palanisamy\nBanner : Seven Screen Studio\nDirector of Photography : Manoj Paramahamsa\nAction : Anbariv \nEditor : Philomin Raj \nArt Direction : N. Sathees Kumar \nChoreography : Dinesh\nCostume designers - Pallavi Singh, Eka Lakhani, Praveen Raja\nDialogue Writer : Lokesh Kanagaraj, Rathna Kumar, Deeraj Vaidy\nPRO :  Riaz K Ahmed  \nPublicity Designer : Gopi Prasannaa\nSound Designer : SYNC Cinema \nSound Mixing : Kannan Ganapat \nProduction Controller : KTS Swaminathan\nExecutive Producer : Ramkumar Balasubramanian\nAssociate Director : Santhosh Krishnan, Sathya, Immanuel Prakash, Rohith Surya\nDI ; IGENE\nColorist ; Glen Castinho\nAsst Colorist ;Siva Sankar\n\nMusic Label - Sony Music Entertainment India Pvt. Ltd.\n\n© 2023 Sony Music Entertainment India Pvt. Ltd.\n\nSubscribe Now: http://bit.ly/SonyMusicSouthVevo\nSubscribe Now: http://bit.ly/SonyMusicSouthYT\nFollow us: https://www.instagram.com/sonymusic_south/\nFollow us: Twitter: https://twitter.com/SonyMusicSouth\nLike us: Facebook: https://www.facebook.com/SonyMusicSouth",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/kcTV3G-Wi34/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/kcTV3G-Wi34/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/kcTV3G-Wi34/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/kcTV3G-Wi34/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/kcTV3G-Wi34/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Sony Music South",
-    "tags": [
-    "Sony Music South",
-    "Sony Music",
-    "Latest Song",
-    "Tamil song",
-    "Tamil Latest Song",
-    "Tamil Latest Songs 2020",
-    "Tamil Latest Songs 2021",
-    "Latest songs in Tamil",
-    "Songs in Tamil",
-    "Latest Tamil Movies",
-    "Tamil Movie Songs",
-    "Latest Video Songs Tamil",
-    "latest Tamil Love Songs",
-    "Latest Tamil Hit Songs",
-    "leo",
-    "leo update",
-    "leo second single",
-    "leo trailer",
-    "leo audio launch",
-    "leo badass",
-    "badass leo",
-    "badass promo",
-    "thalapathy vijay",
-    "anirudh songs",
-    "anirudh"
-    ],
-    "categoryId": "10",
-    "liveBroadcastContent": "none",
-    "defaultLanguage": "en-GB",
-    "localized": {
-    "title": "LEO - Anbenum Lyric | Thalapathy Vijay | Lokesh Kanagaraj | Anirudh Ravichander",
-    "description": "Song Title : Anbenum\nAlbum / Movie : Leo\nComposed by Anirudh Ravichander\nLyrics - Vishnu Edavan\nVocals - Anirudh Ravichander & Lothika\n\nComposed, Arranged & Programmed by Anirudh Ravichander\nAcoustic & Electric Guitar by Keba Jeremiah\nSolo Cello by Balaji Supervised by Balasubramaniam \nVocal Harmonies by Jishnu Vijayan\nKeyboard, Synth & Rhythm Programmed by Anirudh Ravichander\nRhythm Produced by Shashank Vijay\nAdditional Keyboard Programmed IC, Arish-Pradeep PJ, Jishnu Vijayan\nMusic Advisor - Ananthakrrishnan\nCreative Consultant - Sajith Satya\n\nRecorded at\nAlbuquerque Records, Chennai,Engineered by Srinivasan M, Shivakiran S, Rajesh\nKannan\nUNO Records,Engineered by Biju James, Assisted by Abin Ponnachan\nMixed by Vinay Sridhar & Srinivasan M at Albuquerque Records, Chennai\nMastered by Luca Pretolesi at Studio DMI, Las Vegas, Assisted by\nMusic Coordinator - Velavan B\n\nStarring - Thalapathy Vijay, Sanjay Dutt, Trisha, Priya Anand, Arjun, Mansoor Ali Khan\nWritten & Directed by Lokesh Kanagaraj\nProducer : Lalit Kumar\nCo Producer : Jagadish Palanisamy\nBanner : Seven Screen Studio\nDirector of Photography : Manoj Paramahamsa\nAction : Anbariv \nEditor : Philomin Raj \nArt Direction : N. Sathees Kumar \nChoreography : Dinesh\nCostume designers - Pallavi Singh, Eka Lakhani, Praveen Raja\nDialogue Writer : Lokesh Kanagaraj, Rathna Kumar, Deeraj Vaidy\nPRO :  Riaz K Ahmed  \nPublicity Designer : Gopi Prasannaa\nSound Designer : SYNC Cinema \nSound Mixing : Kannan Ganapat \nProduction Controller : KTS Swaminathan\nExecutive Producer : Ramkumar Balasubramanian\nAssociate Director : Santhosh Krishnan, Sathya, Immanuel Prakash, Rohith Surya\nDI ; IGENE\nColorist ; Glen Castinho\nAsst Colorist ;Siva Sankar\n\nMusic Label - Sony Music Entertainment India Pvt. Ltd.\n\n© 2023 Sony Music Entertainment India Pvt. Ltd.\n\nSubscribe Now: http://bit.ly/SonyMusicSouthVevo\nSubscribe Now: http://bit.ly/SonyMusicSouthYT\nFollow us: https://www.instagram.com/sonymusic_south/\nFollow us: Twitter: https://twitter.com/SonyMusicSouth\nLike us: Facebook: https://www.facebook.com/SonyMusicSouth"
-    },
-    "defaultAudioLanguage": "en-IN"
-    },
-    "contentDetails": {
-    "duration": "PT3M37S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "11335043",
-    "likeCount": "905606",
-    "favoriteCount": "0",
-    "commentCount": "17456"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "NxYUNaTZKBIK3SThySUFspsALng",
-    "id": "63Vi9YK1CoM",
-    "snippet": {
-    "publishedAt": "2023-10-16T02:30:08Z",
-    "channelId": "UCjvgGbPPn-FgYeguc5nxG4A",
-    "title": "Ye Kon Mil Gaya ? 😅 Airport Pe",
-    "description": "Follow me on Instagram- https://www.instagram.com/souravjoshivlogs/?hl=en\n \nI hope you enjoyed this video\n\nhit likes.\nAnd do subscribe to my channel\n\nThank you so much for watching\n\ngod bless you all.\nlots of  ❤️\n\n( For Collaboration - officialsouravjoshivlogs@gmail.com",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/63Vi9YK1CoM/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/63Vi9YK1CoM/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/63Vi9YK1CoM/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/63Vi9YK1CoM/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/63Vi9YK1CoM/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Sourav Joshi Vlogs",
-    "tags": [
-    "sourav joshi",
-    "sourav joshi arts",
-    "sourav joshi vlog",
-    "vlog",
-    "vlogs",
-    "daily vlogs",
-    "family vlogs",
-    "travel videos",
-    "travel vlogs",
-    "south korea",
-    "south korea vlogs",
-    "pohh in korea",
-    "piyush joshi",
-    "piyush joshi vlogs",
-    "south korea skin care"
-    ],
-    "categoryId": "22",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Ye Kon Mil Gaya ? 😅 Airport Pe",
-    "description": "Follow me on Instagram- https://www.instagram.com/souravjoshivlogs/?hl=en\n \nI hope you enjoyed this video\n\nhit likes.\nAnd do subscribe to my channel\n\nThank you so much for watching\n\ngod bless you all.\nlots of  ❤️\n\n( For Collaboration - officialsouravjoshivlogs@gmail.com"
-    }
-    },
-    "contentDetails": {
-    "duration": "PT8M1S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "2634725",
-    "likeCount": "247468",
-    "favoriteCount": "0",
-    "commentCount": "3809"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "v3BkzSkZjUqb-FMZhZuOVN1htlE",
-    "id": "7QV4JVmea3A",
-    "snippet": {
-    "publishedAt": "2023-10-15T05:30:01Z",
-    "channelId": "UC7SUNWBflDLQ4MNJ8E5TJUw",
-    "title": "బాలాత్రిపుర సుందరీ దేవి | Ft. Harini | Navaratri Special Day 01 | Neeli Meghaalaloo | Tamada Media",
-    "description": "Neutriderm Amazon Store - https://www.amazon.in/stores/page/E9531BC9-C5A1-42ED-9D8B-215EF36856A7?\nDermavive Amazon store - https://www.amazon.in/stores/page/5C4EFDF7-3F6F-481C-B821-1092D1A61409?\nPre-makeup skincare combo - https://bit.ly/46P1PFL \nDermavive Moisturising Lotion - https://bit.ly/46Qv7nk\nDermavive Hydra Cleanser - https://bit.ly/48PRCuH\nhttps://bit.ly/3EIrHaThese Products are also available on Flipkart, 1 mg, Myntra, Firstcry, Purplle\n\n\n\nWe are professional from TV industry. we have acted in many telugu serials . we are here  to entertain you guys. For more videos do like share and comment dont forget to subscribe. https://bit.ly/3u1448L\n\nPowered BY #TamadaMedia\n\nFollow us on Insta \nhttps://www.instagram.com/indra_actor_official/?hl=en\nhttps://www.instagram.com/raamimeghna/?hl=en\n\nTo Follow : NMFoods On Insta\nhttps://www.instagram.com/nmfoodsofficial/?igshid=YmMyMTA2M2Y%3D\n\n\n#NEELIMEGHAALALOO  #indraneil #meghnaraami",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/7QV4JVmea3A/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/7QV4JVmea3A/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/7QV4JVmea3A/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/7QV4JVmea3A/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/7QV4JVmea3A/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Neeli Meghaalaloo",
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "defaultLanguage": "en-IN",
-    "localized": {
-    "title": "బాలాత్రిపుర సుందరీ దేవి | Ft. Harini | Navaratri Special Day 01 | Neeli Meghaalaloo | Tamada Media",
-    "description": "Neutriderm Amazon Store - https://www.amazon.in/stores/page/E9531BC9-C5A1-42ED-9D8B-215EF36856A7?\nDermavive Amazon store - https://www.amazon.in/stores/page/5C4EFDF7-3F6F-481C-B821-1092D1A61409?\nPre-makeup skincare combo - https://bit.ly/46P1PFL \nDermavive Moisturising Lotion - https://bit.ly/46Qv7nk\nDermavive Hydra Cleanser - https://bit.ly/48PRCuH\nhttps://bit.ly/3EIrHaThese Products are also available on Flipkart, 1 mg, Myntra, Firstcry, Purplle\n\n\n\nWe are professional from TV industry. we have acted in many telugu serials . we are here  to entertain you guys. For more videos do like share and comment dont forget to subscribe. https://bit.ly/3u1448L\n\nPowered BY #TamadaMedia\n\nFollow us on Insta \nhttps://www.instagram.com/indra_actor_official/?hl=en\nhttps://www.instagram.com/raamimeghna/?hl=en\n\nTo Follow : NMFoods On Insta\nhttps://www.instagram.com/nmfoodsofficial/?igshid=YmMyMTA2M2Y%3D\n\n\n#NEELIMEGHAALALOO  #indraneil #meghnaraami"
-    },
-    "defaultAudioLanguage": "te"
-    },
-    "contentDetails": {
-    "duration": "PT28M50S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "251713",
-    "likeCount": "8086",
-    "favoriteCount": "0",
-    "commentCount": "294"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "fCLuNYPAU_lCXhYnchSKHux6u5c",
-    "id": "5sbYs2ayYh4",
-    "snippet": {
-    "publishedAt": "2023-10-16T05:37:52Z",
-    "channelId": "UCBnxEdpoZwstJqC1yZpOjRA",
-    "title": "Ethirneechal - Promo | 16 October 2023 | Sun TV Serial | Tamil Serial",
-    "description": "Watch the Latest Promo of popular Tamil Serial #Ethirneechal that airs on Sun TV.\n\nWatch all your favourite serials exclusively ONLY on Sun NXT for FREE. *Free only for Indian Users.\n\nDownload here:\nAndroid - http://bit.ly/SunNxtAdroid\niOS: India - http://bit.ly/sunNXT\nWatch on the web - https://www.sunnxt.com/\n\nUrged by her father, Janani is always a high achiever. But her marriage into a patriarchal family dashes her dream of a career. Thus begins Janani's arduous journey towards empowering her family's oppressed women to unleash their power.\n\n#EthirneechalPromo #EthirneechalSerial #Ethirneechal #SunTVSerial #SunTV\n\nDon't forget to SUBSCRIBE to the Sun TV YouTube 👉 http://bit.ly/suntvsubscribe\n\n---------------------------------------------------------\nWatch more:\nMovie Clips on SUN NXT - https://bit.ly/3gc1dPI\nShows from Sun Music - http://bit.ly/2YS5eBi\nComedy Shows from AdithyaTV - http://bit.ly/2K6VaiZ\nNews from Sun News - http://bit.ly/2Yyvgsi\n---------------------------------------------------------\nSUN NXT: Watch the latest movies in DOLBY DIGITAL PLUS, 4000+ Movies in HD, 30+ Live TV Channels, TV Shows, TV Serials & Digital Exclusives on SUN NXT anywhere anytime.\n---------------------------------------------------------\nFollow us on Social Media for Latest Updates:\nFacebook: https://www.facebook.com/SunTV\nTwitter: https://twitter.com/SunTV\nInstagram: https://www.instagram.com/suntv\n---------------------------------------------------------\n#SuntvSerial #TamilSerialPromo #SunTVshows #NewTamilSerials #SunTV #SunTVserials #SunTVProgram #SunNXT #LatestTamilSerials #SuntvSerialPromo #SuntvSerialEpisodes #SunTVpromos #TamilSerialPromos #TamilTVserials #TamilSerialEpisodes\n---------------------------------------------------------",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/5sbYs2ayYh4/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/5sbYs2ayYh4/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/5sbYs2ayYh4/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/5sbYs2ayYh4/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/5sbYs2ayYh4/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Sun TV",
-    "tags": [
-    "Ethirneechal",
-    "Ethirneechal serial",
-    "Ethirneechal promo",
-    "Ethirneechal today",
-    "Ethirneechal serial today",
-    "Ethirneechal sun tv serial",
-    "Sun TV Serial",
-    "Sun TV Serials",
-    "sun tv tamil serial",
-    "SunTV Serial Today",
-    "sun tv serial today",
-    "Sun tv full episodes",
-    "Sun tv tamil full episodes",
-    "Sun tv tamil shows",
-    "sun tv shows",
-    "Tamil Serials",
-    "tamil serials sun tv",
-    "Tamil Serial episodes"
-    ],
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "defaultLanguage": "en",
-    "localized": {
-    "title": "Ethirneechal - Promo | 16 October 2023 | Sun TV Serial | Tamil Serial",
-    "description": "Watch the Latest Promo of popular Tamil Serial #Ethirneechal that airs on Sun TV.\n\nWatch all your favourite serials exclusively ONLY on Sun NXT for FREE. *Free only for Indian Users.\n\nDownload here:\nAndroid - http://bit.ly/SunNxtAdroid\niOS: India - http://bit.ly/sunNXT\nWatch on the web - https://www.sunnxt.com/\n\nUrged by her father, Janani is always a high achiever. But her marriage into a patriarchal family dashes her dream of a career. Thus begins Janani's arduous journey towards empowering her family's oppressed women to unleash their power.\n\n#EthirneechalPromo #EthirneechalSerial #Ethirneechal #SunTVSerial #SunTV\n\nDon't forget to SUBSCRIBE to the Sun TV YouTube 👉 http://bit.ly/suntvsubscribe\n\n---------------------------------------------------------\nWatch more:\nMovie Clips on SUN NXT - https://bit.ly/3gc1dPI\nShows from Sun Music - http://bit.ly/2YS5eBi\nComedy Shows from AdithyaTV - http://bit.ly/2K6VaiZ\nNews from Sun News - http://bit.ly/2Yyvgsi\n---------------------------------------------------------\nSUN NXT: Watch the latest movies in DOLBY DIGITAL PLUS, 4000+ Movies in HD, 30+ Live TV Channels, TV Shows, TV Serials & Digital Exclusives on SUN NXT anywhere anytime.\n---------------------------------------------------------\nFollow us on Social Media for Latest Updates:\nFacebook: https://www.facebook.com/SunTV\nTwitter: https://twitter.com/SunTV\nInstagram: https://www.instagram.com/suntv\n---------------------------------------------------------\n#SuntvSerial #TamilSerialPromo #SunTVshows #NewTamilSerials #SunTV #SunTVserials #SunTVProgram #SunNXT #LatestTamilSerials #SuntvSerialPromo #SuntvSerialEpisodes #SunTVpromos #TamilSerialPromos #TamilTVserials #TamilSerialEpisodes\n---------------------------------------------------------"
-    },
-    "defaultAudioLanguage": "ta"
-    },
-    "contentDetails": {
-    "duration": "PT31S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "1091675",
-    "likeCount": "17209",
-    "favoriteCount": "0",
-    "commentCount": "811"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "zHkTX9ttPIS8SCIS-4G4BGUeZV8",
-    "id": "Y1c7IxgCWVM",
-    "snippet": {
-    "publishedAt": "2023-10-15T16:52:33Z",
-    "channelId": "UCVXCo0W9pk2dDkEBNLhTt7A",
-    "title": "🔴ENG VS AFG:  BIGGEST DAY FOR AFGHANISTAN, STUN DEFENDING CHAMPIONS ENGLAND, BEWARE PAKISTAN",
-    "description": "World Cup 2023, England vs Afghanistan Highlights: Afghanistan have registered a historic win against defending champions England, beating them by 69 runs in New Delhi. Afghanistan bowled out England for 215 runs after posting 284 runs in the first innings.\nDownload Link For Super11 Fantasy League: https://t.ly/Ab-Xd\nCheckout Infinix Phones: https://bit.ly/Infinixlt\nTry American Pistachios - https://americanpistachios.in/\nTo Register on Poorva Holidays : https://www.poorvaholidays.com/\nOkinawa Electric Scooters: https://okinawascooters.com/\n\n\nVisit https://thesportstak.com for lightning-fast live scores, special updates, highlights and specific statistics of players and teams. You can also catch pre and post-match interviews of players, coaches across sports on the website and the app. \n\nSports Tak on the Play Store: https://play.google.com/store/apps/details?id=com.sportstoday\nSports Tak on the App Store: https://apps.apple.com/in/app/sports-tak/id1562101475\n\nJoin this channel to get access to the perks:\n\nSports tak live\nVikrant Gupta sports journalist \nBCCi\nWorld Cup\nWorld Cup 2023\nICC CWC 2023\nENGLAND VS AFGHANISTAN\nENGLAND VS AFGHANISTAN LIVE\nENG VS AFG LIVE\nENGLAND VS AFGHANISTAN LIVE\nWORLD CUP LIVE\n\n\n\n\n\nSports Tak Facebook: https://www.facebook.com/sportstak/\nSports Tak Twitter: https://twitter.com/sports_tak\nSports Tak Instagram: https://www.instagram.com/sportstakofficial\n\nVikrant Gupta \nSports Tak\nAaj Tak\nAaj Taj Live \nIndia vs Pakistan \nPakistan vs India \nRohit Sharma batting \nRohit Sharma sixes \nAhmedabad \nIndvsPak\nSpiots tak live\nSports Tak \nVirat Kohli \nJasprit Bumrah \nIndian win celebrations\nVikrant Gupta sports journalist \nBabar Azam \nRizwan \nShaheen Afridi bowling \nBCCi\nWorld Cup\nWorld Cup 2023\nICC CWC 2023",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/Y1c7IxgCWVM/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/Y1c7IxgCWVM/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/Y1c7IxgCWVM/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/Y1c7IxgCWVM/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/Y1c7IxgCWVM/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Sports Tak",
-    "tags": [
-    "Sports Tak",
-    "Sports Tak News",
-    "Sports Tak Breaking",
-    "ENG VS AFG",
-    "ENGLAND VS AFGHANISTAN",
-    "ENG VS AFG WORLD CUP 2023",
-    "ENGLAND VS AFGHANISTAN WORLD CUP 2023",
-    "ENGLAND BATTING VS AFGHANISTAN BOWLING",
-    "AFGHANISTAN BOWLING VS ENGLAND BATTING",
-    "MUJEEB BOWLING VS ENGLAND",
-    "NABI BOWLING VS ENGLAND",
-    "RASHID KHAN BOWLING VS ENGLAND",
-    "HARRY BROOK BATTING VS AFG",
-    "DAWID MALAN BATTING VS AFG",
-    "WORLD CUP LIVE ON SPORTS TAK",
-    "SPORTS TAK LIVE ON WORLD CUP",
-    "WORLD CUP LIVE",
-    "WORLD CUP LIVE UPDATE"
+    "fútbol",
+    "pelota",
+    "gol",
+    "copa",
+    "libertadores",
+    "sudamericana",
+    "eliminatorias",
+    "mundial"
     ],
     "categoryId": "17",
     "liveBroadcastContent": "none",
     "localized": {
-    "title": "🔴ENG VS AFG:  BIGGEST DAY FOR AFGHANISTAN, STUN DEFENDING CHAMPIONS ENGLAND, BEWARE PAKISTAN",
-    "description": "World Cup 2023, England vs Afghanistan Highlights: Afghanistan have registered a historic win against defending champions England, beating them by 69 runs in New Delhi. Afghanistan bowled out England for 215 runs after posting 284 runs in the first innings.\nDownload Link For Super11 Fantasy League: https://t.ly/Ab-Xd\nCheckout Infinix Phones: https://bit.ly/Infinixlt\nTry American Pistachios - https://americanpistachios.in/\nTo Register on Poorva Holidays : https://www.poorvaholidays.com/\nOkinawa Electric Scooters: https://okinawascooters.com/\n\n\nVisit https://thesportstak.com for lightning-fast live scores, special updates, highlights and specific statistics of players and teams. You can also catch pre and post-match interviews of players, coaches across sports on the website and the app. \n\nSports Tak on the Play Store: https://play.google.com/store/apps/details?id=com.sportstoday\nSports Tak on the App Store: https://apps.apple.com/in/app/sports-tak/id1562101475\n\nJoin this channel to get access to the perks:\n\nSports tak live\nVikrant Gupta sports journalist \nBCCi\nWorld Cup\nWorld Cup 2023\nICC CWC 2023\nENGLAND VS AFGHANISTAN\nENGLAND VS AFGHANISTAN LIVE\nENG VS AFG LIVE\nENGLAND VS AFGHANISTAN LIVE\nWORLD CUP LIVE\n\n\n\n\n\nSports Tak Facebook: https://www.facebook.com/sportstak/\nSports Tak Twitter: https://twitter.com/sports_tak\nSports Tak Instagram: https://www.instagram.com/sportstakofficial\n\nVikrant Gupta \nSports Tak\nAaj Tak\nAaj Taj Live \nIndia vs Pakistan \nPakistan vs India \nRohit Sharma batting \nRohit Sharma sixes \nAhmedabad \nIndvsPak\nSpiots tak live\nSports Tak \nVirat Kohli \nJasprit Bumrah \nIndian win celebrations\nVikrant Gupta sports journalist \nBabar Azam \nRizwan \nShaheen Afridi bowling \nBCCi\nWorld Cup\nWorld Cup 2023\nICC CWC 2023"
+    "title": "PERÚ vs. ARGENTINA [0-2] | RESUMEN | ELIMINATORIAS SUDAMERICANAS | FECHA 3",
+    "description": "¡Argentina pisó fuerte en Lima y se llevó otro triunfo! Venció a Perú por 2-0 con un doblete de Lionel Messi y sigue con puntaje perfecto en las #EliminatoriasSudamericanas 🔝🇦🇷\n\n#CreeEnGrande\n\nSuscríbete I Inscreva-se I Subscribe: http://bit.ly/CONMEBOL\n\nFacebook: facebook.com/CONMEBOL\nInstagram: instagram.com/conmebol/\nTwitter: twitter.com/CONMEBOL"
     },
-    "defaultAudioLanguage": "en-IN"
+    "defaultAudioLanguage": "es-419"
     },
     "contentDetails": {
-    "duration": "PT50M21S",
+    "duration": "PT10M9S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
@@ -3260,92 +163,596 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "755895",
-    "likeCount": "22491",
+    "viewCount": "4418328",
     "favoriteCount": "0",
-    "commentCount": "998"
+    "commentCount": "4297"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "Z6pj6DWnFQ5qi0AzwYcqOhX5yMs",
-    "id": "4sIW7y9g2hw",
+    "etag": "xBETUujWLYLOhEsMfwolp6YX7Xw",
+    "id": "2Pkqs4MVuYk",
     "snippet": {
-    "publishedAt": "2023-10-13T08:29:17Z",
-    "channelId": "UCoweKPtlDbcsX3xjXf9xVHA",
-    "title": "Noori (Official Music Video) | Fukra Insaan X Komal | Drishti Kharbanda | Indiea Records",
-    "description": "This one is super special!\nNoori is all about those unforgettable memories and that one-of-a-kind love that can't be duplicated by anyone else.\nY’all killed it with the teaser, so show as much and more support for the song!\nLet me know your favourite part in the comments below.\n \nSinger: Fukra Insaan & Komal Sohi\nMusic, Lyrics & Composition - Jaskaran Singh\nMixed & Mastered by: Mukul Jain\nDirector /DOP - Manish Shunty \nProduction designer - Shubra Shah\nChief AD - Adit thakur \nDOP assistant - Abhishek \nEditor/Colorist-Mr.luvv\nLine producers: Monty Production\nArt : Rahul \nStill making : J Singh \nMakup artist : Aamir \nSpot team : Shubam \nSteady cam : Sandeep \nJimmy jib : Vicky \nProduction team : Harry and Gagan \nTransport : Hindustan \nDrone operator: harwinder \nLight : Devraj and deva films \nCamra : Cinedream \nLocal boy hp : Rahul Sloni \nFood : Monoj Catering \n\nIn association with CollabX Entertainment\n\nLyrics :\nTenu karan yaad inhaa jinaa koi kar nahi sakda\nTenu karan pyaar inhaa jinaa koi kar nahi sakda\n \ntu meriyan ve saari gallan janda\nmai tetho sanga sab tu pehchhanda\nWay sarda na hove jado dur tu\nhaal ankhan vicho padh mutiyaar da\n \ntera jeya sachi ve koi sohna ni\nae kehn da tareeka koi hona ni\npaleya mai tenu kade khone ni\nMai vi karan tenu pyar\n \nMai kol tere v awa\nTe naal tenu bithawa\nJe pyar kara madi tenu\nTe pyar hi mai v chawa\nKaran kadar tere mai pyar di\nTan hi khushi tenu din raat dava\nMai na hor kise de naal dissa\nBas tenu hi mai chawa\n \nTenu rakha way mai dil ch wassa k\nNoor way bna k zindagi tu meriye\nTeri ankh wich surmaa mai paa k\nKol way bitha k karan gallan teriyeee\n \nTenu karan yaad inhaa jinaa koi kar nahi sakda\nTenu karan pyaar inhaa jinaa koi kar nahi sakda\n\n(c) Indiea Records 2023",
+    "publishedAt": "2023-10-18T03:03:40Z",
+    "channelId": "UCzU8-lZlRfkV3nj0RzAZdrQ",
+    "title": "URUGUAY vs. BRASIL [2-0] | RESUMEN | ELIMINATORIAS SUDAMERICANAS | FECHA 4",
+    "description": "🔝🇺🇾 ¡Gran victoria de Uruguay! Con goles de Darwin Núñez y Nicolás de la Cruz, venció en las #EliminatoriasSudamericanas a #Brasil, que volvió a perder después de 37 partidos.\n\nSuscríbete I Inscreva-se I Subscribe: http://bit.ly/CONMEBOL\n\nFacebook: facebook.com/CONMEBOL\nInstagram: instagram.com/conmebol/\nTwitter: twitter.com/CONMEBOL",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/4sIW7y9g2hw/default.jpg",
+    "url": "https://i.ytimg.com/vi/2Pkqs4MVuYk/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/4sIW7y9g2hw/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/2Pkqs4MVuYk/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/4sIW7y9g2hw/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/2Pkqs4MVuYk/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/4sIW7y9g2hw/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/2Pkqs4MVuYk/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/4sIW7y9g2hw/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/2Pkqs4MVuYk/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "MALHAN RECORDS",
+    "channelTitle": "CONMEBOL",
     "tags": [
-    "fukra insaan",
-    "fukra insaan live",
-    "triggered insaan",
-    "fukra insaan song",
-    "Fukra Insaan",
-    "Drishti Kharbanda",
-    "Noori",
-    "Fukra insaan Noori",
-    "noori fukra insaan",
-    "noori song fukra insaan",
-    "fukra insaan latest",
-    "noori drishti kharbanda",
-    "drishti kharbanda and abhishek",
-    "abhishek drishti kharbanda",
-    "abhishek fukra insaan",
-    "abhishek fukra insaan song",
-    "noori abhishek",
-    "abhishek malhan",
-    "abhishek malhan song",
-    "noori abhishek malhan",
-    "abhishek fukra insaan new song",
-    "new song",
-    "new songs",
-    "hindi song"
+    "fútbol",
+    "pelota",
+    "gol",
+    "copa",
+    "libertadores",
+    "sudamericana",
+    "eliminatorias",
+    "mundial"
     ],
-    "categoryId": "10",
+    "categoryId": "17",
     "liveBroadcastContent": "none",
     "localized": {
-    "title": "Noori (Official Music Video) | Fukra Insaan X Komal | Drishti Kharbanda | Indiea Records",
-    "description": "This one is super special!\nNoori is all about those unforgettable memories and that one-of-a-kind love that can't be duplicated by anyone else.\nY’all killed it with the teaser, so show as much and more support for the song!\nLet me know your favourite part in the comments below.\n \nSinger: Fukra Insaan & Komal Sohi\nMusic, Lyrics & Composition - Jaskaran Singh\nMixed & Mastered by: Mukul Jain\nDirector /DOP - Manish Shunty \nProduction designer - Shubra Shah\nChief AD - Adit thakur \nDOP assistant - Abhishek \nEditor/Colorist-Mr.luvv\nLine producers: Monty Production\nArt : Rahul \nStill making : J Singh \nMakup artist : Aamir \nSpot team : Shubam \nSteady cam : Sandeep \nJimmy jib : Vicky \nProduction team : Harry and Gagan \nTransport : Hindustan \nDrone operator: harwinder \nLight : Devraj and deva films \nCamra : Cinedream \nLocal boy hp : Rahul Sloni \nFood : Monoj Catering \n\nIn association with CollabX Entertainment\n\nLyrics :\nTenu karan yaad inhaa jinaa koi kar nahi sakda\nTenu karan pyaar inhaa jinaa koi kar nahi sakda\n \ntu meriyan ve saari gallan janda\nmai tetho sanga sab tu pehchhanda\nWay sarda na hove jado dur tu\nhaal ankhan vicho padh mutiyaar da\n \ntera jeya sachi ve koi sohna ni\nae kehn da tareeka koi hona ni\npaleya mai tenu kade khone ni\nMai vi karan tenu pyar\n \nMai kol tere v awa\nTe naal tenu bithawa\nJe pyar kara madi tenu\nTe pyar hi mai v chawa\nKaran kadar tere mai pyar di\nTan hi khushi tenu din raat dava\nMai na hor kise de naal dissa\nBas tenu hi mai chawa\n \nTenu rakha way mai dil ch wassa k\nNoor way bna k zindagi tu meriye\nTeri ankh wich surmaa mai paa k\nKol way bitha k karan gallan teriyeee\n \nTenu karan yaad inhaa jinaa koi kar nahi sakda\nTenu karan pyaar inhaa jinaa koi kar nahi sakda\n\n(c) Indiea Records 2023"
+    "title": "URUGUAY vs. BRASIL [2-0] | RESUMEN | ELIMINATORIAS SUDAMERICANAS | FECHA 4",
+    "description": "🔝🇺🇾 ¡Gran victoria de Uruguay! Con goles de Darwin Núñez y Nicolás de la Cruz, venció en las #EliminatoriasSudamericanas a #Brasil, que volvió a perder después de 37 partidos.\n\nSuscríbete I Inscreva-se I Subscribe: http://bit.ly/CONMEBOL\n\nFacebook: facebook.com/CONMEBOL\nInstagram: instagram.com/conmebol/\nTwitter: twitter.com/CONMEBOL"
     },
-    "defaultAudioLanguage": "hi"
+    "defaultAudioLanguage": "es-419"
     },
     "contentDetails": {
-    "duration": "PT4M2S",
+    "duration": "PT10M8S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
-    "licensedContent": false,
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "4225878",
+    "favoriteCount": "0",
+    "commentCount": "4310"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "a0ozB7O4zoX3WAm9N7hV-l4tD4Y",
+    "id": "cMagxRyrvIs",
+    "snippet": {
+    "publishedAt": "2023-10-18T13:00:28Z",
+    "channelId": "UCINb0wqPz-A0dV9nARjJlOQ",
+    "title": "Pittie Patiently Waits By The Fence Each Morning To Greet His Neighbors | The Dodo",
+    "description": "Pittie stands up at her fence and does the cutest butt wiggle when neighbors walk by... but there's one person who's her favorite ❤️\n\nKeep up with @tubsthebluestaffy on Instagram: https://thedo.do/tubsthebluestaffy, TikTok: https://thedo.do/TubsTheBlueStaffy & Facebook: https://thedo.do/Tubsthebluestaffy.\n\nLove Animals? Subscribe: http://thedo.do/2tv6Ocd\n¿Hablas español?: https://thedo.do/2BsuN4o\n\nFollow The Dodo:\nTweet with us on Twitter: https://thedo.do/2Jast1M\nHowl with us on TikTok: https://thedo.do/2qFkbGT\nTake a peek at our Snapchat: http://thedo.do/2gkVhsz\nLove our Instagram: http://thedo.do/2agAEce\nLike us on Facebook: http://thedo.do/1dJ9lmn\nRead more on our site: http://thedo.do/KWDoNt\n\nFor the love of animals. Pass it on.\n#thedodo #animals #dog #cat #kitten #puppy",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/cMagxRyrvIs/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/cMagxRyrvIs/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/cMagxRyrvIs/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/cMagxRyrvIs/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/cMagxRyrvIs/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "The Dodo",
+    "tags": [
+    "animal video",
+    "animals",
+    "the dodo",
+    "Animal Rescue",
+    "dodo",
+    "cute animals",
+    "pets",
+    "wildlife",
+    "pet videos",
+    "wildlife videos",
+    "animals the dodo",
+    "the dodo animals",
+    "rescuing animals"
+    ],
+    "categoryId": "15",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "Pittie Patiently Waits By The Fence Each Morning To Greet His Neighbors | The Dodo",
+    "description": "Pittie stands up at her fence and does the cutest butt wiggle when neighbors walk by... but there's one person who's her favorite ❤️\n\nKeep up with @tubsthebluestaffy on Instagram: https://thedo.do/tubsthebluestaffy, TikTok: https://thedo.do/TubsTheBlueStaffy & Facebook: https://thedo.do/Tubsthebluestaffy.\n\nLove Animals? Subscribe: http://thedo.do/2tv6Ocd\n¿Hablas español?: https://thedo.do/2BsuN4o\n\nFollow The Dodo:\nTweet with us on Twitter: https://thedo.do/2Jast1M\nHowl with us on TikTok: https://thedo.do/2qFkbGT\nTake a peek at our Snapchat: http://thedo.do/2gkVhsz\nLove our Instagram: http://thedo.do/2agAEce\nLike us on Facebook: http://thedo.do/1dJ9lmn\nRead more on our site: http://thedo.do/KWDoNt\n\nFor the love of animals. Pass it on.\n#thedodo #animals #dog #cat #kitten #puppy"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT3M1S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "1341903",
+    "likeCount": "23337",
+    "favoriteCount": "0",
+    "commentCount": "1129"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "4XBoHALs3VCg3LUmqrnRG5E2CZw",
+    "id": "LcKoyrvqE4I",
+    "snippet": {
+    "publishedAt": "2023-10-17T21:28:40Z",
+    "channelId": "UCooTLkxcpnTNx6vfOovfBFA",
+    "title": "England vs. Italy Highlights | European Qualifiers",
+    "description": "Check out the Highlights as England took on Italy in the European Qualifiers.\n\n#FOXSoccer #Soccer #EnglandVsItaly \n\nSUBSCRIBE to get the latest FOX Soccer content: http://foxs.pt/SubscribeFOXSOCCER\nThe all-new FOX Sports App, built for the modern sports fan: https://tinyurl.com/y4uouolb\n\n►FOX Sports YouTube Channel: http://foxs.pt/SubscribeFOXSPORTS\n►PBC ON FOX’s YouTube Channel: https://foxs.pt/SubscribePBCONFOX\n►WWE ON FOX YouTube channel: https://foxs.pt/SubscribeWWEONFOX\n►NASCAR ON FOX YouTube channel: https://foxs.pt/SubscribeNASCARonFOX\n►CFB ON FOX YouTube channel: https://foxs.pt/SubscribeCFBonFOX\n\nSee more from FOX Soccer: https://foxs.pt/FOXSoccer\nLike FOX Soccer on Facebook: https://foxs.pt/FOXSoccerFacebook\nFollow FOX Soccer on Twitter: https://foxs.pt/FOXSoccerTwitter\nFollow FOX Soccer on Instagram: https://foxs.pt/FOXSoccerInstagram\n\nAbout FOX Soccer:\nWith exclusive highlights, original programming, and behind the scenes footage, FOX Soccer’s YouTube channel provides the sports content that fans are hungry for. FOX Soccer presents: Bundesliga, MLS, FIFA World Cup, FIFA Women’s World Cup, Copa America, Gold Cup and many more.\n\nEngland vs. Italy Highlights | European Qualifiers\nhttps://youtu.be/LcKoyrvqE4I\n\nFOX Soccer\nhttps://www.youtube.com/user/Foxsoccer",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/LcKoyrvqE4I/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/LcKoyrvqE4I/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/LcKoyrvqE4I/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/LcKoyrvqE4I/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/LcKoyrvqE4I/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "FOX Soccer",
+    "tags": [
+    "Italy",
+    "Euro Cup",
+    "Harry Kane",
+    "England"
+    ],
+    "categoryId": "17",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "England vs. Italy Highlights | European Qualifiers",
+    "description": "Check out the Highlights as England took on Italy in the European Qualifiers.\n\n#FOXSoccer #Soccer #EnglandVsItaly \n\nSUBSCRIBE to get the latest FOX Soccer content: http://foxs.pt/SubscribeFOXSOCCER\nThe all-new FOX Sports App, built for the modern sports fan: https://tinyurl.com/y4uouolb\n\n►FOX Sports YouTube Channel: http://foxs.pt/SubscribeFOXSPORTS\n►PBC ON FOX’s YouTube Channel: https://foxs.pt/SubscribePBCONFOX\n►WWE ON FOX YouTube channel: https://foxs.pt/SubscribeWWEONFOX\n►NASCAR ON FOX YouTube channel: https://foxs.pt/SubscribeNASCARonFOX\n►CFB ON FOX YouTube channel: https://foxs.pt/SubscribeCFBonFOX\n\nSee more from FOX Soccer: https://foxs.pt/FOXSoccer\nLike FOX Soccer on Facebook: https://foxs.pt/FOXSoccerFacebook\nFollow FOX Soccer on Twitter: https://foxs.pt/FOXSoccerTwitter\nFollow FOX Soccer on Instagram: https://foxs.pt/FOXSoccerInstagram\n\nAbout FOX Soccer:\nWith exclusive highlights, original programming, and behind the scenes footage, FOX Soccer’s YouTube channel provides the sports content that fans are hungry for. FOX Soccer presents: Bundesliga, MLS, FIFA World Cup, FIFA Women’s World Cup, Copa America, Gold Cup and many more.\n\nEngland vs. Italy Highlights | European Qualifiers\nhttps://youtu.be/LcKoyrvqE4I\n\nFOX Soccer\nhttps://www.youtube.com/user/Foxsoccer"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT8M18S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "regionRestriction": {
+    "allowed": [
+    "US"
+    ]
+    },
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "644978",
+    "likeCount": "8499",
+    "favoriteCount": "0",
+    "commentCount": "879"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "ZeuLtjHtG8Ff-9LR9fvVZ0zXAHo",
+    "id": "LIsfMO5Jd_w",
+    "snippet": {
+    "publishedAt": "2023-10-18T12:59:40Z",
+    "channelId": "UCz97F7dMxBNOfGYu3rx8aCw",
+    "title": "NAPOLEON - Official Trailer #2 (HD)",
+    "description": "Joaquin Phoenix takes the crown. Watch the new trailer for #Napoleon, from acclaimed director Ridley Scott. See it in Premium Large Formats, Screen X, 70mm and IMAX this Thanksgiving.  \n\nVisit our site: https://www.Napoleon.movie\n\nFollow Us on Social: \nhttps://www.facebook.com/NapoleonMovie\nhttps://www.instagram.com/NapoleonMovie\nhttps://www.twitter.com/NapoleonMovie\nhttps://www.tiktok.com/@SonyPictures\n\nSubscribe to the Sony Pictures YouTube Channel for more exclusive content: http://bit.ly/SonyPicsSubscribe \n\nNapoleon is a spectacle-filled action epic that details the checkered rise and fall of the iconic French Emperor Napoleon Bonaparte, played by Oscar®-winner Joaquin Phoenix. Against a stunning backdrop of large-scale filmmaking orchestrated by legendary director Ridley Scott, the film captures Bonaparte's relentless journey to power through the prism of his addictive, volatile relationship with his one true love, Josephine, showcasing his visionary military and political tactics against some of the most dynamic practical battle sequences ever filmed.\n\nDirected by: Ridley Scott\n\nWritten by: David Scarpa\n\nProduced by:\nRidley Scott\nKevin J. Walsh\nMark Huffam\nJoaquin Phoenix\n\nExecutive Producers: \nRaymond Kirk\nAidan Elliott\nMichael Pruss\n\nCast: \nJoaquin Phoenix\nVanessa Kirby\n\n#Napoleon #NapoleonMovie #RidleyScott #JoaquinPhoenix #VanessaKirby #Trailer #OfficialTrailer #SonyPictures #Sony #Movie",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/LIsfMO5Jd_w/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/LIsfMO5Jd_w/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/LIsfMO5Jd_w/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/LIsfMO5Jd_w/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/LIsfMO5Jd_w/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Sony Pictures Entertainment",
+    "categoryId": "24",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "NAPOLEON - Official Trailer #2 (HD)",
+    "description": "Joaquin Phoenix takes the crown. Watch the new trailer for #Napoleon, from acclaimed director Ridley Scott. See it in Premium Large Formats, Screen X, 70mm and IMAX this Thanksgiving.  \n\nVisit our site: https://www.Napoleon.movie\n\nFollow Us on Social: \nhttps://www.facebook.com/NapoleonMovie\nhttps://www.instagram.com/NapoleonMovie\nhttps://www.twitter.com/NapoleonMovie\nhttps://www.tiktok.com/@SonyPictures\n\nSubscribe to the Sony Pictures YouTube Channel for more exclusive content: http://bit.ly/SonyPicsSubscribe \n\nNapoleon is a spectacle-filled action epic that details the checkered rise and fall of the iconic French Emperor Napoleon Bonaparte, played by Oscar®-winner Joaquin Phoenix. Against a stunning backdrop of large-scale filmmaking orchestrated by legendary director Ridley Scott, the film captures Bonaparte's relentless journey to power through the prism of his addictive, volatile relationship with his one true love, Josephine, showcasing his visionary military and political tactics against some of the most dynamic practical battle sequences ever filmed.\n\nDirected by: Ridley Scott\n\nWritten by: David Scarpa\n\nProduced by:\nRidley Scott\nKevin J. Walsh\nMark Huffam\nJoaquin Phoenix\n\nExecutive Producers: \nRaymond Kirk\nAidan Elliott\nMichael Pruss\n\nCast: \nJoaquin Phoenix\nVanessa Kirby\n\n#Napoleon #NapoleonMovie #RidleyScott #JoaquinPhoenix #VanessaKirby #Trailer #OfficialTrailer #SonyPictures #Sony #Movie"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT2M25S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "5407752",
+    "likeCount": "38867",
+    "favoriteCount": "0",
+    "commentCount": "2668"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "9PYieUGWTBtHnwGQxxJZpKdLq1U",
+    "id": "iWT0kl1k32M",
+    "snippet": {
+    "publishedAt": "2023-10-17T14:30:12Z",
+    "channelId": "UChBEbMKI1eCcejTtmI32UEw",
+    "title": "I Tried Food From Every State In America",
+    "description": "Get the NEW COOKBOOK: https://bit.ly/TextureOverTaste\n\nSigned Copies, International, and Indie Bookstores: https://bit.ly/WeissmanCookbook\n\nMeet me at my Book Tour: https://geni.us/TextureOverTasteTour\n\nFOLLOW ME:\nInstagram: https://www.instagram.com/joshuaweissman\nTik Tok: https://www.tiktok.com/@flakeysalt\nTwitter: https://twitter.com/therealweissman\nFacebook: https://www.facebook.com/thejoshuaweissman\nSubreddit: https://www.reddit.com/r/JoshuaWeissman/\nDiscord Server: https://discord.gg/joshuaweissman\n---------------------------------------------------------------",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/iWT0kl1k32M/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/iWT0kl1k32M/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/iWT0kl1k32M/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/iWT0kl1k32M/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/iWT0kl1k32M/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Joshua Weissman",
+    "tags": [
+    "sat bawl pro",
+    "joshua weissman",
+    "american food",
+    "american food reaction",
+    "america",
+    "best food in every state",
+    "food",
+    "every state food",
+    "food in america",
+    "fast food from every state",
+    "state food",
+    "best food in every state reaction",
+    "tier list",
+    "airrack",
+    "fast food",
+    "USA top foods",
+    "food in every state",
+    "california food",
+    "texas food",
+    "US food",
+    "new york food",
+    "nyc food",
+    "nyc pizza",
+    "texas barbecue",
+    "weird american food",
+    "american fast food",
+    "burger recipe",
+    "best american foods",
+    "food ranked",
+    "burger"
+    ],
+    "categoryId": "26",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "I Tried Food From Every State In America",
+    "description": "Get the NEW COOKBOOK: https://bit.ly/TextureOverTaste\n\nSigned Copies, International, and Indie Bookstores: https://bit.ly/WeissmanCookbook\n\nMeet me at my Book Tour: https://geni.us/TextureOverTasteTour\n\nFOLLOW ME:\nInstagram: https://www.instagram.com/joshuaweissman\nTik Tok: https://www.tiktok.com/@flakeysalt\nTwitter: https://twitter.com/therealweissman\nFacebook: https://www.facebook.com/thejoshuaweissman\nSubreddit: https://www.reddit.com/r/JoshuaWeissman/\nDiscord Server: https://discord.gg/joshuaweissman\n---------------------------------------------------------------"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT33M53S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "1305195",
+    "likeCount": "52593",
+    "favoriteCount": "0",
+    "commentCount": "9697"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "hRizwREwCPgmfRc16pQlD3hh3cA",
+    "id": "9xZY7g9FWho",
+    "snippet": {
+    "publishedAt": "2023-10-18T17:05:02Z",
+    "channelId": "UCvgfXK4nTYKudb0rFR6noLA",
+    "title": "UFC 294 Embedded: Vlog Series - Episode 3",
+    "description": "Featherweight champion Alexander Volkanovski arrives in Abu Dhabi. Lightweight champ Islam Makhachev melds basketball with Sambo. Kamaru Usman and Khamzat Chimaev do intense workouts, then have a virtual sitdown with Chael Sonnen. Don't miss UFC 294 on Saturday, October 21.\n\nUFC 294: Makhachev vs Volkanovski 2 main card action kicks off at 2pm ET / 11am PT! HOW TO WATCH? Link 👉 https://ufc.ac/3PY0MfT\n\n@VisitAbuDhabiChannel \n\nSubscribe to get all the latest UFC content: https://ufc.ac/3u8FIJp\n\nExperience UFC live with UFC FIGHT PASS, the digital subscription service of the UFC. Visit https://ufcfightpass.com/\n\nTo order UFC Pay-Per-Views on ESPN+, visit https://ufc.ac/3NKBvmx (U.S. only)\n\nTo order UFC Pay-Per-Views, visit http://welcome.ufcfightpass.com/#PPV (Non U.S.)\n\n👉 Shop official UFC Gear, visit https://ufcstore.com\n👉 Shop official UFC Memorabilia, visit https://ufccollectibles.com\n👉 Shop official UFC VIP Live Event Experiences, visit https://ufc.ac/3Oz2gLH\n\nConnect with UFC online and on Social:\n🔴 Website: http://www.ufc.com\n🔵 Twitter: http://www.twitter.com/ufc\n🔵 Facebook: http://www.facebook.com/ufc\n🔴 Instagram: http://www.instagram.com/ufc\n🟡 Snapchat: UFC\n🟣 Twitch: https://www.twitch.tv/ufc\n\nConnect with UFC FIGHT PASS on Social:\n🔵 Twitter: http://www.twitter.com/ufcfightpass\n🔵 Facebook: http://www.facebook.com/ufcfightpass\n🔴 Instagram: http://www.instagram.com/ufcfightpass\n\n#UFC #UFC294 #ESPNMMA #InAbuDhabi #VisitAbuDhabi",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/9xZY7g9FWho/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/9xZY7g9FWho/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/9xZY7g9FWho/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/9xZY7g9FWho/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/9xZY7g9FWho/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "UFC",
+    "tags": [
+    "ufc",
+    "mma",
+    "ultimate fighting championship",
+    "Islam",
+    "Makhachev",
+    "Alexander",
+    "Volkanovski",
+    "Khamzat",
+    "Chimaev",
+    "Kamaru",
+    "Usman",
+    "Johnny",
+    "Walker",
+    "Abu Dhabi",
+    "Embedded",
+    "UFC 294"
+    ],
+    "categoryId": "17",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "UFC 294 Embedded: Vlog Series - Episode 3",
+    "description": "Featherweight champion Alexander Volkanovski arrives in Abu Dhabi. Lightweight champ Islam Makhachev melds basketball with Sambo. Kamaru Usman and Khamzat Chimaev do intense workouts, then have a virtual sitdown with Chael Sonnen. Don't miss UFC 294 on Saturday, October 21.\n\nUFC 294: Makhachev vs Volkanovski 2 main card action kicks off at 2pm ET / 11am PT! HOW TO WATCH? Link 👉 https://ufc.ac/3PY0MfT\n\n@VisitAbuDhabiChannel \n\nSubscribe to get all the latest UFC content: https://ufc.ac/3u8FIJp\n\nExperience UFC live with UFC FIGHT PASS, the digital subscription service of the UFC. Visit https://ufcfightpass.com/\n\nTo order UFC Pay-Per-Views on ESPN+, visit https://ufc.ac/3NKBvmx (U.S. only)\n\nTo order UFC Pay-Per-Views, visit http://welcome.ufcfightpass.com/#PPV (Non U.S.)\n\n👉 Shop official UFC Gear, visit https://ufcstore.com\n👉 Shop official UFC Memorabilia, visit https://ufccollectibles.com\n👉 Shop official UFC VIP Live Event Experiences, visit https://ufc.ac/3Oz2gLH\n\nConnect with UFC online and on Social:\n🔴 Website: http://www.ufc.com\n🔵 Twitter: http://www.twitter.com/ufc\n🔵 Facebook: http://www.facebook.com/ufc\n🔴 Instagram: http://www.instagram.com/ufc\n🟡 Snapchat: UFC\n🟣 Twitch: https://www.twitch.tv/ufc\n\nConnect with UFC FIGHT PASS on Social:\n🔵 Twitter: http://www.twitter.com/ufcfightpass\n🔵 Facebook: http://www.facebook.com/ufcfightpass\n🔴 Instagram: http://www.instagram.com/ufcfightpass\n\n#UFC #UFC294 #ESPNMMA #InAbuDhabi #VisitAbuDhabi"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT9M47S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
     "regionRestriction": {
     "blocked": [
-    "BY",
+    "BR"
+    ]
+    },
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "714988",
+    "likeCount": "18462",
+    "favoriteCount": "0",
+    "commentCount": "1618"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "3oagMizFplDxVA1aWO7Y1kxIFIg",
+    "id": "j2-sTUqLoCQ",
+    "snippet": {
+    "publishedAt": "2023-10-17T15:09:35Z",
+    "channelId": "UCdtXPiqI2cLorKaPrfpKc4g",
+    "title": "Suzanne Somers' Husband Alan Hamel and Son Bruce Reflect on the Star's Final Moments (Exclusive)",
+    "description": "Suzanne Somers' husband, Alan Hamel, and her son, Bruce, chat with ET's Kevin Frazier about their final moments with the late star. The 'Three's Company' actress died on Sunday morning at 76. Alan and Bruce look back at their time with Suzanne and share how they will keep her memory alive.",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/j2-sTUqLoCQ/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/j2-sTUqLoCQ/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/j2-sTUqLoCQ/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/j2-sTUqLoCQ/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/j2-sTUqLoCQ/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Entertainment Tonight",
+    "tags": [
+    "Suzanne Somers",
+    "Suzanne Somers interview",
+    "Suzanne Somers son",
+    "Suzanne Somers husband",
+    "Suzanne Somers dead",
+    "Suzanne Somers death",
+    "Suzanne Somers died"
+    ],
+    "categoryId": "24",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en",
+    "localized": {
+    "title": "Suzanne Somers' Husband Alan Hamel and Son Bruce Reflect on the Star's Final Moments (Exclusive)",
+    "description": "Suzanne Somers' husband, Alan Hamel, and her son, Bruce, chat with ET's Kevin Frazier about their final moments with the late star. The 'Three's Company' actress died on Sunday morning at 76. Alan and Bruce look back at their time with Suzanne and share how they will keep her memory alive."
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT14M42S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "1899916",
+    "likeCount": "15518",
+    "favoriteCount": "0",
+    "commentCount": "2161"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "DvqmCY8JDES-dgRTJ5LmOHp_bOw",
+    "id": "re9liJeET8c",
+    "snippet": {
+    "publishedAt": "2023-10-18T16:00:44Z",
+    "channelId": "UCf2WBemooP2gBBx3lrraNQw",
+    "title": "blink-182 - YOU DON'T KNOW WHAT YOU'VE GOT (Official Lyric Video)",
+    "description": "Official Lyric Video for “YOU DON'T KNOW WHAT YOU'VE GOT” by blink-182\n \nListen to & Download “YOU DON'T KNOW WHAT YOU'VE GOT” out now: https://blink182.lnk.to/YDKWYG\n \n“ONE MORE TIME…” the new album from blink-182 is out October 20th!\nPre-Order: https://blink182.lnk.to/ONEMORETIME\nPre-Save/Pre-Add: https://blink182.lnk.to/presaveOMT\n \nAmazon Music: https://blink182.lnk.to/YDKWYG/AmazonMusic\nApple Music: https://blink182.lnk.to/YDKWYG/AppleMusic\niTunes: https://blink182.lnk.to/YDKWYG/iTunes\nPandora: https://blink182.lnk.to/YDKWYG/Pandora\nSoundcloud: https://blink182.lnk.to/YDKWYG/Soundcloud\nSpotify: https://blink182.lnk.to/YDKWYG/Spotify\nYouTube Music: https://blink182.lnk.to/YDKWYG/YouTubeMusic\nYouTube: https://blink182.lnk.to/YDKWYG/YouTube\n \nFollow blink-182:\nhttp://facebook.com/blink182\nhttp://instagram.com/blink182\nhttp://twitter.com/blink182\nhttps://www.tiktok.com/@blink182\nhttps://www.blink182.com/\n \nLyrics:\nOne phone call wiped out a year\nLike waves swept under the pier\nLong weeks of impending doom\nStuck in life’s waiting room\n              \nAlways so close to goodbye\nPushed so far over the line\nNo new light under the moon\nStuck in life’s waiting room\n              \nYou don’t know what you’ve got\nYou don’t know what you’ve got \nYou don’t know what you’ve got \n’Til it’s almost gone\nYou don’t know what you’ve got\nYou don’t know what you’ve got\nYou don’t know what you’ve got \n’Til it’s over\n \nAnother day in the life\nYou can’t look me in the eye \nThere’s nothing left you could say\nIt wouldn’t help anyway\nThis poison skin you can’t touch\nGo on without me, my love\nNo kiss to send you away\nIt wouldn’t help anyway\n \nYou don’t know what you’ve got\nYou don’t know what you’ve got \nYou don’t know what you’ve got \n’Til it’s almost gone\nYou don’t know what you’ve got\nYou don’t know what you’ve got\nYou don’t know what you’ve got \n’Til it’s over\n \nI begged for your forgiveness\nI made a deal with God\nI took you all for granted\nYou can write my epilogue\n \nYou don’t know what you’ve got\nYou don’t know what you’ve got \nYou don’t know what you’ve got \n’Til it’s almost gone\nYou don’t know what you’ve got\nYou don’t know what you’ve got\nYou don’t know what you’ve got \n’Til it’s over\n \nAnd over, And over, And over\nAnd over, And over, And over\nAnd over, And over, And over\nAnd over, And over, And over\n \n#blink182 #YOUDONTKNOWWHATYOUVEGOT #ONEMORETIME",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/re9liJeET8c/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/re9liJeET8c/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/re9liJeET8c/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/re9liJeET8c/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/re9liJeET8c/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "blink182VEVO",
+    "tags": [
+    "Columbia",
+    "Rock",
+    "YOU DON'T KNOW WHAT YOU'VE GOT",
+    "blink-182"
+    ],
+    "categoryId": "10",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "blink-182 - YOU DON'T KNOW WHAT YOU'VE GOT (Official Lyric Video)",
+    "description": "Official Lyric Video for “YOU DON'T KNOW WHAT YOU'VE GOT” by blink-182\n \nListen to & Download “YOU DON'T KNOW WHAT YOU'VE GOT” out now: https://blink182.lnk.to/YDKWYG\n \n“ONE MORE TIME…” the new album from blink-182 is out October 20th!\nPre-Order: https://blink182.lnk.to/ONEMORETIME\nPre-Save/Pre-Add: https://blink182.lnk.to/presaveOMT\n \nAmazon Music: https://blink182.lnk.to/YDKWYG/AmazonMusic\nApple Music: https://blink182.lnk.to/YDKWYG/AppleMusic\niTunes: https://blink182.lnk.to/YDKWYG/iTunes\nPandora: https://blink182.lnk.to/YDKWYG/Pandora\nSoundcloud: https://blink182.lnk.to/YDKWYG/Soundcloud\nSpotify: https://blink182.lnk.to/YDKWYG/Spotify\nYouTube Music: https://blink182.lnk.to/YDKWYG/YouTubeMusic\nYouTube: https://blink182.lnk.to/YDKWYG/YouTube\n \nFollow blink-182:\nhttp://facebook.com/blink182\nhttp://instagram.com/blink182\nhttp://twitter.com/blink182\nhttps://www.tiktok.com/@blink182\nhttps://www.blink182.com/\n \nLyrics:\nOne phone call wiped out a year\nLike waves swept under the pier\nLong weeks of impending doom\nStuck in life’s waiting room\n              \nAlways so close to goodbye\nPushed so far over the line\nNo new light under the moon\nStuck in life’s waiting room\n              \nYou don’t know what you’ve got\nYou don’t know what you’ve got \nYou don’t know what you’ve got \n’Til it’s almost gone\nYou don’t know what you’ve got\nYou don’t know what you’ve got\nYou don’t know what you’ve got \n’Til it’s over\n \nAnother day in the life\nYou can’t look me in the eye \nThere’s nothing left you could say\nIt wouldn’t help anyway\nThis poison skin you can’t touch\nGo on without me, my love\nNo kiss to send you away\nIt wouldn’t help anyway\n \nYou don’t know what you’ve got\nYou don’t know what you’ve got \nYou don’t know what you’ve got \n’Til it’s almost gone\nYou don’t know what you’ve got\nYou don’t know what you’ve got\nYou don’t know what you’ve got \n’Til it’s over\n \nI begged for your forgiveness\nI made a deal with God\nI took you all for granted\nYou can write my epilogue\n \nYou don’t know what you’ve got\nYou don’t know what you’ve got \nYou don’t know what you’ve got \n’Til it’s almost gone\nYou don’t know what you’ve got\nYou don’t know what you’ve got\nYou don’t know what you’ve got \n’Til it’s over\n \nAnd over, And over, And over\nAnd over, And over, And over\nAnd over, And over, And over\nAnd over, And over, And over\n \n#blink182 #YOUDONTKNOWWHATYOUVEGOT #ONEMORETIME"
+    }
+    },
+    "contentDetails": {
+    "duration": "PT3M20S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "regionRestriction": {
+    "blocked": [
     "RU"
     ]
     },
@@ -3353,61 +760,1422 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "2874455",
-    "likeCount": "482316",
+    "viewCount": "283989",
+    "likeCount": "22379",
     "favoriteCount": "0",
-    "commentCount": "52339"
+    "commentCount": "1824"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "QezPl-ODV9A1oGVA7NhgVceVZwU",
-    "id": "Kr8F06Iy2Ig",
+    "etag": "R5_hMxzV6vJRojYjwNgvZCRcbCY",
+    "id": "sC9MLfreCdo",
     "snippet": {
-    "publishedAt": "2023-10-13T12:47:25Z",
-    "channelId": "UC9I8DWhqm5q7U_4fhfDwZIw",
-    "title": "My Instagram Inbox !!",
-    "description": "Download Probo & Earn Money:- https://probo-in.onelink.me/1kre/Arjyou14oct\n\nSecond Channel : https://www.youtube.com/Arjyoulive\nMy instagram : https://www.instagram.com/arjyou_/\nMy Facebook page : https://www.facebook.com/arjunsundaresanofficial/\n\nThumbnail by : JR Bharath  ( https://www.instagram.com/j.r_bharath )\n\n⚙️My Setup⚙️\n\nCamera : https://amzn.to/2KIZAQc\n\nHeadset : https://amzn.to/396yfj5 \n\nKeyboard: https://amzn.to/2LaFJsO\n\nMouse: https://amzn.to/2LdVJKt\n\nMicrophone : https://amzn.to/3pCYAM6\n\nMicrophone Stand : https://amzn.to/3o6eRsG\n\nWebcam : https://amzn.to/2JyOHQ8\n\nDisclaimer : DISCLAIMER: Please don't go out of your way to or hate on anyone I talk about in my videos, this channel is to entertain people and I usually focus on joking about what the people are doing not the individual themselves, please don't go spreading hate it's all for laughs\n\nCopyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for \"fair use\" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use.\n\nThank you !",
+    "publishedAt": "2023-10-18T02:49:10Z",
+    "channelId": "UCk1pcWQ5E19g0Cgp4c1eI1w",
+    "title": "USMNT vs. Ghana | Highlights: October 17, 2023",
+    "description": "USMNT vs. Ghana | Highlights: October 17, 2023",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/Kr8F06Iy2Ig/default.jpg",
+    "url": "https://i.ytimg.com/vi/sC9MLfreCdo/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/Kr8F06Iy2Ig/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/sC9MLfreCdo/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/Kr8F06Iy2Ig/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/sC9MLfreCdo/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/Kr8F06Iy2Ig/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/sC9MLfreCdo/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/Kr8F06Iy2Ig/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/sC9MLfreCdo/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "Arjyou",
+    "channelTitle": "U.S. Soccer",
     "tags": [
-    "Arjyou",
-    "Arjyou reaction",
-    "Arjyoulive"
+    "Christian Pulisic",
+    "Folarin Balogun",
+    "Gideon Mensah",
+    "Giovanni Reyna",
+    "PLAYS",
+    "USMNT vs. Ghana"
+    ],
+    "categoryId": "17",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "USMNT vs. Ghana | Highlights: October 17, 2023",
+    "description": "USMNT vs. Ghana | Highlights: October 17, 2023"
+    }
+    },
+    "contentDetails": {
+    "duration": "PT3M55S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "291099",
+    "likeCount": "2784",
+    "favoriteCount": "0",
+    "commentCount": "496"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "zW8iq0DYcskHosTPzt80rwOfkwQ",
+    "id": "-1_ViBGFr6w",
+    "snippet": {
+    "publishedAt": "2023-10-18T15:18:50Z",
+    "channelId": "UCUK0HBIBWgM2c4vsPhkYY4w",
+    "title": "Explosive Popcorn Maker at 10,000FPS - The Slow Mo Guys",
+    "description": "Gav and Dan make some instant explosive popcorn while capturing the glory at 10,000FPS. \nInstagram - https://www.instagram.com/theslowmoguys\nFilmed with the Phantom VEO 4K and T4040\nExplosive Popcorn Maker at 10,000FPS - The Slow Mo Guys",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/-1_ViBGFr6w/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/-1_ViBGFr6w/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/-1_ViBGFr6w/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/-1_ViBGFr6w/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/-1_ViBGFr6w/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "The Slow Mo Guys",
+    "tags": [
+    "slomo",
+    "slow",
+    "mo",
+    "super",
+    "motion",
+    "Slow Motion",
+    "1000",
+    "1000fps",
+    "gav",
+    "dan",
+    "slowmoguys",
+    "phantom",
+    "guys",
+    "HD",
+    "flex",
+    "gavin",
+    "free",
+    "gavin free",
+    "high speed camera",
+    "the slow mo guys",
+    "2000",
+    "2000fps",
+    "5000",
+    "5000fps",
+    "exploding",
+    "chinese",
+    "popcorn"
+    ],
+    "categoryId": "24",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en-GB",
+    "localized": {
+    "title": "Explosive Popcorn Maker at 10,000FPS - The Slow Mo Guys",
+    "description": "Gav and Dan make some instant explosive popcorn while capturing the glory at 10,000FPS. \nInstagram - https://www.instagram.com/theslowmoguys\nFilmed with the Phantom VEO 4K and T4040\nExplosive Popcorn Maker at 10,000FPS - The Slow Mo Guys"
+    },
+    "defaultAudioLanguage": "en-GB"
+    },
+    "contentDetails": {
+    "duration": "PT9M31S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "435867",
+    "likeCount": "35250",
+    "favoriteCount": "0",
+    "commentCount": "1297"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "ovKtv5PyY2HoiZSb2w6GhQWnWqs",
+    "id": "Rh-QERu25m0",
+    "snippet": {
+    "publishedAt": "2023-10-18T00:38:30Z",
+    "channelId": "UCOeBh24sQmLp7s2xpdMaThg",
+    "title": "SURPRISING MY WIFE WITH HER DREAM CAR FOR HER BIRTHDAY..",
+    "description": "MAKE SURE YOU LIKE, COMMENT, SHARE & SUBSCRIBE TO MY YOUTUBE CHANNEL AND FOLLOW ME ON THIS ADVENTURE CALLED LIFE !\n\nFOLLOW ME ;\n\nMy Instagram - Clarencenyc\nMy Twitter - Clarencenyc\nMy Snapchat - CLARENCE.NYC",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/Rh-QERu25m0/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/Rh-QERu25m0/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/Rh-QERu25m0/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/Rh-QERu25m0/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/Rh-QERu25m0/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "ClarenceNYC TV",
+    "tags": [
+    "clarencenyc",
+    "clarence",
+    "queennaija",
+    "clarence&queen",
+    "vlogs",
+    "spicygang",
+    "spicymafia",
+    "royalfamily",
+    "family",
+    "vloggers",
+    "celebrity",
+    "car tour",
+    "g wagon review",
+    "g wagon 2023",
+    "g wagon review 2023"
     ],
     "categoryId": "24",
     "liveBroadcastContent": "none",
     "localized": {
-    "title": "My Instagram Inbox !!",
-    "description": "Download Probo & Earn Money:- https://probo-in.onelink.me/1kre/Arjyou14oct\n\nSecond Channel : https://www.youtube.com/Arjyoulive\nMy instagram : https://www.instagram.com/arjyou_/\nMy Facebook page : https://www.facebook.com/arjunsundaresanofficial/\n\nThumbnail by : JR Bharath  ( https://www.instagram.com/j.r_bharath )\n\n⚙️My Setup⚙️\n\nCamera : https://amzn.to/2KIZAQc\n\nHeadset : https://amzn.to/396yfj5 \n\nKeyboard: https://amzn.to/2LaFJsO\n\nMouse: https://amzn.to/2LdVJKt\n\nMicrophone : https://amzn.to/3pCYAM6\n\nMicrophone Stand : https://amzn.to/3o6eRsG\n\nWebcam : https://amzn.to/2JyOHQ8\n\nDisclaimer : DISCLAIMER: Please don't go out of your way to or hate on anyone I talk about in my videos, this channel is to entertain people and I usually focus on joking about what the people are doing not the individual themselves, please don't go spreading hate it's all for laughs\n\nCopyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for \"fair use\" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use.\n\nThank you !"
+    "title": "SURPRISING MY WIFE WITH HER DREAM CAR FOR HER BIRTHDAY..",
+    "description": "MAKE SURE YOU LIKE, COMMENT, SHARE & SUBSCRIBE TO MY YOUTUBE CHANNEL AND FOLLOW ME ON THIS ADVENTURE CALLED LIFE !\n\nFOLLOW ME ;\n\nMy Instagram - Clarencenyc\nMy Twitter - Clarencenyc\nMy Snapchat - CLARENCE.NYC"
+    }
     },
-    "defaultAudioLanguage": "en-IN"
+    "contentDetails": {
+    "duration": "PT38M39S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "208822",
+    "likeCount": "16686",
+    "favoriteCount": "0",
+    "commentCount": "1691"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "aDY8uLrC34Bld8HMG8fcQp04oG0",
+    "id": "UcmgJAQ-Ibc",
+    "snippet": {
+    "publishedAt": "2023-10-18T13:58:56Z",
+    "channelId": "UCR-uD130PlXKww_J2Q63CMg",
+    "title": "Family Star Glimpse - Vijay Deverakonda, Mrunal Thakur | Parasuram | Dil Raju | Sankrathi 2024",
+    "description": "Presenting #FamilyStar ft Vijay Deverakonda, Mrunal Thakur. Directed by Parasuram. Sankrathi 2024 Release. \n\nCast : Vijay Deverakonda, Mrunal Thakur \nDirector & Writer - Parasuram\nDOP : KU Mohanan \nMusic : Gopisundar\nArt Director: AS Prakash\nEditor : Marthand K Venkatesh \nCreative Producer : Vasu Varma\nProducers : Raju - Shirish\n\n——————————\n\nFull Telugu Movies - https://goo.gl/buaJpf\n\nFollow us on: \nTwitter: https://twitter.com/SVC_official\nFacebook: https://www.facebook.com/DilRajuOfficial\nFacebook: https://www.facebook.com/SriVenkateswaraCreations\nYouTube: http://goo.gl/dwcKmr\nInstagram: https://www.instagram.com/srivenkateswaracreations\nTelegram: https://t.me/SVC_Official",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/UcmgJAQ-Ibc/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/UcmgJAQ-Ibc/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/UcmgJAQ-Ibc/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/UcmgJAQ-Ibc/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    }
+    },
+    "channelTitle": "Dil Raju",
+    "tags": [
+    "Family star",
+    "family star glimpse",
+    "family star teaser",
+    "family star trailer",
+    "family star theatrical trailer",
+    "family star songs",
+    "family song promos",
+    "vijay deverakonda family star",
+    "vijay deverakonda latest movie trailer",
+    "vijay deverakonda 2024 movie",
+    "mrunal thakur in family star",
+    "gopisundar",
+    "dil raju movies",
+    "parasuram movies"
+    ],
+    "categoryId": "24",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "Family Star Glimpse - Vijay Deverakonda, Mrunal Thakur | Parasuram | Dil Raju | Sankrathi 2024",
+    "description": "Presenting #FamilyStar ft Vijay Deverakonda, Mrunal Thakur. Directed by Parasuram. Sankrathi 2024 Release. \n\nCast : Vijay Deverakonda, Mrunal Thakur \nDirector & Writer - Parasuram\nDOP : KU Mohanan \nMusic : Gopisundar\nArt Director: AS Prakash\nEditor : Marthand K Venkatesh \nCreative Producer : Vasu Varma\nProducers : Raju - Shirish\n\n——————————\n\nFull Telugu Movies - https://goo.gl/buaJpf\n\nFollow us on: \nTwitter: https://twitter.com/SVC_official\nFacebook: https://www.facebook.com/DilRajuOfficial\nFacebook: https://www.facebook.com/SriVenkateswaraCreations\nYouTube: http://goo.gl/dwcKmr\nInstagram: https://www.instagram.com/srivenkateswaracreations\nTelegram: https://t.me/SVC_Official"
+    },
+    "defaultAudioLanguage": "te"
+    },
+    "contentDetails": {
+    "duration": "PT1M10S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "755273",
+    "likeCount": "50941",
+    "favoriteCount": "0",
+    "commentCount": "1326"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "XEq8yw4olIlQVBAnoWbP0c0RA2Y",
+    "id": "Iiny1GrfhYM",
+    "snippet": {
+    "publishedAt": "2023-10-17T14:32:32Z",
+    "channelId": "UC9RM-iSvTu1uPJb8X5yp3EQ",
+    "title": "South Africa's Slow, Inevitable March Towards Collapse",
+    "description": "Try Rocket Money for free: https://RocketMoney.com/wendover\n\nWatch Jet Lag: The Game at http://youtube.com/jetlagthegame \n\nBuy a Wendover Productions t-shirt: https://standard.tv/collections/wendover-productions/products/wendover-productions-shirt\n\nSubscribe to Half as Interesting (The other channel from Wendover Productions): https://www.youtube.com/halfasinteresting\n\nYoutube: http://www.YouTube.com/WendoverProductions\nInstagram: http://Instagram.com/sam.from.wendover\nTwitter: http://www.Twitter.com/WendoverPro\nSponsorship Enquiries: wendover@standard.tv\nOther emails: sam@wendover.productions\nReddit: http://Reddit.com/r/WendoverProductions\n\nWriting by Sam Denby and Tristan Purdy\nEditing by Alexander Williard\nAnimation led by Max Moser\nSound by Graham Haerther \nThumbnail by Simon Buckmaster\n\nReferences\n[1] https://origins.osu.edu/article/south-africa-mandela-apartheid-ramaphosa-zuma-corruption?language_content_entity=en \n[2] https://www.jstor.org/stable/pdf/48614444.pdf?refreqid=excelsior%3A551e31fbda4b25786b54c968593e28ba&ab_segments=0%2Fbasic_search_gsv2%2Fcontrol&origin=&initiator=&acceptTC=1 \n[3] https://www.news.uct.ac.za/article/-2013-05-13-black-middle-class-doubles-in-eight-years#:~:text=The%20Unilever%20Institute%27s%20latest%20study,over%20R400%2Dbillion%20per%20annum \n[4] https://www.statssa.gov.za/?p=12211 \n[5] https://data.worldbank.org/indicator/VC.IHR.PSRC.P5?locations=ZA \n[6] https://www.news24.com/citypress/news/rising-crime-low-prosecution-rates-how-law-enforcement-in-sa-has-all-but-collapsed-20191021 \n[7] https://www.statista.com/statistics/1378784/transnet-total-volume-of-freight-by-type/#:~:text=Transnet%20SOC%20Ltd%20recorded%20their,some%20173%20million%20metric%20tons \n[8] https://theconversation.com/suspension-of-two-south-african-judges-has-opened-up-debates-about-bad-working-conditions-and-poor-delivery-of-justice-212021 \n[9] https://www.eskom.co.za/distribution/customer-service/outages/municipal-loadshedding-schedules/eastern-cape/",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/Iiny1GrfhYM/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/Iiny1GrfhYM/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/Iiny1GrfhYM/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/Iiny1GrfhYM/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/Iiny1GrfhYM/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Wendover Productions",
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "South Africa's Slow, Inevitable March Towards Collapse",
+    "description": "Try Rocket Money for free: https://RocketMoney.com/wendover\n\nWatch Jet Lag: The Game at http://youtube.com/jetlagthegame \n\nBuy a Wendover Productions t-shirt: https://standard.tv/collections/wendover-productions/products/wendover-productions-shirt\n\nSubscribe to Half as Interesting (The other channel from Wendover Productions): https://www.youtube.com/halfasinteresting\n\nYoutube: http://www.YouTube.com/WendoverProductions\nInstagram: http://Instagram.com/sam.from.wendover\nTwitter: http://www.Twitter.com/WendoverPro\nSponsorship Enquiries: wendover@standard.tv\nOther emails: sam@wendover.productions\nReddit: http://Reddit.com/r/WendoverProductions\n\nWriting by Sam Denby and Tristan Purdy\nEditing by Alexander Williard\nAnimation led by Max Moser\nSound by Graham Haerther \nThumbnail by Simon Buckmaster\n\nReferences\n[1] https://origins.osu.edu/article/south-africa-mandela-apartheid-ramaphosa-zuma-corruption?language_content_entity=en \n[2] https://www.jstor.org/stable/pdf/48614444.pdf?refreqid=excelsior%3A551e31fbda4b25786b54c968593e28ba&ab_segments=0%2Fbasic_search_gsv2%2Fcontrol&origin=&initiator=&acceptTC=1 \n[3] https://www.news.uct.ac.za/article/-2013-05-13-black-middle-class-doubles-in-eight-years#:~:text=The%20Unilever%20Institute%27s%20latest%20study,over%20R400%2Dbillion%20per%20annum \n[4] https://www.statssa.gov.za/?p=12211 \n[5] https://data.worldbank.org/indicator/VC.IHR.PSRC.P5?locations=ZA \n[6] https://www.news24.com/citypress/news/rising-crime-low-prosecution-rates-how-law-enforcement-in-sa-has-all-but-collapsed-20191021 \n[7] https://www.statista.com/statistics/1378784/transnet-total-volume-of-freight-by-type/#:~:text=Transnet%20SOC%20Ltd%20recorded%20their,some%20173%20million%20metric%20tons \n[8] https://theconversation.com/suspension-of-two-south-african-judges-has-opened-up-debates-about-bad-working-conditions-and-poor-delivery-of-justice-212021 \n[9] https://www.eskom.co.za/distribution/customer-service/outages/municipal-loadshedding-schedules/eastern-cape/"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT23M6S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "940721",
+    "likeCount": "33781",
+    "favoriteCount": "0",
+    "commentCount": "5851"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "0GmLlHSfWVSdIj8zBnidNi2imq8",
+    "id": "EgeV0n9L2es",
+    "snippet": {
+    "publishedAt": "2023-10-18T13:01:38Z",
+    "channelId": "UCZ4AMrDcNrfy3X6nsU8-rPg",
+    "title": "China’s Crumbling Economic Story",
+    "description": "Go to our sponsor https://betterhelp.com/ee to get 10% off your first month, and talk to a licensed therapist today.\n\nDeng Xiaoping's reforms in the 80s transformed Shenzhen, a small town near Hong Kong, into an economic powerhouse. China's rapid growth lifted millions from poverty but did it grow too quickly to be sustainable? Now China faces deflation, and experts are worried that this could spell the end of the economic miracle.\n\nThis video was made possible by our Patreon community! ❤️\nSee new videos early, participate in exclusive Q&As, and more!\n➡️ https://www.patreon.com/EconomicsExplained\n\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nThe Economic Explained team uses Statista for conducting our research. Check out their YouTube channel: https://www.youtube.com/channel/UCuj2Bne141HGmYFsbkfnbqw\n\nEnjoyed the video? Comment below! 💬\n⭑ Enjoyed? Hit the like button! 👍\n\nCheck out our second channel Economics Explained Essentials → https://www.youtube.com/@economicsexplainedessentia551\n\n✉️ Business Enquiries → hello@economicsexplained.com\n\n🎧 Listen to EE on Spotify! 👉 https://open.spotify.com/show/5TFVUEJnYLOCmmfaDNHaM2\nAlso on Apple Podcasts or anywhere else you listen!\nFollow EE on social media:\nTwitter 🐦 → https://twitter.com/EconomicsEx\nFacebook → https://www.facebook.com/EconomicsEx\nInstagram → https://www.instagram.com/economicsexplained/\nTikTok → https://www.tiktok.com/@economicsexplained\n\n#EconomicsExplained #chinaeconomy #betterhelp \n\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\n\nECONOMICS EXPLAINED IS MADE POSSIBLE BY OUR PATREON COMMUNITY 👊🙏\nSupport EE by becoming a Patron today! 👉 https://www.patreon.com/EconomicsExplained\n\nThe video you’re watching right now would not exist without the monthly support provided by our generous Patrons:\n👑 ROYALTY CLASS 👑\nJuan Benet\n\nELITE CLASS\nCharles Youngs\n\nUPPER CLASS\nJeromy Johnson\n\nUPPER MIDDLE CLASS\nWendover Productions, Igor Bazarny, Andrew Harrison, Paul Ashworth, Laor Glukhovsky, Kib Bibens-LeFebvre, Post Apocalyptic In Missouri, Brett Jubinville, JKH, Anthony Roberts, jill hoffman, Nathan Ngumi, Forodon, Michael Ling, Sophie G, Frank Soltero, Grégoire Duchêne, Jay Eno, David Poliakoff, Stephanie Roth, Peter Wesselius, std__mpa, Pineapples&bricks, Adrian Bellomo, Rory Struthers.\n\nMIDDLE CLASS\nSteffen Lindner, Hayden van Reyswoud, John C, Donald Wedington, Demo sthenes, Rimvydas, John Downie, Sridev, Matt McKee, Victor T., Andrew Vinnichenko, Zachary Kasow, Johannes, Nigel Pauli, Jacob, Pedro Brito, Marton Szasz, Travis Thompson, Matthew Eggleston, Michael Kürbis, Anthony, Trevor, Marcel Roquette, Daniel Hall, John D Tyler, Petronio Coelho, Kevin MacIntyre, Craig Mews, Jonathan Krailler, Franklin, PM, Jack Annear, michael, Connor Costello, Reuben Field, Siegfried Eggl, How long can a profile name be... this long... Wow, this is longer than I would have expected. Good lord, the letters! Secunda!, Will, Andrey Kalganov, David Taylor, Scott Greenwood, Jane Walerud, Simon Sturmer, Zachary Demko, Michael Wolff, Ed, Daniel Alberto Vázquez Rodríguez, Kamil Sicinski, Dodd Willingham, David McIlveen, Arend Peter Castelein, Kent Klatchuk, Hugh Harris, David W., Chris Hawkins, Robert Nyborg, Leo Vassershteyn, Kheng Lai Tan, Roman~1, Wesley Fite, Zac Woodrell, Michael D. Hall, Randy Cleary, Long Phan, Liubov Zvereva, AB3, Karan Mehta, Arjan, Marton Csikos, Alex, Justin Smith, Wees Kendall, John Issitt, Eric Slimko, Empyre18, Brian Jackson, Istvan P, Joe Ryan, Patrick Staight, Shane Guthrie, Elisabeth Stanfield, Joshua White, Andrew Baartz, Ash, Abel, Kim Brand, Ted Marcy, Jim Kirker, roGER, Leonid Sorokoumov, Nicholas Luchetta, Kenneth Lum, Thomas Davenport, Robert Abraham, Ps0Fa, Klaus Clemens, Derrick Yowell, BUBBA CONWAY, Seth, Alex Wong, Jamie Costello, Rick Van Velden, Bacongravy, Leah Klearman, Jason, Tenebrion, Dragan Alexandru, Vladimir Zotov, Brian, Chris, DionysusLin, William Sherlock, Justin Thiele, Gerhardus.",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/EgeV0n9L2es/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/EgeV0n9L2es/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/EgeV0n9L2es/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/EgeV0n9L2es/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/EgeV0n9L2es/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Economics Explained",
+    "tags": [
+    "economics",
+    "economics explained",
+    "economy explained",
+    "china economy",
+    "xi jinping",
+    "chinese economy",
+    "china economic crisis",
+    "china economy collapse",
+    "china economy 2023",
+    "china real estate",
+    "china debt",
+    "evergrande crisis",
+    "evergrande crisis explained",
+    "evergrande bankruptcies"
+    ],
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en-US",
+    "localized": {
+    "title": "China’s Crumbling Economic Story",
+    "description": "Go to our sponsor https://betterhelp.com/ee to get 10% off your first month, and talk to a licensed therapist today.\n\nDeng Xiaoping's reforms in the 80s transformed Shenzhen, a small town near Hong Kong, into an economic powerhouse. China's rapid growth lifted millions from poverty but did it grow too quickly to be sustainable? Now China faces deflation, and experts are worried that this could spell the end of the economic miracle.\n\nThis video was made possible by our Patreon community! ❤️\nSee new videos early, participate in exclusive Q&As, and more!\n➡️ https://www.patreon.com/EconomicsExplained\n\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nThe Economic Explained team uses Statista for conducting our research. Check out their YouTube channel: https://www.youtube.com/channel/UCuj2Bne141HGmYFsbkfnbqw\n\nEnjoyed the video? Comment below! 💬\n⭑ Enjoyed? Hit the like button! 👍\n\nCheck out our second channel Economics Explained Essentials → https://www.youtube.com/@economicsexplainedessentia551\n\n✉️ Business Enquiries → hello@economicsexplained.com\n\n🎧 Listen to EE on Spotify! 👉 https://open.spotify.com/show/5TFVUEJnYLOCmmfaDNHaM2\nAlso on Apple Podcasts or anywhere else you listen!\nFollow EE on social media:\nTwitter 🐦 → https://twitter.com/EconomicsEx\nFacebook → https://www.facebook.com/EconomicsEx\nInstagram → https://www.instagram.com/economicsexplained/\nTikTok → https://www.tiktok.com/@economicsexplained\n\n#EconomicsExplained #chinaeconomy #betterhelp \n\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\n\nECONOMICS EXPLAINED IS MADE POSSIBLE BY OUR PATREON COMMUNITY 👊🙏\nSupport EE by becoming a Patron today! 👉 https://www.patreon.com/EconomicsExplained\n\nThe video you’re watching right now would not exist without the monthly support provided by our generous Patrons:\n👑 ROYALTY CLASS 👑\nJuan Benet\n\nELITE CLASS\nCharles Youngs\n\nUPPER CLASS\nJeromy Johnson\n\nUPPER MIDDLE CLASS\nWendover Productions, Igor Bazarny, Andrew Harrison, Paul Ashworth, Laor Glukhovsky, Kib Bibens-LeFebvre, Post Apocalyptic In Missouri, Brett Jubinville, JKH, Anthony Roberts, jill hoffman, Nathan Ngumi, Forodon, Michael Ling, Sophie G, Frank Soltero, Grégoire Duchêne, Jay Eno, David Poliakoff, Stephanie Roth, Peter Wesselius, std__mpa, Pineapples&bricks, Adrian Bellomo, Rory Struthers.\n\nMIDDLE CLASS\nSteffen Lindner, Hayden van Reyswoud, John C, Donald Wedington, Demo sthenes, Rimvydas, John Downie, Sridev, Matt McKee, Victor T., Andrew Vinnichenko, Zachary Kasow, Johannes, Nigel Pauli, Jacob, Pedro Brito, Marton Szasz, Travis Thompson, Matthew Eggleston, Michael Kürbis, Anthony, Trevor, Marcel Roquette, Daniel Hall, John D Tyler, Petronio Coelho, Kevin MacIntyre, Craig Mews, Jonathan Krailler, Franklin, PM, Jack Annear, michael, Connor Costello, Reuben Field, Siegfried Eggl, How long can a profile name be... this long... Wow, this is longer than I would have expected. Good lord, the letters! Secunda!, Will, Andrey Kalganov, David Taylor, Scott Greenwood, Jane Walerud, Simon Sturmer, Zachary Demko, Michael Wolff, Ed, Daniel Alberto Vázquez Rodríguez, Kamil Sicinski, Dodd Willingham, David McIlveen, Arend Peter Castelein, Kent Klatchuk, Hugh Harris, David W., Chris Hawkins, Robert Nyborg, Leo Vassershteyn, Kheng Lai Tan, Roman~1, Wesley Fite, Zac Woodrell, Michael D. Hall, Randy Cleary, Long Phan, Liubov Zvereva, AB3, Karan Mehta, Arjan, Marton Csikos, Alex, Justin Smith, Wees Kendall, John Issitt, Eric Slimko, Empyre18, Brian Jackson, Istvan P, Joe Ryan, Patrick Staight, Shane Guthrie, Elisabeth Stanfield, Joshua White, Andrew Baartz, Ash, Abel, Kim Brand, Ted Marcy, Jim Kirker, roGER, Leonid Sorokoumov, Nicholas Luchetta, Kenneth Lum, Thomas Davenport, Robert Abraham, Ps0Fa, Klaus Clemens, Derrick Yowell, BUBBA CONWAY, Seth, Alex Wong, Jamie Costello, Rick Van Velden, Bacongravy, Leah Klearman, Jason, Tenebrion, Dragan Alexandru, Vladimir Zotov, Brian, Chris, DionysusLin, William Sherlock, Justin Thiele, Gerhardus."
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT16M43S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "376979",
+    "likeCount": "12197",
+    "favoriteCount": "0",
+    "commentCount": "1228"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "9-bX2aHpn7cJ8hEoiEt51_7LZW0",
+    "id": "cMnMzbzrIP0",
+    "snippet": {
+    "publishedAt": "2023-10-18T16:00:35Z",
+    "channelId": "UCfyehHM_eo4g5JUyWmms2LA",
+    "title": "UK vs USA Food Fight | 5 Dishes - SAME name VERY Different! ft. @mythicalkitchen​ ⁠@TastingHistory",
+    "description": "It's UK vs USA in today's food fight! Pudding vs Pudding... Jelly vs Jelly... CHIP VS CHIP!! Who will come out on top?\n\nBig thanks to Josh and Max for joining us! Their links are below:\nhttps://www.youtube.com/@mythicalkitchen \nhttps://www.youtube.com/@tastinghistory \n\nTime to CANCEL your boring dinners! \n\nIt's easier than you think to cook up banging recipes... Click here to try Sidekick FREE for 30 days: https://bit.ly/3tfFgsR \n\nThe awesome benefits of the Sidekick app:\n- Unlock your kitchen confidence to discover awesome new ingredients and dishes\n- Reduce the stress of deciding what to cook EVERY day\n- Grocery shopping made simple, with an automatically-generated list\n- Cook more sustainably & reduce your food waste",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/cMnMzbzrIP0/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/cMnMzbzrIP0/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/cMnMzbzrIP0/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/cMnMzbzrIP0/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/cMnMzbzrIP0/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Sorted Food",
+    "tags": [
+    "uk vs usa",
+    "sorted",
+    "food",
+    "sortedfood",
+    "mythical kitchen",
+    "mythical morning",
+    "mythical kitchen last meal",
+    "mythical",
+    "sortedfood battle",
+    "sortedfood ultimate battle",
+    "sortedfood budget battle",
+    "sortedfood beat the chef",
+    "chef vs chef",
+    "sortedfood chef",
+    "food wars",
+    "fast food",
+    "united kingdom",
+    "jelly",
+    "pudding",
+    "biscuits",
+    "chips",
+    "fries",
+    "food challenge",
+    "food videos",
+    "food review",
+    "mythical morning taste test",
+    "chef vs chef sorted",
+    "tasting history",
+    "mythical josh",
+    "max miller"
+    ],
+    "categoryId": "26",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en-GB",
+    "localized": {
+    "title": "UK vs USA Food Fight | 5 Dishes - SAME name VERY Different! ft. @mythicalkitchen​ ⁠@TastingHistory",
+    "description": "It's UK vs USA in today's food fight! Pudding vs Pudding... Jelly vs Jelly... CHIP VS CHIP!! Who will come out on top?\n\nBig thanks to Josh and Max for joining us! Their links are below:\nhttps://www.youtube.com/@mythicalkitchen \nhttps://www.youtube.com/@tastinghistory \n\nTime to CANCEL your boring dinners! \n\nIt's easier than you think to cook up banging recipes... Click here to try Sidekick FREE for 30 days: https://bit.ly/3tfFgsR \n\nThe awesome benefits of the Sidekick app:\n- Unlock your kitchen confidence to discover awesome new ingredients and dishes\n- Reduce the stress of deciding what to cook EVERY day\n- Grocery shopping made simple, with an automatically-generated list\n- Cook more sustainably & reduce your food waste"
+    },
+    "defaultAudioLanguage": "en-GB"
+    },
+    "contentDetails": {
+    "duration": "PT16M51S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "218327",
+    "likeCount": "15330",
+    "favoriteCount": "0",
+    "commentCount": "1919"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "CXcbzAjD7xYusIZS6WYZJGhstj4",
+    "id": "PXd9w7EC9_o",
+    "snippet": {
+    "publishedAt": "2023-10-17T16:45:49Z",
+    "channelId": "UCO4AcsPKEkIqDmbeiZLfd1A",
+    "title": "Kamaru Usman & Khamzat Chimaev interviewed by Chael Sonnen ahead of UFC 294 | ESPN MMA",
+    "description": "Stream UFC 294 on ESPN+ https://plus.espn.com/ufc/ppv\n\nChael Sonnen interviews Khamzat Chimaev and Kamaru Usman ahead of their co-main event at UFC 294.\n\n#UFC294 #UFC #MMA\n✔ For more UFC, sign up for ESPN+ http://espnplus.com/ufc/youtube\n✔ Get the ESPN App: http://www.espn.com/espn/apps/espn\n✔ Subscribe to ESPN on YouTube: http://es.pn/SUBSCRIBEtoYOUTUBE\n✔ Subscribe to ESPN FC on YouTube: http://bit.ly/SUBSCRIBEtoESPNFC\n✔ Subscribe to NBA on ESPN on YouTube: http://bit.ly/SUBSCRIBEtoNBAonESPN\n✔ Watch ESPN on YouTube TV: http://es.pn/YouTubeTV",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/PXd9w7EC9_o/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/PXd9w7EC9_o/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/PXd9w7EC9_o/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/PXd9w7EC9_o/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/PXd9w7EC9_o/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "ESPN MMA",
+    "tags": [
+    "mma espn",
+    "espn mma",
+    "mma",
+    "#mma",
+    "ufc",
+    "ufc espn",
+    "ufc on espn",
+    "nna on espn",
+    "espn ufc",
+    "mma news",
+    "ufc news",
+    "dc & rc",
+    "ufc 294",
+    "#ufc294",
+    "chael sonnen espn",
+    "chael sonnen",
+    "sonnen",
+    "chael",
+    "kamaru usman espn",
+    "kamaru usman interview",
+    "kamaru usman",
+    "usman espn",
+    "usman interview",
+    "usman",
+    "khamzat chimaev espn",
+    "khamzat chimaev interview",
+    "khamzat chimaev vs kamaru usman",
+    "kamaru usman vs khamzat chimaev",
+    "khamzat chimaev",
+    "chimaev interview",
+    "chimaev espn",
+    "chimaev",
+    "sean strickland",
+    "strickland",
+    "kamaru"
+    ],
+    "categoryId": "17",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "Kamaru Usman & Khamzat Chimaev interviewed by Chael Sonnen ahead of UFC 294 | ESPN MMA",
+    "description": "Stream UFC 294 on ESPN+ https://plus.espn.com/ufc/ppv\n\nChael Sonnen interviews Khamzat Chimaev and Kamaru Usman ahead of their co-main event at UFC 294.\n\n#UFC294 #UFC #MMA\n✔ For more UFC, sign up for ESPN+ http://espnplus.com/ufc/youtube\n✔ Get the ESPN App: http://www.espn.com/espn/apps/espn\n✔ Subscribe to ESPN on YouTube: http://es.pn/SUBSCRIBEtoYOUTUBE\n✔ Subscribe to ESPN FC on YouTube: http://bit.ly/SUBSCRIBEtoESPNFC\n✔ Subscribe to NBA on ESPN on YouTube: http://bit.ly/SUBSCRIBEtoNBAonESPN\n✔ Watch ESPN on YouTube TV: http://es.pn/YouTubeTV"
+    }
+    },
+    "contentDetails": {
+    "duration": "PT7M20S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "959975",
+    "likeCount": "18929",
+    "favoriteCount": "0",
+    "commentCount": "4727"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "0VMksCclG-o6P9eGuIup5GgSjvw",
+    "id": "O-5BmqCBivA",
+    "snippet": {
+    "publishedAt": "2023-10-16T21:02:31Z",
+    "channelId": "UC7_YxT-KID8kRbqZo7MyscQ",
+    "title": "FAZBEAR NIGHTS",
+    "description": "LISTEN TO DISTRACTIBLE ►► https://open.spotify.com/show/2X40qLyoj1wQ2qE5FVpA7x\nLISTEN TO GMFST ►► https://open.spotify.com/show/4Hn3qhWe5NqnhLFKytyfFW",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/O-5BmqCBivA/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/O-5BmqCBivA/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/O-5BmqCBivA/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/O-5BmqCBivA/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/O-5BmqCBivA/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Markiplier",
+    "tags": [
+    "markiplier",
+    "five nights at freddys",
+    "fnaf",
+    "fnaf fan game",
+    "fazbear nights",
+    "fnaf movie"
+    ],
+    "categoryId": "20",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en",
+    "localized": {
+    "title": "FAZBEAR NIGHTS",
+    "description": "LISTEN TO DISTRACTIBLE ►► https://open.spotify.com/show/2X40qLyoj1wQ2qE5FVpA7x\nLISTEN TO GMFST ►► https://open.spotify.com/show/4Hn3qhWe5NqnhLFKytyfFW"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT1H14M16S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "2090342",
+    "likeCount": "119964",
+    "favoriteCount": "0",
+    "commentCount": "3551"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "ftPdzCFll7mqreAjGDC5OoBxJDY",
+    "id": "8oOVNMjM1Jk",
+    "snippet": {
+    "publishedAt": "2023-10-18T13:00:01Z",
+    "channelId": "UCpy5dRhZd-JbZP4NsrnLt1w",
+    "title": "FERRARI - Official Trailer - In Theaters Christmas",
+    "description": "It is the summer of 1957. Behind the spectacle of Formula 1, ex-racer Enzo Ferrari is in crisis. Bankruptcy threatens the factory he and his wife, Laura built from nothing ten years earlier. Their volatile marriage has been battered by the loss of their son, Dino a year earlier. Ferrari struggles to acknowledge his son Piero with Lina Lardi. Meanwhile, his drivers' passion to win pushes them to the edge as they launch into the treacherous 1,000-mile race across Italy, the Mille Miglia.\n\nIn Theaters Christmas\n\nDirected by Michael Mann\nWritten by Troy Kennedy Martin\nStarring Adam Driver, Penélope Cruz, Shailene Woodley, Sarah Gordon, Gabriel Leone, Jack O'Connell, Patrick Dempsey",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/8oOVNMjM1Jk/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/8oOVNMjM1Jk/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/8oOVNMjM1Jk/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/8oOVNMjM1Jk/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/8oOVNMjM1Jk/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "NEON",
+    "categoryId": "1",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "FERRARI - Official Trailer - In Theaters Christmas",
+    "description": "It is the summer of 1957. Behind the spectacle of Formula 1, ex-racer Enzo Ferrari is in crisis. Bankruptcy threatens the factory he and his wife, Laura built from nothing ten years earlier. Their volatile marriage has been battered by the loss of their son, Dino a year earlier. Ferrari struggles to acknowledge his son Piero with Lina Lardi. Meanwhile, his drivers' passion to win pushes them to the edge as they launch into the treacherous 1,000-mile race across Italy, the Mille Miglia.\n\nIn Theaters Christmas\n\nDirected by Michael Mann\nWritten by Troy Kennedy Martin\nStarring Adam Driver, Penélope Cruz, Shailene Woodley, Sarah Gordon, Gabriel Leone, Jack O'Connell, Patrick Dempsey"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT2M27S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": false,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "1188406",
+    "likeCount": "5306",
+    "favoriteCount": "0",
+    "commentCount": "420"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "IzguHcMpxRB-mk_4W9e-Ya4e3v4",
+    "id": "OLju-cMjgco",
+    "snippet": {
+    "publishedAt": "2023-10-18T05:58:10Z",
+    "channelId": "UC68nKdrLbLL0Vj7ilVkLmmg",
+    "title": "Keedaa Cola - Official Trailer | Tharun Bhascker | VG Sainma | Vivek Sagar",
+    "description": "For more latest songs & videos, subscribe 👉 https://bit.ly/Saregama_Telugu\n\nGet ready for a rollercoaster of laughs and thrills with 'Keedaa Cola,' a film brought to you by VG Sainma, directed by the National Award-winning director Tharun Bhascker!\n\nKeedaa Cola is about a hilarious group that takes on a challenge of a lifetime when they decide to make quick money by planting a cockroach into a soft drink bottle. Will they hit the jackpot?\n\nWritten & Directed by Tharun Bhascker Dhaassyam\nProducers : K. Vivek Sudhanshu, Saikrishna Gadwal, Srinivas Kaushik Nanduri, Sripad\nNandiraj & Upendra Varma\nDistributor : Suresh Productions\nPresenter : Rana Daggubati\nWriters : Pranay Koppala, Ramya Kakumanu, Shanthan Raj\nMusic : Vivek Sagar\nMusic Label : Saregama\nSound Design : Varun Venugopal\nCinematography : AJ Aaron\nArt Director : Ashish Teja Pulala\nCostumes : Poojitha Thadikonda\nEditor : Upendra Varma\nVFX : Nagu Talari & Ashok Mocharla\nRe-Recording Mixer: Koteswara Rao S.V.\nExecutive Producers : K. Vivek Sudhanshu, Saikrishna Gadwal, Srinivas Kaushik Nanduri\nDI Colorist : Avinash Jagdish Shukla\nAction Director : Raj Kumar\nPRO : Vamsi Shekar\nPublicity Design : Aesthetic Kunjamma\nMarketing: Ticket Factory\n\nLabel: Saregama India Limited, A RPSG Group Company\n\nTo buy Carvaan, visit https://www.saregama.com/carvaan/telugu\nTo buy virus free original tracks, visit  https://www.saregama.com/musicstore\nFollow us on: YouTube:https://www.youtube.com/channel/saregamatelugu\nFacebook: http://www.facebook.com/Saregamatelugu\nX: https://twitter.com/saregamasouth\n\n#KeedaaCola #SaregamaTelugu",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/OLju-cMjgco/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/OLju-cMjgco/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/OLju-cMjgco/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/OLju-cMjgco/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/OLju-cMjgco/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Saregama Telugu",
+    "tags": [
+    "keedaa cola",
+    "keedaa cola trailer",
+    "keeda cola teaser",
+    "Tharun Bhascker",
+    "Brahmanandam"
+    ],
+    "categoryId": "1",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en",
+    "localized": {
+    "title": "Keedaa Cola - Official Trailer | Tharun Bhascker | VG Sainma | Vivek Sagar",
+    "description": "For more latest songs & videos, subscribe 👉 https://bit.ly/Saregama_Telugu\n\nGet ready for a rollercoaster of laughs and thrills with 'Keedaa Cola,' a film brought to you by VG Sainma, directed by the National Award-winning director Tharun Bhascker!\n\nKeedaa Cola is about a hilarious group that takes on a challenge of a lifetime when they decide to make quick money by planting a cockroach into a soft drink bottle. Will they hit the jackpot?\n\nWritten & Directed by Tharun Bhascker Dhaassyam\nProducers : K. Vivek Sudhanshu, Saikrishna Gadwal, Srinivas Kaushik Nanduri, Sripad\nNandiraj & Upendra Varma\nDistributor : Suresh Productions\nPresenter : Rana Daggubati\nWriters : Pranay Koppala, Ramya Kakumanu, Shanthan Raj\nMusic : Vivek Sagar\nMusic Label : Saregama\nSound Design : Varun Venugopal\nCinematography : AJ Aaron\nArt Director : Ashish Teja Pulala\nCostumes : Poojitha Thadikonda\nEditor : Upendra Varma\nVFX : Nagu Talari & Ashok Mocharla\nRe-Recording Mixer: Koteswara Rao S.V.\nExecutive Producers : K. Vivek Sudhanshu, Saikrishna Gadwal, Srinivas Kaushik Nanduri\nDI Colorist : Avinash Jagdish Shukla\nAction Director : Raj Kumar\nPRO : Vamsi Shekar\nPublicity Design : Aesthetic Kunjamma\nMarketing: Ticket Factory\n\nLabel: Saregama India Limited, A RPSG Group Company\n\nTo buy Carvaan, visit https://www.saregama.com/carvaan/telugu\nTo buy virus free original tracks, visit  https://www.saregama.com/musicstore\nFollow us on: YouTube:https://www.youtube.com/channel/saregamatelugu\nFacebook: http://www.facebook.com/Saregamatelugu\nX: https://twitter.com/saregamasouth\n\n#KeedaaCola #SaregamaTelugu"
+    },
+    "defaultAudioLanguage": "te"
+    },
+    "contentDetails": {
+    "duration": "PT2M54S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "1777803",
+    "likeCount": "47587",
+    "favoriteCount": "0",
+    "commentCount": "565"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "6C6ipwSjTK8ObYbCjARvxq4PQcY",
+    "id": "2G1-nWjFm0k",
+    "snippet": {
+    "publishedAt": "2023-10-17T20:51:03Z",
+    "channelId": "UCMJbbWyIziiUamP5JKK9yAA",
+    "title": "Breaking All the Rules For Our Best Event Ever...",
+    "description": "1 MONTH AWAY!!! GRAB TICKETS HERE - https://tickets.thefoat.com/FreedomFactory/event-242841",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/2G1-nWjFm0k/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/2G1-nWjFm0k/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/2G1-nWjFm0k/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/2G1-nWjFm0k/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/2G1-nWjFm0k/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Cleetus2 McFarland",
+    "categoryId": "2",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "Breaking All the Rules For Our Best Event Ever...",
+    "description": "1 MONTH AWAY!!! GRAB TICKETS HERE - https://tickets.thefoat.com/FreedomFactory/event-242841"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT9M2S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "462842",
+    "likeCount": "25459",
+    "favoriteCount": "0",
+    "commentCount": "1147"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "zzLDdUCITBanYqhRGE9uQZCtXXo",
+    "id": "q-P76-Sz1YA",
+    "snippet": {
+    "publishedAt": "2023-10-17T20:13:21Z",
+    "channelId": "UCeLICYOqHfIrfSAQq1TT7PA",
+    "title": "15 Things Your Kitchen Doesn't Need",
+    "description": "If you declutter your kitchen it will be easier to keep clean and tidy AND you'll probably find that you enjoy cooking more and eat out less, win-win! Today let's talk about 15 items that your kitchen doesn't need whether your goal is to be a minimalist or just live more simply!\n\n:: IN THIS VIDEO ::\n\nMy Plaid Shirt: https://amzn.to/3s4EIrY\nDansko House Shoes: https://amzn.to/46QFGqE\nDrawer Knife Block: https://amzn.to/3QkK63v\nKnife Magnet: https://amzn.to/3S14msk\nBamboo Drawer Dividers: https://amzn.to/3S3vXJr\nDish Clothes: https://amzn.to/401EH4D\nSlide Out Cutting Board & Baking Sheet Rack: https://amzn.to/3rVrkGJ\n\n:: RECENTLY MENTIONED ::\n\nTom's YouTube Channel (Rusty Judgment): https://www.youtube.com/@RustyJudgment\n\nBuy the Bundt Cake Book (& Donate) here: https://cli.re/bundt-cake-recipe-book\n\nDecluttering by Faith Devotional: https://cli.re/Devotional\n\nMinimalism by the Numbers Printable: https://cli.re/Minimalism-Inventory\n\nLOOKING FOR MORE SUPPORT? \n\nWe have a few ways that we can come alongside you:\n\n1) PRIVATE DECLUTTERING GROUP:\n\nThis takes place in a private Facebook group. Here's what you can expect:\n- 5-10 minute videos each weekday with guided decluttering tasks\n- monthly themes, weekly challenges\n- 1 hour live guided decluttering sessions twice a month for accountability\n- encouragement & support from other members\n- cost is $15/month\n\nThis is ideal if you're looking for more motivation & accountability.\n\nTo learn more and to sign up, visit here: https://cli.re/minimal-mom-private-group\n\n2) DECLUTTER YOUR HOME IN 15 MINUTES A DAY WORKBOOK:\n\nThis workbook is designed to walk you through decluttering each area of your home in 15 minute lessons.\n\n- 168 full color pages\n- easy to follow lessons designed for limited time & energy\n- our key concepts (like inventory, the silent to-do list, the endowment effect & more) are spread throughout the book, too\n\nIdeal for those looking for a self-paced guidebook to declutter their home quickly & efficiently.\n\nThe workbooks are $20 (digital or spiral bound)\nShipping: $4 flat rate domestic US\n\nFind more details here: https://cli.re/declutter-workbook\n\n3) DECLUTTER YOUR HOME IN 15 MINUTES A DAY COURSE:\n\nDeclutter Your Home in 15 Minutes a Day course: https://cli.re/Course\n\nIn the Declutter Your Home in 15 Minutes a Day course we go through the workbook, breaking down specific areas of your home in detail to be able to declutter faster and with more confidence. If you want to know specifics (like how many of each thing to keep) this course is for you.\n..................................\n\n:: DECLUTTERING PLAYLISTS ::\n\nNew to our channel & Minimalism? Start Here :: https://cli.re/START-HERE\nKitchen Decluttering :: https://cli.re/Kitchen-Decluttering\nStorage Spaces :: https://cli.re/declutter-storage-spaces\nKids' Toys :: https://cli.re/toys-playlist\nSentimental Things :: https://cli.re/Decluttering-Sentimental-Stuff\n\n:: OUR AMAZON STOREFRONT :: https://www.amazon.com/shop/minimalmom ::\nThank you for your support!\n\n:: C U R R E N T L Y   R E A D I N G ::\n\n\"Get Your Life Back\" by John Eldredge: https://amzn.to/32M6I4k\n\n\"Essentialism\" by Greg McKeown: https://amzn.to/2Ow3Cgk\n\n\n:: LISTEN FOR FREE ON AUDIBLE :: https://amzn.to/2ItCr2f\n\n\n🖤 FACEBOOK: https://www.facebook.com/minimalmom/\n🖤 INSTAGRAM: https://www.instagram.com/the.minimal.mom/\n\n\n:: M O S T   P O P U L A R   O N   O U R   B L O G   R I G H T   N O W ::\n\nPumpkin Spice Bundt Cake: https://cli.re/pumpkin-bundt\n\nChocolate Chip Cookie Bars: https://cli.re/choco-chip-cookie-bars\n\nChocolate Sour Cream Bundt Cake: https://cli.re/chocolate-bundt\n\nMinimal Mom Frog Planner: https://cli.re/Free-Planner\n\nMinimalist Meal Planning System: https://cli.re/meal-planning\n\n#minimalism #familyminimalism #minimalist\n\n\n:: M O S T    P O P U L A R   V I D E O S    R I G H T    N O W :: \n\n57 Things We No Longer Buy: https://youtu.be/jTX02y0nJBw\n\nOrganized Minimalist HOUSE TOUR: https://youtu.be/qP7R_cvgwYs\n\nCook MORE, Clean LESS: https://youtu.be/0t1ulgDtoDA\n\nHow to Declutter WITHOUT Making a Mess: https://youtu.be/7yQqvQ99MVw\n\nThe Silent To-Do List: https://youtu.be/BtpAbdv4d98\n\n\n**AFFILIATE LINKS! THANK YOU!!!**\n\n..............\n🛍 Affiliate links:\n\n📷 Camera #1 (that I LOVE!! We made our first 450 video with this & still highly recommend): Canon G7X Mark II https://amzn.to/2o9hWLi\n\n📷 Camera #2 (also really like & easy to use!): Canon M50 https://amzn.to/3jwkEro  with Sigma 16mm Lens https://amzn.to/3h7YkDd and shotgun mic https://amzn.to/3jxYYeC\n\n🖤 Tripod: https://amzn.to/2MMFzHs\n\n..............\nRoyalty-free music used with permission from the YouTube Creator Studio, Epidemic Sound and purchased from AudioJungle.net",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/q-P76-Sz1YA/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/q-P76-Sz1YA/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/q-P76-Sz1YA/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/q-P76-Sz1YA/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/q-P76-Sz1YA/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "The Minimal Mom",
+    "tags": [
+    "minimalism",
+    "family minimalism",
+    "minimalist",
+    "the minimal mom",
+    "the minimalist mom",
+    "minimalist home"
+    ],
+    "categoryId": "26",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en",
+    "localized": {
+    "title": "15 Things Your Kitchen Doesn't Need",
+    "description": "If you declutter your kitchen it will be easier to keep clean and tidy AND you'll probably find that you enjoy cooking more and eat out less, win-win! Today let's talk about 15 items that your kitchen doesn't need whether your goal is to be a minimalist or just live more simply!\n\n:: IN THIS VIDEO ::\n\nMy Plaid Shirt: https://amzn.to/3s4EIrY\nDansko House Shoes: https://amzn.to/46QFGqE\nDrawer Knife Block: https://amzn.to/3QkK63v\nKnife Magnet: https://amzn.to/3S14msk\nBamboo Drawer Dividers: https://amzn.to/3S3vXJr\nDish Clothes: https://amzn.to/401EH4D\nSlide Out Cutting Board & Baking Sheet Rack: https://amzn.to/3rVrkGJ\n\n:: RECENTLY MENTIONED ::\n\nTom's YouTube Channel (Rusty Judgment): https://www.youtube.com/@RustyJudgment\n\nBuy the Bundt Cake Book (& Donate) here: https://cli.re/bundt-cake-recipe-book\n\nDecluttering by Faith Devotional: https://cli.re/Devotional\n\nMinimalism by the Numbers Printable: https://cli.re/Minimalism-Inventory\n\nLOOKING FOR MORE SUPPORT? \n\nWe have a few ways that we can come alongside you:\n\n1) PRIVATE DECLUTTERING GROUP:\n\nThis takes place in a private Facebook group. Here's what you can expect:\n- 5-10 minute videos each weekday with guided decluttering tasks\n- monthly themes, weekly challenges\n- 1 hour live guided decluttering sessions twice a month for accountability\n- encouragement & support from other members\n- cost is $15/month\n\nThis is ideal if you're looking for more motivation & accountability.\n\nTo learn more and to sign up, visit here: https://cli.re/minimal-mom-private-group\n\n2) DECLUTTER YOUR HOME IN 15 MINUTES A DAY WORKBOOK:\n\nThis workbook is designed to walk you through decluttering each area of your home in 15 minute lessons.\n\n- 168 full color pages\n- easy to follow lessons designed for limited time & energy\n- our key concepts (like inventory, the silent to-do list, the endowment effect & more) are spread throughout the book, too\n\nIdeal for those looking for a self-paced guidebook to declutter their home quickly & efficiently.\n\nThe workbooks are $20 (digital or spiral bound)\nShipping: $4 flat rate domestic US\n\nFind more details here: https://cli.re/declutter-workbook\n\n3) DECLUTTER YOUR HOME IN 15 MINUTES A DAY COURSE:\n\nDeclutter Your Home in 15 Minutes a Day course: https://cli.re/Course\n\nIn the Declutter Your Home in 15 Minutes a Day course we go through the workbook, breaking down specific areas of your home in detail to be able to declutter faster and with more confidence. If you want to know specifics (like how many of each thing to keep) this course is for you.\n..................................\n\n:: DECLUTTERING PLAYLISTS ::\n\nNew to our channel & Minimalism? Start Here :: https://cli.re/START-HERE\nKitchen Decluttering :: https://cli.re/Kitchen-Decluttering\nStorage Spaces :: https://cli.re/declutter-storage-spaces\nKids' Toys :: https://cli.re/toys-playlist\nSentimental Things :: https://cli.re/Decluttering-Sentimental-Stuff\n\n:: OUR AMAZON STOREFRONT :: https://www.amazon.com/shop/minimalmom ::\nThank you for your support!\n\n:: C U R R E N T L Y   R E A D I N G ::\n\n\"Get Your Life Back\" by John Eldredge: https://amzn.to/32M6I4k\n\n\"Essentialism\" by Greg McKeown: https://amzn.to/2Ow3Cgk\n\n\n:: LISTEN FOR FREE ON AUDIBLE :: https://amzn.to/2ItCr2f\n\n\n🖤 FACEBOOK: https://www.facebook.com/minimalmom/\n🖤 INSTAGRAM: https://www.instagram.com/the.minimal.mom/\n\n\n:: M O S T   P O P U L A R   O N   O U R   B L O G   R I G H T   N O W ::\n\nPumpkin Spice Bundt Cake: https://cli.re/pumpkin-bundt\n\nChocolate Chip Cookie Bars: https://cli.re/choco-chip-cookie-bars\n\nChocolate Sour Cream Bundt Cake: https://cli.re/chocolate-bundt\n\nMinimal Mom Frog Planner: https://cli.re/Free-Planner\n\nMinimalist Meal Planning System: https://cli.re/meal-planning\n\n#minimalism #familyminimalism #minimalist\n\n\n:: M O S T    P O P U L A R   V I D E O S    R I G H T    N O W :: \n\n57 Things We No Longer Buy: https://youtu.be/jTX02y0nJBw\n\nOrganized Minimalist HOUSE TOUR: https://youtu.be/qP7R_cvgwYs\n\nCook MORE, Clean LESS: https://youtu.be/0t1ulgDtoDA\n\nHow to Declutter WITHOUT Making a Mess: https://youtu.be/7yQqvQ99MVw\n\nThe Silent To-Do List: https://youtu.be/BtpAbdv4d98\n\n\n**AFFILIATE LINKS! THANK YOU!!!**\n\n..............\n🛍 Affiliate links:\n\n📷 Camera #1 (that I LOVE!! We made our first 450 video with this & still highly recommend): Canon G7X Mark II https://amzn.to/2o9hWLi\n\n📷 Camera #2 (also really like & easy to use!): Canon M50 https://amzn.to/3jwkEro  with Sigma 16mm Lens https://amzn.to/3h7YkDd and shotgun mic https://amzn.to/3jxYYeC\n\n🖤 Tripod: https://amzn.to/2MMFzHs\n\n..............\nRoyalty-free music used with permission from the YouTube Creator Studio, Epidemic Sound and purchased from AudioJungle.net"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT12M18S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "272434",
+    "likeCount": "7404",
+    "favoriteCount": "0",
+    "commentCount": "498"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "Iy1MgCjYJPEyPff8iq-q3FeN7u0",
+    "id": "dfEA-udzjjQ",
+    "snippet": {
+    "publishedAt": "2023-10-18T16:00:06Z",
+    "channelId": "UCf5CjDJvsFvtVIhkfmKAwAA",
+    "title": "THE BOYS IN THE BOAT | Official Trailer",
+    "description": "This Christmas, the race is on. Watch the official trailer for The Boys In The Boat, from director George Clooney, starring Joel Edgerton and Callum Turner. \n\nBased on the best-selling book about the inspirational true story of the 1936 University of Washington rowing team that competed for gold at the Summer Olympics in Berlin. See the film only in theaters this Christmas.\n\nDirected By: George Clooney\nStarring: Joel Edgerton and Callum Turner\nWritten By: Mark L. Smith\n\nFollow @BoysInTheBoatMovie on Social: \nhttps://www.instagram.com/boysintheboatmovie\nhttps://www.facebook.com/BoysInTheBoatMovie\n\nAbout MGM Studios: Metro Goldwyn Mayer (MGM) is a leading entertainment company focused on the production and global distribution of film and television content across all platforms. The company owns one of the world’s deepest libraries of premium film and television content as well as the premium pay television network MGM+, which is available throughout the U.S. via cable, satellite, telco and digital distributors.  In addition, MGM has investments in numerous other television channels, digital platforms and interactive ventures and is producing premium short-form content for distribution. \n\nConnect with MGM Studios Online\nVisit the MGM Studios WEBSITE: http://www.mgm.com/\nCheck out MGM on TIKTOK: https://www.tiktok.com/@mgmstudios/ \nFollow MGM Studios on INSTAGRAM: https://www.instagram.com/mgmstudios/ \nFollow MGM Studios on TWITTER: https://twitter.com/mgmstudios\nLike MGM Studios on FACEBOOK: https://www.facebook.com/mgm/ \n\nTHE BOYS IN THE BOAT | Official Trailer\nhttps://www.youtube.com/MGM",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/dfEA-udzjjQ/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/dfEA-udzjjQ/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/dfEA-udzjjQ/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/dfEA-udzjjQ/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/dfEA-udzjjQ/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "MGM",
+    "tags": [
+    "MGM",
+    "MGM Studios",
+    "Metro-Goldwyn- Mayer",
+    "Metro Pictures Corporations",
+    "Goldwyn Pictures",
+    "Louis B. Mayer Pictures",
+    "MGM Pictures",
+    "United Artists",
+    "Metro MGM/UA",
+    "Boys In The Boat",
+    "Boys In The Boat Trailer",
+    "Boys In The Boat Official Trailer",
+    "Official Trailer Boys In The Boat",
+    "George Clooney",
+    "Joel Edgerton",
+    "Callum Turner",
+    "Peter Guinness",
+    "Sam Strike",
+    "Thomas Elms",
+    "Jack Mulhern",
+    "The Boys In The Boat",
+    "The Boys In The Boat Official Trailer",
+    "The Boys In The Boat Trailer"
+    ],
+    "categoryId": "24",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en",
+    "localized": {
+    "title": "THE BOYS IN THE BOAT | Official Trailer",
+    "description": "This Christmas, the race is on. Watch the official trailer for The Boys In The Boat, from director George Clooney, starring Joel Edgerton and Callum Turner. \n\nBased on the best-selling book about the inspirational true story of the 1936 University of Washington rowing team that competed for gold at the Summer Olympics in Berlin. See the film only in theaters this Christmas.\n\nDirected By: George Clooney\nStarring: Joel Edgerton and Callum Turner\nWritten By: Mark L. Smith\n\nFollow @BoysInTheBoatMovie on Social: \nhttps://www.instagram.com/boysintheboatmovie\nhttps://www.facebook.com/BoysInTheBoatMovie\n\nAbout MGM Studios: Metro Goldwyn Mayer (MGM) is a leading entertainment company focused on the production and global distribution of film and television content across all platforms. The company owns one of the world’s deepest libraries of premium film and television content as well as the premium pay television network MGM+, which is available throughout the U.S. via cable, satellite, telco and digital distributors.  In addition, MGM has investments in numerous other television channels, digital platforms and interactive ventures and is producing premium short-form content for distribution. \n\nConnect with MGM Studios Online\nVisit the MGM Studios WEBSITE: http://www.mgm.com/\nCheck out MGM on TIKTOK: https://www.tiktok.com/@mgmstudios/ \nFollow MGM Studios on INSTAGRAM: https://www.instagram.com/mgmstudios/ \nFollow MGM Studios on TWITTER: https://twitter.com/mgmstudios\nLike MGM Studios on FACEBOOK: https://www.facebook.com/mgm/ \n\nTHE BOYS IN THE BOAT | Official Trailer\nhttps://www.youtube.com/MGM"
+    },
+    "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+    "duration": "PT2M34S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "857034",
+    "likeCount": "1124",
+    "favoriteCount": "0",
+    "commentCount": "83"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "2orGea-gMVxCP3HfrCUney25fQM",
+    "id": "CxENQ-GoEy4",
+    "snippet": {
+    "publishedAt": "2023-10-18T08:31:50Z",
+    "channelId": "UCF8HUTbUwPKh2Q-KpGOCVGw",
+    "title": "U.S. President Joe Biden arrives in Israel",
+    "description": "U.S. President Joe Biden arrived in Tel Aviv, Israel, on Wednesday as part of a trip to express “solidarity” with the country following a devastating Oct. 7 attack by Palestinian militant group Hamas.",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/CxENQ-GoEy4/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/CxENQ-GoEy4/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/CxENQ-GoEy4/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/CxENQ-GoEy4/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/CxENQ-GoEy4/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "CNBC International TV",
+    "tags": [
+    "Street Signs Europe"
+    ],
+    "categoryId": "25",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "U.S. President Joe Biden arrives in Israel",
+    "description": "U.S. President Joe Biden arrived in Tel Aviv, Israel, on Wednesday as part of a trip to express “solidarity” with the country following a devastating Oct. 7 attack by Palestinian militant group Hamas."
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT1M15S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "459530",
+    "likeCount": "3124",
+    "favoriteCount": "0",
+    "commentCount": "3531"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "wdjvXLkoHOg__F5vpGd00gPAqy8",
+    "id": "VcJTVfYhJQM",
+    "snippet": {
+    "publishedAt": "2023-10-18T04:46:29Z",
+    "channelId": "UCs231K71Bnu5295_x0MB5Pg",
+    "title": "Resumen - Perú 0 - 2 Argentina - Eliminatorias Sudamericanas para el Mundial 2026",
+    "description": "Argentina, líder absoluto de las Eliminatorias Sudamericanas para el Mundial 2026, venció esta noche con autoridad a Perú por 2 a 0 en el Estadio Nacional de Lima, con un doblete de su capitán, Lionel Messi, quien retornó a la titularidad tras dos fechas.\n\nMirá más contenidos destacados de Perú vs Argentina en https://www.youtube.com/playlist?list=PLxaulh35hPBsmxaXX8ozwzpC51NE4roob\n\nMirá TVP en Vivo en https://youtube.com/TVPublicaArgentina/live\n\nSuscribite en https://youtube.com/TVPublicaArgentina?sub_confirmation=1\n\nhttps://tvpublica.com.ar\nhttps://instagram.com/tv_publica\nhttps://twitter.com/tv_publica\nhttps://twitch.tv/tvpublica\nhttps://facebook.com/tvpublica\nhttps://tiktok.com/@tv_publica",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/VcJTVfYhJQM/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/VcJTVfYhJQM/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/VcJTVfYhJQM/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/VcJTVfYhJQM/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/VcJTVfYhJQM/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Televisión Pública",
+    "categoryId": "24",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "es-419",
+    "localized": {
+    "title": "Resumen - Perú 0 - 2 Argentina - Eliminatorias Sudamericanas para el Mundial 2026",
+    "description": "Argentina, líder absoluto de las Eliminatorias Sudamericanas para el Mundial 2026, venció esta noche con autoridad a Perú por 2 a 0 en el Estadio Nacional de Lima, con un doblete de su capitán, Lionel Messi, quien retornó a la titularidad tras dos fechas.\n\nMirá más contenidos destacados de Perú vs Argentina en https://www.youtube.com/playlist?list=PLxaulh35hPBsmxaXX8ozwzpC51NE4roob\n\nMirá TVP en Vivo en https://youtube.com/TVPublicaArgentina/live\n\nSuscribite en https://youtube.com/TVPublicaArgentina?sub_confirmation=1\n\nhttps://tvpublica.com.ar\nhttps://instagram.com/tv_publica\nhttps://twitter.com/tv_publica\nhttps://twitch.tv/tvpublica\nhttps://facebook.com/tvpublica\nhttps://tiktok.com/@tv_publica"
+    },
+    "defaultAudioLanguage": "es-419"
+    },
+    "contentDetails": {
+    "duration": "PT3M48S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "356751",
+    "likeCount": "2889",
+    "favoriteCount": "0",
+    "commentCount": "357"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "hiGqvzNZzkUL8vOvmgjMZCQE13Q",
+    "id": "nrOUq7eQ9bg",
+    "snippet": {
+    "publishedAt": "2023-10-17T16:28:47Z",
+    "channelId": "UCvgfXK4nTYKudb0rFR6noLA",
+    "title": "UFC 294 Embedded: Vlog Series - Episode 2",
+    "description": "Champ Alexander Volkanovski shares his motivation. Johnny Walker makes animal friends. Khamzat Chimaev goes hard in S&C. Magomed Ankalaev and Said Nurmagomedov train together. Kamaru Usman arrives on short notice. Champ Islam Makhachev plays soccer. Don't miss UFC 294 on Saturday, October 21. \n\n@VisitAbuDhabiChannel \n\nSubscribe to get all the latest UFC content: https://ufc.ac/3u8FIJp\n\nExperience UFC live with UFC FIGHT PASS, the digital subscription service of the UFC. Visit https://ufcfightpass.com/\n\nTo order UFC Pay-Per-Views on ESPN+, visit https://ufc.ac/3NKBvmx (U.S. only)\n\nTo order UFC Pay-Per-Views, visit http://welcome.ufcfightpass.com/#PPV (Non U.S.)\n\n👉 Shop official UFC Gear, visit https://ufcstore.com\n👉 Shop official UFC Memorabilia, visit https://ufccollectibles.com\n👉 Shop official UFC VIP Live Event Experiences, visit https://ufc.ac/3Oz2gLH\n\nConnect with UFC online and on Social:\n🔴 Website: http://www.ufc.com\n🔵 Twitter: http://www.twitter.com/ufc\n🔵 Facebook: http://www.facebook.com/ufc\n🔴 Instagram: http://www.instagram.com/ufc\n🟡 Snapchat: UFC\n🟣 Twitch: https://www.twitch.tv/ufc\n\nConnect with UFC FIGHT PASS on Social:\n🔵 Twitter: http://www.twitter.com/ufcfightpass\n🔵 Facebook: http://www.facebook.com/ufcfightpass\n🔴 Instagram: http://www.instagram.com/ufcfightpass\n\n#UFC #UFC294 #InAbuDhabi #VisitAbuDhabi",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/nrOUq7eQ9bg/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/nrOUq7eQ9bg/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/nrOUq7eQ9bg/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/nrOUq7eQ9bg/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/nrOUq7eQ9bg/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "UFC",
+    "tags": [
+    "ufc",
+    "mma",
+    "ultimate fighting championship",
+    "Islam",
+    "Makhachev",
+    "Alexander",
+    "Volkanovski",
+    "Khamzat",
+    "Chimaev",
+    "Kamaru",
+    "Usman",
+    "Johnny",
+    "Walker",
+    "Abu Dhabi",
+    "Embedded",
+    "UFC 294"
+    ],
+    "categoryId": "17",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "UFC 294 Embedded: Vlog Series - Episode 2",
+    "description": "Champ Alexander Volkanovski shares his motivation. Johnny Walker makes animal friends. Khamzat Chimaev goes hard in S&C. Magomed Ankalaev and Said Nurmagomedov train together. Kamaru Usman arrives on short notice. Champ Islam Makhachev plays soccer. Don't miss UFC 294 on Saturday, October 21. \n\n@VisitAbuDhabiChannel \n\nSubscribe to get all the latest UFC content: https://ufc.ac/3u8FIJp\n\nExperience UFC live with UFC FIGHT PASS, the digital subscription service of the UFC. Visit https://ufcfightpass.com/\n\nTo order UFC Pay-Per-Views on ESPN+, visit https://ufc.ac/3NKBvmx (U.S. only)\n\nTo order UFC Pay-Per-Views, visit http://welcome.ufcfightpass.com/#PPV (Non U.S.)\n\n👉 Shop official UFC Gear, visit https://ufcstore.com\n👉 Shop official UFC Memorabilia, visit https://ufccollectibles.com\n👉 Shop official UFC VIP Live Event Experiences, visit https://ufc.ac/3Oz2gLH\n\nConnect with UFC online and on Social:\n🔴 Website: http://www.ufc.com\n🔵 Twitter: http://www.twitter.com/ufc\n🔵 Facebook: http://www.facebook.com/ufc\n🔴 Instagram: http://www.instagram.com/ufc\n🟡 Snapchat: UFC\n🟣 Twitch: https://www.twitch.tv/ufc\n\nConnect with UFC FIGHT PASS on Social:\n🔵 Twitter: http://www.twitter.com/ufcfightpass\n🔵 Facebook: http://www.facebook.com/ufcfightpass\n🔴 Instagram: http://www.instagram.com/ufcfightpass\n\n#UFC #UFC294 #InAbuDhabi #VisitAbuDhabi"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT8M57S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "regionRestriction": {
+    "blocked": [
+    "BR"
+    ]
+    },
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "1265190",
+    "likeCount": "26878",
+    "favoriteCount": "0",
+    "commentCount": "2019"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "yrAsubSvJtg-QX2_62POBMrPNNE",
+    "id": "02xmR4rS3UE",
+    "snippet": {
+    "publishedAt": "2023-10-18T17:00:07Z",
+    "channelId": "UCniqtXw3nZho_0HEO5IBqvg",
+    "title": "Madison Beer - Sweet Relief (Official Music Video)",
+    "description": "Madison Beer - Sweet Relief (Official Music Video)\n\n\"Silence Between Songs\" avaialble at: https://MadisonBeer.lnk.to/SilenceBetweenSongs\n\nFollow Madison:\nInstagram: https://www.instagram.com/madisonbeer\nTwitter: https://twitter.com/madisonbeer\nFacebook: https://www.facebook.com/madisonellebeer\n\n(C) 2023 Epic Records/Sing It Loud\n\n#MadisonBeer #SilenceBetweenSongs #SweetRelief",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/02xmR4rS3UE/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/02xmR4rS3UE/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/02xmR4rS3UE/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/02xmR4rS3UE/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/02xmR4rS3UE/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "MadisonBeerMusicVEVO",
+    "tags": [
+    "sing it loud",
+    "dangerous",
+    "madison beer dangerous",
+    "hurts like hell",
+    "home with you",
+    "say it to myself",
+    "selfish",
+    "selfish video",
+    "dangerous video",
+    "life support",
+    "selfish alan walker",
+    "have never felt more alive",
+    "baby",
+    "pop up",
+    "madison beer pop up",
+    "pop up video",
+    "baby jonas blue",
+    "jonas blue remix",
+    "baby remix",
+    "showed me",
+    "madison beer showed me",
+    "showed me madison beer",
+    "showed me official music video",
+    "madison beer official music video",
+    "home to another one"
+    ],
+    "categoryId": "10",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "Madison Beer - Sweet Relief (Official Music Video)",
+    "description": "Madison Beer - Sweet Relief (Official Music Video)\n\n\"Silence Between Songs\" avaialble at: https://MadisonBeer.lnk.to/SilenceBetweenSongs\n\nFollow Madison:\nInstagram: https://www.instagram.com/madisonbeer\nTwitter: https://twitter.com/madisonbeer\nFacebook: https://www.facebook.com/madisonellebeer\n\n(C) 2023 Epic Records/Sing It Loud\n\n#MadisonBeer #SilenceBetweenSongs #SweetRelief"
+    }
+    },
+    "contentDetails": {
+    "duration": "PT2M48S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "regionRestriction": {
+    "blocked": [
+    "RU"
+    ]
+    },
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "152303",
+    "likeCount": "22442",
+    "favoriteCount": "0",
+    "commentCount": "1151"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "bdQz6e6tuPHjprM_asUNL6iUi-w",
+    "id": "aU8GQ08LaMo",
+    "snippet": {
+    "publishedAt": "2023-10-17T18:00:01Z",
+    "channelId": "UCeGGpOehPGG7vQMUVc7tG8Q",
+    "title": "What's Going On With Digital Circus?",
+    "description": "So the pilot for Digital Circus was released...here's my review \n\nSaber's Socials \n►Follow Saber on Twitter: https://twitter.com/Saberspark\n►Follow Saber on Twitch: https://www.twitch.tv/saberspark_\n►Support Saber on Patreon: https://www.patreon.com/saberspark\n\nVideo Credits\n►Edits by CosmicKeyframe \nhttps://www.youtube.com/@CosmicKeyframeProductions \n►Thumbnail by Rishi \nhttps://twitter.com/rishicoyote\n►Audio Edits by dBPony\nhttps://www.dbcentralaudio.com/\n►Intro Music/Outro Music by Hirosashii\nhttps://www.youtube.com/user/Hirosashii",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/aU8GQ08LaMo/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/aU8GQ08LaMo/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/aU8GQ08LaMo/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/aU8GQ08LaMo/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/aU8GQ08LaMo/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Saberspark",
+    "tags": [
+    "saberspark",
+    "saber",
+    "animation",
+    "digital circus",
+    "review",
+    "glitch productions",
+    "glitch"
+    ],
+    "categoryId": "24",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "What's Going On With Digital Circus?",
+    "description": "So the pilot for Digital Circus was released...here's my review \n\nSaber's Socials \n►Follow Saber on Twitter: https://twitter.com/Saberspark\n►Follow Saber on Twitch: https://www.twitch.tv/saberspark_\n►Support Saber on Patreon: https://www.patreon.com/saberspark\n\nVideo Credits\n►Edits by CosmicKeyframe \nhttps://www.youtube.com/@CosmicKeyframeProductions \n►Thumbnail by Rishi \nhttps://twitter.com/rishicoyote\n►Audio Edits by dBPony\nhttps://www.dbcentralaudio.com/\n►Intro Music/Outro Music by Hirosashii\nhttps://www.youtube.com/user/Hirosashii"
+    }
     },
     "contentDetails": {
     "duration": "PT9M11S",
@@ -3419,404 +2187,273 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "809973",
-    "likeCount": "95292",
+    "viewCount": "512399",
+    "likeCount": "42165",
     "favoriteCount": "0",
-    "commentCount": "2704"
+    "commentCount": "2171"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "3qitXAE_mfwBK40_OyBM9cpqsOE",
-    "id": "PPeoy1uhRLI",
+    "etag": "0melt-7rVHdjZ65BQ2K4dimwwmU",
+    "id": "6ivbacZJ19c",
     "snippet": {
-    "publishedAt": "2023-10-12T15:15:03Z",
-    "channelId": "UCeMsqI6jU9WE2ctsrbxbywQ",
-    "title": "মহালয়া 2023 - Mahalaya 2023 | 14th Oct | 5 AM | Zee Bangla",
-    "description": "Zee5 Paid Subscription Link: https://bit.ly/32gxIJ4\nFree Subscription click here: http://bit.ly/ZeeBangla\nGet notified about our Latest update by Clicking the Bell Icon 🔔\n\nTo Download Free ZEE5 Mobile app click the link below\nPlaystore: http://bit.ly/Zee5PlayStore\niTunes: http://bit.ly/Zee5ITunes\n\nConnect with Zee Bangla on Social Media\nFacebook: http://bit.ly/ZeebanglaFB\nInstagram: http://bit.ly/ZeeBanglaInsta\nTwitter: http://bit.ly/ZeeBanglaTwitter\n\nConnect with ZEE5 Bangla on Social Media\nFacebook: http://bit.ly/Zee5BanglaFB\nInstagram: http://bit.ly/Zee5BanglaInsta\nTwitter: http://bit.ly/Zee5Bangla",
+    "publishedAt": "2023-10-17T18:00:03Z",
+    "channelId": "UCAts6tUdnEQIWZ8EAdVBDKA",
+    "title": "Highest Value Item Takes Owner Completely By Surprise | Antiques Roadshow",
+    "description": "*All valuations were correct at the time of broadcast.* This lady brought in a box of gold jewellery for the Antiques Roadshow expert to look at, but it was actually the necklace she was wearing that intrigued the expert most. Dating from about 1840, it has a surprising valuation that shocks the owner. Hugh Scully and the experts from Antiques Roadshow take a look at some fantastic antiques and the history and stories surrounding them. This clip was filmed in Lyme Park in 1999.\n\nWelcome to the home of Antiques Roadshow on YouTube. Here you'll find all the best clips from Britain’s most popular antiques appraisal show. From items that have been handed down the generations to those picked up in junk shops, discover their history and delight in the possibility that it could in fact be a priceless treasure. \n\nSubscribe to the channel so that you don't miss a thing: https://www.youtube.com/channel/UCAts6tUdnEQIWZ8EAdVBDKA \n\nStream full episodes of Antiques Roadshow on BBC iPlayer: https://www.bbc.co.uk/iplayer/episodes/b006mj2y/antiques-roadshow\n\nThis is a commercial channel from BBC Studios. To contact us or provide feedback please visit: https://www.bbcstudios.com/contact/contact-us/",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/PPeoy1uhRLI/default.jpg",
+    "url": "https://i.ytimg.com/vi/6ivbacZJ19c/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/PPeoy1uhRLI/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/6ivbacZJ19c/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/PPeoy1uhRLI/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/6ivbacZJ19c/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/PPeoy1uhRLI/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/6ivbacZJ19c/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/PPeoy1uhRLI/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/6ivbacZJ19c/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "Zee Bangla",
+    "channelTitle": "BBC Antiques Roadshow",
     "tags": [
-    "Zee Bangla",
-    "zeebangla",
-    "জী বাংলা",
-    "zee বাংলা",
-    "Bangla channel",
-    "general entertainment channel",
-    "bengali tv channel",
-    "bangla GEC TV channel",
-    "bangla show",
-    "entertainment",
-    "bangla",
-    "bengali",
-    "mahalaya 2023",
-    "mahalaya video",
-    "mahalaya bts",
-    "mahalaya dance performance",
-    "mahalaya dance",
-    "mahalaya dance song",
-    "zee bangla",
-    "zee bangla mahalaya 2023",
-    "zee bangla mahalaya",
-    "zee bangla mahalaya 2023 shooting"
+    "Antiques",
+    "Antiques Roadshow",
+    "Roadshow",
+    "crafts",
+    "models",
+    "paintings",
+    "art",
+    "sculptures",
+    "ceramics",
+    "treasure",
+    "bbc",
+    "bbc studios",
+    "jewellery",
+    "watches",
+    "books",
+    "photography",
+    "old",
+    "classic",
+    "clocks",
+    "furniture",
+    "carpets",
+    "rugs",
+    "coins",
+    "medals",
+    "collectables",
+    "decor",
+    "furnishings",
+    "telescopes",
+    "salvage",
+    "busts",
+    "ephermera",
+    "mirrors",
+    "toys",
+    "tools",
+    "silver",
+    "gold",
+    "metals",
+    "textiles",
+    "wood carvings",
+    "walking sticks",
+    "canes",
+    "vintage clothes",
+    "transport",
+    "british",
+    "brooch",
+    "german",
+    "germany",
+    "beaming",
+    "jewel",
+    "gilded",
+    "gilding",
+    "jewels",
+    "diamond",
+    "ruby",
+    "diamonds",
+    "rubies",
+    "emerald",
+    "emeralds",
+    "ring"
     ],
     "categoryId": "24",
     "liveBroadcastContent": "none",
     "defaultLanguage": "en-GB",
     "localized": {
-    "title": "মহালয়া 2023 - Mahalaya 2023 | 14th Oct | 5 AM | Zee Bangla",
-    "description": "Zee5 Paid Subscription Link: https://bit.ly/32gxIJ4\nFree Subscription click here: http://bit.ly/ZeeBangla\nGet notified about our Latest update by Clicking the Bell Icon 🔔\n\nTo Download Free ZEE5 Mobile app click the link below\nPlaystore: http://bit.ly/Zee5PlayStore\niTunes: http://bit.ly/Zee5ITunes\n\nConnect with Zee Bangla on Social Media\nFacebook: http://bit.ly/ZeebanglaFB\nInstagram: http://bit.ly/ZeeBanglaInsta\nTwitter: http://bit.ly/ZeeBanglaTwitter\n\nConnect with ZEE5 Bangla on Social Media\nFacebook: http://bit.ly/Zee5BanglaFB\nInstagram: http://bit.ly/Zee5BanglaInsta\nTwitter: http://bit.ly/Zee5Bangla"
+    "title": "Highest Value Item Takes Owner Completely By Surprise | Antiques Roadshow",
+    "description": "*All valuations were correct at the time of broadcast.* This lady brought in a box of gold jewellery for the Antiques Roadshow expert to look at, but it was actually the necklace she was wearing that intrigued the expert most. Dating from about 1840, it has a surprising valuation that shocks the owner. Hugh Scully and the experts from Antiques Roadshow take a look at some fantastic antiques and the history and stories surrounding them. This clip was filmed in Lyme Park in 1999.\n\nWelcome to the home of Antiques Roadshow on YouTube. Here you'll find all the best clips from Britain’s most popular antiques appraisal show. From items that have been handed down the generations to those picked up in junk shops, discover their history and delight in the possibility that it could in fact be a priceless treasure. \n\nSubscribe to the channel so that you don't miss a thing: https://www.youtube.com/channel/UCAts6tUdnEQIWZ8EAdVBDKA \n\nStream full episodes of Antiques Roadshow on BBC iPlayer: https://www.bbc.co.uk/iplayer/episodes/b006mj2y/antiques-roadshow\n\nThis is a commercial channel from BBC Studios. To contact us or provide feedback please visit: https://www.bbcstudios.com/contact/contact-us/"
     },
-    "defaultAudioLanguage": "bn"
+    "defaultAudioLanguage": "en"
     },
     "contentDetails": {
-    "duration": "PT10S",
+    "duration": "PT3M19S",
     "dimension": "2d",
     "definition": "hd",
-    "caption": "false",
+    "caption": "true",
     "licensedContent": true,
     "contentRating": {},
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "716075",
-    "likeCount": "2807",
+    "viewCount": "560229",
+    "likeCount": "721",
     "favoriteCount": "0",
-    "commentCount": "115"
+    "commentCount": "29"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "jxFV-__HaFyIAuAgPofncpXHtgw",
-    "id": "wahCrMUsTFc",
+    "etag": "gSgJEA7O_49OSWnEewHTwOLoA-0",
+    "id": "vrgRiR563H8",
     "snippet": {
-    "publishedAt": "2023-10-14T06:08:30Z",
-    "channelId": "UCrOCrPtXW2OzpP2O87-gF-g",
-    "title": "ऐ ख़ुदा क़िब्ला-ए-अव्वल की दुआएँ सुन ले - Imran Pratapgarhi New Nazm On Falasteen || Dammam Mushayra",
-    "description": "ऐ ख़ुदा क़िब्ला-ए- अव्वल की दुआएँ सुन ले - Imran Pratapgarhi New Nazm On Falasteen | Dammam Mushayra\nThis is Official YouTube Channel of Shayar/Poet & Rajyasabha MP Imran Pratapgarhi (Copyright)\n\nFollow Imran Pratapgarhi On These Social Media Networks...\n\nFacebook - https://www.facebook.com/ImranPratapgarhiOfficial\nTwitter - https://twitter.com/ShayarImran\nInstagram - https://www.instagram.com/imranpratapgarhi/\nTelegram - https://t.me/imranpratapgarhi\n\n#ImranPratapgarhi #FalasteenNazm #DammamMushayra",
+    "publishedAt": "2023-10-18T16:00:47Z",
+    "channelId": "UCqg5FCR7NrpvlBWMXdt-5Vg",
+    "title": "Armored Core VI (Zero Punctuation)",
+    "description": "Join our Patreon for a week of Early Access to all of our Premium video series including Zero Punctuation, Cold Take, Extra Punctuation, Adventure is Nigh and more! Just $2/month with a 7 day free trial. ►► https://www.patreon.com/the_escapist\n\nThis week on Zero Punctuation, Yahtzee reviews Armored Core VI.\n\nJoin our growing Discord community: https://discord.gg/A6T2gKrDwB\n\nSubscribe to Escapist Magazine! ►► http://bit.ly/Sub2Escapist\n\n---\n\n\n\n---\n\nThe Escapist Merch Store ►►https://teespring.com/stores/the-escapist-store\nJoin us on Twitch ►► https://www.twitch.tv/the_escapist_official\nLike us on Facebook ►► http://www.facebook.com/EscapistMag\nFollow us on Twitter ►► https://twitter.com/EscapistMag",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/wahCrMUsTFc/default.jpg",
+    "url": "https://i.ytimg.com/vi/vrgRiR563H8/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/wahCrMUsTFc/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/vrgRiR563H8/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/wahCrMUsTFc/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/vrgRiR563H8/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/wahCrMUsTFc/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/vrgRiR563H8/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/wahCrMUsTFc/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/vrgRiR563H8/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "Imran Pratapgarhi Official",
+    "channelTitle": "The Escapist",
     "tags": [
-    "new falasteen nazm imran pratapgarhi dammam mushayra",
-    "dammam mushayra imran pratapgarhi",
-    "new nazm falasteen imran pratapgarhi",
-    "aye khuda qibla e awwal ki duayen sun le"
+    "Zero Punctuation",
+    "ZP",
+    "Armored Core VI",
+    "The Escapist",
+    "Yahtzee",
+    "Yahtzee Croshaw",
+    "Review",
+    "Impressions"
     ],
-    "categoryId": "24",
+    "categoryId": "20",
     "liveBroadcastContent": "none",
-    "defaultLanguage": "en-GB",
+    "defaultLanguage": "en-US",
     "localized": {
-    "title": "ऐ ख़ुदा क़िब्ला-ए-अव्वल की दुआएँ सुन ले - Imran Pratapgarhi New Nazm On Falasteen || Dammam Mushayra",
-    "description": "ऐ ख़ुदा क़िब्ला-ए- अव्वल की दुआएँ सुन ले - Imran Pratapgarhi New Nazm On Falasteen | Dammam Mushayra\nThis is Official YouTube Channel of Shayar/Poet & Rajyasabha MP Imran Pratapgarhi (Copyright)\n\nFollow Imran Pratapgarhi On These Social Media Networks...\n\nFacebook - https://www.facebook.com/ImranPratapgarhiOfficial\nTwitter - https://twitter.com/ShayarImran\nInstagram - https://www.instagram.com/imranpratapgarhi/\nTelegram - https://t.me/imranpratapgarhi\n\n#ImranPratapgarhi #FalasteenNazm #DammamMushayra"
-    }
+    "title": "Armored Core VI (Zero Punctuation)",
+    "description": "Join our Patreon for a week of Early Access to all of our Premium video series including Zero Punctuation, Cold Take, Extra Punctuation, Adventure is Nigh and more! Just $2/month with a 7 day free trial. ►► https://www.patreon.com/the_escapist\n\nThis week on Zero Punctuation, Yahtzee reviews Armored Core VI.\n\nJoin our growing Discord community: https://discord.gg/A6T2gKrDwB\n\nSubscribe to Escapist Magazine! ►► http://bit.ly/Sub2Escapist\n\n---\n\n\n\n---\n\nThe Escapist Merch Store ►►https://teespring.com/stores/the-escapist-store\nJoin us on Twitch ►► https://www.twitch.tv/the_escapist_official\nLike us on Facebook ►► http://www.facebook.com/EscapistMag\nFollow us on Twitter ►► https://twitter.com/EscapistMag"
+    },
+    "defaultAudioLanguage": "en"
     },
     "contentDetails": {
-    "duration": "PT12M35S",
+    "duration": "PT6M17S",
     "dimension": "2d",
     "definition": "hd",
-    "caption": "false",
+    "caption": "true",
     "licensedContent": true,
     "contentRating": {},
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "549247",
-    "likeCount": "25674",
+    "viewCount": "205976",
+    "likeCount": "13247",
     "favoriteCount": "0",
-    "commentCount": "1691"
+    "commentCount": "611"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "OG0O97zWi51HIrl3Payq6DWfoOc",
-    "id": "5V04DETPF0o",
+    "etag": "Tck5cTE1iPQTLRURfC0jsiUM2Fw",
+    "id": "SAga7yxRHa4",
     "snippet": {
-    "publishedAt": "2023-10-11T04:29:08Z",
-    "channelId": "UCq-Fj5jknLsUf-MWSy4_brA",
-    "title": "ANIMAL: HUA MAIN (Song) | Ranbir Kapoor | Rashmika M | Sandeep V | Raghav,Manoj M | Bhushan K",
-    "description": "LOVE, HAS NO LIMITS! WITNESS ITS PASSION WITH \"HUA MAIN\" FROM THE FILM ANIMAL. STARRING RANBIR KAPOOR & RASHMIKA MANDANNA. \n\nGULSHAN KUMAR & T-SERIES PRESENT\nA T-SERIES FILMS, ST FILM LTD &\nBHADRAKALI PICTURES PRODUCTION \n\n#RANBIRKAPOOR #RASHMIKAMANDANNA IN #ANIMAL\nTHE FILM BY #SANDEEPREDDYVANGA\n\nWORLDWIDE RELEASE ON 1ST DECEMBER 2023 IN CINEMAS IN HINDI, TELUGU, TAMIL, KANNADA & MALAYALAM \n\n♪FULL SONG AVAILABLE ON♪ \nJioSaavn: https://bit.ly/3LXXCYi\nSpotify: https://bit.ly/45lrIfm\nHungama: https://bit.ly/3Fa1r94\nApple Music: https://bit.ly/46nK5RX\nAmazon Prime Music: https://bit.ly/3M0XuHB\nWynk: https://bit.ly/3Fc8cqX\nResso: https://bit.ly/3rPOkXB\nYouTube Music: https://bit.ly/3rR4PTa\n\nCREDITS:\nSONG NAME : HUA MAIN \nMUSIC : JAM8 \nCOMPOSER : PRITAM\nLYRICIST : MANOJ MUNTASHIR SHUKLA\nSINGERS: RAGHAV CHAITANYA, PRITAM \nSONG MIXED & MASTERED BY ERIC PILLAI AT FUTURE SOUND OF BOMBAY\nMIXING ASST: MICHAEL EDWIN PILLAI\n\nFILM CREDITS:\n\nWRITER – EDITOR –DIRECTOR: SANDEEP REDDY VANGA\nPRODUCED BY: BHUSHAN KUMAR, PRANAY REDDY VANGA, MURAD KHETANI, KRISHAN KUMAR\nCO-PRODUCER: SHIV CHANANA, FIRUZI KHAN   \nPRESIDENT (T-SERIES): NEERAJ KALYAN\nSCREENPLAY: SANDEEP REDDY VANGA, PRANAY REDDY VANGA & SURESH BANDARU \nDIALOGUES: SAURABH GUPTA  \nDOP: AMIT ROY  \nPRODUCTION DESIGNER: SURESH SELVARAJAN   \nACTION: SUPREME SUNDAR  \nCOSTUME DESIGNER: SHEETAL IQBAL SHARMA \nEXECUTIVE PRODUCER: MAHIPAL RATHORE \nMUSIC: PRITAM, VISHAL MISHRA, MANAN BHARDWAJ, SHREYAS PURANIK, JAANI, ASHIM KEMSON, HARSHAVARDHAN RAMESHWAR, GURINDER SEAGAL\nLYRICS: MANOJ MUNTASHIR, JAANI, SIDDHARTH-GARIMA, RAJ SHEKHAR, BHUPINDER BABBAL, MANAN BHARDWAJ, ASHIM KEMSON, GURINDER SEAGAL\nBGM: HARSHAVARDHAN RAMESHWAR \nSOUND DESIGN: SYNC CINEMA \nSOUND MIXING: RAJA KRISHNAN M.R \nASSOC.EDITOR: MD. ZAYEEMUDDIN \nASSOC.DIRECTORS: SHANMUKHA GOWTHAM.G, SRIKANTH VARMA.G \n1st AD: PRAATIEK DODEJA \nPROJECT HEAD: ALOK KUMAR SHUKLA \nPOST PRODUCTION: DO IT CREATIVE, THE POST CO, NY DI-WAALA \nLINE PRODUCER: MAX REHMAN, SHIV KUMAR \nMARKETING & PROMOTIONS (T-SERIES): SHIVAM CHANANA, RAJ CHANANA, PRASHANT SHETTY, MITA CHOUDHARY, RAHUL DUBEY, AMOL BHAMARE, HEETT SAVLA\nMUSIC ON: T-SERIES  \nMUSIC TEAM (T-SERIES): RAJ CHANANA, SHIVAM CHANANA, SONAL CHAWLA, SONU SRIVASTAVA, VIVIN SACHDEVA\nPR AGENCY: COMMUNIQUÉ FILM PR \nMARKETING AGENCY: VARUN GUPTA (MAX), WALLS & TRENDS \nDIGITAL MARKETING: EVERYMEDIA  \nPUBLICITY DESIGN: ANIL & BHANU  \nVISUAL PROMOTION: JUST RIGHT STUDIOZ NX\n\n\nDownload Song Beat: https://bit.ly/3Cjh24R\n\n___________________________________\nEnjoy & stay connected with us!\n👉 Subscribe to T-Series: http://bit.ly/TSeriesYouTube\n👉 Like us on Facebook: https://www.facebook.com/tseriesmusic\n👉 Follow us on X: https://twitter.com/tseries\n👉 Follow us on Instagram: http://bit.ly/InstagramTseries",
+    "publishedAt": "2023-10-18T17:05:20Z",
+    "channelId": "UC6G2vAJrt407lwiynW116Eg",
+    "title": "The Kid LAROI, Jung Kook & Central Cee - TOO MUCH (Official Teaser)",
+    "description": "\"TOO MUCH\" with Jung Kook & Central Cee Dropping October 20th\n\npre-order: https://tklmerch.com/\npre-save: https://toomuchmag.com/\n\nThursday October 19 @ 12 PM ET - Video Premiere Page Launch\nThursday October 19 @ 7 PM ET - Available to Stream and Watch Everywhere\nFriday October 20 @ 12 AM ET - Available to Download Everywhere\n\nALBUM IN NOVEMBER \n\n#TheKidLAROI #CentralCee #JungKook",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/5V04DETPF0o/default.jpg",
+    "url": "https://i.ytimg.com/vi/SAga7yxRHa4/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/5V04DETPF0o/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/SAga7yxRHa4/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/5V04DETPF0o/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/SAga7yxRHa4/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/5V04DETPF0o/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/SAga7yxRHa4/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/5V04DETPF0o/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/SAga7yxRHa4/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "T-Series",
+    "channelTitle": "The Kid LAROI.",
     "tags": [
-    "bollywood songs 2023",
-    "bollywood movies 2023",
-    "tseries",
-    "tseries songs",
-    "hua mein",
-    "hua mein song",
-    "hua mein ranbir kapoor",
-    "hua mein ranbir",
-    "hua main animal movie song",
-    "hua mein full song",
-    "hua mein ranbir and rashmika",
-    "ranbir kapoor and rashmika mandanna kiss",
-    "ranbir kapoor and rashmika",
-    "hua mein raghav chaitanya",
-    "hua mein animal movie",
-    "hua mein animal",
-    "ranbir kapoor hua mein",
-    "ranbir kapoor hua mein song",
-    "rashmika mandanna hua mein",
-    "ranbir kapoor and rashmika mandanna song",
-    "animal"
+    "laroi",
+    "bts",
+    "jung kook",
+    "jungkook",
+    "the kid laroi",
+    "thekidlaroi",
+    "central cee",
+    "centralcee",
+    "cench",
+    "laroi new song",
+    "laroi new music",
+    "too much",
+    "toomuch",
+    "the first time",
+    "tft",
+    "thefirsttime"
     ],
     "categoryId": "10",
     "liveBroadcastContent": "none",
+    "defaultLanguage": "en",
     "localized": {
-    "title": "ANIMAL: HUA MAIN (Song) | Ranbir Kapoor | Rashmika M | Sandeep V | Raghav,Manoj M | Bhushan K",
-    "description": "LOVE, HAS NO LIMITS! WITNESS ITS PASSION WITH \"HUA MAIN\" FROM THE FILM ANIMAL. STARRING RANBIR KAPOOR & RASHMIKA MANDANNA. \n\nGULSHAN KUMAR & T-SERIES PRESENT\nA T-SERIES FILMS, ST FILM LTD &\nBHADRAKALI PICTURES PRODUCTION \n\n#RANBIRKAPOOR #RASHMIKAMANDANNA IN #ANIMAL\nTHE FILM BY #SANDEEPREDDYVANGA\n\nWORLDWIDE RELEASE ON 1ST DECEMBER 2023 IN CINEMAS IN HINDI, TELUGU, TAMIL, KANNADA & MALAYALAM \n\n♪FULL SONG AVAILABLE ON♪ \nJioSaavn: https://bit.ly/3LXXCYi\nSpotify: https://bit.ly/45lrIfm\nHungama: https://bit.ly/3Fa1r94\nApple Music: https://bit.ly/46nK5RX\nAmazon Prime Music: https://bit.ly/3M0XuHB\nWynk: https://bit.ly/3Fc8cqX\nResso: https://bit.ly/3rPOkXB\nYouTube Music: https://bit.ly/3rR4PTa\n\nCREDITS:\nSONG NAME : HUA MAIN \nMUSIC : JAM8 \nCOMPOSER : PRITAM\nLYRICIST : MANOJ MUNTASHIR SHUKLA\nSINGERS: RAGHAV CHAITANYA, PRITAM \nSONG MIXED & MASTERED BY ERIC PILLAI AT FUTURE SOUND OF BOMBAY\nMIXING ASST: MICHAEL EDWIN PILLAI\n\nFILM CREDITS:\n\nWRITER – EDITOR –DIRECTOR: SANDEEP REDDY VANGA\nPRODUCED BY: BHUSHAN KUMAR, PRANAY REDDY VANGA, MURAD KHETANI, KRISHAN KUMAR\nCO-PRODUCER: SHIV CHANANA, FIRUZI KHAN   \nPRESIDENT (T-SERIES): NEERAJ KALYAN\nSCREENPLAY: SANDEEP REDDY VANGA, PRANAY REDDY VANGA & SURESH BANDARU \nDIALOGUES: SAURABH GUPTA  \nDOP: AMIT ROY  \nPRODUCTION DESIGNER: SURESH SELVARAJAN   \nACTION: SUPREME SUNDAR  \nCOSTUME DESIGNER: SHEETAL IQBAL SHARMA \nEXECUTIVE PRODUCER: MAHIPAL RATHORE \nMUSIC: PRITAM, VISHAL MISHRA, MANAN BHARDWAJ, SHREYAS PURANIK, JAANI, ASHIM KEMSON, HARSHAVARDHAN RAMESHWAR, GURINDER SEAGAL\nLYRICS: MANOJ MUNTASHIR, JAANI, SIDDHARTH-GARIMA, RAJ SHEKHAR, BHUPINDER BABBAL, MANAN BHARDWAJ, ASHIM KEMSON, GURINDER SEAGAL\nBGM: HARSHAVARDHAN RAMESHWAR \nSOUND DESIGN: SYNC CINEMA \nSOUND MIXING: RAJA KRISHNAN M.R \nASSOC.EDITOR: MD. ZAYEEMUDDIN \nASSOC.DIRECTORS: SHANMUKHA GOWTHAM.G, SRIKANTH VARMA.G \n1st AD: PRAATIEK DODEJA \nPROJECT HEAD: ALOK KUMAR SHUKLA \nPOST PRODUCTION: DO IT CREATIVE, THE POST CO, NY DI-WAALA \nLINE PRODUCER: MAX REHMAN, SHIV KUMAR \nMARKETING & PROMOTIONS (T-SERIES): SHIVAM CHANANA, RAJ CHANANA, PRASHANT SHETTY, MITA CHOUDHARY, RAHUL DUBEY, AMOL BHAMARE, HEETT SAVLA\nMUSIC ON: T-SERIES  \nMUSIC TEAM (T-SERIES): RAJ CHANANA, SHIVAM CHANANA, SONAL CHAWLA, SONU SRIVASTAVA, VIVIN SACHDEVA\nPR AGENCY: COMMUNIQUÉ FILM PR \nMARKETING AGENCY: VARUN GUPTA (MAX), WALLS & TRENDS \nDIGITAL MARKETING: EVERYMEDIA  \nPUBLICITY DESIGN: ANIL & BHANU  \nVISUAL PROMOTION: JUST RIGHT STUDIOZ NX\n\n\nDownload Song Beat: https://bit.ly/3Cjh24R\n\n___________________________________\nEnjoy & stay connected with us!\n👉 Subscribe to T-Series: http://bit.ly/TSeriesYouTube\n👉 Like us on Facebook: https://www.facebook.com/tseriesmusic\n👉 Follow us on X: https://twitter.com/tseries\n👉 Follow us on Instagram: http://bit.ly/InstagramTseries"
+    "title": "The Kid LAROI, Jung Kook & Central Cee - TOO MUCH (Official Teaser)",
+    "description": "\"TOO MUCH\" with Jung Kook & Central Cee Dropping October 20th\n\npre-order: https://tklmerch.com/\npre-save: https://toomuchmag.com/\n\nThursday October 19 @ 12 PM ET - Video Premiere Page Launch\nThursday October 19 @ 7 PM ET - Available to Stream and Watch Everywhere\nFriday October 20 @ 12 AM ET - Available to Download Everywhere\n\nALBUM IN NOVEMBER \n\n#TheKidLAROI #CentralCee #JungKook"
     },
-    "defaultAudioLanguage": "hi"
+    "defaultAudioLanguage": "en-US"
     },
     "contentDetails": {
-    "duration": "PT2M46S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "30771336",
-    "likeCount": "427568",
-    "favoriteCount": "0",
-    "commentCount": "27784"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "vR-i9ZCkogNXa0zGK_WM2Ocm_dg",
-    "id": "48nf6xhlXPI",
-    "snippet": {
-    "publishedAt": "2023-10-13T14:31:31Z",
-    "channelId": "UCmO-jDLU-KUcweCzktuDsbg",
-    "title": "Unstoppable Ep 1 Promo🔥 | Kajal, Sreeleela, Anil | #UnstoppableWithNBK | Premieres Oct 17",
-    "description": "Mallochindu mana chicha\nMarintha Allaritho, Marintha Sandhaditho…🤗\nFull meals vachelopu, ee sweet promo enjoy cheyyandi!🔥\n#UnstoppableWithNBK Limited Edition, Premieres Oct 17  @ 6pm 🤟\n#NandamuriBalakrishna #Sreeleela #KajalAgarwal\n\n@mansionhousebrandy@SouthIndiaShoppingMall @OfficialKhiladiIndia @mydr.painrelief8192 @ManepallyJewellersPvtLtd @Sprite @ambicadurbarbathi-official3037 \n\nFollow @ahaTelugu   for more such updates- \n\nWebsite : https://www.aha.video/\n\nInstagram : https://instagram.com/ahavideoin\nTwitter : https://twitter.com/ahavideoIN\nFacebook : https://www.facebook.com/ahavideoIN/\n-----------------------------------------------------------------------------------------------------------------------\nLatest Movies on aha: \nBaby : ▶️ https://www.aha.video/movie/baby\nSamajavaragamana : ▶️ https://www.aha.video/movie/samajavaragamana\nIntinti Ramayanam : ▶️ https://www.aha.video/movie/intinti-ramayanam\nMalli Pelli : ▶️ https://www.aha.video/movie/malli-pelli\nSathi Gani Rendu Ekaralu: ▶https://www.aha.video/movie/sathi-gan...\nDas Ka Dhamki : ▶https://www.aha.video/movie/das-ka-dh...\naha Godari : ▶https://www.aha.video/movie/aha-godari\nVinaro Bhagyamu Vishnu Katha : ▶\nhttps://www.aha.video/movie/vinaro-bh...\nMichael : ▶https://www.aha.video/movie/michael-t...\nMasooda: ▶https://www.aha.video/movie/masooda\nUrvasivo Rakshasivo: ▶https://www.aha.video/movie/urvasivo-...\nSardar:  ▶https://www.aha.video/movie/sardar-te...\nOri Devuda: ▶https://www.aha.video/movie/ori-devuda\nDJ Tillu: ▶https://www.aha.video/movie/dj-tillu\n\nOriginal Shows on aha: \nTelugu Indian Idol : ▶https://www.aha.video/telugu-indian-idol\nNewsense :▶ https://www.aha.video/webseries/newsense\nGeetha Subramanyam :▶ https://www.aha.video/webseries/gs-2\nSARKAAR :▶ https://www.aha.video/webseries/sarkaar\nUnstoppable seasons 1 & 2: ▶https://www.aha.video/webseries/unsto...\nComedy Stock Exchange: ▶https://www.aha.video/webseries/comed...\nDance IKON :▶https://www.aha.video/webseries/dance...\nTelugu Indian Idol:▶ https://www.aha.video/telugu-indian-idol\nChef Mantra Seasons 1 & 2:▶ https://www.aha.video/webseries/chef-...\nDaily Series: Mr Pellam:▶ https://www.aha.video/webseries/miste...\n\nKorean Series on AHA:\nFight For My Way: https://www.aha.video/webseries/fight...\nSchool 2017: https://www.aha.video/webseries/schoo...\nYouth Of May: https://www.aha.video/webseries/youth...\nHwarang: https://www.aha.video/webseries/hwara...\nCouple on the BackTrack: https://www.aha.video/webseries/coupl...\n--------------------------------------------------------------------------------------------------------------------\nEnjoy and stay connected with us!\n\n► Website: https://www.aha.video​​​\n► Subscribe to us on YouTube: https://watch.aha.video/YouTube​​​\n► Like us on Facebook: https://watch.aha.video/Facebook​​​\n► Follow us on Twitter: https://watch.aha.video/Twitter​​​\n► Follow us on Instagram: https://watch.aha.video/Instagram​​​\n\nDownload:\nhttps://watch.aha.video/play-store​​​\nhttps://watch.aha.video/App-Store\n\n\n#UnstoppableWithNBK  #NBKOnAHA #NandamuriBalakrishna #sreeleela #kajal  #unstoppable #promo #unstoppablelimitededition #nbk #aha #balakrishna #telugushow #unstoppablewithnbkpromo",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/48nf6xhlXPI/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/48nf6xhlXPI/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/48nf6xhlXPI/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/48nf6xhlXPI/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/48nf6xhlXPI/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "aha videoIN",
-    "tags": [
-    "balakrishna unstoppable",
-    "Unstoppable Limited Edition",
-    "Balakrishna Unstoppable limited edition",
-    "balakrishna sreeleela",
-    "unstoppable with NBK",
-    "Balakrishna",
-    "bhagavanth kesari",
-    "unstoppable with nbk",
-    "unstoppable",
-    "nandamuri balakrishna",
-    "unstoppable with nbk promo",
-    "balakrishna",
-    "unstoppable promo",
-    "unstoppable aha",
-    "balakrishna talk show",
-    "balakrishna movies",
-    "unstoppable sneak peak",
-    "balakrishna sreeleela bhagavath kesari",
-    "aha",
-    "ahavideoin",
-    "sreeleela unstoppable",
-    "kajal",
-    "promo",
-    "balayya unstoppable"
-    ],
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Unstoppable Ep 1 Promo🔥 | Kajal, Sreeleela, Anil | #UnstoppableWithNBK | Premieres Oct 17",
-    "description": "Mallochindu mana chicha\nMarintha Allaritho, Marintha Sandhaditho…🤗\nFull meals vachelopu, ee sweet promo enjoy cheyyandi!🔥\n#UnstoppableWithNBK Limited Edition, Premieres Oct 17  @ 6pm 🤟\n#NandamuriBalakrishna #Sreeleela #KajalAgarwal\n\n@mansionhousebrandy@SouthIndiaShoppingMall @OfficialKhiladiIndia @mydr.painrelief8192 @ManepallyJewellersPvtLtd @Sprite @ambicadurbarbathi-official3037 \n\nFollow @ahaTelugu   for more such updates- \n\nWebsite : https://www.aha.video/\n\nInstagram : https://instagram.com/ahavideoin\nTwitter : https://twitter.com/ahavideoIN\nFacebook : https://www.facebook.com/ahavideoIN/\n-----------------------------------------------------------------------------------------------------------------------\nLatest Movies on aha: \nBaby : ▶️ https://www.aha.video/movie/baby\nSamajavaragamana : ▶️ https://www.aha.video/movie/samajavaragamana\nIntinti Ramayanam : ▶️ https://www.aha.video/movie/intinti-ramayanam\nMalli Pelli : ▶️ https://www.aha.video/movie/malli-pelli\nSathi Gani Rendu Ekaralu: ▶https://www.aha.video/movie/sathi-gan...\nDas Ka Dhamki : ▶https://www.aha.video/movie/das-ka-dh...\naha Godari : ▶https://www.aha.video/movie/aha-godari\nVinaro Bhagyamu Vishnu Katha : ▶\nhttps://www.aha.video/movie/vinaro-bh...\nMichael : ▶https://www.aha.video/movie/michael-t...\nMasooda: ▶https://www.aha.video/movie/masooda\nUrvasivo Rakshasivo: ▶https://www.aha.video/movie/urvasivo-...\nSardar:  ▶https://www.aha.video/movie/sardar-te...\nOri Devuda: ▶https://www.aha.video/movie/ori-devuda\nDJ Tillu: ▶https://www.aha.video/movie/dj-tillu\n\nOriginal Shows on aha: \nTelugu Indian Idol : ▶https://www.aha.video/telugu-indian-idol\nNewsense :▶ https://www.aha.video/webseries/newsense\nGeetha Subramanyam :▶ https://www.aha.video/webseries/gs-2\nSARKAAR :▶ https://www.aha.video/webseries/sarkaar\nUnstoppable seasons 1 & 2: ▶https://www.aha.video/webseries/unsto...\nComedy Stock Exchange: ▶https://www.aha.video/webseries/comed...\nDance IKON :▶https://www.aha.video/webseries/dance...\nTelugu Indian Idol:▶ https://www.aha.video/telugu-indian-idol\nChef Mantra Seasons 1 & 2:▶ https://www.aha.video/webseries/chef-...\nDaily Series: Mr Pellam:▶ https://www.aha.video/webseries/miste...\n\nKorean Series on AHA:\nFight For My Way: https://www.aha.video/webseries/fight...\nSchool 2017: https://www.aha.video/webseries/schoo...\nYouth Of May: https://www.aha.video/webseries/youth...\nHwarang: https://www.aha.video/webseries/hwara...\nCouple on the BackTrack: https://www.aha.video/webseries/coupl...\n--------------------------------------------------------------------------------------------------------------------\nEnjoy and stay connected with us!\n\n► Website: https://www.aha.video​​​\n► Subscribe to us on YouTube: https://watch.aha.video/YouTube​​​\n► Like us on Facebook: https://watch.aha.video/Facebook​​​\n► Follow us on Twitter: https://watch.aha.video/Twitter​​​\n► Follow us on Instagram: https://watch.aha.video/Instagram​​​\n\nDownload:\nhttps://watch.aha.video/play-store​​​\nhttps://watch.aha.video/App-Store\n\n\n#UnstoppableWithNBK  #NBKOnAHA #NandamuriBalakrishna #sreeleela #kajal  #unstoppable #promo #unstoppablelimitededition #nbk #aha #balakrishna #telugushow #unstoppablewithnbkpromo"
-    },
-    "defaultAudioLanguage": "en-IN"
-    },
-    "contentDetails": {
-    "duration": "PT3M46S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "1813185",
-    "likeCount": "44926",
-    "favoriteCount": "0",
-    "commentCount": "872"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "OCeTx83dODHp1p-lDB_Zu_m__VY",
-    "id": "xEoZp8BK238",
-    "snippet": {
-    "publishedAt": "2023-10-15T14:23:00Z",
-    "channelId": "UCiXT6ca8vDIWQsii5S4yZZw",
-    "title": "KALAASTAR - Full Video | Honey 3.0 | Yo Yo Honey Singh & Sonakshi Sinha | Reaction | The Tenth Staar",
-    "description": "Int his video we gave reaction to KALAASTAR - Full Video | Honey 3.0 | Yo Yo Honey Singh & Sonakshi Sinha | Zee Music Originals\n\nJoin and become a Member to support us - https://www.youtube.com/channel/UCiXT6ca8vDIWQsii5S4yZZw/join\n\nJoin Discord - https://discordapp.com/invite/c5BTfAy\n\nIf you liked the video give it a LIKE! \nAnd don't forget to SUBSCRIBE!\n\nFor requests and suggestions COMMENT in below or \nyou can CONNECT with us at\n\nTWITTER - https://twitter.com/Thetenth_staar\n\nINSTAGRAM- https://www.instagram.com/thetenthstaar/\n\nFB - https://www.facebook.com/thetenthstar/\n\nThank you for watching.\n#kalaastar #yoyohoneysingh #honey3",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/xEoZp8BK238/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/xEoZp8BK238/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/xEoZp8BK238/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/xEoZp8BK238/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/xEoZp8BK238/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "The TENTH Staar",
-    "tags": [
-    "KALAASTAR - Full Video | Honey 3.0 | Yo Yo Honey Singh",
-    "KALAASTAR - Full Video | Honey 3.0",
-    "KALAASTAR",
-    "yo yo honey singh",
-    "yo yo honey singh new song",
-    "honey 3.0",
-    "honey singh new song",
-    "kalaastar yo yo honey singh",
-    "kalaastar honey singh",
-    "honey singh vs badshah",
-    "yo yo honey singh news",
-    "honey singh",
-    "kalaastar song honey singh",
-    "yo yo honey singh songs",
-    "latest honey singh songs",
-    "kalashtar song honey singh",
-    "honey singh new songs",
-    "kalaastar song yo yo honey singh",
-    "honey singh comeback"
-    ],
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "KALAASTAR - Full Video | Honey 3.0 | Yo Yo Honey Singh & Sonakshi Sinha | Reaction | The Tenth Staar",
-    "description": "Int his video we gave reaction to KALAASTAR - Full Video | Honey 3.0 | Yo Yo Honey Singh & Sonakshi Sinha | Zee Music Originals\n\nJoin and become a Member to support us - https://www.youtube.com/channel/UCiXT6ca8vDIWQsii5S4yZZw/join\n\nJoin Discord - https://discordapp.com/invite/c5BTfAy\n\nIf you liked the video give it a LIKE! \nAnd don't forget to SUBSCRIBE!\n\nFor requests and suggestions COMMENT in below or \nyou can CONNECT with us at\n\nTWITTER - https://twitter.com/Thetenth_staar\n\nINSTAGRAM- https://www.instagram.com/thetenthstaar/\n\nFB - https://www.facebook.com/thetenthstar/\n\nThank you for watching.\n#kalaastar #yoyohoneysingh #honey3"
-    },
-    "defaultAudioLanguage": "hi"
-    },
-    "contentDetails": {
-    "duration": "PT8M36S",
+    "duration": "PT16S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
@@ -3825,78 +2462,59 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "132702",
-    "likeCount": "8881",
+    "viewCount": "144091",
+    "likeCount": "26791",
     "favoriteCount": "0",
-    "commentCount": "360"
+    "commentCount": "1407"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "BMbXWdICT9J6ZwHgAZRvc5XUPWM",
-    "id": "dikojxdAHtg",
+    "etag": "ej6CLg0zoFhI5x2GkglnS08lzuA",
+    "id": "L7NOxuOuxTY",
     "snippet": {
-    "publishedAt": "2023-10-13T08:46:07Z",
-    "channelId": "UCEV_GHwi7peBzCYq6P4NoIg",
-    "title": "Long Drive With @MrFaisu  Ft. Shivangi Joshi | Episode 7",
-    "description": "So guys aaj ke vlog mein maine invite kiya hai meri pyaari dost ko, jo hai Television Industry ki well known actress and sabki favorite Shivangi Joshi! Iss episode mein, humne bohat saari gossips ki, aur  maine Shivangi se kaha meri burai Jannat se karne, iske sath hi maine usey funny challenges aur bohat saare sawaal puche, so do watch the whole video!\n\nSubscribe To My Channel:\nhttps://www.youtube.com/@MrFaisu\n\nInstagram - https://www.instagram.com/mr_faisu_07/\nFacebook - https://www.facebook.com/faisusqua/\n\n#longdrivewithfaisu #mrfaisu #shivangijoshi",
+    "publishedAt": "2023-10-18T04:38:16Z",
+    "channelId": "UCWkTX0S0Ii5pT2aRVz7Zctw",
+    "title": "D-backs vs. Phillies Game 2 Highlights (10/17/23) | MLB Highlights",
+    "description": "D-backs vs. Phillies full NLCS Game 2 highlights from 10/17/23\n\n#ringthebell  #phillies  #mlb \n\nJoin the conversation!\nTwitter: http://twitter.com/phillies\nFacebook: http://facebook.com/phillies\nInstagram: http://instagram.com/phillies\nTiktok: @phillies \nBeyond the Bell Blog: https://beyondthebell.mlblogs.com/",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/dikojxdAHtg/default.jpg",
+    "url": "https://i.ytimg.com/vi/L7NOxuOuxTY/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/dikojxdAHtg/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/L7NOxuOuxTY/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/dikojxdAHtg/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/L7NOxuOuxTY/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/dikojxdAHtg/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/L7NOxuOuxTY/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/dikojxdAHtg/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/L7NOxuOuxTY/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "Mr. Faisu",
-    "tags": [
-    "mr faisu",
-    "mr faisu show",
-    "long drive with mr faisu",
-    "long drive with mr faisu episode 7",
-    "shivangi joshi",
-    "long drive with mr faisu and shivangi joshi",
-    "mr faisu and shivangi joshi",
-    "shivangi joshi interview",
-    "shivangi joshi in mr faisu show",
-    "shivangi joshi on her love life",
-    "shivangi joshi latest interview",
-    "shivangi joshi talks about her love life",
-    "jannat zubair",
-    "shivangi joshi roasts mr faisu",
-    "shivangi joshi dance",
-    "shivangi joshi new serial",
-    "shivangi joshi latest news"
-    ],
-    "categoryId": "24",
+    "channelTitle": "Philadelphia Phillies",
+    "categoryId": "17",
     "liveBroadcastContent": "none",
     "localized": {
-    "title": "Long Drive With @MrFaisu  Ft. Shivangi Joshi | Episode 7",
-    "description": "So guys aaj ke vlog mein maine invite kiya hai meri pyaari dost ko, jo hai Television Industry ki well known actress and sabki favorite Shivangi Joshi! Iss episode mein, humne bohat saari gossips ki, aur  maine Shivangi se kaha meri burai Jannat se karne, iske sath hi maine usey funny challenges aur bohat saare sawaal puche, so do watch the whole video!\n\nSubscribe To My Channel:\nhttps://www.youtube.com/@MrFaisu\n\nInstagram - https://www.instagram.com/mr_faisu_07/\nFacebook - https://www.facebook.com/faisusqua/\n\n#longdrivewithfaisu #mrfaisu #shivangijoshi"
+    "title": "D-backs vs. Phillies Game 2 Highlights (10/17/23) | MLB Highlights",
+    "description": "D-backs vs. Phillies full NLCS Game 2 highlights from 10/17/23\n\n#ringthebell  #phillies  #mlb \n\nJoin the conversation!\nTwitter: http://twitter.com/phillies\nFacebook: http://facebook.com/phillies\nInstagram: http://instagram.com/phillies\nTiktok: @phillies \nBeyond the Bell Blog: https://beyondthebell.mlblogs.com/"
     },
-    "defaultAudioLanguage": "hi"
+    "defaultAudioLanguage": "en"
     },
     "contentDetails": {
-    "duration": "PT23M12S",
+    "duration": "PT12M48S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
@@ -3905,16 +2523,1280 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "1599140",
-    "likeCount": "110195",
+    "viewCount": "176129",
+    "likeCount": "3171",
     "favoriteCount": "0",
-    "commentCount": "16400"
+    "commentCount": "336"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "P2GLDXeTrPlOMsI_JitzdnYEUb8",
+    "id": "NQJEygbNghg",
+    "snippet": {
+    "publishedAt": "2023-10-17T17:00:23Z",
+    "channelId": "UC4sf8XtH_uXnwNP699luQVQ",
+    "title": "Cody & Noel Do ANOTHER Escape Room",
+    "description": "If you’re struggling, consider therapy with our sponsor BetterHelp. Click https://betterhelp.com/tinymeatgang for a 10% discount on your first month of therapy with a licensed professional specific to your needs.\n\nSpecial thank you to Jae and Trey at Random Order Studios! Check out their YouTube channel here: @RandomOrderStudios \n\nThey're going back in! This episode the guys, once again, take on the struggle of a brand new escape room. Set underwater in the fabled Atlantis they face the obstacle of escaping the room and collecting the lost ocean treasures. Follow along to see if they dominate the room alongside our guests and friends Jae and Trey! Will they escape and set a NEW record? Watch now! \n\nWant more TMG? Head to http://tmgstudios.tv and subscribe to get access to other Cody & Noel Do episodes including a longer version of this episode.\n\nBuy Our Merch: http://shoptmgstudios.com \n\nJAE & TREY  @RandomOrderStudios  https://www.instagram.com/treyrichards/ https://www.instagram.com/jaerichards/\nhttps://www.instagram.com/randomordershow/?hl=en\n\nCODY @CodyKo http://twitter.com/codyko http://instagram.com/codyko\n\nNOEL @thenoelmiller http://twitter.com/thenoelmiller http://instagram.com/thenoelmiller\n\nHosted by Cody Ko & Noel Miller, Created by TMG Studios, Cody Ko & Noel Miller, and Produced by TMG Studios, Cody Ko & Noel Miller.",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/NQJEygbNghg/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/NQJEygbNghg/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/NQJEygbNghg/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/NQJEygbNghg/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/NQJEygbNghg/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "TMG Studios",
+    "categoryId": "22",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "Cody & Noel Do ANOTHER Escape Room",
+    "description": "If you’re struggling, consider therapy with our sponsor BetterHelp. Click https://betterhelp.com/tinymeatgang for a 10% discount on your first month of therapy with a licensed professional specific to your needs.\n\nSpecial thank you to Jae and Trey at Random Order Studios! Check out their YouTube channel here: @RandomOrderStudios \n\nThey're going back in! This episode the guys, once again, take on the struggle of a brand new escape room. Set underwater in the fabled Atlantis they face the obstacle of escaping the room and collecting the lost ocean treasures. Follow along to see if they dominate the room alongside our guests and friends Jae and Trey! Will they escape and set a NEW record? Watch now! \n\nWant more TMG? Head to http://tmgstudios.tv and subscribe to get access to other Cody & Noel Do episodes including a longer version of this episode.\n\nBuy Our Merch: http://shoptmgstudios.com \n\nJAE & TREY  @RandomOrderStudios  https://www.instagram.com/treyrichards/ https://www.instagram.com/jaerichards/\nhttps://www.instagram.com/randomordershow/?hl=en\n\nCODY @CodyKo http://twitter.com/codyko http://instagram.com/codyko\n\nNOEL @thenoelmiller http://twitter.com/thenoelmiller http://instagram.com/thenoelmiller\n\nHosted by Cody Ko & Noel Miller, Created by TMG Studios, Cody Ko & Noel Miller, and Produced by TMG Studios, Cody Ko & Noel Miller."
+    },
+    "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+    "duration": "PT29M47S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "221938",
+    "likeCount": "14006",
+    "favoriteCount": "0",
+    "commentCount": "411"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "tK7bHdBp_5k3AwA4hbe4RQPUG8k",
+    "id": "QbIUZGasc8k",
+    "snippet": {
+    "publishedAt": "2023-10-16T17:00:13Z",
+    "channelId": "UCSDG3M0e2mGX9_qtHEtzj2Q",
+    "title": "Squirrel Uses Evasive Tactics Against Bobcat | RingTV",
+    "description": "Morris says the area around his home is full of wetlands, so wildlife is abundant. Bobcats are just one of the many critters his neighbors have spotted, but never has Morris seen a bobcat interact with a squirrel. In this video, we witness a squirrel use some amazing speed and acrobatics to evade the predator!\n\nBuild Your Ring of Security: http://to.ring.com/ytbundles\nGet Ring for your whole home: http://to.ring.com/ytcollections\nTweet us at https://twitter.com/ring\nSee more Ring stories at https://facebook.com/ring\nFollow us on https://instagram.com/ring\nFor the latest news and tips on home security, visit https://blog.ring.com\n\nRing provides effective, affordable whole-home security that works together to give you peace of mind. Upgrade your home security with Ring video doorbells, smart lighting, an alarm system, and more. And review, save, and share your Ring videos anytime with a Ring Protect Plan. So no matter where you are, with Ring you’re always home. Check out the full line of Ring smart home security products at ring.com.\n\n#ring #ringdoorbell",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/QbIUZGasc8k/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/QbIUZGasc8k/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/QbIUZGasc8k/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/QbIUZGasc8k/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/QbIUZGasc8k/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Ring",
+    "tags": [
+    "security cameras",
+    "security system",
+    "home security",
+    "home security systems",
+    "home security camera system",
+    "doorbell camera",
+    "ring",
+    "ring camera",
+    "ring doorbell",
+    "ring doorbell camera",
+    "caught on ring",
+    "doorbell camera footage",
+    "ring security camera",
+    "ring tv",
+    "ring doorbell sound",
+    "ring doorbell installation",
+    "doorbell",
+    "doorbell news",
+    "how to install ring doorbell",
+    "porch pirates caught",
+    "squirrel",
+    "squirrel evades cat",
+    "bobcat",
+    "puma",
+    "bobcat chasing squirrel",
+    "squirrel being chased"
+    ],
+    "categoryId": "28",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en-US",
+    "localized": {
+    "title": "Squirrel Uses Evasive Tactics Against Bobcat | RingTV",
+    "description": "Morris says the area around his home is full of wetlands, so wildlife is abundant. Bobcats are just one of the many critters his neighbors have spotted, but never has Morris seen a bobcat interact with a squirrel. In this video, we witness a squirrel use some amazing speed and acrobatics to evade the predator!\n\nBuild Your Ring of Security: http://to.ring.com/ytbundles\nGet Ring for your whole home: http://to.ring.com/ytcollections\nTweet us at https://twitter.com/ring\nSee more Ring stories at https://facebook.com/ring\nFollow us on https://instagram.com/ring\nFor the latest news and tips on home security, visit https://blog.ring.com\n\nRing provides effective, affordable whole-home security that works together to give you peace of mind. Upgrade your home security with Ring video doorbells, smart lighting, an alarm system, and more. And review, save, and share your Ring videos anytime with a Ring Protect Plan. So no matter where you are, with Ring you’re always home. Check out the full line of Ring smart home security products at ring.com.\n\n#ring #ringdoorbell"
+    },
+    "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+    "duration": "PT23S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": false,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "209948",
+    "likeCount": "1649",
+    "favoriteCount": "0",
+    "commentCount": "168"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "LMYxb4obSO6Hv1gV2e4ieyH7vk4",
+    "id": "ZBl48MK17cI",
+    "snippet": {
+    "publishedAt": "2023-10-18T08:58:25Z",
+    "channelId": "UCvhVqA_5HnM7M5X6OcZlMbg",
+    "title": "CHUU 츄 'Howl' MV",
+    "description": "CHUU 1ST MINI ALBUM [Howl]\n🎧 2023.10.18 6PM (KST) Released\n\n#츄 #CHUU #Howl #하울 \n\n✦ More information about CHUU\nINSTAGRAM | https://www.instagram.com/chuu_atrp/\nTWITTER | https://twitter.com/chuu_atrp\nWEVERSE | https://weverse.io/chuu/\nNAVER POST | https://post.naver.com/atrp_corp\nFACEBOOK | https://www.facebook.com/chuu.atrp\nTIKTOK | https://www.tiktok.com/@chuu.atrp",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/ZBl48MK17cI/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/ZBl48MK17cI/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/ZBl48MK17cI/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/ZBl48MK17cI/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/ZBl48MK17cI/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "CHUU Official",
+    "tags": [
+    "김지우",
+    "jiwoo",
+    "ATRP",
+    "에이티알피",
+    "kpop",
+    "idol",
+    "뮤직비디오",
+    "뮤비",
+    "MV",
+    "Musicvideo",
+    "츄 솔로",
+    "츄 노래"
+    ],
+    "categoryId": "24",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "CHUU 츄 'Howl' MV",
+    "description": "CHUU 1ST MINI ALBUM [Howl]\n🎧 2023.10.18 6PM (KST) Released\n\n#츄 #CHUU #Howl #하울 \n\n✦ More information about CHUU\nINSTAGRAM | https://www.instagram.com/chuu_atrp/\nTWITTER | https://twitter.com/chuu_atrp\nWEVERSE | https://weverse.io/chuu/\nNAVER POST | https://post.naver.com/atrp_corp\nFACEBOOK | https://www.facebook.com/chuu.atrp\nTIKTOK | https://www.tiktok.com/@chuu.atrp"
+    },
+    "defaultAudioLanguage": "ko"
+    },
+    "contentDetails": {
+    "duration": "PT3M24S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "2758124",
+    "likeCount": "48519",
+    "favoriteCount": "0",
+    "commentCount": "2750"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "OIshPaMy8w0mxec_J4rV2Q3Jgzg",
+    "id": "O83lwTRfFH4",
+    "snippet": {
+    "publishedAt": "2023-10-16T17:15:01Z",
+    "channelId": "UCfp86n--4JvqKbunwSI2lYQ",
+    "title": "I DIRECTED MY OWN DATING SHOW",
+    "description": "Go to our sponsor https://betterhelp.com/codyko for 10% off your first month of therapy with BetterHelp and get matched with a therapist who will listen and help.\n\n\n\nmerch: ko-official.com\npodcast: https://www.youtube.com/tinymeatgang\n2nd channel: https://www.youtube.com/channel/UCy06jHRS_82N2i5v1YL7glQ\n\ninstagram: http://instagram.com/codyko\ntwitter: http://twitter.com/codyko\n\nbusiness: mahzad.babayan@unitedtalent.com\n\nedited by zade: \ntwitter http://twitter.com/realzade \ninsta https://www.instagram.com/reallyzade\n\n\nbutton music: William Statler - Der Jungespiele (Anunoby Original’s New Masters Edit)  \nSUBSCRIBE TO CUT: https://www.youtube.com/@cut",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/O83lwTRfFH4/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/O83lwTRfFH4/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/O83lwTRfFH4/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/O83lwTRfFH4/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/O83lwTRfFH4/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Cody Ko",
+    "tags": [
+    "cody",
+    "cody ko",
+    "codyko"
+    ],
+    "categoryId": "22",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "I DIRECTED MY OWN DATING SHOW",
+    "description": "Go to our sponsor https://betterhelp.com/codyko for 10% off your first month of therapy with BetterHelp and get matched with a therapist who will listen and help.\n\n\n\nmerch: ko-official.com\npodcast: https://www.youtube.com/tinymeatgang\n2nd channel: https://www.youtube.com/channel/UCy06jHRS_82N2i5v1YL7glQ\n\ninstagram: http://instagram.com/codyko\ntwitter: http://twitter.com/codyko\n\nbusiness: mahzad.babayan@unitedtalent.com\n\nedited by zade: \ntwitter http://twitter.com/realzade \ninsta https://www.instagram.com/reallyzade\n\n\nbutton music: William Statler - Der Jungespiele (Anunoby Original’s New Masters Edit)  \nSUBSCRIBE TO CUT: https://www.youtube.com/@cut"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT19M33S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "1265718",
+    "likeCount": "99431",
+    "favoriteCount": "0",
+    "commentCount": "3880"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "nkg5mAol1GgcHNyMVje3h0Ee2cg",
+    "id": "cl9LZiB0oao",
+    "snippet": {
+    "publishedAt": "2023-10-16T22:30:06Z",
+    "channelId": "UCaeO5vkdj5xOQHp4UmIN6dw",
+    "title": "Snow White and the Evil Queen, Coming to Bentkey in 2024.",
+    "description": "Coming 2024, Snow White and the Evil Queen. A tale of timeless truth. Starring Brett Cooper as Snow White.\n\nhttps://feedlink.io/bentkey\n\n#Bentkey #BentkeyKids #KidsContent #DailyWire #DailyWirePlus #DailyWireKids #Entertainment #KidsEntertainment #KidsEntertainmentVideo #KidsEntertainmentSpecial #KidsEntertaining #SnowWhite #BrettCooper #Trailer #ShowTrailer @TheCommentsSection",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/cl9LZiB0oao/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/cl9LZiB0oao/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/cl9LZiB0oao/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/cl9LZiB0oao/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/cl9LZiB0oao/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "DailyWire+",
+    "tags": [
+    "snow white",
+    "snow white and the seven dwarfs",
+    "rachel zegler snow white",
+    "snow white 2024",
+    "disney snow white",
+    "snow white trailer",
+    "snow white remake",
+    "snow white live action",
+    "snow white 2024 trailer",
+    "snow white rachel zegler",
+    "snow white story",
+    "snow white and seven dwarfs",
+    "snow white song",
+    "snow white live action trailer disney",
+    "daily wire",
+    "brett cooper",
+    "bentkey",
+    "brett cooper snow white",
+    "bentkey snow white",
+    "snow white bentkey",
+    "daily wire snow white",
+    "snow white daily wire",
+    "teaser"
+    ],
+    "categoryId": "25",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en",
+    "localized": {
+    "title": "Snow White and the Evil Queen, Coming to Bentkey in 2024.",
+    "description": "Coming 2024, Snow White and the Evil Queen. A tale of timeless truth. Starring Brett Cooper as Snow White.\n\nhttps://feedlink.io/bentkey\n\n#Bentkey #BentkeyKids #KidsContent #DailyWire #DailyWirePlus #DailyWireKids #Entertainment #KidsEntertainment #KidsEntertainmentVideo #KidsEntertainmentSpecial #KidsEntertaining #SnowWhite #BrettCooper #Trailer #ShowTrailer @TheCommentsSection"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT51S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": false,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "717903",
+    "likeCount": "49245",
+    "favoriteCount": "0",
+    "commentCount": "8271"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "N4ulvLmakWQ8RVvFdZgddCW7a2Q",
+    "id": "AgJumADP1Bw",
+    "snippet": {
+    "publishedAt": "2023-10-17T17:55:36Z",
+    "channelId": "UCYzPXprvl5Y-Sf0g4vX-m6g",
+    "title": "Breaking into people's houses... in VR",
+    "description": "Let's break into people's houses in VR\nBuy MY coffee: https://topofthemornincoffee.com\n\nEdited By:  https://www.youtube.com/@Diceroll",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/AgJumADP1Bw/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/AgJumADP1Bw/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/AgJumADP1Bw/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/AgJumADP1Bw/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/AgJumADP1Bw/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "jacksepticeye",
+    "tags": [
+    "jacksepticeye"
+    ],
+    "categoryId": "20",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "Breaking into people's houses... in VR",
+    "description": "Let's break into people's houses in VR\nBuy MY coffee: https://topofthemornincoffee.com\n\nEdited By:  https://www.youtube.com/@Diceroll"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT29M40S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "825320",
+    "likeCount": "57587",
+    "favoriteCount": "0",
+    "commentCount": "2108"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "UZyd-MSbf3KqGc9Mzm_WPRwsuXo",
+    "id": "AQkc19RLSWc",
+    "snippet": {
+    "publishedAt": "2023-10-17T17:32:33Z",
+    "channelId": "UC-vaBe-YMpvcZL5rQ5OopZw",
+    "title": "A fresh start... my updated BARN tour!!",
+    "description": "thank you BetterHelp for sponsoring this vlog!! https://betterhelp.com/morganadamsvlogs for a 10% discount on your first month of therapy with a\n licensed professional specific to your needs\n\nFOLLOW ME ON INSTAGRAM:https://www.instagram.com/morganadams\nFOLLOW BD CONSTRUCTION: https://www.instagram.com/cobdconstruction/\n\ntimestamps\n0:00 - PAINT THE BARN RED\n3:45 - life changes quickly\n9:35 - PAINTING DAY 2\n11:50 - all the swatches\n19:22 - THE BARN IS DONE\n21:12 - move on girlie pops\n\nIf you're reading this comment: that's the hot goss",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/AQkc19RLSWc/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/AQkc19RLSWc/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/AQkc19RLSWc/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/AQkc19RLSWc/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/AQkc19RLSWc/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "morgans vlogs",
+    "tags": [
+    "morgan",
+    "Morgans vlogs",
+    "Morgan adams",
+    "Ryland adams",
+    "Morgan Adams vlogs",
+    "MORGAN HOUSE RENO",
+    "house tour",
+    "house reno",
+    "house renovation",
+    "demo",
+    "demo my house",
+    "my house demo",
+    "my house tour",
+    "home decor",
+    "diy",
+    "vlogmas",
+    "vlogmas day",
+    "shane",
+    "colorado",
+    "christmas decor",
+    "house",
+    "home",
+    "reno",
+    "renovations",
+    "Morgan house renovations",
+    "barn reno",
+    "vlog",
+    "competition",
+    "family channel",
+    "family competition",
+    "Ryland Shane morgan",
+    "christmas",
+    "vlogger",
+    "Morgan and trinity",
+    "barn tour",
+    "day in my life",
+    "renovation"
+    ],
+    "categoryId": "22",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "A fresh start... my updated BARN tour!!",
+    "description": "thank you BetterHelp for sponsoring this vlog!! https://betterhelp.com/morganadamsvlogs for a 10% discount on your first month of therapy with a\n licensed professional specific to your needs\n\nFOLLOW ME ON INSTAGRAM:https://www.instagram.com/morganadams\nFOLLOW BD CONSTRUCTION: https://www.instagram.com/cobdconstruction/\n\ntimestamps\n0:00 - PAINT THE BARN RED\n3:45 - life changes quickly\n9:35 - PAINTING DAY 2\n11:50 - all the swatches\n19:22 - THE BARN IS DONE\n21:12 - move on girlie pops\n\nIf you're reading this comment: that's the hot goss"
+    }
+    },
+    "contentDetails": {
+    "duration": "PT25M30S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "194697",
+    "likeCount": "13473",
+    "favoriteCount": "0",
+    "commentCount": "1319"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "Nj2Sx1qCf8T9pGl8lbftnRPs-6w",
+    "id": "FAoKiYeq0qQ",
+    "snippet": {
+    "publishedAt": "2023-10-17T05:51:09Z",
+    "channelId": "UCKnodHJpZd8UbSvAufDd3_g",
+    "title": "Shannon Sharpe & Chad Johnson react to Unc's viral ESPN First Take makeup look | Nightcap",
+    "description": "Shannon Sharpe and Chad \"Ochocinco\" Johnson react to the entire internet clowning the makeup Shannon had on during ESPN's First Take and turning Unc into a meme... again.\n\nFollow Nightcap on all platforms: \nTwitter: https://twitter.com/NightcapShow_\nInstagram: https://www.instagram.com/nightcapshow_/\nTikTok: https://www.tiktok.com/@nightcapshow_\nFacebook: https://www.facebook.com/profile.php?id=61551822396133\n\nABOUT NIGHTCAP: \n'Nightcap with Unc and Ocho' is the new nightly sports talk destination with NFL legends Shannon Sharpe and Chad “Ochocinco” Johnson. Hang out with Unc and Ocho as they give their unfiltered takes on the latest headlines in pro and college football, and give their instant reactions to the biggest games moments after they end.\n\n#Nightcap #ShannonSharpe #Ochocinco",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/FAoKiYeq0qQ/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/FAoKiYeq0qQ/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/FAoKiYeq0qQ/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/FAoKiYeq0qQ/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/FAoKiYeq0qQ/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Nightcap",
+    "tags": [
+    "Nightcap",
+    "Shannon Sharpe",
+    "Ochocinco",
+    "Chad Johnson",
+    "Chad Ochocinco",
+    "Club Shay Shay",
+    "Nightcap Podcast",
+    "Shannon Sharpe Podcast",
+    "Ochocinco Podcast"
+    ],
+    "categoryId": "17",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en-US",
+    "localized": {
+    "title": "Shannon Sharpe & Chad Johnson react to Unc's viral ESPN First Take makeup look | Nightcap",
+    "description": "Shannon Sharpe and Chad \"Ochocinco\" Johnson react to the entire internet clowning the makeup Shannon had on during ESPN's First Take and turning Unc into a meme... again.\n\nFollow Nightcap on all platforms: \nTwitter: https://twitter.com/NightcapShow_\nInstagram: https://www.instagram.com/nightcapshow_/\nTikTok: https://www.tiktok.com/@nightcapshow_\nFacebook: https://www.facebook.com/profile.php?id=61551822396133\n\nABOUT NIGHTCAP: \n'Nightcap with Unc and Ocho' is the new nightly sports talk destination with NFL legends Shannon Sharpe and Chad “Ochocinco” Johnson. Hang out with Unc and Ocho as they give their unfiltered takes on the latest headlines in pro and college football, and give their instant reactions to the biggest games moments after they end.\n\n#Nightcap #ShannonSharpe #Ochocinco"
+    },
+    "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+    "duration": "PT9M49S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "611776",
+    "likeCount": "16420",
+    "favoriteCount": "0",
+    "commentCount": "3010"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "2FFsjTSYyE0fKTLUCm3aDCTL8xU",
+    "id": "uq4Vi8PyBFM",
+    "snippet": {
+    "publishedAt": "2023-10-17T17:30:05Z",
+    "channelId": "UCoOss5XiPpnLHGmLrBvNkJg",
+    "title": "clothes are so much worse now 😭",
+    "description": "Head to http://squarespace.com/minale to save 10% off your first purchase of a website or a domain!\n\n🕊️ PATREON: https://patreon.com/highbrowbymina 🕊️\nMake a One-Time Donation: https://ko-fi.com/minale\n\nPODCAST\nSpotify: https://open.spotify.com/show/3wvGhhd3yGEJhak11myA5N\nApple Podcasts: https://podcasts.apple.com/us/podcast/high-brow/id1677209917\nfor extra content every other Wednesday 😈\nInstagram: http://instagram.com/highbrow.pod\n\nPRODUCTION\nwritten by Mina Le \nedited by Charlee Reiff\n\nSOCIALS\nInstagram: http://instagram.com/gremlita\nTikTok: https://www.tiktok.com/@gremlita\nLetterboxd: http://boxd.it/7YgX\n\nCONTACT\nBusiness email: MinaLeTeam@WMEAgency.com\n\nBRANDS/ORGANIZATIONS MENTIONED\nSheep Inc https://us.sheepinc.com/\nFibershed https://fibershed.org/ \nTextile Exchange https://textileexchange.org/ \nWoolmark https://www.woolmark.com/environment/filterbyfabric/ \nFashion Revolution https://www.fashionrevolution.org/\nFashion Revolution's Key Organizations List https://www.fashionrevolution.org/key-organisations/ \nAtmos Magazine https://atmos.earth/ \nSustainable Baddie Magazine http://sustainablebaddie.com/\nPatagonia Action Works https://www.patagonia.com/actionworks/home/explore/all \n\nSOURCES\nbooks 📚\nOverdressed: The Shockingly High Cost of Cheap Fashion\nService and Style: How the American Department Store Fashioned the Middle Class by Jan Whitaker\nWardrobe Crisis: How We Went from Sunday Best to Fast Fashion by Clare Press\nClothing Poverty The Hidden World of Fast Fashion and Second-hand Clothes by Andrew Brooks\narticles 📰\nCable Crossings: The Aran Jumper as Myth and Merchandise by Siun Carden\nThe Knit of a Nation?: How Irishness was marketed to the world by the Aran sweater (1950-1980) by Pierce Kehoe\nhttps://www.newyorker.com/magazine/2005/02/14/sole-survivor\nhttps://www.telegraph.co.uk/news/worldnews/europe/italy/1494238/Now-you-can-walk-in-footsteps-of-5000-year-old-Iceman-wearing-his-boots.html \nhttps://www.theguardian.com/politics/2003/nov/20/uk.northernireland \nhttps://www.rte.ie/brainstorm/2020/0817/1159600-aran-jumper-taylor-swift-fashion-ireland-steve-mcqueen-marilyn-monroe-clancy-brothers/ \nhttps://www.investopedia.com/personal-finance/how-much-income-puts-you-top-1-5-10/ \nhttps://www.vogue.co.uk/fashion/article/aran-knit-renaissance \nhttps://www.newyorker.com/magazine/1999/02/01/the-crisis-in-cashmere\nhttps://threadreaderapp.com/thread/1597339373900824576.html \nhttp://www.theluxestrategist.com/quality-clothes-how-to-buy-better-sweaters-make-the-most-of-your-money\nhttps://www.sustainablejungle.com/sustainable-fashion/what-is-ethical-wool/\nhttps://scripps.ucsd.edu/news/not-so-biodegradable-new-study-finds-bio-based-plastic-and-plastic-blend-textiles-do-not\nhttps://invisibleworld.com/blogs/news/three-things-you-know-about-cashmere-sweaters-that-are-wrong \nhttps://www.theguardian.com/lifeandstyle/2023/may/30/how-to-pick-knits-six-questions-to-ask-before-buying-that-cardigan \nhttps://research.qut.edu.au/textiler/knowledge-base/blended-textiles/ \n\n0:00 - intro\n5:55 - defining the aran jumper\n8:04 - the aran jumper goes commercial\n12:55 - the quality debate\n23:42 - how to buy a sweater\n37:33 - conclusion",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/uq4Vi8PyBFM/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/uq4Vi8PyBFM/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/uq4Vi8PyBFM/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/uq4Vi8PyBFM/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/uq4Vi8PyBFM/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Mina Le",
+    "tags": [
+    "when harry met sally",
+    "fall",
+    "autumn",
+    "pumpkin spice latte",
+    "ben schwartz",
+    "sweater",
+    "wool",
+    "fabric",
+    "sustainability",
+    "how to buy",
+    "how to shop",
+    "mina le",
+    "video essay",
+    "history",
+    "commentary",
+    "analysis",
+    "fashion",
+    "textile",
+    "meg ryan",
+    "billy crystal",
+    "tiktok"
+    ],
+    "categoryId": "24",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "clothes are so much worse now 😭",
+    "description": "Head to http://squarespace.com/minale to save 10% off your first purchase of a website or a domain!\n\n🕊️ PATREON: https://patreon.com/highbrowbymina 🕊️\nMake a One-Time Donation: https://ko-fi.com/minale\n\nPODCAST\nSpotify: https://open.spotify.com/show/3wvGhhd3yGEJhak11myA5N\nApple Podcasts: https://podcasts.apple.com/us/podcast/high-brow/id1677209917\nfor extra content every other Wednesday 😈\nInstagram: http://instagram.com/highbrow.pod\n\nPRODUCTION\nwritten by Mina Le \nedited by Charlee Reiff\n\nSOCIALS\nInstagram: http://instagram.com/gremlita\nTikTok: https://www.tiktok.com/@gremlita\nLetterboxd: http://boxd.it/7YgX\n\nCONTACT\nBusiness email: MinaLeTeam@WMEAgency.com\n\nBRANDS/ORGANIZATIONS MENTIONED\nSheep Inc https://us.sheepinc.com/\nFibershed https://fibershed.org/ \nTextile Exchange https://textileexchange.org/ \nWoolmark https://www.woolmark.com/environment/filterbyfabric/ \nFashion Revolution https://www.fashionrevolution.org/\nFashion Revolution's Key Organizations List https://www.fashionrevolution.org/key-organisations/ \nAtmos Magazine https://atmos.earth/ \nSustainable Baddie Magazine http://sustainablebaddie.com/\nPatagonia Action Works https://www.patagonia.com/actionworks/home/explore/all \n\nSOURCES\nbooks 📚\nOverdressed: The Shockingly High Cost of Cheap Fashion\nService and Style: How the American Department Store Fashioned the Middle Class by Jan Whitaker\nWardrobe Crisis: How We Went from Sunday Best to Fast Fashion by Clare Press\nClothing Poverty The Hidden World of Fast Fashion and Second-hand Clothes by Andrew Brooks\narticles 📰\nCable Crossings: The Aran Jumper as Myth and Merchandise by Siun Carden\nThe Knit of a Nation?: How Irishness was marketed to the world by the Aran sweater (1950-1980) by Pierce Kehoe\nhttps://www.newyorker.com/magazine/2005/02/14/sole-survivor\nhttps://www.telegraph.co.uk/news/worldnews/europe/italy/1494238/Now-you-can-walk-in-footsteps-of-5000-year-old-Iceman-wearing-his-boots.html \nhttps://www.theguardian.com/politics/2003/nov/20/uk.northernireland \nhttps://www.rte.ie/brainstorm/2020/0817/1159600-aran-jumper-taylor-swift-fashion-ireland-steve-mcqueen-marilyn-monroe-clancy-brothers/ \nhttps://www.investopedia.com/personal-finance/how-much-income-puts-you-top-1-5-10/ \nhttps://www.vogue.co.uk/fashion/article/aran-knit-renaissance \nhttps://www.newyorker.com/magazine/1999/02/01/the-crisis-in-cashmere\nhttps://threadreaderapp.com/thread/1597339373900824576.html \nhttp://www.theluxestrategist.com/quality-clothes-how-to-buy-better-sweaters-make-the-most-of-your-money\nhttps://www.sustainablejungle.com/sustainable-fashion/what-is-ethical-wool/\nhttps://scripps.ucsd.edu/news/not-so-biodegradable-new-study-finds-bio-based-plastic-and-plastic-blend-textiles-do-not\nhttps://invisibleworld.com/blogs/news/three-things-you-know-about-cashmere-sweaters-that-are-wrong \nhttps://www.theguardian.com/lifeandstyle/2023/may/30/how-to-pick-knits-six-questions-to-ask-before-buying-that-cardigan \nhttps://research.qut.edu.au/textiler/knowledge-base/blended-textiles/ \n\n0:00 - intro\n5:55 - defining the aran jumper\n8:04 - the aran jumper goes commercial\n12:55 - the quality debate\n23:42 - how to buy a sweater\n37:33 - conclusion"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT40M45S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "291840",
+    "likeCount": "19766",
+    "favoriteCount": "0",
+    "commentCount": "1444"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "8DF4vi7t71Ed3CsWFV_dQQeG1G0",
+    "id": "rW_uCu1ElsI",
+    "snippet": {
+    "publishedAt": "2023-10-16T16:59:51Z",
+    "channelId": "UCt8jfvd9skBAOT6XJwc_mJg",
+    "title": "Pastor’s daughter lets it slip at the podium!",
+    "description": "Pastor’s daughter lets it slip at the podium! What do you think of when you hear the word “bud”??\n\nSubscribe to our channel:\nhttp://bit.ly/FamilyFeudSub\n\nGet the Family Feud board game:\nhttps://familyfeud.shop\n \nPlay Family Feud online:\nhttps://buzzrtv.com/play\n \nAudition to be on the show:\nhttps://www.familyfeud.com/audition",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/rW_uCu1ElsI/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/rW_uCu1ElsI/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/rW_uCu1ElsI/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/rW_uCu1ElsI/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/rW_uCu1ElsI/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Family Feud",
+    "tags": [
+    "family feud",
+    "family fued",
+    "steve harvey",
+    "steve harvey on family feud",
+    "family feud funny moments",
+    "celebrity family feud",
+    "funny family feud answers",
+    "family feud steve harvey funny moments",
+    "steve harvey family feud funny moments",
+    "funny answer on family feud",
+    "funny Steve Harvey reaction on family feud",
+    "dumb answer on family feud",
+    "steve harvey cracks up on family feud",
+    "steve harvey makes fun of family feud contestant",
+    "it's already up on the family feud board",
+    "dumb family feud answers"
+    ],
+    "categoryId": "24",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "Pastor’s daughter lets it slip at the podium!",
+    "description": "Pastor’s daughter lets it slip at the podium! What do you think of when you hear the word “bud”??\n\nSubscribe to our channel:\nhttp://bit.ly/FamilyFeudSub\n\nGet the Family Feud board game:\nhttps://familyfeud.shop\n \nPlay Family Feud online:\nhttps://buzzrtv.com/play\n \nAudition to be on the show:\nhttps://www.familyfeud.com/audition"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT3M9S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "938567",
+    "likeCount": "1725",
+    "favoriteCount": "0",
+    "commentCount": "162"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "pHlAwVx703rTkHazAL0To52r93k",
+    "id": "KHXZHL78ojc",
+    "snippet": {
+    "publishedAt": "2023-10-17T16:48:46Z",
+    "channelId": "UCDXnNCoOry4yQfckjcQd1Lg",
+    "title": "Brain MRI Results-Not What We Expected-Stage IV Cancer-NSCLC EGFR Exon 20",
+    "description": "P.O. Box \nJenny Appleford\n7211 Haven Ave, Unit E-407\nRancho Cucamonga, CA 91701\n\nKyle’s Channel:\nhttps://www.youtube.com/@kyleapple9702\n\nINSTAGRAM: jenny_appleford\nFACEBOOK: Our Brave Jenny \n\nFor business inquiries: veganapplefords@gmail.com \n\nDIAGNOSIS:\nMarch 19th, 2021 Stage IIIA Non Small Cell Lung Cancer (Non-Smoking)\n\nFebruary 2022 Stage IV Non Small Cell Lung Cancer (spreading to Brain, and other parts of lung and lymph nodes)\n\nGene Mutation EGFR with Exon 20 Insertion\n\nTREATMENTS: Received or currently Receiving\n2021: 8 Rounds of Chemotherapy (Carboplatin and Paclitaxel) with 30 concurrent radiation treatments to chest and lung\nFailed Immunotherapy directly after Chemo and Radiation (Durvalumab, 1 round)\n\n2022: Chemotherapy\n10 rounds of Chemotherapy (Carboplatin, Alimta, and Avastin) \n6 with Carboplatin, 4 without\n\nTargeted Brain Radiation (Completed)\n\nCURRENT TREATMENT:\nI am on a clinical trial for my specific gene mutation \n\nOur GoFundMe Link:\nhttps://gofund.me/5edf81e5\n\nThe purpose of my channel is to document my cancer journey to look back on, and/or help anyone else going through anything similar. It is also to potentially help loved ones supporting those who are in this fight as well. This is also an easy way to update a lot of people at once. My main goal is to have footage of this journey for my husband and children to look back on. I originally created this channel as a sort of video diary for my\n family. \n\nThank you so much for following along on this journey. Your love and support help me so much.",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/KHXZHL78ojc/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/KHXZHL78ojc/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/KHXZHL78ojc/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/KHXZHL78ojc/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/KHXZHL78ojc/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Jenny Apple",
+    "categoryId": "22",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "Brain MRI Results-Not What We Expected-Stage IV Cancer-NSCLC EGFR Exon 20",
+    "description": "P.O. Box \nJenny Appleford\n7211 Haven Ave, Unit E-407\nRancho Cucamonga, CA 91701\n\nKyle’s Channel:\nhttps://www.youtube.com/@kyleapple9702\n\nINSTAGRAM: jenny_appleford\nFACEBOOK: Our Brave Jenny \n\nFor business inquiries: veganapplefords@gmail.com \n\nDIAGNOSIS:\nMarch 19th, 2021 Stage IIIA Non Small Cell Lung Cancer (Non-Smoking)\n\nFebruary 2022 Stage IV Non Small Cell Lung Cancer (spreading to Brain, and other parts of lung and lymph nodes)\n\nGene Mutation EGFR with Exon 20 Insertion\n\nTREATMENTS: Received or currently Receiving\n2021: 8 Rounds of Chemotherapy (Carboplatin and Paclitaxel) with 30 concurrent radiation treatments to chest and lung\nFailed Immunotherapy directly after Chemo and Radiation (Durvalumab, 1 round)\n\n2022: Chemotherapy\n10 rounds of Chemotherapy (Carboplatin, Alimta, and Avastin) \n6 with Carboplatin, 4 without\n\nTargeted Brain Radiation (Completed)\n\nCURRENT TREATMENT:\nI am on a clinical trial for my specific gene mutation \n\nOur GoFundMe Link:\nhttps://gofund.me/5edf81e5\n\nThe purpose of my channel is to document my cancer journey to look back on, and/or help anyone else going through anything similar. It is also to potentially help loved ones supporting those who are in this fight as well. This is also an easy way to update a lot of people at once. My main goal is to have footage of this journey for my husband and children to look back on. I originally created this channel as a sort of video diary for my\n family. \n\nThank you so much for following along on this journey. Your love and support help me so much."
+    }
+    },
+    "contentDetails": {
+    "duration": "PT22M28S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "361305",
+    "likeCount": "26914",
+    "favoriteCount": "0",
+    "commentCount": "6035"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "nZIDFbkPx9fFRPyvMJzXfRWWfC8",
+    "id": "fooMEi_e-ZE",
+    "snippet": {
+    "publishedAt": "2023-10-16T21:00:17Z",
+    "channelId": "UCBODyKF0JMbUd6D9Bklyzbw",
+    "title": "I Attempted a 2 Person Nuzlocke with my Rival",
+    "description": "Thank you to @PokemonChallenges for getting carried!\nAlso, thanks to Air Up for sponsoring the video! Get your own here: https://airup.link/Alpharad1023 and use code ALPHA for 10% off your entire order.\n➤ STREAM: http://twitch.tv/alpharad\n➤ MERCH: http://pleasebuymymerch.com\n➤ TWITTER: https://twitter.com/alpharad\n➤ INSTAGRAM: https://www.instagram.com/alpharad\n#pokemon #alpharad #nuzlocke \n\nVIDEO EDITOR:\n➤ Vixento: https://twitter.com/vixento_\n\nFINAL CUT EDITOR: \n➤ me (carried)\n\nTHUMBNAIL ART:\n➤ Koro: http://twitter.com/wingedkoro\n\nSCRIPT CO-WRITER: \n➤ Jackie: https://twitter.com/jackie_peanuts",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/fooMEi_e-ZE/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/fooMEi_e-ZE/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/fooMEi_e-ZE/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/fooMEi_e-ZE/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/fooMEi_e-ZE/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Alpharad",
+    "tags": [
+    "alpharad"
+    ],
+    "categoryId": "20",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "I Attempted a 2 Person Nuzlocke with my Rival",
+    "description": "Thank you to @PokemonChallenges for getting carried!\nAlso, thanks to Air Up for sponsoring the video! Get your own here: https://airup.link/Alpharad1023 and use code ALPHA for 10% off your entire order.\n➤ STREAM: http://twitch.tv/alpharad\n➤ MERCH: http://pleasebuymymerch.com\n➤ TWITTER: https://twitter.com/alpharad\n➤ INSTAGRAM: https://www.instagram.com/alpharad\n#pokemon #alpharad #nuzlocke \n\nVIDEO EDITOR:\n➤ Vixento: https://twitter.com/vixento_\n\nFINAL CUT EDITOR: \n➤ me (carried)\n\nTHUMBNAIL ART:\n➤ Koro: http://twitter.com/wingedkoro\n\nSCRIPT CO-WRITER: \n➤ Jackie: https://twitter.com/jackie_peanuts"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT21M36S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "792990",
+    "likeCount": "48512",
+    "favoriteCount": "0",
+    "commentCount": "1762"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "UJpjlORh1l00ECHTbaJGPvkiNrU",
+    "id": "4-IY_oIeyKY",
+    "snippet": {
+    "publishedAt": "2023-10-17T12:44:51Z",
+    "channelId": "UCJiFgnnYpwlnadzTzhMnX_Q",
+    "title": "The Minecraft Mob Vote Was BOTTED - I Have Potential Evidence",
+    "description": "This years minecraft mob vote had a lot of drama, but one thing we weren't expecting was for it to have been botted. I was skeptical, but got in contact with a few individuals who gave me evidence I just couldn't ignore...\n\nThanks for watching! Subscribe and Join My Discord!\nDiscord - https://discord.gg/WGc9UNM\nTwitter - https://twitter.com/TheMisterEpicYT\nTwitch - https://www.twitch.tv/themisterepicyt\n\nJoin my OG Minecraft Server, The OG Network! (1.8-1.20): og-network.net\n - Website: https://og-network.net\n - Discord: https://discord.gg/G7zq6NPZnM\n\n0:00 – Intro\n0:36 – The Mob Vote Discord Bot\n1:14 – The Exploit\n3:00 – The Modified Script\n3:57 – The Botting Begins\n5:43 – Evidence That the Vote Was Botted\n7:13 – Evidence Against the Vote Being Botted\n\nMusic Used:\n1. Soundridemusic - Tensions Run High (https://youtu.be/2rOTgT0-ZEk?si=_N2oSUYKoQx1Aiqr)\n2. Scott Buckley - Machina\n3. Scott Buckley - Sanctuary\n\nIf there is any content in this video which you own and would like removed, than please contact me and I will be happy to oblige.\n\n#minecraft #minecraftlive #minecraftmobvote",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/4-IY_oIeyKY/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/4-IY_oIeyKY/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/4-IY_oIeyKY/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/4-IY_oIeyKY/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/4-IY_oIeyKY/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "TheMisterEpic",
+    "tags": [
+    "TheMisterEpic",
+    "themisterepic",
+    "minecraft",
+    "minecraft mob vote",
+    "minecraft mob vote 2023",
+    "minecraft live",
+    "minecraft live mob vote 2023",
+    "minecraft mob vote results",
+    "minecraft mob vote winner",
+    "minecraft crab",
+    "minecraft armadillo",
+    "minecraft penguin",
+    "minecraft mob vote 2023 results",
+    "minecraft 1.21",
+    "minecraft live recap",
+    "minecraft live summary",
+    "minecraft live rigged",
+    "stop the minecraft mob vote",
+    "minecraft mojang",
+    "minecraft microsoft",
+    "minecraft update",
+    "mob vote",
+    "mob vote 2023",
+    "1.21"
+    ],
+    "categoryId": "20",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "The Minecraft Mob Vote Was BOTTED - I Have Potential Evidence",
+    "description": "This years minecraft mob vote had a lot of drama, but one thing we weren't expecting was for it to have been botted. I was skeptical, but got in contact with a few individuals who gave me evidence I just couldn't ignore...\n\nThanks for watching! Subscribe and Join My Discord!\nDiscord - https://discord.gg/WGc9UNM\nTwitter - https://twitter.com/TheMisterEpicYT\nTwitch - https://www.twitch.tv/themisterepicyt\n\nJoin my OG Minecraft Server, The OG Network! (1.8-1.20): og-network.net\n - Website: https://og-network.net\n - Discord: https://discord.gg/G7zq6NPZnM\n\n0:00 – Intro\n0:36 – The Mob Vote Discord Bot\n1:14 – The Exploit\n3:00 – The Modified Script\n3:57 – The Botting Begins\n5:43 – Evidence That the Vote Was Botted\n7:13 – Evidence Against the Vote Being Botted\n\nMusic Used:\n1. Soundridemusic - Tensions Run High (https://youtu.be/2rOTgT0-ZEk?si=_N2oSUYKoQx1Aiqr)\n2. Scott Buckley - Machina\n3. Scott Buckley - Sanctuary\n\nIf there is any content in this video which you own and would like removed, than please contact me and I will be happy to oblige.\n\n#minecraft #minecraftlive #minecraftmobvote"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT8M42S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "442520",
+    "likeCount": "35657",
+    "favoriteCount": "0",
+    "commentCount": "4964"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "Uq5P0oMUO6IkuJZWm9R3VRBgrVI",
+    "id": "Qtmrp_4BKRQ",
+    "snippet": {
+    "publishedAt": "2023-10-17T14:04:14Z",
+    "channelId": "UCsXVk37bltHxD1rDPwtNM8Q",
+    "title": "A Glimpse Into Our Future",
+    "description": "✨ WORLDWIDE SHIPPING AVAILABLE ✨ The 12,024 Human Era Calendar has landed! https://shop.kgs.link/12-024\nJoin us on an exploration of how different cosmic conditions could shape unique worlds and civilizations.\nStocks are highly limited, so don’t miss your chance to own a truly special piece of kurzgesagt.\n\n\nOUR CHANNELS\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nGerman:        https://kgs.link/youtubeDE\nSpanish:        https://kgs.link/youtubeES\nFrench:          https://kgs.link/youtubeFR\nPortuguese:  https://kgs.link/youtubePT\nArabic:           https://kgs.link/youtubeAR\nHindi:             https://kgs.link/youtubeHI\nJapanese:     https://kgs.link/youtubeJA\nKorean:          https://kgs.link/youtubeKO\n\n\nHOW CAN YOU SUPPORT US?\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nThis is how we make our living and it would be a pleasure if you support us!\n\nGet Prodcuts designed with ❤ https://shop-us.kurzgesagt.org  \nJoin the Patreon Bird Army 🐧  https://kgs.link/patreon  \n\n\nDISCUSSIONS & SOCIAL MEDIA\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nTikTok:           https://kgs.link/tiktok\nReddit:            https://kgs.link/reddit\nInstagram:     https://kgs.link/instagram\nTwitter:           https://kgs.link/twitter\nFacebook:      https://kgs.link/facebook\nDiscord:          https://kgs.link/discord\nNewsletter:    https://kgs.link/newsletter\n\n\nOUR VOICE\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nThe Kurzgesagt voice is from \nSteve Taylor:  https://kgs.link/youtube-voice\n\n\nOUR MUSIC ♬♪\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\n700+ minutes of Kurzgesagt Soundtracks by Epic Mountain:\n\nSpotify:            https://kgs.link/music-spotify\nSoundcloud:   https://kgs.link/music-soundcloud\nBandcamp:     https://kgs.link/music-bandcamp\nYoutube:          https://kgs.link/music-youtube\nFacebook:       https://kgs.link/music-facebook\n\nIf you want to help us caption this video, please send subtitles to subtitle@kurzgesagt.org\nYou can find info on what subtitle files work on YouTube here:\nhttps://support.google.com/youtube/answer/2734698?hl=en-GB&ref_topic=7296214\nThank you!",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/Qtmrp_4BKRQ/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/Qtmrp_4BKRQ/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/Qtmrp_4BKRQ/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/Qtmrp_4BKRQ/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/Qtmrp_4BKRQ/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Kurzgesagt – In a Nutshell",
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en-GB",
+    "localized": {
+    "title": "A Glimpse Into Our Future",
+    "description": "✨ WORLDWIDE SHIPPING AVAILABLE ✨ The 12,024 Human Era Calendar has landed! https://shop.kgs.link/12-024\nJoin us on an exploration of how different cosmic conditions could shape unique worlds and civilizations.\nStocks are highly limited, so don’t miss your chance to own a truly special piece of kurzgesagt.\n\n\nOUR CHANNELS\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nGerman:        https://kgs.link/youtubeDE\nSpanish:        https://kgs.link/youtubeES\nFrench:          https://kgs.link/youtubeFR\nPortuguese:  https://kgs.link/youtubePT\nArabic:           https://kgs.link/youtubeAR\nHindi:             https://kgs.link/youtubeHI\nJapanese:     https://kgs.link/youtubeJA\nKorean:          https://kgs.link/youtubeKO\n\n\nHOW CAN YOU SUPPORT US?\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nThis is how we make our living and it would be a pleasure if you support us!\n\nGet Prodcuts designed with ❤ https://shop-us.kurzgesagt.org  \nJoin the Patreon Bird Army 🐧  https://kgs.link/patreon  \n\n\nDISCUSSIONS & SOCIAL MEDIA\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nTikTok:           https://kgs.link/tiktok\nReddit:            https://kgs.link/reddit\nInstagram:     https://kgs.link/instagram\nTwitter:           https://kgs.link/twitter\nFacebook:      https://kgs.link/facebook\nDiscord:          https://kgs.link/discord\nNewsletter:    https://kgs.link/newsletter\n\n\nOUR VOICE\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nThe Kurzgesagt voice is from \nSteve Taylor:  https://kgs.link/youtube-voice\n\n\nOUR MUSIC ♬♪\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\n700+ minutes of Kurzgesagt Soundtracks by Epic Mountain:\n\nSpotify:            https://kgs.link/music-spotify\nSoundcloud:   https://kgs.link/music-soundcloud\nBandcamp:     https://kgs.link/music-bandcamp\nYoutube:          https://kgs.link/music-youtube\nFacebook:       https://kgs.link/music-facebook\n\nIf you want to help us caption this video, please send subtitles to subtitle@kurzgesagt.org\nYou can find info on what subtitle files work on YouTube here:\nhttps://support.google.com/youtube/answer/2734698?hl=en-GB&ref_topic=7296214\nThank you!"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT1M42S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "679303",
+    "likeCount": "34616",
+    "favoriteCount": "0",
+    "commentCount": "1214"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "FTbtA3xCHnPZqnDXKXlyLQ1GsrI",
+    "id": "BiC9gh5C5w0",
+    "snippet": {
+    "publishedAt": "2023-10-17T15:01:12Z",
+    "channelId": "UCywhnhPP3dAw7huG_y0hdEg",
+    "title": "You Broke the News!!!!!",
+    "description": "Welcome to my first interactive special!",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/BiC9gh5C5w0/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/BiC9gh5C5w0/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/BiC9gh5C5w0/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/BiC9gh5C5w0/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/BiC9gh5C5w0/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Brandon Rogers",
+    "categoryId": "10",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "You Broke the News!!!!!",
+    "description": "Welcome to my first interactive special!"
+    },
+    "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+    "duration": "PT2M4S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "296856",
+    "likeCount": "20694",
+    "favoriteCount": "0",
+    "commentCount": "817"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "AZJqKCovOl0skaFhH9yNZSE2kUw",
+    "id": "3ryID_SwU5E",
+    "snippet": {
+    "publishedAt": "2023-10-14T16:00:00Z",
+    "channelId": "UCX6OQ3DkcsbYNE6H8uQQuVA",
+    "title": "$1 Vs $100,000,000 House!",
+    "description": "I can’t believe how expensive the last house is\nBuy Feastables this Halloween! Our limited edition trick or treat bags are now available at Walmart, Target, and Albertsons stores nationwide\n\nIn case you want to buy the $139,000,000 House... https://www.instagram.com/1200belair/\n\nDiscover over 1 million mainstream tracks for your YouTube videos at Lickd: https://go.lickd.co/mb3\nTrack:“Up & Down” by The Chainsmokers, 347aidan License ID:  MEgkVpMo6r5\nLink: https://thechainsmokers.lnk.to/UAD\n\nNew Merch - https://mrbeast.store\n\nSUBSCRIBE OR I TAKE YOUR DOG\n╔═╦╗╔╦╗╔═╦═╦╦╦╦╗╔═╗\n║╚╣║║║╚╣╚╣╔╣╔╣║╚╣═╣ \n╠╗║╚╝║║╠╗║╚╣║║║║║═╣\n╚═╩══╩═╩═╩═╩╝╚╩═╩═╝\n\nFor any questions or inquiries regarding this video please reach out to chucky@mrbeastbusiness.com\n\n----------------------------------------------------------------\nfollow all of these or i will kick you\n• Facebook - https://www.facebook.com/MrBeast6000/\n• Twitter - https://twitter.com/MrBeast\n•  Instagram - https://www.instagram.com/mrbeast\n•  Im Hiring! - https://www.mrbeastjobs.com/\n--------------------------------------------------------------------",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/3ryID_SwU5E/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/3ryID_SwU5E/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/3ryID_SwU5E/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/3ryID_SwU5E/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/3ryID_SwU5E/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "MrBeast",
+    "categoryId": "24",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en",
+    "localized": {
+    "title": "$1 Vs $100,000,000 House!",
+    "description": "I can’t believe how expensive the last house is\nBuy Feastables this Halloween! Our limited edition trick or treat bags are now available at Walmart, Target, and Albertsons stores nationwide\n\nIn case you want to buy the $139,000,000 House... https://www.instagram.com/1200belair/\n\nDiscover over 1 million mainstream tracks for your YouTube videos at Lickd: https://go.lickd.co/mb3\nTrack:“Up & Down” by The Chainsmokers, 347aidan License ID:  MEgkVpMo6r5\nLink: https://thechainsmokers.lnk.to/UAD\n\nNew Merch - https://mrbeast.store\n\nSUBSCRIBE OR I TAKE YOUR DOG\n╔═╦╗╔╦╗╔═╦═╦╦╦╦╗╔═╗\n║╚╣║║║╚╣╚╣╔╣╔╣║╚╣═╣ \n╠╗║╚╝║║╠╗║╚╣║║║║║═╣\n╚═╩══╩═╩═╩═╩╝╚╩═╩═╝\n\nFor any questions or inquiries regarding this video please reach out to chucky@mrbeastbusiness.com\n\n----------------------------------------------------------------\nfollow all of these or i will kick you\n• Facebook - https://www.facebook.com/MrBeast6000/\n• Twitter - https://twitter.com/MrBeast\n•  Instagram - https://www.instagram.com/mrbeast\n•  Im Hiring! - https://www.mrbeastjobs.com/\n--------------------------------------------------------------------"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT17M36S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "95467066",
+    "likeCount": "3912940",
+    "favoriteCount": "0",
+    "commentCount": "115942"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "WWC0EW5kfnBgu7OWspTCJnSh5zo",
+    "id": "ig3_Peen1ow",
+    "snippet": {
+    "publishedAt": "2023-10-16T14:00:34Z",
+    "channelId": "UCXBE_QQSZueB8082ml5fslg",
+    "title": "TIMTHETATMAN REACTS TO JYNXZI COACHING HIM",
+    "description": "Jynxzi: \nhttps://www.youtube.com/@Jynxzi\nhttps://www.twitch.tv/jynxzi\n\nLIKE and SUBSCRIBE with NOTIFICATIONS ON if you enjoyed the video! 👍\n\n\n💪BECOME A MEMBER OF THE STREAM - https://youtube.com/timthetatman/join\n💰 DONATE: https://streamlabs.com/timthetatman/tip\n👉JOIN THE DISCORD: https://discord.gg/timthetatman\n🔴 You can catch me live on Youtube! https://youtube.com/TimTheTatman\n🎥 MoreTimTheTatman: https://www.youtube.com/moretimthetatman\n🎥 TimTheTatman Two: https://youtube.com/TimTheTatmanTwo\n🎥 TimTheTatman VODs: https://www.youtube.com/timthetatmanvods\n🎥 TimTheTatman Shorts: https://youtube.com/TimTheTatmanShorts\n▶️ GET CONNECTED:\n🖥️ Website | https://timthetatman.com/\n🐦Twitter | https://twitter.com/timthetatman\n📷 Instagram | https://www.instagram.com/timthetatman/\n📱TikTok  | https://tiktok.com/@timthetatman\n\n🔥SPONSORS:\nAT&T | https://www.att.com/5gforyou\nNZXT | https://nzxt.co/TimNZXT\nMountain Dew | https://mtndewgaming.com/\nLG Ultragear | https://bit.ly/3A5B0MZ\nHerman Miller | https://bit.ly/3tcJ9vV\nFanDuel | https://www.fanduel.com/tatmansbk\nStreamlabs | https://streamlabs.com/goprime?promo=timthetatman-441d-10\n\n⭐COMPLEXITY: http://col.vg/Tim\n\nTHANKS FOR WATCHING!! 💖\n\n#timthetatman #rainbow6 #r6s #rainbowsixsiege",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/ig3_Peen1ow/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/ig3_Peen1ow/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/ig3_Peen1ow/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/ig3_Peen1ow/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/ig3_Peen1ow/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "TimTheTatman",
+    "tags": [
+    "timthetatman",
+    "tatmanarmy",
+    "tim",
+    "the",
+    "tat",
+    "man",
+    "timthetatman ninja",
+    "nickmercs",
+    "funny moments",
+    "gameplay",
+    "compilation",
+    "funny",
+    "fat",
+    "streamer",
+    "timthetatman spectates",
+    "timthetatman highlights",
+    "timthetatman moments",
+    "best of",
+    "best of timthetatman",
+    "best of tim",
+    "timthetatman funny",
+    "timthetatman solo",
+    "LIVE",
+    "LIVESTREAM",
+    "STREAM",
+    "rainbow 6",
+    "r6s",
+    "rainbow six siege"
+    ],
+    "categoryId": "20",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "TIMTHETATMAN REACTS TO JYNXZI COACHING HIM",
+    "description": "Jynxzi: \nhttps://www.youtube.com/@Jynxzi\nhttps://www.twitch.tv/jynxzi\n\nLIKE and SUBSCRIBE with NOTIFICATIONS ON if you enjoyed the video! 👍\n\n\n💪BECOME A MEMBER OF THE STREAM - https://youtube.com/timthetatman/join\n💰 DONATE: https://streamlabs.com/timthetatman/tip\n👉JOIN THE DISCORD: https://discord.gg/timthetatman\n🔴 You can catch me live on Youtube! https://youtube.com/TimTheTatman\n🎥 MoreTimTheTatman: https://www.youtube.com/moretimthetatman\n🎥 TimTheTatman Two: https://youtube.com/TimTheTatmanTwo\n🎥 TimTheTatman VODs: https://www.youtube.com/timthetatmanvods\n🎥 TimTheTatman Shorts: https://youtube.com/TimTheTatmanShorts\n▶️ GET CONNECTED:\n🖥️ Website | https://timthetatman.com/\n🐦Twitter | https://twitter.com/timthetatman\n📷 Instagram | https://www.instagram.com/timthetatman/\n📱TikTok  | https://tiktok.com/@timthetatman\n\n🔥SPONSORS:\nAT&T | https://www.att.com/5gforyou\nNZXT | https://nzxt.co/TimNZXT\nMountain Dew | https://mtndewgaming.com/\nLG Ultragear | https://bit.ly/3A5B0MZ\nHerman Miller | https://bit.ly/3tcJ9vV\nFanDuel | https://www.fanduel.com/tatmansbk\nStreamlabs | https://streamlabs.com/goprime?promo=timthetatman-441d-10\n\n⭐COMPLEXITY: http://col.vg/Tim\n\nTHANKS FOR WATCHING!! 💖\n\n#timthetatman #rainbow6 #r6s #rainbowsixsiege"
+    }
+    },
+    "contentDetails": {
+    "duration": "PT17M54S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "499824",
+    "likeCount": "27476",
+    "favoriteCount": "0",
+    "commentCount": "502"
     }
     }
     ],
     "nextPageToken": "CDIQAA",
     "pageInfo": {
-    "totalResults": 172,
+    "totalResults": 200,
     "resultsPerPage": 50
     }
     }
