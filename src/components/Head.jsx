@@ -9,6 +9,7 @@ function Head() {
   let [suggsearch, setsuggesation] = useState([]);
   let [showSuggesation, setshowSuggesation] = useState(false);
   const searchCache = useSelector((store) => store.search);
+  
   const dispatch = useDispatch();
 
   const toggleMenuHandler = (val) => {
