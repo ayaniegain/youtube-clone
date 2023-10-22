@@ -2,15 +2,25 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleMenu } from "../utils/appSlice";
 import { YOUTUBE_SEARCH_API } from "../utils/constant";
+import { YouTube_SEARCH_RESULTS_API } from "../utils/constant";
 import { cacheResults } from "../utils/searchSlice";
+import { useRef } from 'react';
+import { searchResultsSlice } from "../utils/resultsSlice";
 
 function Head() {
   let [searchQuery, setSearchQuery] = useState("");
   let [suggsearch, setsuggesation] = useState([]);
+  let [searchResults, setsearchResults] = useState([]);
   let [showSuggesation, setshowSuggesation] = useState(false);
   const searchCache = useSelector((store) => store.search);
-  
+  // const navigate = useNavigate()
+
   const dispatch = useDispatch();
+
+const refVAlue = useRef('');
+
+
+
 
   const toggleMenuHandler = (val) => {
     dispatch(toggleMenu());
@@ -40,7 +50,30 @@ function Head() {
       [searchQuery]:json[1],
     }));
   };
- 
+
+  const handleSearchResults=async()=>{
+
+    const value=refVAlue.current;
+
+    console.log(value);
+    
+    const data = await fetch(YouTube_SEARCH_RESULTS_API + value);
+    const json = await data.json();
+       console.log(json.items);
+
+    dispatch(
+      searchResultsSlice(
+        json.items
+
+      )
+    );
+    // setsearchResults(json.items);
+
+    // navigate('/search-results')
+
+  }
+
+  
   return ( 
     <div className="grid grid-flow-col p-2 m-2 shadow-lg">
       <div className="flex col-span-1">
@@ -68,17 +101,18 @@ function Head() {
         <button className="border border-gray-400 p-1 rounded-r-full px-2 bg-slate-300 py-1">
           🔍
         </button>
-        {showSuggesation && (
+        {/* {(showSuggesation ) && ( */}
           <div className="absolute scroll-my-2 bg-white mx-2 w-96 shadow-lg rounded">
             <ul>
               {suggsearch.map((s) => (
-                <li key={s} className="py-2 px-3 shadow-sm hover:bg-gray-100">
+
+                <li key={s}  ref={refVAlue}  onClick={handleSearchResults} className="py-2 px-3 shadow-sm hover:bg-gray-100">
                   ✔ {s}
                 </li>
               ))}
             </ul>
           </div>
-        )}
+         {/* )}  */}
       </div>
       <div className="col-span-1">
         <img

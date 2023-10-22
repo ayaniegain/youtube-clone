@@ -4,6 +4,8 @@ const GOOGLE_API_KEY='AIzaSyBWA4B5sXa3DWb8n4KqkxNQWBZQqPqm7Sg'
 
 export const YOUTUBE_SEARCH_API ="http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
 
+export const YouTube_SEARCH_RESULTS_API=`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&key=${GOOGLE_API_KEY}&q=`
+
 export const OFFSET_LIVE_CHAT=20;
 
 export const youtube_sample=

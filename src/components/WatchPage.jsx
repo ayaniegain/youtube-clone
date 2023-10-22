@@ -1,11 +1,16 @@
 import React, { useEffect } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { closeSidebar } from "../utils/appSlice";
 import { useSearchParams } from "react-router-dom";
 import CommentsContainers from "./CommentsContainers";
 import LiveChat from "./LiveChat";
 
 function WatchPage() {
+  const allresults=useSelector((store)=>store.results.allResults)
+
+  console.log(allresults);
+  
+
   let [searchParams] = useSearchParams();
   const dispatch = useDispatch();
   useEffect(() => {
