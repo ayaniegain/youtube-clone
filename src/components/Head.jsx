@@ -2,14 +2,13 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleMenu } from "../utils/appSlice";
 import { YOUTUBE_SEARCH_API } from "../utils/constant";
-import { YouTube_SEARCH_RESULTS_API } from "../utils/constant";
 import { cacheResults } from "../utils/searchSlice";
-import { useRef } from 'react';
-import { searchResultsSlice } from "../utils/resultsSlice";
+import { useRef } from "react";
+import { Link } from "react-router-dom";
 
 function Head() {
   let [searchQuery, setSearchQuery] = useState("");
-  let [suggsearch, setsuggesation] = useState([]);
+  let [suggestion, setSuggestion] = useState([]);
   let [searchResults, setsearchResults] = useState([]);
   let [showSuggesation, setshowSuggesation] = useState(false);
   const searchCache = useSelector((store) => store.search);
@@ -17,10 +16,7 @@ function Head() {
 
   const dispatch = useDispatch();
 
-const refVAlue = useRef('');
-
-
-
+  const inputRef = useRef("");
 
   const toggleMenuHandler = (val) => {
     dispatch(toggleMenu());
@@ -29,7 +25,7 @@ const refVAlue = useRef('');
   useEffect(() => {
     let timer = setTimeout(() => {
       if (searchCache[searchQuery]) {
-        setsuggesation(searchCache[searchQuery]);
+        setSuggestion(searchCache[searchQuery]);
       } else {
         getSearchSuggestions();
       }
@@ -40,41 +36,61 @@ const refVAlue = useRef('');
     };
   }, [searchQuery]);
 
-
   const getSearchSuggestions = async () => {
     const data = await fetch(YOUTUBE_SEARCH_API + searchQuery);
     const json = await data.json();
-    setsuggesation(json[1]);
-//update cache
-    dispatch(cacheResults({
-      [searchQuery]:json[1],
-    }));
+    setSuggestion(json[1]);
+    //update cache
+    dispatch(
+      cacheResults({
+        [searchQuery]: json[1],
+      })
+    );
   };
 
-  const handleSearchResults=async()=>{
+  // const handleSearchResults=async(e)=>{
+  //   e.preventDefault()
 
-    const value=refVAlue.current;
+  //   const data = await fetch(YouTube_SEARCH_RESULTS_API+name);
+  //   const json = await data.json();
+  //   console.log(json.items);
 
-    console.log(value);
-    
-    const data = await fetch(YouTube_SEARCH_RESULTS_API + value);
-    const json = await data.json();
-       console.log(json.items);
+  //   dispatch(
+  //     searchResultsSlice(
+  //       json.items
 
-    dispatch(
-      searchResultsSlice(
-        json.items
+  //       )
+  //       );
 
-      )
-    );
-    // setsearchResults(json.items);
+  //   // console.log(value);
 
-    // navigate('/search-results')
+  //   // const data = await fetch(YouTube_SEARCH_RESULTS_API);
+  //   // const json = await data.json();
+  //   //    console.log(json.items);
 
-  }
+  //   // dispatch(
+  //   //   searchResultsSlice(
+  //   //     json.items
 
-  
-  return ( 
+  //   //   )
+  //   // );
+  //   // setsearchResults(json.items);
+
+  //   // navigate('/search-results')
+
+  // }
+
+  // const handleref=(name)=>{
+  //   console.log(name);
+  //   // const value1=refVAlue.current.value;
+
+  //       inputRef.current.value=name
+
+  //   // console.log(value1);
+
+  // }
+
+  return (
     <div className="grid grid-flow-col p-2 m-2 shadow-lg">
       <div className="flex col-span-1">
         <img
@@ -83,37 +99,70 @@ const refVAlue = useRef('');
           src="https://static.thenounproject.com/png/2254163-200.png"
           alt="hamlogo"
         />
+        <Link to="/">
         <img
-          className="h-6 my-1 mx-2"
+          className="h-6 my-1 mx-2 cursor-pointer"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/2560px-YouTube_Logo_2017.svg.png"
           alt="youtube"
-        />
+          />
+          </Link>
       </div>
-      <div className="col-span-10 px-10">
+      <form className="relative col-span-10 px-10">
         <input
           value={searchQuery}
           className="px-5 w-1/2 border border-gray-400 p-1 rounded-l-full"
           type="text"
+          ref={inputRef}
           onChange={(e) => setSearchQuery(e.target.value)}
           onFocus={() => setshowSuggesation(true)}
-          onBlur={() => setshowSuggesation(false)}
+          // onBlur={() => setshowSuggesation(false)}
+
+          onKeyDown={(e) => {
+            if (e.keyCode === 13) {
+              window.location.href = "/results?q=" + searchQuery;
+            }
+          }}
         />
-        <button className="border border-gray-400 p-1 rounded-r-full px-2 bg-slate-300 py-1">
-          🔍
-        </button>
-        {/* {(showSuggesation ) && ( */}
+       
+
+        <Link to={"/results?q=" + searchQuery}>
+          <button
+            // onKeyDown={(e)=>{
+            //     if(e.keyCode === 13)
+            //     {
+            //         window.location.href="/results?q="+searchQuery;
+            //     }
+            // }}
+
+            className="border border-gray-400 h-9 rounded-r-full p-1 pb-1 bg-gray-400 px-2"
+          >
+            🔍
+          </button>{" "}
+        </Link>
+
+        {showSuggesation && (
           <div className="absolute scroll-my-2 bg-white mx-2 w-96 shadow-lg rounded">
             <ul>
-              {suggsearch.map((s) => (
-
-                <li key={s}  ref={refVAlue}  onClick={handleSearchResults} className="py-2 px-3 shadow-sm hover:bg-gray-100">
-                  ✔ {s}
-                </li>
-              ))}
+              {suggestion.map(
+                (s, index) =>
+                  suggestion[0] && (
+                    <li
+                      onClick={() => {
+                        console.log("clicked");
+                        setSearchQuery(s);
+                        setshowSuggesation(false);
+                      }}
+                      key={index}
+                      className="py-2 px-3 shadow-sm hover:bg-gray-200"
+                    >
+                      <Link to={`/results?q=${s}`}>🔍{s}</Link>
+                    </li>
+                  )
+              )}
             </ul>
           </div>
-         {/* )}  */}
-      </div>
+        )}
+      </form>
       <div className="col-span-1">
         <img
           className="h-8"
