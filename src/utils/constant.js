@@ -1,4 +1,5 @@
-const GOOGLE_API_KEY='AIzaSyDT6zgDb9SGp8F2iNASKZBOwsUbK7JWL3s'
+// const GOOGLE_API_KEY='AIzaSyDT6zgDb9SGp8F2iNASKZBOwsUbK7JWL3s'
+const GOOGLE_API_KEY='AIzaSyDoJVx7hD7BI_6MfXhIKw4XVkc3nh-KyK8'
 
 // export const YOUTUBE_VIDEO_API =`https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=US&key=${GOOGLE_API_KEY}`;
 

@@ -4,7 +4,7 @@ import { toggleMenu } from "../utils/appSlice";
 import { YOUTUBE_SEARCH_API } from "../utils/constant";
 import { cacheResults } from "../utils/searchSlice";
 import { useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Head() {
   let [searchQuery, setSearchQuery] = useState("");
@@ -12,6 +12,9 @@ function Head() {
   let [searchResults, setsearchResults] = useState([]);
   let [showSuggesation, setshowSuggesation] = useState(false);
   const searchCache = useSelector((store) => store.search);
+  const subscribeResults = useSelector((store) => store.results.allResults);
+console.log(subscribeResults.length);
+
   // const navigate = useNavigate()
 
   const dispatch = useDispatch();
@@ -163,12 +166,20 @@ function Head() {
           </div>
         )}
       </form>
-      <div className="col-span-1">
-        <img
-          className="h-8"
-          src="https://cdn-icons-png.flaticon.com/512/666/666201.png"
-          alt="user"
-        />
+      <div className="col-span-1 ">
+
+ 
+            <NavLink to='/subscribe'>
+  <div >
+  <button data-tooltip-target="tooltip-default" type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">subscribe {subscribeResults.length}</button>
+
+  
+</div>
+
+
+            </NavLink>
+
+       
       </div>
     </div>
   );

@@ -157,18 +157,14 @@ const CommentsContainer = () => {
 const handleSubmit=(e)=>{
     e.preventDefault()
 
-    console.log(commentsData);
 
-    let addComment= (
+    let addComment=  commentsData.unshift(
         {
             name:randomGenerateName(),
             text:comment,
             replies:[]
         })
-    let cc=    localStorage.setItem("addComment",JSON.parse(addComment));
-    let cc2=    localStorage.getItem("addComment");
-
-    console.log(JSON.stringify(cc2));
+   
         setComment(addComment);
         setComment('')
 

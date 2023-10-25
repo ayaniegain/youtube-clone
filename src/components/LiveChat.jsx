@@ -51,7 +51,7 @@ function LiveChat() {
 
     <form onSubmit={handleSubmit} className="w-full border border-black rounded-sm p-2 ml-2">
       <input value={liveMessage} onChange={(e)=>setLiveMessage(e.target.value)} placeholder="type a text" className="px-2 w-60 border border-gray-400 " type="text" name="" id="" />
-      <button className="mx-6 px-2  bg-green-400" type="submit">send</button>
+      <button className="mx-1 px-2  bg-green-400" type="submit">send</button>
     </form>
         </>
   );

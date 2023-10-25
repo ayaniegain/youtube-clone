@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainContainer from "./components/MainContainer";
 import WatchPage from "./components/WatchPage";
 import ResultsPage from "./components//ResultsPage";
+import Subscribe from "./components/Subscribe";
 
 export const appRouter = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ export const appRouter = createBrowserRouter([
       {
         path: "results",
         element: <ResultsPage />,
+      },
+      {
+        path: "subscribe",
+        element: <Subscribe />,
       },
     ],
   },
