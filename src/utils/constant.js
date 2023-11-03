@@ -7,7 +7,8 @@ const GOOGLE_API_KEY='AIzaSyDwMi2IPvGtSgzB7Fg0IprcWGByVFSYWMU'
 
 export const YOUTUBE_SEARCH_API ="http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
 
-export const SEARCH_RESULT_API=`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&key=${GOOGLE_API_KEY}&q=`
+// export const SEARCH_RESULT_API=`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&key=${GOOGLE_API_KEY}&q=`
+export const SEARCH_RESULT_API=`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&key=AIzaSyDwMi2IPvGtSgzB7Fg0IprcWGByVFSYWMU&q=`
 
 
 export const FETCH_API=`https://www.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&key=${GOOGLE_API_KEY}`;    
