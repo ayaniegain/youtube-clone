@@ -14,6 +14,8 @@ import {
 import WatchPageShimmer from "./WatchPageShimmer";
 import { searchResultsSlice } from "../utils/resultsSlice";
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 function WatchPage() {
   const [suggVideos, setSuggVideos] = useState([]);
   const [Vinfo, setVinfo] = useState();
@@ -21,6 +23,8 @@ function WatchPage() {
   let [searchParams] = useSearchParams();
   const dispatch = useDispatch();
 
+  
+    
   useEffect(() => {
     dispatch(closeSidebar());
     getSuggestedVideos();
@@ -29,15 +33,15 @@ function WatchPage() {
 
 let handleClick=(vid)=>{
 
-  console.log(vid);
-  dispatch(
+  toast.success("subscribe added");
+      dispatch(
 
-    searchResultsSlice(
-
-      
-      vid.items
-
-  ))}
+        searchResultsSlice(
+    
+          
+          vid.items
+    
+      ))}
 
 
   const getSuggestedVideos = async () => {
@@ -104,6 +108,7 @@ let handleClick=(vid)=>{
                   <button onClick={()=>handleClick(Vinfo)} className="bg-red-600 font-bold text-white tracking-widest p-1 rounded-full px-10 ml-[50px]">
                     subscribe
                   </button>
+                  <ToastContainer />
                 </div>
 
                 <div

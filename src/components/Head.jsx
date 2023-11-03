@@ -13,7 +13,15 @@ function Head() {
   let [showSuggesation, setshowSuggesation] = useState(false);
   const searchCache = useSelector((store) => store.search);
   const subscribeResults = useSelector((store) => store.results.allResults);
-console.log(subscribeResults.length);
+
+  let cc = JSON.parse(localStorage.getItem("item"));
+
+  // console.log(cc);
+  // let len
+  //   if (cc.allResults[0]?.length!==null) {
+  //      len=((cc.allResults[0]?.length))
+
+  //   }
 
   // const navigate = useNavigate()
 
@@ -103,12 +111,12 @@ console.log(subscribeResults.length);
           alt="hamlogo"
         />
         <Link to="/">
-        <img
-          className="h-6 my-1 mx-2 cursor-pointer"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/2560px-YouTube_Logo_2017.svg.png"
-          alt="youtube"
+          <img
+            className="h-6 my-1 mx-2 cursor-pointer"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/2560px-YouTube_Logo_2017.svg.png"
+            alt="youtube"
           />
-          </Link>
+        </Link>
       </div>
       <form className="relative col-span-10 px-10">
         <input
@@ -126,7 +134,6 @@ console.log(subscribeResults.length);
             }
           }}
         />
-       
 
         <Link to={"/results?q=" + searchQuery}>
           <button
@@ -140,7 +147,7 @@ console.log(subscribeResults.length);
             className="border border-gray-400 h-9 rounded-r-full p-1 pb-1 bg-gray-400 px-2"
           >
             🔍
-          </button>{" "}
+          </button>
         </Link>
 
         {showSuggesation && (
@@ -167,19 +174,17 @@ console.log(subscribeResults.length);
         )}
       </form>
       <div className="col-span-1 ">
-
- 
-            <NavLink to='/subscribe'>
-  <div >
-  <button data-tooltip-target="tooltip-default" type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">subscribe {subscribeResults.length}</button>
-
-  
-</div>
-
-
-            </NavLink>
-
-       
+        <NavLink to="/subscribe">
+          <div>
+            <button
+              data-tooltip-target="tooltip-default"
+              type="button"
+              className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              subscribe
+            </button>
+          </div>
+        </NavLink>
       </div>
     </div>
   );

@@ -4,14 +4,18 @@ import { removeSubs } from '../utils/resultsSlice';
 
 function Subscribe() {
   const Vinfo = useSelector((store) => store.results.allResults);
+
   const dispatch = useDispatch();
+
+  
+//   let cc=JSON.parse(localStorage.getItem('item'))
+// let Vinfo=((cc.allResults))
 
   
   let handleClick=(vid)=>{
 
 
     
-    console.log(vid);
     dispatch(
   
       removeSubs(
@@ -27,15 +31,15 @@ function Subscribe() {
 
 
   return (
-    <>
-    <div>All Subscribers</div>
-    <div className="pt-2 ml-2 shadow-lg bg-gray-100 rounded-lg mt-2 mb-2">
+    <div className='flex flex-col mx-6'>
+    <h2 className=' text-3xl mx-2'>All Subscribers</h2>
+    <div className="pt-2   shadow-lg bg-gray-100 rounded-lg mt-2 mb-2">
           
 
             {
-             Vinfo.map((items)=>
+             Vinfo.map((items,index)=>
              
-             <div className="flex flex-row mt-3">
+             <div key={index} className="flex p-6  flex-row mt-3">
              <img
                className=" mx-2 h-10 w-10 rounded-full"
                src={items[0].snippet.thumbnails.default.url}
@@ -65,7 +69,7 @@ function Subscribe() {
              ) 
             }
           </div>
-    </>
+    </div>
   )
 }
 

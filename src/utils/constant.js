@@ -1,5 +1,7 @@
 // const GOOGLE_API_KEY='AIzaSyDT6zgDb9SGp8F2iNASKZBOwsUbK7JWL3s'
-const GOOGLE_API_KEY='AIzaSyDoJVx7hD7BI_6MfXhIKw4XVkc3nh-KyK8'
+// const GOOGLE_API_KEY='AIzaSyDoJVx7hD7BI_6MfXhIKw4XVkc3nh-KyK8'
+// const GOOGLE_API_KEY='AIzaSyBa61lyBdURq9U7fCIthLypxLMuPyUu3ik'
+const GOOGLE_API_KEY='AIzaSyDwMi2IPvGtSgzB7Fg0IprcWGByVFSYWMU'
 
 // export const YOUTUBE_VIDEO_API =`https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=US&key=${GOOGLE_API_KEY}`;
 
@@ -12,432 +14,124 @@ export const FETCH_API=`https://www.googleapis.com/youtube/v3/videos?part=snippe
 export const OFFSET_LIVE_CHAT=20;
 
 export const youtube_sample=
+
+
 {
     "kind": "youtube#videoListResponse",
-    "etag": "UfLrMhEIQiV-F3GS4D08YrF1b1I",
+    "etag": "zdQCWx5sU4HIz20qPt7T_YaDMAI",
     "items": [
     {
     "kind": "youtube#video",
-    "etag": "7E5gw0QD0cYMtNehBhP7mR2MYaI",
-    "id": "5xC5QDZRpzs",
+    "etag": "ukOIMdRyh9zIWWpqcYbDFB3KYMY",
+    "id": "AW55J2zE3N4",
     "snippet": {
-    "publishedAt": "2023-10-18T02:20:38Z",
-    "channelId": "UCSo19KhHogXxu3sFsOpqrcQ",
-    "title": "México 2-2 Alemania - HIGHLIGHTS | Amistoso Internacional | TUDN",
-    "description": "La mayor oferta de partidos de la Liga Mx en ViX: https://vix.com/es-es/deportes?utm_medium=organic_social&utm_source=youtube&utm_campaign=evergreen&utm_content=ed_sports\n\nMéxico gusta y empata contra una Alemania que por momentos fue controlada por el Tricolor.",
+    "publishedAt": "2023-11-02T14:01:47Z",
+    "channelId": "UCc4K7bAqpdBP8jh1j9XZAww",
+    "title": "The Beatles - Now And Then (Official Audio)",
+    "description": "Now and Then's eventful journey to fruition took place over five decades and is the product of conversations and collaborations between the four Beatles that go on to this day. The long mythologised John Lennon demo was first worked on in February 1995 by Paul, George and Ringo as part of The Beatles Anthology project but it remained unfinished, partly because of the impossible technological challenges involved in working with the vocal John had recorded on tape in the 1970s. For years it looked like the song could never be completed. But in 2022 there was a stroke of serendipity. A software system developed by Peter Jackson and his team, used throughout the production of the documentary series Get Back, finally opened the way for the uncoupling of John’s vocal from his piano part. As a result, the original recording could be brought to life and worked on anew with contributions from all four Beatles. This remarkable story of musical archaeology reflects The Beatles’ endless creative curiosity and shared fascination with technology. It marks the completion of the last recording that John, Paul and George and Ringo will get to make together and celebrates the legacy of the foremost and most influential band in popular music history.\n\nOrder/Listen to \"Now And Then\": https://TheBeatles.lnk.to/NowAndThenYT\nPre-order 'Red' and 'Blue': https://TheBeatles.lnk.to/RedAndBlue2023YT \n\nWatch more videos from The Beatles: https://thebeatles.lnk.to/YTPlaylists\nSubscribe to The Beatles’ YouTube channel & ring the bell to never miss a new video: https://thebeatles.lnk.to/YTSignup\nSign up for The Beatles’ Official Email List: https://www.thebeatles.com/newsletter\n \nStream The Beatles:\n🎙️ Apple Music: https://thebeatles.lnk.to/stream/AppleMusic\n🎙️ Spotify: https://thebeatles.lnk.to/stream/Spotify\n🎙️ Amazon Music: https://thebeatles.lnk.to/stream/AmazonMusic\n🎙️ Pandora: https://thebeatles.lnk.to/stream/Pandora\n🎙️ Tidal: https://thebeatles.lnk.to/stream/Tidal\n🎙️ Deezer: https://thebeatles.lnk.to/stream/Deezer\n🎙️ YouTube Music: https://thebeatles.lnk.to/stream/YouTubeMusic\n \nFollow The Beatles:\n⭐ https://www.thebeatles.com\n⭐ https://www.instagram.com/thebeatles\n⭐ https://www.facebook.com/thebeatles\n⭐ https://www.tiktok.com/@thebeatles\n⭐ https://twitter.com/thebeatles\n \n#TheBeatles #NowAndThen #JohnLennon #PaulMcCartney #GeorgeHarrison #RingoStarr",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/5xC5QDZRpzs/default.jpg",
+    "url": "https://i.ytimg.com/vi/AW55J2zE3N4/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/5xC5QDZRpzs/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/AW55J2zE3N4/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/5xC5QDZRpzs/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/AW55J2zE3N4/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/5xC5QDZRpzs/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/AW55J2zE3N4/sddefault.jpg",
     "width": 640,
     "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/5xC5QDZRpzs/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
     }
     },
-    "channelTitle": "TUDN USA",
-    "tags": [
-    "Televisa",
-    "Deportes",
-    "TUDN",
-    "TUDN México",
-    "Univision",
-    "Televisa deportes",
-    "TUDN USA",
-    "soccer",
-    "futbol mexicano",
-    "Seleccion mexicana",
-    "Mexico vs alemania resumen",
-    "convocatoria mexico",
-    "chino huerta seleccion",
-    "jimmy lozano",
-    "amistoso mexico",
-    "México 2-2 Alemania",
-    "Gol México",
-    "Resumen México",
-    "Resumen Alemania"
-    ],
-    "categoryId": "17",
+    "channelTitle": "The Beatles",
+    "categoryId": "10",
     "liveBroadcastContent": "none",
     "localized": {
-    "title": "México 2-2 Alemania - HIGHLIGHTS | Amistoso Internacional | TUDN",
-    "description": "La mayor oferta de partidos de la Liga Mx en ViX: https://vix.com/es-es/deportes?utm_medium=organic_social&utm_source=youtube&utm_campaign=evergreen&utm_content=ed_sports\n\nMéxico gusta y empata contra una Alemania que por momentos fue controlada por el Tricolor."
-    }
+    "title": "The Beatles - Now And Then (Official Audio)",
+    "description": "Now and Then's eventful journey to fruition took place over five decades and is the product of conversations and collaborations between the four Beatles that go on to this day. The long mythologised John Lennon demo was first worked on in February 1995 by Paul, George and Ringo as part of The Beatles Anthology project but it remained unfinished, partly because of the impossible technological challenges involved in working with the vocal John had recorded on tape in the 1970s. For years it looked like the song could never be completed. But in 2022 there was a stroke of serendipity. A software system developed by Peter Jackson and his team, used throughout the production of the documentary series Get Back, finally opened the way for the uncoupling of John’s vocal from his piano part. As a result, the original recording could be brought to life and worked on anew with contributions from all four Beatles. This remarkable story of musical archaeology reflects The Beatles’ endless creative curiosity and shared fascination with technology. It marks the completion of the last recording that John, Paul and George and Ringo will get to make together and celebrates the legacy of the foremost and most influential band in popular music history.\n\nOrder/Listen to \"Now And Then\": https://TheBeatles.lnk.to/NowAndThenYT\nPre-order 'Red' and 'Blue': https://TheBeatles.lnk.to/RedAndBlue2023YT \n\nWatch more videos from The Beatles: https://thebeatles.lnk.to/YTPlaylists\nSubscribe to The Beatles’ YouTube channel & ring the bell to never miss a new video: https://thebeatles.lnk.to/YTSignup\nSign up for The Beatles’ Official Email List: https://www.thebeatles.com/newsletter\n \nStream The Beatles:\n🎙️ Apple Music: https://thebeatles.lnk.to/stream/AppleMusic\n🎙️ Spotify: https://thebeatles.lnk.to/stream/Spotify\n🎙️ Amazon Music: https://thebeatles.lnk.to/stream/AmazonMusic\n🎙️ Pandora: https://thebeatles.lnk.to/stream/Pandora\n🎙️ Tidal: https://thebeatles.lnk.to/stream/Tidal\n🎙️ Deezer: https://thebeatles.lnk.to/stream/Deezer\n🎙️ YouTube Music: https://thebeatles.lnk.to/stream/YouTubeMusic\n \nFollow The Beatles:\n⭐ https://www.thebeatles.com\n⭐ https://www.instagram.com/thebeatles\n⭐ https://www.facebook.com/thebeatles\n⭐ https://www.tiktok.com/@thebeatles\n⭐ https://twitter.com/thebeatles\n \n#TheBeatles #NowAndThen #JohnLennon #PaulMcCartney #GeorgeHarrison #RingoStarr"
+    },
+    "defaultAudioLanguage": "en-GB"
     },
     "contentDetails": {
-    "duration": "PT12M17S",
+    "duration": "PT4M9S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
-    "licensedContent": true,
+    "licensedContent": false,
     "regionRestriction": {
-    "allowed": [
-    "PR",
-    "US"
+    "blocked": [
+    "BY",
+    "RU"
     ]
     },
     "contentRating": {},
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "732919",
-    "likeCount": "8144",
+    "viewCount": "4046271",
+    "likeCount": "237469",
     "favoriteCount": "0",
-    "commentCount": "1629"
+    "commentCount": "25934"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "HwiTSWH6Hu2GbunifrY9_IeVnhg",
-    "id": "_jICVrlX8h8",
+    "etag": "qO7xam6b3pFePLIhx2ZatqGM6xA",
+    "id": "NQ_HvTBaFoo",
     "snippet": {
-    "publishedAt": "2023-10-18T04:36:56Z",
-    "channelId": "UCzU8-lZlRfkV3nj0RzAZdrQ",
-    "title": "PERÚ vs. ARGENTINA [0-2] | RESUMEN | ELIMINATORIAS SUDAMERICANAS | FECHA 3",
-    "description": "¡Argentina pisó fuerte en Lima y se llevó otro triunfo! Venció a Perú por 2-0 con un doblete de Lionel Messi y sigue con puntaje perfecto en las #EliminatoriasSudamericanas 🔝🇦🇷\n\n#CreeEnGrande\n\nSuscríbete I Inscreva-se I Subscribe: http://bit.ly/CONMEBOL\n\nFacebook: facebook.com/CONMEBOL\nInstagram: instagram.com/conmebol/\nTwitter: twitter.com/CONMEBOL",
+    "publishedAt": "2023-11-02T15:00:26Z",
+    "channelId": "UC2-BeLxzUBSs0uSrmzWhJuQ",
+    "title": "Kingdom of the Planet of the Apes | Teaser Trailer",
+    "description": "Director Wes Ball breathes new life into the global, epic franchise set several generations in the future following Caesar’s reign, in which apes are the dominant species living harmoniously and humans have been reduced to living in the shadows. As a new tyrannical ape leader builds his empire, one young ape undertakes a harrowing journey that will cause him to question all that he has known about the past and to make choices that will define a future for apes and humans alike.\n\n“Kingdom of the Planet of the Apes” is directed by Wes Ball (the “Maze Runner” trilogy) and stars Owen Teague (“IT”), Freya Allan (“The Witcher”), Kevin Durand (Locke & Key”), Peter Macon (“Shameless”), and William H. Macy (“Fargo”). The screenplay is by Josh Friedman (“War of the Worlds”) and Rick Jaffa & Amanda Silver (“Avatar: The Way of Water”) and Patrick Aison (“Prey”), based on characters created by Rick Jaffa & Amanda Silver, and the producers are Wes Ball, Joe Hartwick, Jr. (“The Maze Runner”), Rick Jaffa, Amanda Silver, Jason Reed (“Mulan”), with Peter Chernin (the “Planet of the Apes” trilogy) and Jenno Topping (“Ford v. Ferrari”) serving as executive producers.",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/_jICVrlX8h8/default.jpg",
+    "url": "https://i.ytimg.com/vi/NQ_HvTBaFoo/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/_jICVrlX8h8/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/NQ_HvTBaFoo/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/_jICVrlX8h8/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/NQ_HvTBaFoo/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/_jICVrlX8h8/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/NQ_HvTBaFoo/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/_jICVrlX8h8/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/NQ_HvTBaFoo/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "CONMEBOL",
+    "channelTitle": "20th Century Studios",
     "tags": [
-    "fútbol",
-    "pelota",
-    "gol",
-    "copa",
-    "libertadores",
-    "sudamericana",
-    "eliminatorias",
-    "mundial"
+    "Trailer"
     ],
-    "categoryId": "17",
+    "categoryId": "1",
     "liveBroadcastContent": "none",
     "localized": {
-    "title": "PERÚ vs. ARGENTINA [0-2] | RESUMEN | ELIMINATORIAS SUDAMERICANAS | FECHA 3",
-    "description": "¡Argentina pisó fuerte en Lima y se llevó otro triunfo! Venció a Perú por 2-0 con un doblete de Lionel Messi y sigue con puntaje perfecto en las #EliminatoriasSudamericanas 🔝🇦🇷\n\n#CreeEnGrande\n\nSuscríbete I Inscreva-se I Subscribe: http://bit.ly/CONMEBOL\n\nFacebook: facebook.com/CONMEBOL\nInstagram: instagram.com/conmebol/\nTwitter: twitter.com/CONMEBOL"
-    },
-    "defaultAudioLanguage": "es-419"
-    },
-    "contentDetails": {
-    "duration": "PT10M9S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "4418328",
-    "favoriteCount": "0",
-    "commentCount": "4297"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "xBETUujWLYLOhEsMfwolp6YX7Xw",
-    "id": "2Pkqs4MVuYk",
-    "snippet": {
-    "publishedAt": "2023-10-18T03:03:40Z",
-    "channelId": "UCzU8-lZlRfkV3nj0RzAZdrQ",
-    "title": "URUGUAY vs. BRASIL [2-0] | RESUMEN | ELIMINATORIAS SUDAMERICANAS | FECHA 4",
-    "description": "🔝🇺🇾 ¡Gran victoria de Uruguay! Con goles de Darwin Núñez y Nicolás de la Cruz, venció en las #EliminatoriasSudamericanas a #Brasil, que volvió a perder después de 37 partidos.\n\nSuscríbete I Inscreva-se I Subscribe: http://bit.ly/CONMEBOL\n\nFacebook: facebook.com/CONMEBOL\nInstagram: instagram.com/conmebol/\nTwitter: twitter.com/CONMEBOL",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/2Pkqs4MVuYk/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/2Pkqs4MVuYk/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/2Pkqs4MVuYk/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/2Pkqs4MVuYk/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/2Pkqs4MVuYk/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "CONMEBOL",
-    "tags": [
-    "fútbol",
-    "pelota",
-    "gol",
-    "copa",
-    "libertadores",
-    "sudamericana",
-    "eliminatorias",
-    "mundial"
-    ],
-    "categoryId": "17",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "URUGUAY vs. BRASIL [2-0] | RESUMEN | ELIMINATORIAS SUDAMERICANAS | FECHA 4",
-    "description": "🔝🇺🇾 ¡Gran victoria de Uruguay! Con goles de Darwin Núñez y Nicolás de la Cruz, venció en las #EliminatoriasSudamericanas a #Brasil, que volvió a perder después de 37 partidos.\n\nSuscríbete I Inscreva-se I Subscribe: http://bit.ly/CONMEBOL\n\nFacebook: facebook.com/CONMEBOL\nInstagram: instagram.com/conmebol/\nTwitter: twitter.com/CONMEBOL"
-    },
-    "defaultAudioLanguage": "es-419"
-    },
-    "contentDetails": {
-    "duration": "PT10M8S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "4225878",
-    "favoriteCount": "0",
-    "commentCount": "4310"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "a0ozB7O4zoX3WAm9N7hV-l4tD4Y",
-    "id": "cMagxRyrvIs",
-    "snippet": {
-    "publishedAt": "2023-10-18T13:00:28Z",
-    "channelId": "UCINb0wqPz-A0dV9nARjJlOQ",
-    "title": "Pittie Patiently Waits By The Fence Each Morning To Greet His Neighbors | The Dodo",
-    "description": "Pittie stands up at her fence and does the cutest butt wiggle when neighbors walk by... but there's one person who's her favorite ❤️\n\nKeep up with @tubsthebluestaffy on Instagram: https://thedo.do/tubsthebluestaffy, TikTok: https://thedo.do/TubsTheBlueStaffy & Facebook: https://thedo.do/Tubsthebluestaffy.\n\nLove Animals? Subscribe: http://thedo.do/2tv6Ocd\n¿Hablas español?: https://thedo.do/2BsuN4o\n\nFollow The Dodo:\nTweet with us on Twitter: https://thedo.do/2Jast1M\nHowl with us on TikTok: https://thedo.do/2qFkbGT\nTake a peek at our Snapchat: http://thedo.do/2gkVhsz\nLove our Instagram: http://thedo.do/2agAEce\nLike us on Facebook: http://thedo.do/1dJ9lmn\nRead more on our site: http://thedo.do/KWDoNt\n\nFor the love of animals. Pass it on.\n#thedodo #animals #dog #cat #kitten #puppy",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/cMagxRyrvIs/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/cMagxRyrvIs/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/cMagxRyrvIs/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/cMagxRyrvIs/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/cMagxRyrvIs/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "The Dodo",
-    "tags": [
-    "animal video",
-    "animals",
-    "the dodo",
-    "Animal Rescue",
-    "dodo",
-    "cute animals",
-    "pets",
-    "wildlife",
-    "pet videos",
-    "wildlife videos",
-    "animals the dodo",
-    "the dodo animals",
-    "rescuing animals"
-    ],
-    "categoryId": "15",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Pittie Patiently Waits By The Fence Each Morning To Greet His Neighbors | The Dodo",
-    "description": "Pittie stands up at her fence and does the cutest butt wiggle when neighbors walk by... but there's one person who's her favorite ❤️\n\nKeep up with @tubsthebluestaffy on Instagram: https://thedo.do/tubsthebluestaffy, TikTok: https://thedo.do/TubsTheBlueStaffy & Facebook: https://thedo.do/Tubsthebluestaffy.\n\nLove Animals? Subscribe: http://thedo.do/2tv6Ocd\n¿Hablas español?: https://thedo.do/2BsuN4o\n\nFollow The Dodo:\nTweet with us on Twitter: https://thedo.do/2Jast1M\nHowl with us on TikTok: https://thedo.do/2qFkbGT\nTake a peek at our Snapchat: http://thedo.do/2gkVhsz\nLove our Instagram: http://thedo.do/2agAEce\nLike us on Facebook: http://thedo.do/1dJ9lmn\nRead more on our site: http://thedo.do/KWDoNt\n\nFor the love of animals. Pass it on.\n#thedodo #animals #dog #cat #kitten #puppy"
+    "title": "Kingdom of the Planet of the Apes | Teaser Trailer",
+    "description": "Director Wes Ball breathes new life into the global, epic franchise set several generations in the future following Caesar’s reign, in which apes are the dominant species living harmoniously and humans have been reduced to living in the shadows. As a new tyrannical ape leader builds his empire, one young ape undertakes a harrowing journey that will cause him to question all that he has known about the past and to make choices that will define a future for apes and humans alike.\n\n“Kingdom of the Planet of the Apes” is directed by Wes Ball (the “Maze Runner” trilogy) and stars Owen Teague (“IT”), Freya Allan (“The Witcher”), Kevin Durand (Locke & Key”), Peter Macon (“Shameless”), and William H. Macy (“Fargo”). The screenplay is by Josh Friedman (“War of the Worlds”) and Rick Jaffa & Amanda Silver (“Avatar: The Way of Water”) and Patrick Aison (“Prey”), based on characters created by Rick Jaffa & Amanda Silver, and the producers are Wes Ball, Joe Hartwick, Jr. (“The Maze Runner”), Rick Jaffa, Amanda Silver, Jason Reed (“Mulan”), with Peter Chernin (the “Planet of the Apes” trilogy) and Jenno Topping (“Ford v. Ferrari”) serving as executive producers."
     },
     "defaultAudioLanguage": "en"
     },
     "contentDetails": {
-    "duration": "PT3M1S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "1341903",
-    "likeCount": "23337",
-    "favoriteCount": "0",
-    "commentCount": "1129"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "4XBoHALs3VCg3LUmqrnRG5E2CZw",
-    "id": "LcKoyrvqE4I",
-    "snippet": {
-    "publishedAt": "2023-10-17T21:28:40Z",
-    "channelId": "UCooTLkxcpnTNx6vfOovfBFA",
-    "title": "England vs. Italy Highlights | European Qualifiers",
-    "description": "Check out the Highlights as England took on Italy in the European Qualifiers.\n\n#FOXSoccer #Soccer #EnglandVsItaly \n\nSUBSCRIBE to get the latest FOX Soccer content: http://foxs.pt/SubscribeFOXSOCCER\nThe all-new FOX Sports App, built for the modern sports fan: https://tinyurl.com/y4uouolb\n\n►FOX Sports YouTube Channel: http://foxs.pt/SubscribeFOXSPORTS\n►PBC ON FOX’s YouTube Channel: https://foxs.pt/SubscribePBCONFOX\n►WWE ON FOX YouTube channel: https://foxs.pt/SubscribeWWEONFOX\n►NASCAR ON FOX YouTube channel: https://foxs.pt/SubscribeNASCARonFOX\n►CFB ON FOX YouTube channel: https://foxs.pt/SubscribeCFBonFOX\n\nSee more from FOX Soccer: https://foxs.pt/FOXSoccer\nLike FOX Soccer on Facebook: https://foxs.pt/FOXSoccerFacebook\nFollow FOX Soccer on Twitter: https://foxs.pt/FOXSoccerTwitter\nFollow FOX Soccer on Instagram: https://foxs.pt/FOXSoccerInstagram\n\nAbout FOX Soccer:\nWith exclusive highlights, original programming, and behind the scenes footage, FOX Soccer’s YouTube channel provides the sports content that fans are hungry for. FOX Soccer presents: Bundesliga, MLS, FIFA World Cup, FIFA Women’s World Cup, Copa America, Gold Cup and many more.\n\nEngland vs. Italy Highlights | European Qualifiers\nhttps://youtu.be/LcKoyrvqE4I\n\nFOX Soccer\nhttps://www.youtube.com/user/Foxsoccer",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/LcKoyrvqE4I/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/LcKoyrvqE4I/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/LcKoyrvqE4I/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/LcKoyrvqE4I/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/LcKoyrvqE4I/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "FOX Soccer",
-    "tags": [
-    "Italy",
-    "Euro Cup",
-    "Harry Kane",
-    "England"
-    ],
-    "categoryId": "17",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "England vs. Italy Highlights | European Qualifiers",
-    "description": "Check out the Highlights as England took on Italy in the European Qualifiers.\n\n#FOXSoccer #Soccer #EnglandVsItaly \n\nSUBSCRIBE to get the latest FOX Soccer content: http://foxs.pt/SubscribeFOXSOCCER\nThe all-new FOX Sports App, built for the modern sports fan: https://tinyurl.com/y4uouolb\n\n►FOX Sports YouTube Channel: http://foxs.pt/SubscribeFOXSPORTS\n►PBC ON FOX’s YouTube Channel: https://foxs.pt/SubscribePBCONFOX\n►WWE ON FOX YouTube channel: https://foxs.pt/SubscribeWWEONFOX\n►NASCAR ON FOX YouTube channel: https://foxs.pt/SubscribeNASCARonFOX\n►CFB ON FOX YouTube channel: https://foxs.pt/SubscribeCFBonFOX\n\nSee more from FOX Soccer: https://foxs.pt/FOXSoccer\nLike FOX Soccer on Facebook: https://foxs.pt/FOXSoccerFacebook\nFollow FOX Soccer on Twitter: https://foxs.pt/FOXSoccerTwitter\nFollow FOX Soccer on Instagram: https://foxs.pt/FOXSoccerInstagram\n\nAbout FOX Soccer:\nWith exclusive highlights, original programming, and behind the scenes footage, FOX Soccer’s YouTube channel provides the sports content that fans are hungry for. FOX Soccer presents: Bundesliga, MLS, FIFA World Cup, FIFA Women’s World Cup, Copa America, Gold Cup and many more.\n\nEngland vs. Italy Highlights | European Qualifiers\nhttps://youtu.be/LcKoyrvqE4I\n\nFOX Soccer\nhttps://www.youtube.com/user/Foxsoccer"
-    },
-    "defaultAudioLanguage": "en"
-    },
-    "contentDetails": {
-    "duration": "PT8M18S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "regionRestriction": {
-    "allowed": [
-    "US"
-    ]
-    },
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "644978",
-    "likeCount": "8499",
-    "favoriteCount": "0",
-    "commentCount": "879"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "ZeuLtjHtG8Ff-9LR9fvVZ0zXAHo",
-    "id": "LIsfMO5Jd_w",
-    "snippet": {
-    "publishedAt": "2023-10-18T12:59:40Z",
-    "channelId": "UCz97F7dMxBNOfGYu3rx8aCw",
-    "title": "NAPOLEON - Official Trailer #2 (HD)",
-    "description": "Joaquin Phoenix takes the crown. Watch the new trailer for #Napoleon, from acclaimed director Ridley Scott. See it in Premium Large Formats, Screen X, 70mm and IMAX this Thanksgiving.  \n\nVisit our site: https://www.Napoleon.movie\n\nFollow Us on Social: \nhttps://www.facebook.com/NapoleonMovie\nhttps://www.instagram.com/NapoleonMovie\nhttps://www.twitter.com/NapoleonMovie\nhttps://www.tiktok.com/@SonyPictures\n\nSubscribe to the Sony Pictures YouTube Channel for more exclusive content: http://bit.ly/SonyPicsSubscribe \n\nNapoleon is a spectacle-filled action epic that details the checkered rise and fall of the iconic French Emperor Napoleon Bonaparte, played by Oscar®-winner Joaquin Phoenix. Against a stunning backdrop of large-scale filmmaking orchestrated by legendary director Ridley Scott, the film captures Bonaparte's relentless journey to power through the prism of his addictive, volatile relationship with his one true love, Josephine, showcasing his visionary military and political tactics against some of the most dynamic practical battle sequences ever filmed.\n\nDirected by: Ridley Scott\n\nWritten by: David Scarpa\n\nProduced by:\nRidley Scott\nKevin J. Walsh\nMark Huffam\nJoaquin Phoenix\n\nExecutive Producers: \nRaymond Kirk\nAidan Elliott\nMichael Pruss\n\nCast: \nJoaquin Phoenix\nVanessa Kirby\n\n#Napoleon #NapoleonMovie #RidleyScott #JoaquinPhoenix #VanessaKirby #Trailer #OfficialTrailer #SonyPictures #Sony #Movie",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/LIsfMO5Jd_w/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/LIsfMO5Jd_w/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/LIsfMO5Jd_w/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/LIsfMO5Jd_w/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/LIsfMO5Jd_w/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Sony Pictures Entertainment",
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "NAPOLEON - Official Trailer #2 (HD)",
-    "description": "Joaquin Phoenix takes the crown. Watch the new trailer for #Napoleon, from acclaimed director Ridley Scott. See it in Premium Large Formats, Screen X, 70mm and IMAX this Thanksgiving.  \n\nVisit our site: https://www.Napoleon.movie\n\nFollow Us on Social: \nhttps://www.facebook.com/NapoleonMovie\nhttps://www.instagram.com/NapoleonMovie\nhttps://www.twitter.com/NapoleonMovie\nhttps://www.tiktok.com/@SonyPictures\n\nSubscribe to the Sony Pictures YouTube Channel for more exclusive content: http://bit.ly/SonyPicsSubscribe \n\nNapoleon is a spectacle-filled action epic that details the checkered rise and fall of the iconic French Emperor Napoleon Bonaparte, played by Oscar®-winner Joaquin Phoenix. Against a stunning backdrop of large-scale filmmaking orchestrated by legendary director Ridley Scott, the film captures Bonaparte's relentless journey to power through the prism of his addictive, volatile relationship with his one true love, Josephine, showcasing his visionary military and political tactics against some of the most dynamic practical battle sequences ever filmed.\n\nDirected by: Ridley Scott\n\nWritten by: David Scarpa\n\nProduced by:\nRidley Scott\nKevin J. Walsh\nMark Huffam\nJoaquin Phoenix\n\nExecutive Producers: \nRaymond Kirk\nAidan Elliott\nMichael Pruss\n\nCast: \nJoaquin Phoenix\nVanessa Kirby\n\n#Napoleon #NapoleonMovie #RidleyScott #JoaquinPhoenix #VanessaKirby #Trailer #OfficialTrailer #SonyPictures #Sony #Movie"
-    },
-    "defaultAudioLanguage": "en"
-    },
-    "contentDetails": {
-    "duration": "PT2M25S",
+    "duration": "PT1M40S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "true",
@@ -446,91 +140,62 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "5407752",
-    "likeCount": "38867",
+    "viewCount": "1995816",
+    "likeCount": "68772",
     "favoriteCount": "0",
-    "commentCount": "2668"
+    "commentCount": "5189"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "9PYieUGWTBtHnwGQxxJZpKdLq1U",
-    "id": "iWT0kl1k32M",
+    "etag": "Uxxzo4isMb4J3w_Kjzf92mEEobc",
+    "id": "30jALc1_K7g",
     "snippet": {
-    "publishedAt": "2023-10-17T14:30:12Z",
-    "channelId": "UChBEbMKI1eCcejTtmI32UEw",
-    "title": "I Tried Food From Every State In America",
-    "description": "Get the NEW COOKBOOK: https://bit.ly/TextureOverTaste\n\nSigned Copies, International, and Indie Bookstores: https://bit.ly/WeissmanCookbook\n\nMeet me at my Book Tour: https://geni.us/TextureOverTasteTour\n\nFOLLOW ME:\nInstagram: https://www.instagram.com/joshuaweissman\nTik Tok: https://www.tiktok.com/@flakeysalt\nTwitter: https://twitter.com/therealweissman\nFacebook: https://www.facebook.com/thejoshuaweissman\nSubreddit: https://www.reddit.com/r/JoshuaWeissman/\nDiscord Server: https://discord.gg/joshuaweissman\n---------------------------------------------------------------",
+    "publishedAt": "2023-11-02T14:00:01Z",
+    "channelId": "UClG8odDC8TS6Zpqk9CGVQiQ",
+    "title": "Fortnite Chapter 4: Season OG - Return to Tilted Towers",
+    "description": "Season 5, the Season where worlds collided… drop in tomorrow November 3, 2023\n\nPlay Fortnite Battle Royale, the completely free 100-player PvP mode. One giant map, A Battle Bus, Last one standing wins. ESRB Rating: Teen with Violence.\n\nInstagram: https://www.instagram.com/fortnite/​\nTwitter: https://twitter.com/FortniteGame​\nFacebook: https://www.facebook.com/FortniteGame/​\nTikTok: https://www.tiktok.com/@Fortnite\n\nLearn More: https://www.epicgames.com/fortnite/en-US/home",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/iWT0kl1k32M/default.jpg",
+    "url": "https://i.ytimg.com/vi/30jALc1_K7g/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/iWT0kl1k32M/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/30jALc1_K7g/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/iWT0kl1k32M/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/30jALc1_K7g/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/iWT0kl1k32M/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/30jALc1_K7g/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/iWT0kl1k32M/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/30jALc1_K7g/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "Joshua Weissman",
+    "channelTitle": "Fortnite",
     "tags": [
-    "sat bawl pro",
-    "joshua weissman",
-    "american food",
-    "american food reaction",
-    "america",
-    "best food in every state",
-    "food",
-    "every state food",
-    "food in america",
-    "fast food from every state",
-    "state food",
-    "best food in every state reaction",
-    "tier list",
-    "airrack",
-    "fast food",
-    "USA top foods",
-    "food in every state",
-    "california food",
-    "texas food",
-    "US food",
-    "new york food",
-    "nyc food",
-    "nyc pizza",
-    "texas barbecue",
-    "weird american food",
-    "american fast food",
-    "burger recipe",
-    "best american foods",
-    "food ranked",
-    "burger"
+    "yt:cc=on"
     ],
-    "categoryId": "26",
+    "categoryId": "20",
     "liveBroadcastContent": "none",
     "localized": {
-    "title": "I Tried Food From Every State In America",
-    "description": "Get the NEW COOKBOOK: https://bit.ly/TextureOverTaste\n\nSigned Copies, International, and Indie Bookstores: https://bit.ly/WeissmanCookbook\n\nMeet me at my Book Tour: https://geni.us/TextureOverTasteTour\n\nFOLLOW ME:\nInstagram: https://www.instagram.com/joshuaweissman\nTik Tok: https://www.tiktok.com/@flakeysalt\nTwitter: https://twitter.com/therealweissman\nFacebook: https://www.facebook.com/thejoshuaweissman\nSubreddit: https://www.reddit.com/r/JoshuaWeissman/\nDiscord Server: https://discord.gg/joshuaweissman\n---------------------------------------------------------------"
+    "title": "Fortnite Chapter 4: Season OG - Return to Tilted Towers",
+    "description": "Season 5, the Season where worlds collided… drop in tomorrow November 3, 2023\n\nPlay Fortnite Battle Royale, the completely free 100-player PvP mode. One giant map, A Battle Bus, Last one standing wins. ESRB Rating: Teen with Violence.\n\nInstagram: https://www.instagram.com/fortnite/​\nTwitter: https://twitter.com/FortniteGame​\nFacebook: https://www.facebook.com/FortniteGame/​\nTikTok: https://www.tiktok.com/@Fortnite\n\nLearn More: https://www.epicgames.com/fortnite/en-US/home"
     },
     "defaultAudioLanguage": "en"
     },
     "contentDetails": {
-    "duration": "PT33M53S",
+    "duration": "PT30S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
@@ -539,153 +204,125 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "1305195",
-    "likeCount": "52593",
+    "viewCount": "1665093",
+    "likeCount": "109132",
     "favoriteCount": "0",
-    "commentCount": "9697"
+    "commentCount": "6851"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "hRizwREwCPgmfRc16pQlD3hh3cA",
-    "id": "9xZY7g9FWho",
+    "etag": "4PBsdvoiHy0EKrRJVV00XgZcvT4",
+    "id": "Zb01RStdzEs",
     "snippet": {
-    "publishedAt": "2023-10-18T17:05:02Z",
-    "channelId": "UCvgfXK4nTYKudb0rFR6noLA",
-    "title": "UFC 294 Embedded: Vlog Series - Episode 3",
-    "description": "Featherweight champion Alexander Volkanovski arrives in Abu Dhabi. Lightweight champ Islam Makhachev melds basketball with Sambo. Kamaru Usman and Khamzat Chimaev do intense workouts, then have a virtual sitdown with Chael Sonnen. Don't miss UFC 294 on Saturday, October 21.\n\nUFC 294: Makhachev vs Volkanovski 2 main card action kicks off at 2pm ET / 11am PT! HOW TO WATCH? Link 👉 https://ufc.ac/3PY0MfT\n\n@VisitAbuDhabiChannel \n\nSubscribe to get all the latest UFC content: https://ufc.ac/3u8FIJp\n\nExperience UFC live with UFC FIGHT PASS, the digital subscription service of the UFC. Visit https://ufcfightpass.com/\n\nTo order UFC Pay-Per-Views on ESPN+, visit https://ufc.ac/3NKBvmx (U.S. only)\n\nTo order UFC Pay-Per-Views, visit http://welcome.ufcfightpass.com/#PPV (Non U.S.)\n\n👉 Shop official UFC Gear, visit https://ufcstore.com\n👉 Shop official UFC Memorabilia, visit https://ufccollectibles.com\n👉 Shop official UFC VIP Live Event Experiences, visit https://ufc.ac/3Oz2gLH\n\nConnect with UFC online and on Social:\n🔴 Website: http://www.ufc.com\n🔵 Twitter: http://www.twitter.com/ufc\n🔵 Facebook: http://www.facebook.com/ufc\n🔴 Instagram: http://www.instagram.com/ufc\n🟡 Snapchat: UFC\n🟣 Twitch: https://www.twitch.tv/ufc\n\nConnect with UFC FIGHT PASS on Social:\n🔵 Twitter: http://www.twitter.com/ufcfightpass\n🔵 Facebook: http://www.facebook.com/ufcfightpass\n🔴 Instagram: http://www.instagram.com/ufcfightpass\n\n#UFC #UFC294 #ESPNMMA #InAbuDhabi #VisitAbuDhabi",
+    "publishedAt": "2023-11-01T19:30:44Z",
+    "channelId": "UCY1kMZp36IQSyNx_9h4mpCg",
+    "title": "Candy Thieves vs Rigged Candy Bowl",
+    "description": "Candy bowl thieves are technically porch pirates too :) Ask for the CrunchLabs Build Box for Christmas and then let’s build some cool stuff together! Get the Holiday special two FREE boxes at http://crunchlabs.com/prank\n\nAlso be sure to subscribe to the CrunchLabs YouTube channel cause we’ve got some bangers in the pipeline- /crunchlabs \n\nThanks to these folks for providing some of the music in the video:\nPonder - https://youtube.com/@Pondermusic\nLaura Shigihara -    @supershigi \nAndrew Applepie - https://soundcloud.com/andrewapplepie \nBlue Wednesday - https://soundcloud.com/bluewednesday\n\nNO PURCHASE NECESSARY. Promotion starts on 1/1/2023 & ends on 12/31/23, subject to monthly entry deadlines. Open to legal residents of the 50 U.S. & D.C., 18+. 1 prize per month: each month is its own separate promotion. For the first 2-3 months, winner may be notified via phone call instead of winning game piece. If a monthly prize is unclaimed/forfeited, it will be awarded via 2nd chance drawing. See Official Rules at crunchlabs.com/sweepstakes for full details on eligibility requirements, how to enter, free method of entry, prize claim procedure, prize description and limitations. Void where prohibited.",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/9xZY7g9FWho/default.jpg",
+    "url": "https://i.ytimg.com/vi/Zb01RStdzEs/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/9xZY7g9FWho/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/Zb01RStdzEs/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/9xZY7g9FWho/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/Zb01RStdzEs/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/9xZY7g9FWho/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/Zb01RStdzEs/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/9xZY7g9FWho/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/Zb01RStdzEs/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "UFC",
-    "tags": [
-    "ufc",
-    "mma",
-    "ultimate fighting championship",
-    "Islam",
-    "Makhachev",
-    "Alexander",
-    "Volkanovski",
-    "Khamzat",
-    "Chimaev",
-    "Kamaru",
-    "Usman",
-    "Johnny",
-    "Walker",
-    "Abu Dhabi",
-    "Embedded",
-    "UFC 294"
-    ],
-    "categoryId": "17",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "UFC 294 Embedded: Vlog Series - Episode 3",
-    "description": "Featherweight champion Alexander Volkanovski arrives in Abu Dhabi. Lightweight champ Islam Makhachev melds basketball with Sambo. Kamaru Usman and Khamzat Chimaev do intense workouts, then have a virtual sitdown with Chael Sonnen. Don't miss UFC 294 on Saturday, October 21.\n\nUFC 294: Makhachev vs Volkanovski 2 main card action kicks off at 2pm ET / 11am PT! HOW TO WATCH? Link 👉 https://ufc.ac/3PY0MfT\n\n@VisitAbuDhabiChannel \n\nSubscribe to get all the latest UFC content: https://ufc.ac/3u8FIJp\n\nExperience UFC live with UFC FIGHT PASS, the digital subscription service of the UFC. Visit https://ufcfightpass.com/\n\nTo order UFC Pay-Per-Views on ESPN+, visit https://ufc.ac/3NKBvmx (U.S. only)\n\nTo order UFC Pay-Per-Views, visit http://welcome.ufcfightpass.com/#PPV (Non U.S.)\n\n👉 Shop official UFC Gear, visit https://ufcstore.com\n👉 Shop official UFC Memorabilia, visit https://ufccollectibles.com\n👉 Shop official UFC VIP Live Event Experiences, visit https://ufc.ac/3Oz2gLH\n\nConnect with UFC online and on Social:\n🔴 Website: http://www.ufc.com\n🔵 Twitter: http://www.twitter.com/ufc\n🔵 Facebook: http://www.facebook.com/ufc\n🔴 Instagram: http://www.instagram.com/ufc\n🟡 Snapchat: UFC\n🟣 Twitch: https://www.twitch.tv/ufc\n\nConnect with UFC FIGHT PASS on Social:\n🔵 Twitter: http://www.twitter.com/ufcfightpass\n🔵 Facebook: http://www.facebook.com/ufcfightpass\n🔴 Instagram: http://www.instagram.com/ufcfightpass\n\n#UFC #UFC294 #ESPNMMA #InAbuDhabi #VisitAbuDhabi"
-    },
-    "defaultAudioLanguage": "en"
-    },
-    "contentDetails": {
-    "duration": "PT9M47S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "regionRestriction": {
-    "blocked": [
-    "BR"
-    ]
-    },
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "714988",
-    "likeCount": "18462",
-    "favoriteCount": "0",
-    "commentCount": "1618"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "3oagMizFplDxVA1aWO7Y1kxIFIg",
-    "id": "j2-sTUqLoCQ",
-    "snippet": {
-    "publishedAt": "2023-10-17T15:09:35Z",
-    "channelId": "UCdtXPiqI2cLorKaPrfpKc4g",
-    "title": "Suzanne Somers' Husband Alan Hamel and Son Bruce Reflect on the Star's Final Moments (Exclusive)",
-    "description": "Suzanne Somers' husband, Alan Hamel, and her son, Bruce, chat with ET's Kevin Frazier about their final moments with the late star. The 'Three's Company' actress died on Sunday morning at 76. Alan and Bruce look back at their time with Suzanne and share how they will keep her memory alive.",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/j2-sTUqLoCQ/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/j2-sTUqLoCQ/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/j2-sTUqLoCQ/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/j2-sTUqLoCQ/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/j2-sTUqLoCQ/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Entertainment Tonight",
-    "tags": [
-    "Suzanne Somers",
-    "Suzanne Somers interview",
-    "Suzanne Somers son",
-    "Suzanne Somers husband",
-    "Suzanne Somers dead",
-    "Suzanne Somers death",
-    "Suzanne Somers died"
-    ],
-    "categoryId": "24",
+    "channelTitle": "Mark Rober",
+    "categoryId": "28",
     "liveBroadcastContent": "none",
     "defaultLanguage": "en",
     "localized": {
-    "title": "Suzanne Somers' Husband Alan Hamel and Son Bruce Reflect on the Star's Final Moments (Exclusive)",
-    "description": "Suzanne Somers' husband, Alan Hamel, and her son, Bruce, chat with ET's Kevin Frazier about their final moments with the late star. The 'Three's Company' actress died on Sunday morning at 76. Alan and Bruce look back at their time with Suzanne and share how they will keep her memory alive."
+    "title": "Candy Thieves vs Rigged Candy Bowl",
+    "description": "Candy bowl thieves are technically porch pirates too :) Ask for the CrunchLabs Build Box for Christmas and then let’s build some cool stuff together! Get the Holiday special two FREE boxes at http://crunchlabs.com/prank\n\nAlso be sure to subscribe to the CrunchLabs YouTube channel cause we’ve got some bangers in the pipeline- /crunchlabs \n\nThanks to these folks for providing some of the music in the video:\nPonder - https://youtube.com/@Pondermusic\nLaura Shigihara -    @supershigi \nAndrew Applepie - https://soundcloud.com/andrewapplepie \nBlue Wednesday - https://soundcloud.com/bluewednesday\n\nNO PURCHASE NECESSARY. Promotion starts on 1/1/2023 & ends on 12/31/23, subject to monthly entry deadlines. Open to legal residents of the 50 U.S. & D.C., 18+. 1 prize per month: each month is its own separate promotion. For the first 2-3 months, winner may be notified via phone call instead of winning game piece. If a monthly prize is unclaimed/forfeited, it will be awarded via 2nd chance drawing. See Official Rules at crunchlabs.com/sweepstakes for full details on eligibility requirements, how to enter, free method of entry, prize claim procedure, prize description and limitations. Void where prohibited."
     },
     "defaultAudioLanguage": "en"
     },
     "contentDetails": {
-    "duration": "PT14M42S",
+    "duration": "PT18M36S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "7471945",
+    "likeCount": "328962",
+    "favoriteCount": "0",
+    "commentCount": "9340"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "l4QFFy9XQlA0WbKASK61-GqAdVs",
+    "id": "fSwEDeelW_E",
+    "snippet": {
+    "publishedAt": "2023-11-02T13:58:00Z",
+    "channelId": "UCfi-mPMOmche6WI-jkvnGXw",
+    "title": "The Greatest Golf Shot in History.",
+    "description": "25% Off The Whole Website ► https://goodgoodgolf.com",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/fSwEDeelW_E/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/fSwEDeelW_E/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/fSwEDeelW_E/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/fSwEDeelW_E/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/fSwEDeelW_E/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Good Good",
+    "tags": [
+    "golf",
+    "good good"
+    ],
+    "categoryId": "22",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "The Greatest Golf Shot in History.",
+    "description": "25% Off The Whole Website ► https://goodgoodgolf.com"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT46M26S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
@@ -694,137 +331,556 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "1899916",
-    "likeCount": "15518",
+    "viewCount": "654072",
+    "likeCount": "37361",
     "favoriteCount": "0",
-    "commentCount": "2161"
+    "commentCount": "3549"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "DvqmCY8JDES-dgRTJ5LmOHp_bOw",
-    "id": "re9liJeET8c",
+    "etag": "dYMQZjJrtYmWUeaWIb27Znsc8YQ",
+    "id": "j7jPnwVGdZ8",
     "snippet": {
-    "publishedAt": "2023-10-18T16:00:44Z",
-    "channelId": "UCf2WBemooP2gBBx3lrraNQw",
-    "title": "blink-182 - YOU DON'T KNOW WHAT YOU'VE GOT (Official Lyric Video)",
-    "description": "Official Lyric Video for “YOU DON'T KNOW WHAT YOU'VE GOT” by blink-182\n \nListen to & Download “YOU DON'T KNOW WHAT YOU'VE GOT” out now: https://blink182.lnk.to/YDKWYG\n \n“ONE MORE TIME…” the new album from blink-182 is out October 20th!\nPre-Order: https://blink182.lnk.to/ONEMORETIME\nPre-Save/Pre-Add: https://blink182.lnk.to/presaveOMT\n \nAmazon Music: https://blink182.lnk.to/YDKWYG/AmazonMusic\nApple Music: https://blink182.lnk.to/YDKWYG/AppleMusic\niTunes: https://blink182.lnk.to/YDKWYG/iTunes\nPandora: https://blink182.lnk.to/YDKWYG/Pandora\nSoundcloud: https://blink182.lnk.to/YDKWYG/Soundcloud\nSpotify: https://blink182.lnk.to/YDKWYG/Spotify\nYouTube Music: https://blink182.lnk.to/YDKWYG/YouTubeMusic\nYouTube: https://blink182.lnk.to/YDKWYG/YouTube\n \nFollow blink-182:\nhttp://facebook.com/blink182\nhttp://instagram.com/blink182\nhttp://twitter.com/blink182\nhttps://www.tiktok.com/@blink182\nhttps://www.blink182.com/\n \nLyrics:\nOne phone call wiped out a year\nLike waves swept under the pier\nLong weeks of impending doom\nStuck in life’s waiting room\n              \nAlways so close to goodbye\nPushed so far over the line\nNo new light under the moon\nStuck in life’s waiting room\n              \nYou don’t know what you’ve got\nYou don’t know what you’ve got \nYou don’t know what you’ve got \n’Til it’s almost gone\nYou don’t know what you’ve got\nYou don’t know what you’ve got\nYou don’t know what you’ve got \n’Til it’s over\n \nAnother day in the life\nYou can’t look me in the eye \nThere’s nothing left you could say\nIt wouldn’t help anyway\nThis poison skin you can’t touch\nGo on without me, my love\nNo kiss to send you away\nIt wouldn’t help anyway\n \nYou don’t know what you’ve got\nYou don’t know what you’ve got \nYou don’t know what you’ve got \n’Til it’s almost gone\nYou don’t know what you’ve got\nYou don’t know what you’ve got\nYou don’t know what you’ve got \n’Til it’s over\n \nI begged for your forgiveness\nI made a deal with God\nI took you all for granted\nYou can write my epilogue\n \nYou don’t know what you’ve got\nYou don’t know what you’ve got \nYou don’t know what you’ve got \n’Til it’s almost gone\nYou don’t know what you’ve got\nYou don’t know what you’ve got\nYou don’t know what you’ve got \n’Til it’s over\n \nAnd over, And over, And over\nAnd over, And over, And over\nAnd over, And over, And over\nAnd over, And over, And over\n \n#blink182 #YOUDONTKNOWWHATYOUVEGOT #ONEMORETIME",
+    "publishedAt": "2023-11-02T14:59:31Z",
+    "channelId": "UCq0OueAsdxH6b8nyAspwViw",
+    "title": "The Fall Guy | Official Trailer",
+    "description": "The Stuntman becomes the hero. #TheFallGuyMovie only in theaters March 1.\n\n------\n\nHe’s a stuntman, and like everyone in the stunt community, he gets blown up, shot, crashed, thrown through windows and dropped from the highest of heights, all for our entertainment. And now, fresh off an almost career-ending accident, this working-class hero has to track down a missing movie star, solve a conspiracy and try to win back the love of his life while still doing his day job. What could possibly go right? \n\nFrom real life stunt man and director David Leitch, the blockbuster director of Bullet Train, Deadpool 2, Atomic Blonde and Fast & Furious Presents: Hobbs & Shaw and the producer of John Wick, Nobody and Violent Night, comes his most personal film yet. A new hilarious, hard-driving, all-star apex-action thriller and love letter to action movies and the hard-working and under-appreciated crew of people who make them: The Fall Guy. \n\nOscar® nominee Ryan Gosling (Barbie, La La Land, Drive) stars as Colt Seavers, a battle-scarred stuntman who, having left the business a year earlier to focus on both his physical and mental health, is drafted back into service when the star of a mega-budget studio movie—being directed by his ex, Jody Moreno, played by Golden Globe winner Emily Blunt (Oppenheimer, A Quiet Place films, Sicario)—goes missing.\n\nWhile the film’s ruthless producer (Emmy winner Hannah Waddingham; Ted Lasso), maneuvers to keep the disappearance of star Tom Ryder (Golden Globe winner Aaron Taylor-Johnson; Bullet Train) a secret from the studio and the media, Colt performs the film’s most outrageous stunts while trying (with limited success) to charm his way back into Jody’s good graces. But as the mystery around the missing star deepens, Colt will find himself ensnared in a sinister, criminal plot that will push him to the edge of a fall more dangerous than any stunt.\n\nInspired by the hit 1980s TV series, The Fall Guy also stars Winston Duke (Black Panther franchise) and Academy Award® nominee Stephanie Hsu (Everything Everywhere All at Once). \n\nFrom a screenplay by Hobbs & Shaw screenwriter Drew Pearce, The Fall Guy is produced by Kelly McCormick (Bullet Train, Nobody, Atomic Blonde) and David Leitch for their company 87North, and by Ryan Gosling and by Guymon Casady (Game of Thrones, Steve Jobs and executive producer of the upcoming series Ripley) for Entertainment 360. The film is executive produced by Drew Pearce, Entertainment 360’s Geoff Shaevitz and the creator of the original Fall Guy television series, Glen A. Larson.\n\nWebsite: http://www.TheFallGuyMovie.com\nInstagram: http://www.instagram.com/thefallguymovie \nFacebook: http://www.facebook.com/thefallguymovie \nTikTok: https://www.tiktok.com/@Universalpics \nYoutube: https://www.youtube.com/@UniversalPictures\nX: https://twitter.com/thefallguymovie",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/re9liJeET8c/default.jpg",
+    "url": "https://i.ytimg.com/vi/j7jPnwVGdZ8/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/re9liJeET8c/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/j7jPnwVGdZ8/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/re9liJeET8c/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/j7jPnwVGdZ8/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/re9liJeET8c/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/j7jPnwVGdZ8/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/re9liJeET8c/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/j7jPnwVGdZ8/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "blink182VEVO",
+    "channelTitle": "Universal Pictures",
+    "categoryId": "24",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "The Fall Guy | Official Trailer",
+    "description": "The Stuntman becomes the hero. #TheFallGuyMovie only in theaters March 1.\n\n------\n\nHe’s a stuntman, and like everyone in the stunt community, he gets blown up, shot, crashed, thrown through windows and dropped from the highest of heights, all for our entertainment. And now, fresh off an almost career-ending accident, this working-class hero has to track down a missing movie star, solve a conspiracy and try to win back the love of his life while still doing his day job. What could possibly go right? \n\nFrom real life stunt man and director David Leitch, the blockbuster director of Bullet Train, Deadpool 2, Atomic Blonde and Fast & Furious Presents: Hobbs & Shaw and the producer of John Wick, Nobody and Violent Night, comes his most personal film yet. A new hilarious, hard-driving, all-star apex-action thriller and love letter to action movies and the hard-working and under-appreciated crew of people who make them: The Fall Guy. \n\nOscar® nominee Ryan Gosling (Barbie, La La Land, Drive) stars as Colt Seavers, a battle-scarred stuntman who, having left the business a year earlier to focus on both his physical and mental health, is drafted back into service when the star of a mega-budget studio movie—being directed by his ex, Jody Moreno, played by Golden Globe winner Emily Blunt (Oppenheimer, A Quiet Place films, Sicario)—goes missing.\n\nWhile the film’s ruthless producer (Emmy winner Hannah Waddingham; Ted Lasso), maneuvers to keep the disappearance of star Tom Ryder (Golden Globe winner Aaron Taylor-Johnson; Bullet Train) a secret from the studio and the media, Colt performs the film’s most outrageous stunts while trying (with limited success) to charm his way back into Jody’s good graces. But as the mystery around the missing star deepens, Colt will find himself ensnared in a sinister, criminal plot that will push him to the edge of a fall more dangerous than any stunt.\n\nInspired by the hit 1980s TV series, The Fall Guy also stars Winston Duke (Black Panther franchise) and Academy Award® nominee Stephanie Hsu (Everything Everywhere All at Once). \n\nFrom a screenplay by Hobbs & Shaw screenwriter Drew Pearce, The Fall Guy is produced by Kelly McCormick (Bullet Train, Nobody, Atomic Blonde) and David Leitch for their company 87North, and by Ryan Gosling and by Guymon Casady (Game of Thrones, Steve Jobs and executive producer of the upcoming series Ripley) for Entertainment 360. The film is executive produced by Drew Pearce, Entertainment 360’s Geoff Shaevitz and the creator of the original Fall Guy television series, Glen A. Larson.\n\nWebsite: http://www.TheFallGuyMovie.com\nInstagram: http://www.instagram.com/thefallguymovie \nFacebook: http://www.facebook.com/thefallguymovie \nTikTok: https://www.tiktok.com/@Universalpics \nYoutube: https://www.youtube.com/@UniversalPictures\nX: https://twitter.com/thefallguymovie"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT3M22S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "4363923",
+    "likeCount": "55210",
+    "favoriteCount": "0",
+    "commentCount": "5069"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "xua4dY1myUCuUOBCToFoF2YnsaA",
+    "id": "APJAQoSCwuA",
+    "snippet": {
+    "publishedAt": "2023-11-01T19:30:00Z",
+    "channelId": "UC4dqLAF7yT-_DqeYisQ001w",
+    "title": "The Beatles - Now And Then - The Last Beatles Song (Short Film)",
+    "description": "Now and Then's eventful journey to fruition took place over five decades and is the product of conversations and collaborations between the four Beatles that go on to this day. The long mythologised John Lennon demo was first worked on in February 1995 by Paul, George and Ringo as part of The Beatles Anthology project but it remained unfinished, partly because of the impossible technological challenges involved in working with the vocal John had recorded on tape in the 1970s. For years it looked like the song could never be completed. But in 2022 there was a stroke of serendipity. A software system developed by Peter Jackson and his team, used throughout the production of the documentary series Get Back, finally opened the way for the uncoupling of John’s vocal from his piano part. As a result, the original recording could be brought to life and worked on anew with contributions from all four Beatles. This remarkable story of musical archaeology reflects The Beatles’ endless creative curiosity and shared fascination with technology. It marks the completion of the last recording that John, Paul and George and Ringo will get to make together and celebrates the legacy of the foremost and most influential band in popular music history.\n\nVideo Director: Oliver Murray \nProducers: Jonathan Clyde and Sophie Hilton \nOriginal score: Paul Englishby \nSound Designer: Alastair Sirkett \nAudio Restoration: Park Road Post Production\n\nPre-order Now And Then: https://TheBeatles.lnk.to/NowAndThenYT\nPre-order Red and Blue: https://TheBeatles.lnk.to/RedAndBlue2023YT\n\nWatch more videos from The Beatles: https://thebeatles.lnk.to/YTPlaylists \nSubscribe to The Beatles’ YouTube channel & ring the bell to never miss a new video: https://thebeatles.lnk.to/YTSignup \nSign up for The Beatles’ Official Email List: https://www.thebeatles.com/newsletter   \n\nStream The Beatles: \n🎙️ Apple Music: https://thebeatles.lnk.to/stream/AppleMusic \n🎙️ Spotify: https://thebeatles.lnk.to/stream/Spotify \n🎙️ Amazon Music: https://thebeatles.lnk.to/stream/AmazonMusic \n🎙️ Pandora: https://thebeatles.lnk.to/stream/Pandora \n🎙️ Tidal: https://thebeatles.lnk.to/stream/Tidal \n🎙️ Deezer: https://thebeatles.lnk.to/stream/Deezer \n🎙️ YouTube Music: https://thebeatles.lnk.to/stream/YouTubeMusic   \n\nFollow The Beatles:  \n⭐ https://www.thebeatles.com \n⭐ https://www.instagram.com/thebeatles\n⭐ https://www.facebook.com/thebeatles\n⭐ https://www.tiktok.com/@thebeatles\n⭐ https://twitter.com/thebeatles\n \n#TheBeatles #NowAndThen #JohnLennon #PaulMcCartney #GeorgeHarrison #RingoStarr",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/APJAQoSCwuA/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/APJAQoSCwuA/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/APJAQoSCwuA/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/APJAQoSCwuA/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/APJAQoSCwuA/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "TheBeatlesVEVO",
     "tags": [
-    "Columbia",
-    "Rock",
-    "YOU DON'T KNOW WHAT YOU'VE GOT",
-    "blink-182"
+    "The",
+    "Beatles",
+    "Now",
+    "And",
+    "Then",
+    "Last",
+    "Song",
+    "(Short",
+    "Film)",
+    "UMC",
+    "(Universal",
+    "Music",
+    "Catalogue)",
+    "Rock"
     ],
     "categoryId": "10",
     "liveBroadcastContent": "none",
     "localized": {
-    "title": "blink-182 - YOU DON'T KNOW WHAT YOU'VE GOT (Official Lyric Video)",
-    "description": "Official Lyric Video for “YOU DON'T KNOW WHAT YOU'VE GOT” by blink-182\n \nListen to & Download “YOU DON'T KNOW WHAT YOU'VE GOT” out now: https://blink182.lnk.to/YDKWYG\n \n“ONE MORE TIME…” the new album from blink-182 is out October 20th!\nPre-Order: https://blink182.lnk.to/ONEMORETIME\nPre-Save/Pre-Add: https://blink182.lnk.to/presaveOMT\n \nAmazon Music: https://blink182.lnk.to/YDKWYG/AmazonMusic\nApple Music: https://blink182.lnk.to/YDKWYG/AppleMusic\niTunes: https://blink182.lnk.to/YDKWYG/iTunes\nPandora: https://blink182.lnk.to/YDKWYG/Pandora\nSoundcloud: https://blink182.lnk.to/YDKWYG/Soundcloud\nSpotify: https://blink182.lnk.to/YDKWYG/Spotify\nYouTube Music: https://blink182.lnk.to/YDKWYG/YouTubeMusic\nYouTube: https://blink182.lnk.to/YDKWYG/YouTube\n \nFollow blink-182:\nhttp://facebook.com/blink182\nhttp://instagram.com/blink182\nhttp://twitter.com/blink182\nhttps://www.tiktok.com/@blink182\nhttps://www.blink182.com/\n \nLyrics:\nOne phone call wiped out a year\nLike waves swept under the pier\nLong weeks of impending doom\nStuck in life’s waiting room\n              \nAlways so close to goodbye\nPushed so far over the line\nNo new light under the moon\nStuck in life’s waiting room\n              \nYou don’t know what you’ve got\nYou don’t know what you’ve got \nYou don’t know what you’ve got \n’Til it’s almost gone\nYou don’t know what you’ve got\nYou don’t know what you’ve got\nYou don’t know what you’ve got \n’Til it’s over\n \nAnother day in the life\nYou can’t look me in the eye \nThere’s nothing left you could say\nIt wouldn’t help anyway\nThis poison skin you can’t touch\nGo on without me, my love\nNo kiss to send you away\nIt wouldn’t help anyway\n \nYou don’t know what you’ve got\nYou don’t know what you’ve got \nYou don’t know what you’ve got \n’Til it’s almost gone\nYou don’t know what you’ve got\nYou don’t know what you’ve got\nYou don’t know what you’ve got \n’Til it’s over\n \nI begged for your forgiveness\nI made a deal with God\nI took you all for granted\nYou can write my epilogue\n \nYou don’t know what you’ve got\nYou don’t know what you’ve got \nYou don’t know what you’ve got \n’Til it’s almost gone\nYou don’t know what you’ve got\nYou don’t know what you’ve got\nYou don’t know what you’ve got \n’Til it’s over\n \nAnd over, And over, And over\nAnd over, And over, And over\nAnd over, And over, And over\nAnd over, And over, And over\n \n#blink182 #YOUDONTKNOWWHATYOUVEGOT #ONEMORETIME"
+    "title": "The Beatles - Now And Then - The Last Beatles Song (Short Film)",
+    "description": "Now and Then's eventful journey to fruition took place over five decades and is the product of conversations and collaborations between the four Beatles that go on to this day. The long mythologised John Lennon demo was first worked on in February 1995 by Paul, George and Ringo as part of The Beatles Anthology project but it remained unfinished, partly because of the impossible technological challenges involved in working with the vocal John had recorded on tape in the 1970s. For years it looked like the song could never be completed. But in 2022 there was a stroke of serendipity. A software system developed by Peter Jackson and his team, used throughout the production of the documentary series Get Back, finally opened the way for the uncoupling of John’s vocal from his piano part. As a result, the original recording could be brought to life and worked on anew with contributions from all four Beatles. This remarkable story of musical archaeology reflects The Beatles’ endless creative curiosity and shared fascination with technology. It marks the completion of the last recording that John, Paul and George and Ringo will get to make together and celebrates the legacy of the foremost and most influential band in popular music history.\n\nVideo Director: Oliver Murray \nProducers: Jonathan Clyde and Sophie Hilton \nOriginal score: Paul Englishby \nSound Designer: Alastair Sirkett \nAudio Restoration: Park Road Post Production\n\nPre-order Now And Then: https://TheBeatles.lnk.to/NowAndThenYT\nPre-order Red and Blue: https://TheBeatles.lnk.to/RedAndBlue2023YT\n\nWatch more videos from The Beatles: https://thebeatles.lnk.to/YTPlaylists \nSubscribe to The Beatles’ YouTube channel & ring the bell to never miss a new video: https://thebeatles.lnk.to/YTSignup \nSign up for The Beatles’ Official Email List: https://www.thebeatles.com/newsletter   \n\nStream The Beatles: \n🎙️ Apple Music: https://thebeatles.lnk.to/stream/AppleMusic \n🎙️ Spotify: https://thebeatles.lnk.to/stream/Spotify \n🎙️ Amazon Music: https://thebeatles.lnk.to/stream/AmazonMusic \n🎙️ Pandora: https://thebeatles.lnk.to/stream/Pandora \n🎙️ Tidal: https://thebeatles.lnk.to/stream/Tidal \n🎙️ Deezer: https://thebeatles.lnk.to/stream/Deezer \n🎙️ YouTube Music: https://thebeatles.lnk.to/stream/YouTubeMusic   \n\nFollow The Beatles:  \n⭐ https://www.thebeatles.com \n⭐ https://www.instagram.com/thebeatles\n⭐ https://www.facebook.com/thebeatles\n⭐ https://www.tiktok.com/@thebeatles\n⭐ https://twitter.com/thebeatles\n \n#TheBeatles #NowAndThen #JohnLennon #PaulMcCartney #GeorgeHarrison #RingoStarr"
     }
     },
     "contentDetails": {
-    "duration": "PT3M20S",
+    "duration": "PT12M25S",
     "dimension": "2d",
     "definition": "hd",
-    "caption": "false",
+    "caption": "true",
     "licensedContent": true,
     "regionRestriction": {
-    "blocked": [
-    "RU"
+    "allowed": [
+    "AD",
+    "AE",
+    "AF",
+    "AG",
+    "AI",
+    "AL",
+    "AM",
+    "AO",
+    "AQ",
+    "AR",
+    "AS",
+    "AT",
+    "AU",
+    "AW",
+    "AX",
+    "AZ",
+    "BA",
+    "BB",
+    "BD",
+    "BE",
+    "BF",
+    "BG",
+    "BH",
+    "BI",
+    "BJ",
+    "BL",
+    "BM",
+    "BN",
+    "BO",
+    "BQ",
+    "BR",
+    "BS",
+    "BT",
+    "BV",
+    "BW",
+    "BZ",
+    "CA",
+    "CC",
+    "CD",
+    "CF",
+    "CG",
+    "CH",
+    "CI",
+    "CK",
+    "CL",
+    "CM",
+    "CN",
+    "CO",
+    "CR",
+    "CU",
+    "CV",
+    "CW",
+    "CX",
+    "CY",
+    "CZ",
+    "DE",
+    "DJ",
+    "DK",
+    "DM",
+    "DO",
+    "DZ",
+    "EC",
+    "EE",
+    "EG",
+    "EH",
+    "ER",
+    "ES",
+    "ET",
+    "FI",
+    "FJ",
+    "FK",
+    "FM",
+    "FO",
+    "FR",
+    "GA",
+    "GB",
+    "GD",
+    "GE",
+    "GF",
+    "GG",
+    "GH",
+    "GI",
+    "GL",
+    "GM",
+    "GN",
+    "GP",
+    "GQ",
+    "GR",
+    "GS",
+    "GT",
+    "GU",
+    "GW",
+    "GY",
+    "HK",
+    "HM",
+    "HN",
+    "HR",
+    "HT",
+    "HU",
+    "ID",
+    "IE",
+    "IL",
+    "IM",
+    "IN",
+    "IQ",
+    "IR",
+    "IS",
+    "IT",
+    "JE",
+    "JM",
+    "JO",
+    "JP",
+    "KE",
+    "KG",
+    "KH",
+    "KI",
+    "KM",
+    "KN",
+    "KR",
+    "KW",
+    "KY",
+    "KZ",
+    "LA",
+    "LB",
+    "LC",
+    "LI",
+    "LK",
+    "LR",
+    "LS",
+    "LT",
+    "LU",
+    "LV",
+    "LY",
+    "MA",
+    "MC",
+    "MD",
+    "ME",
+    "MF",
+    "MG",
+    "MH",
+    "MK",
+    "ML",
+    "MM",
+    "MN",
+    "MO",
+    "MP",
+    "MQ",
+    "MR",
+    "MS",
+    "MT",
+    "MU",
+    "MV",
+    "MW",
+    "MX",
+    "MY",
+    "MZ",
+    "NA",
+    "NC",
+    "NE",
+    "NF",
+    "NG",
+    "NI",
+    "NL",
+    "NO",
+    "NP",
+    "NR",
+    "NU",
+    "NZ",
+    "OM",
+    "PA",
+    "PE",
+    "PF",
+    "PG",
+    "PH",
+    "PK",
+    "PL",
+    "PM",
+    "PN",
+    "PR",
+    "PS",
+    "PT",
+    "PW",
+    "PY",
+    "QA",
+    "RE",
+    "RO",
+    "RS",
+    "RW",
+    "SA",
+    "SB",
+    "SC",
+    "SD",
+    "SE",
+    "SG",
+    "SH",
+    "SI",
+    "SJ",
+    "SK",
+    "SL",
+    "SM",
+    "SN",
+    "SO",
+    "SR",
+    "ST",
+    "SV",
+    "SX",
+    "SY",
+    "SZ",
+    "TC",
+    "TD",
+    "TF",
+    "TG",
+    "TH",
+    "TJ",
+    "TK",
+    "TL",
+    "TM",
+    "TN",
+    "TO",
+    "TR",
+    "TT",
+    "TV",
+    "TW",
+    "TZ",
+    "UA",
+    "UG",
+    "UM",
+    "US",
+    "UY",
+    "UZ",
+    "VA",
+    "VC",
+    "VE",
+    "VG",
+    "VI",
+    "VN",
+    "VU",
+    "WF",
+    "WS",
+    "YE",
+    "YT",
+    "ZA",
+    "ZM",
+    "ZW"
     ]
     },
     "contentRating": {},
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "283989",
-    "likeCount": "22379",
+    "viewCount": "3647338",
+    "likeCount": "152374",
     "favoriteCount": "0",
-    "commentCount": "1824"
+    "commentCount": "8820"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "R5_hMxzV6vJRojYjwNgvZCRcbCY",
-    "id": "sC9MLfreCdo",
+    "etag": "TMiHndTMs7ul1i9iXsgqgT-R2FY",
+    "id": "GLRaQG9X7CE",
     "snippet": {
-    "publishedAt": "2023-10-18T02:49:10Z",
-    "channelId": "UCk1pcWQ5E19g0Cgp4c1eI1w",
-    "title": "USMNT vs. Ghana | Highlights: October 17, 2023",
-    "description": "USMNT vs. Ghana | Highlights: October 17, 2023",
+    "publishedAt": "2023-11-02T05:25:28Z",
+    "channelId": "UCWJ2lWNubArHWmf3FIHbfcQ",
+    "title": "CLIPPERS at LAKERS | FULL GAME HIGHLIGHTS | November 1, 2023",
+    "description": "Never miss a moment with the latest news, trending stories and highlights to bring you closer to your favorite players and teams.\nDownload now: https://app.link.nba.com/NBAapp\n\nLed by LeBron James’ 35 points (13-19 FG), 11 rebounds and 7 assists, the Los Angeles Lakers defeated the L.A Clippers, 130-125, in overtime. Anthony Davis (27 points, 10 rebounds) and D’Angelo Russell (27 points, 6 assists) added a combined 54 points for the Lakers in the victory, while Kawhi Leonard (38 points, 6 rebounds, 5 assists) and Kawhi Leonard (35 points, 6 rebounds) combined for 73 points for the Clippers. The Lakers improve to 3-2 on the season, while the Clippers fall to 3-2. \n\nRussell Westbrook joins LeBron James as the only players in NBA history with at least 24,000 points, 9,000 assists and 8,000 rebounds.\nSince the Clippers moved to LA, this is the 2nd time in a Lakers-Clippers game there has been 3 30+ scorers in a game:\n11/1/2023 - Kawhi Leonard LAC (38), Paul George LAC (35), LeBron James LAL (35)\n4/12/2007 - Kobe Bryant LAL (50), Corey Maggette, LAC (39), Elton Brand, LAC (32)",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/sC9MLfreCdo/default.jpg",
+    "url": "https://i.ytimg.com/vi/GLRaQG9X7CE/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/sC9MLfreCdo/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/GLRaQG9X7CE/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/sC9MLfreCdo/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/GLRaQG9X7CE/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/sC9MLfreCdo/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/GLRaQG9X7CE/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/sC9MLfreCdo/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/GLRaQG9X7CE/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "U.S. Soccer",
+    "channelTitle": "NBA",
     "tags": [
-    "Christian Pulisic",
-    "Folarin Balogun",
-    "Gideon Mensah",
-    "Giovanni Reyna",
-    "PLAYS",
-    "USMNT vs. Ghana"
+    "Basketball",
+    "G League",
+    "NBA",
+    "game-0022300127"
     ],
     "categoryId": "17",
     "liveBroadcastContent": "none",
     "localized": {
-    "title": "USMNT vs. Ghana | Highlights: October 17, 2023",
-    "description": "USMNT vs. Ghana | Highlights: October 17, 2023"
+    "title": "CLIPPERS at LAKERS | FULL GAME HIGHLIGHTS | November 1, 2023",
+    "description": "Never miss a moment with the latest news, trending stories and highlights to bring you closer to your favorite players and teams.\nDownload now: https://app.link.nba.com/NBAapp\n\nLed by LeBron James’ 35 points (13-19 FG), 11 rebounds and 7 assists, the Los Angeles Lakers defeated the L.A Clippers, 130-125, in overtime. Anthony Davis (27 points, 10 rebounds) and D’Angelo Russell (27 points, 6 assists) added a combined 54 points for the Lakers in the victory, while Kawhi Leonard (38 points, 6 rebounds, 5 assists) and Kawhi Leonard (35 points, 6 rebounds) combined for 73 points for the Clippers. The Lakers improve to 3-2 on the season, while the Clippers fall to 3-2. \n\nRussell Westbrook joins LeBron James as the only players in NBA history with at least 24,000 points, 9,000 assists and 8,000 rebounds.\nSince the Clippers moved to LA, this is the 2nd time in a Lakers-Clippers game there has been 3 30+ scorers in a game:\n11/1/2023 - Kawhi Leonard LAC (38), Paul George LAC (35), LeBron James LAL (35)\n4/12/2007 - Kobe Bryant LAL (50), Corey Maggette, LAC (39), Elton Brand, LAC (32)"
     }
     },
     "contentDetails": {
-    "duration": "PT3M55S",
+    "duration": "PT9M59S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "regionRestriction": {
+    "allowed": [
+    "CA",
+    "IN",
+    "PH",
+    "US"
+    ]
+    },
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "1997804",
+    "likeCount": "26915",
+    "favoriteCount": "0",
+    "commentCount": "3325"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "-ELf4Skekyusaou653aYsVutZvc",
+    "id": "jSPZtVbVIT8",
+    "snippet": {
+    "publishedAt": "2023-11-02T14:58:07Z",
+    "channelId": "UCFXKLSrT-4-Mf5TRqv40rgw",
+    "title": "The Sims 4 For Rent Expansion Pack: Official Reveal Trailer",
+    "description": "Experience the tight-knit harmony – or daily drama – of multi-family lots and try your hand at being a property owner in The Sims™ 4 For Rent Expansion Pack*, launching Dec 7 at 10 a.m. PT. Pre-order now: https://www.ea.com/games/the-sims/the-sims-4/store/addons/the-sims-4-for-rent-expansion-pack. Pre-order or buy through January 18 and get the Street Eats Digital Content**! (This content will become available when the pack launches.)\n\nRevel in the hustle and bustle of Tomarang, discover unique items at the Night Market, and come home to a new Residential Rental lot where your neighbors are closer than ever. You’ll run into them by the mailbox, socialize at potlucks, and maybe uncover their secrets with a little snooping. If you’re the property owner, make sure to keep that Unit Rating high! You don’t want a Tenant Revolt on your hands.\n\nAvailable Dec 7 at 10 a.m. PT on Origin PC/Mac, Steam, Xbox One, Xbox Series X|S, PlayStation®4, and PlayStation®5. \n\nPre-order now: https://www.ea.com/games/the-sims/the-sims-4/store/addons/the-sims-4-for-rent-expansion-pack\n\n*Requires The Sims 4 & all game updates. For PC, see minimum system requirements for the pack.\n\n**Conditions and restrictions apply. See https://www.ea.com/games/the-sims/the-sims-4/store/addons/the-sims-4-for-rent for details.",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/jSPZtVbVIT8/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/jSPZtVbVIT8/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/jSPZtVbVIT8/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/jSPZtVbVIT8/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/jSPZtVbVIT8/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "The Sims",
+    "tags": [
+    "The Sims 4",
+    "The Sims 4 For Rent",
+    "Sims 4 For Rent",
+    "For Rent",
+    "For Rent Expansion Pack",
+    "Expansion Pack",
+    "The Sims 4 Expansion Pack",
+    "Build/Buy",
+    "The Sims 4 Gameplay",
+    "Sims 4",
+    "Sims 4 Gameplay",
+    "Gameplay",
+    "TS4",
+    "TS4 Gameplay",
+    "The Sims Gameplay",
+    "The Sims Trailer",
+    "Game",
+    "Gamer",
+    "Games",
+    "Video Games",
+    "PC",
+    "Mac",
+    "Xbox One",
+    "PlayStation 4",
+    "TheSims4",
+    "The Sims",
+    "Sims",
+    "Maxis",
+    "Life Simulation",
+    "Life Simulator",
+    "Simlish",
+    "EA",
+    "Electronic Arts",
+    "Official Trailer",
+    "The Sims (Video Game)"
+    ],
+    "categoryId": "20",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en",
+    "localized": {
+    "title": "The Sims 4 For Rent Expansion Pack: Official Reveal Trailer",
+    "description": "Experience the tight-knit harmony – or daily drama – of multi-family lots and try your hand at being a property owner in The Sims™ 4 For Rent Expansion Pack*, launching Dec 7 at 10 a.m. PT. Pre-order now: https://www.ea.com/games/the-sims/the-sims-4/store/addons/the-sims-4-for-rent-expansion-pack. Pre-order or buy through January 18 and get the Street Eats Digital Content**! (This content will become available when the pack launches.)\n\nRevel in the hustle and bustle of Tomarang, discover unique items at the Night Market, and come home to a new Residential Rental lot where your neighbors are closer than ever. You’ll run into them by the mailbox, socialize at potlucks, and maybe uncover their secrets with a little snooping. If you’re the property owner, make sure to keep that Unit Rating high! You don’t want a Tenant Revolt on your hands.\n\nAvailable Dec 7 at 10 a.m. PT on Origin PC/Mac, Steam, Xbox One, Xbox Series X|S, PlayStation®4, and PlayStation®5. \n\nPre-order now: https://www.ea.com/games/the-sims/the-sims-4/store/addons/the-sims-4-for-rent-expansion-pack\n\n*Requires The Sims 4 & all game updates. For PC, see minimum system requirements for the pack.\n\n**Conditions and restrictions apply. See https://www.ea.com/games/the-sims/the-sims-4/store/addons/the-sims-4-for-rent for details."
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT2M38S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
@@ -833,44 +889,210 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "291099",
-    "likeCount": "2784",
+    "viewCount": "479334",
+    "likeCount": "36526",
     "favoriteCount": "0",
-    "commentCount": "496"
+    "commentCount": "3067"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "zW8iq0DYcskHosTPzt80rwOfkwQ",
-    "id": "-1_ViBGFr6w",
+    "etag": "-QlieBehz8aDyjlsvfqiBzqB5D0",
+    "id": "-sNcLvKKXdE",
     "snippet": {
-    "publishedAt": "2023-10-18T15:18:50Z",
-    "channelId": "UCUK0HBIBWgM2c4vsPhkYY4w",
-    "title": "Explosive Popcorn Maker at 10,000FPS - The Slow Mo Guys",
-    "description": "Gav and Dan make some instant explosive popcorn while capturing the glory at 10,000FPS. \nInstagram - https://www.instagram.com/theslowmoguys\nFilmed with the Phantom VEO 4K and T4040\nExplosive Popcorn Maker at 10,000FPS - The Slow Mo Guys",
+    "publishedAt": "2023-11-02T17:44:54Z",
+    "channelId": "UC_TYFButglZuuDbD-0Q_IzQ",
+    "title": "WE CAN *BUILD* APARTMENTS?! (The Sims 4: For Rent Trailer Reaction)",
+    "description": "I CAN'T BELIEVE THIS IS REAL. Reacting to the trailer for the new For Rent expansion pack!\n\nBuilding on Twitch today! https://www.twitch.tv/lilsimsie\n\nMore info on the pack!\nBlog: https://www.ea.com/games/the-sims/the-sims-4/news/for-rent-expansion-pack\n\nFind me elsewhere!\n★ Twitter: https://twitter.com/lilsimsie\n★ Instagram: https://www.instagram.com/lilsimsie/\n★ Twitch Streams: https://www.twitch.tv/lilsimsie\n★ Stream Reuploads: https://www.youtube.com/c/moresimsie\n★ Sims Gallery: lilsimsie\n\nThis video is family friendly, but The Sims 4 is rated T for Teen and this video is intended for an audience aged 13 and up.\n\nBusiness Inquiries: teamlilsimsie@unitedtalent.com",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/-1_ViBGFr6w/default.jpg",
+    "url": "https://i.ytimg.com/vi/-sNcLvKKXdE/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/-1_ViBGFr6w/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/-sNcLvKKXdE/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/-1_ViBGFr6w/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/-sNcLvKKXdE/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/-1_ViBGFr6w/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/-sNcLvKKXdE/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/-1_ViBGFr6w/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/-sNcLvKKXdE/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "lilsimsie",
+    "tags": [
+    "the sims",
+    "ts4",
+    "ts3",
+    "sims 4",
+    "sims 3",
+    "fixer upper",
+    "lilsimsie",
+    "kayla sims",
+    "kayla",
+    "gameplay",
+    "challenge",
+    "pg",
+    "family friendly"
+    ],
+    "categoryId": "20",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "WE CAN *BUILD* APARTMENTS?! (The Sims 4: For Rent Trailer Reaction)",
+    "description": "I CAN'T BELIEVE THIS IS REAL. Reacting to the trailer for the new For Rent expansion pack!\n\nBuilding on Twitch today! https://www.twitch.tv/lilsimsie\n\nMore info on the pack!\nBlog: https://www.ea.com/games/the-sims/the-sims-4/news/for-rent-expansion-pack\n\nFind me elsewhere!\n★ Twitter: https://twitter.com/lilsimsie\n★ Instagram: https://www.instagram.com/lilsimsie/\n★ Twitch Streams: https://www.twitch.tv/lilsimsie\n★ Stream Reuploads: https://www.youtube.com/c/moresimsie\n★ Sims Gallery: lilsimsie\n\nThis video is family friendly, but The Sims 4 is rated T for Teen and this video is intended for an audience aged 13 and up.\n\nBusiness Inquiries: teamlilsimsie@unitedtalent.com"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT24M20S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "272456",
+    "likeCount": "22085",
+    "favoriteCount": "0",
+    "commentCount": "1794"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "z8pQ2DSfuky0m2IPfPfPgSV4T2I",
+    "id": "LOzucm1jbzs",
+    "snippet": {
+    "publishedAt": "2023-11-02T05:30:04Z",
+    "channelId": "UCjJKg01HAP01xCLVhDmnLhw",
+    "title": "Dunki Drop 1 | Shah Rukh Khan | Rajkumar Hirani | Taapsee | Vicky | Boman | Christmas 2023",
+    "description": "Get ready to embark on this emotional rollercoaster of the most amazing journey ever taken, as we present to you the Dunki Drop 1.\n\nStarring Shah Rukh Khan, Taapsee Pannu, Boman Irani and Vicky Kaushal, Dunki, directed by Rajkumar Hirani, and presented by Jio Studios, Red Chillies Entertainment and Rajkumar Hirani Films.\n#DunkiDrop1\n\nCelebrate Christmas 2023 with your entire family with #Dunki, a heartwarming story of a soldier’s journey to keep a promise!\n\nDunki Drop 1 Song Credits (Badi Door Se Aayein Hain):\n\nLyrics- Javed Akhtar\nMusic Composer- Pritam\nSinger- Sonu Nigam\n\nDunki Drop 1 Background Music: Aman Pant\n\nFor more updates on Dunki, click on the links below:\n\nhttp://www.twitter.com/RedChilliesEnt\nhttp://www.facebook.com/RedChilliesEnt\nhttp://www.instagram.com/RedChilliesEnt\n\nhttp://www.twitter.com/RHFilmsOfficial\nhttp://www.facebook.com/RajkumarHiraniFilms\nhttp://www.instagram.com/rhfilmsofficial",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/LOzucm1jbzs/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/LOzucm1jbzs/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/LOzucm1jbzs/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/LOzucm1jbzs/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/LOzucm1jbzs/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Red Chillies Entertainment",
+    "tags": [
+    "SRK",
+    "Shah rukh khan",
+    "Srk movies",
+    "red chillies entertainment",
+    "Dunki Teaser",
+    "Dunki Drop",
+    "Dunki drop 1",
+    "Dunki",
+    "Taapsee",
+    "Rajkumar Hirani",
+    "Dunki 2023",
+    "Dunki new film",
+    "Vicky Kaushal",
+    "Boman Irani",
+    "Raju Hirani",
+    "Jio Studios",
+    "Pritam",
+    "Sonu Nigam",
+    "Javed Akhtar",
+    "Dunki trailer",
+    "dunki promo",
+    "happy birthday srk",
+    "Badi Door Se Aayein Hain",
+    "anil grover",
+    "vikram kochhar",
+    "Rajkumar Hirani Films",
+    "RHFilms"
+    ],
+    "categoryId": "24",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "Dunki Drop 1 | Shah Rukh Khan | Rajkumar Hirani | Taapsee | Vicky | Boman | Christmas 2023",
+    "description": "Get ready to embark on this emotional rollercoaster of the most amazing journey ever taken, as we present to you the Dunki Drop 1.\n\nStarring Shah Rukh Khan, Taapsee Pannu, Boman Irani and Vicky Kaushal, Dunki, directed by Rajkumar Hirani, and presented by Jio Studios, Red Chillies Entertainment and Rajkumar Hirani Films.\n#DunkiDrop1\n\nCelebrate Christmas 2023 with your entire family with #Dunki, a heartwarming story of a soldier’s journey to keep a promise!\n\nDunki Drop 1 Song Credits (Badi Door Se Aayein Hain):\n\nLyrics- Javed Akhtar\nMusic Composer- Pritam\nSinger- Sonu Nigam\n\nDunki Drop 1 Background Music: Aman Pant\n\nFor more updates on Dunki, click on the links below:\n\nhttp://www.twitter.com/RedChilliesEnt\nhttp://www.facebook.com/RedChilliesEnt\nhttp://www.instagram.com/RedChilliesEnt\n\nhttp://www.twitter.com/RHFilmsOfficial\nhttp://www.facebook.com/RajkumarHiraniFilms\nhttp://www.instagram.com/rhfilmsofficial"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT1M48S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "35543522",
+    "likeCount": "821964",
+    "favoriteCount": "0",
+    "commentCount": "34327"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "AHqcTe-SdvXLjkRQQ6LhtdSOlG8",
+    "id": "9To4vimvHYE",
+    "snippet": {
+    "publishedAt": "2023-11-02T16:47:14Z",
+    "channelId": "UCUK0HBIBWgM2c4vsPhkYY4w",
+    "title": "Bullets vs Steel at 800,000 FPS - The Slow Mo Guys",
+    "description": "Gav and Dan leave the 4K phantom at home and spend the day slinging metal at other metal for a surprising range of results. \nInstagram - https://www.instagram.com/theslowmoguys\n\nFilmed at up to 800,000 FPS with the TMX 7510\nBullets vs Steel at 800,000 FPS - The Slow Mo Guys",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/9To4vimvHYE/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/9To4vimvHYE/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/9To4vimvHYE/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/9To4vimvHYE/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/9To4vimvHYE/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
@@ -901,21 +1123,22 @@ export const youtube_sample=
     "2000fps",
     "5000",
     "5000fps",
-    "exploding",
-    "chinese",
-    "popcorn"
+    "bullet",
+    "impact",
+    "steel",
+    "800000"
     ],
     "categoryId": "24",
     "liveBroadcastContent": "none",
     "defaultLanguage": "en-GB",
     "localized": {
-    "title": "Explosive Popcorn Maker at 10,000FPS - The Slow Mo Guys",
-    "description": "Gav and Dan make some instant explosive popcorn while capturing the glory at 10,000FPS. \nInstagram - https://www.instagram.com/theslowmoguys\nFilmed with the Phantom VEO 4K and T4040\nExplosive Popcorn Maker at 10,000FPS - The Slow Mo Guys"
+    "title": "Bullets vs Steel at 800,000 FPS - The Slow Mo Guys",
+    "description": "Gav and Dan leave the 4K phantom at home and spend the day slinging metal at other metal for a surprising range of results. \nInstagram - https://www.instagram.com/theslowmoguys\n\nFilmed at up to 800,000 FPS with the TMX 7510\nBullets vs Steel at 800,000 FPS - The Slow Mo Guys"
     },
     "defaultAudioLanguage": "en-GB"
     },
     "contentDetails": {
-    "duration": "PT9M31S",
+    "duration": "PT16M56S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
@@ -924,286 +1147,389 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "435867",
-    "likeCount": "35250",
+    "viewCount": "483378",
+    "likeCount": "38776",
     "favoriteCount": "0",
-    "commentCount": "1297"
+    "commentCount": "2029"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "ovKtv5PyY2HoiZSb2w6GhQWnWqs",
-    "id": "Rh-QERu25m0",
+    "etag": "PGVNdJak2Hq0Og2SaaJfSKBzEgM",
+    "id": "iGy6i1uFozQ",
     "snippet": {
-    "publishedAt": "2023-10-18T00:38:30Z",
-    "channelId": "UCOeBh24sQmLp7s2xpdMaThg",
-    "title": "SURPRISING MY WIFE WITH HER DREAM CAR FOR HER BIRTHDAY..",
-    "description": "MAKE SURE YOU LIKE, COMMENT, SHARE & SUBSCRIBE TO MY YOUTUBE CHANNEL AND FOLLOW ME ON THIS ADVENTURE CALLED LIFE !\n\nFOLLOW ME ;\n\nMy Instagram - Clarencenyc\nMy Twitter - Clarencenyc\nMy Snapchat - CLARENCE.NYC",
+    "publishedAt": "2023-11-01T19:41:11Z",
+    "channelId": "UC_q5WZtFp36adwqhKpZzxwQ",
+    "title": "Our FIRST LOOK at Fortnite Chapter 1!",
+    "description": "Today we finally got our first teaser trailer for Fortnite Chapter 1: OG and we got a lot of info on the 5 battlepass skins and the map! THIS IS CRAZY!\n\n🌟 Socials 🌟\n\n📺 Twitch: http://www.twitch.tv/sypherpk\n🐥 Twitter: http://www.twitter.com/sypherpk \n📷 Instagram: https://www.instagram.com/sypherpk/ \n💌 Discord: https://discordapp.com/invite/sypherpk\n📚 Facebook: https://facebook.com/SypherPK\n\n🎥 Directed, Thumbnail by: JackZenn: \nhttps://twitter.com/JackMelaschenko\n\n🎥 Edit by Jarrett\n\nHey everyone it’s SypherPK, and Welcome back to another fortnite battle royale vid! I try to keep these vids as clean and family friendly as possible! Hope you enjoy!\n\n#fortnite  #sypherpk #chapter1",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/Rh-QERu25m0/default.jpg",
+    "url": "https://i.ytimg.com/vi/iGy6i1uFozQ/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/Rh-QERu25m0/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/iGy6i1uFozQ/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/Rh-QERu25m0/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/iGy6i1uFozQ/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/Rh-QERu25m0/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/iGy6i1uFozQ/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/Rh-QERu25m0/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/iGy6i1uFozQ/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "ClarenceNYC TV",
+    "channelTitle": "SypherPK",
     "tags": [
-    "clarencenyc",
-    "clarence",
-    "queennaija",
-    "clarence&queen",
-    "vlogs",
-    "spicygang",
-    "spicymafia",
-    "royalfamily",
-    "family",
-    "vloggers",
-    "celebrity",
-    "car tour",
-    "g wagon review",
-    "g wagon 2023",
-    "g wagon review 2023"
+    "fortnite",
+    "fortnite battle royale",
+    "competitive",
+    "gaming",
+    "highlights",
+    "gameplay",
+    "fortnite highlights",
+    "fortnite tips",
+    "stream highlights",
+    "how to play",
+    "fortnite gameplay",
+    "sypher",
+    "new update",
+    "sypherpk",
+    "fortnite update",
+    "fortnite new patch",
+    "fortnite new item",
+    "everything epic didnt tell you",
+    "fortnite new update",
+    "fortnite leaks",
+    "fortnite event",
+    "mr beast fortnite",
+    "undercover",
+    "fortnite chapter 4",
+    "fortnite seasno 2",
+    "fashion show"
     ],
-    "categoryId": "24",
+    "categoryId": "20",
     "liveBroadcastContent": "none",
     "localized": {
-    "title": "SURPRISING MY WIFE WITH HER DREAM CAR FOR HER BIRTHDAY..",
-    "description": "MAKE SURE YOU LIKE, COMMENT, SHARE & SUBSCRIBE TO MY YOUTUBE CHANNEL AND FOLLOW ME ON THIS ADVENTURE CALLED LIFE !\n\nFOLLOW ME ;\n\nMy Instagram - Clarencenyc\nMy Twitter - Clarencenyc\nMy Snapchat - CLARENCE.NYC"
-    }
-    },
-    "contentDetails": {
-    "duration": "PT38M39S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "208822",
-    "likeCount": "16686",
-    "favoriteCount": "0",
-    "commentCount": "1691"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "aDY8uLrC34Bld8HMG8fcQp04oG0",
-    "id": "UcmgJAQ-Ibc",
-    "snippet": {
-    "publishedAt": "2023-10-18T13:58:56Z",
-    "channelId": "UCR-uD130PlXKww_J2Q63CMg",
-    "title": "Family Star Glimpse - Vijay Deverakonda, Mrunal Thakur | Parasuram | Dil Raju | Sankrathi 2024",
-    "description": "Presenting #FamilyStar ft Vijay Deverakonda, Mrunal Thakur. Directed by Parasuram. Sankrathi 2024 Release. \n\nCast : Vijay Deverakonda, Mrunal Thakur \nDirector & Writer - Parasuram\nDOP : KU Mohanan \nMusic : Gopisundar\nArt Director: AS Prakash\nEditor : Marthand K Venkatesh \nCreative Producer : Vasu Varma\nProducers : Raju - Shirish\n\n——————————\n\nFull Telugu Movies - https://goo.gl/buaJpf\n\nFollow us on: \nTwitter: https://twitter.com/SVC_official\nFacebook: https://www.facebook.com/DilRajuOfficial\nFacebook: https://www.facebook.com/SriVenkateswaraCreations\nYouTube: http://goo.gl/dwcKmr\nInstagram: https://www.instagram.com/srivenkateswaracreations\nTelegram: https://t.me/SVC_Official",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/UcmgJAQ-Ibc/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/UcmgJAQ-Ibc/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/UcmgJAQ-Ibc/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/UcmgJAQ-Ibc/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    }
-    },
-    "channelTitle": "Dil Raju",
-    "tags": [
-    "Family star",
-    "family star glimpse",
-    "family star teaser",
-    "family star trailer",
-    "family star theatrical trailer",
-    "family star songs",
-    "family song promos",
-    "vijay deverakonda family star",
-    "vijay deverakonda latest movie trailer",
-    "vijay deverakonda 2024 movie",
-    "mrunal thakur in family star",
-    "gopisundar",
-    "dil raju movies",
-    "parasuram movies"
-    ],
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Family Star Glimpse - Vijay Deverakonda, Mrunal Thakur | Parasuram | Dil Raju | Sankrathi 2024",
-    "description": "Presenting #FamilyStar ft Vijay Deverakonda, Mrunal Thakur. Directed by Parasuram. Sankrathi 2024 Release. \n\nCast : Vijay Deverakonda, Mrunal Thakur \nDirector & Writer - Parasuram\nDOP : KU Mohanan \nMusic : Gopisundar\nArt Director: AS Prakash\nEditor : Marthand K Venkatesh \nCreative Producer : Vasu Varma\nProducers : Raju - Shirish\n\n——————————\n\nFull Telugu Movies - https://goo.gl/buaJpf\n\nFollow us on: \nTwitter: https://twitter.com/SVC_official\nFacebook: https://www.facebook.com/DilRajuOfficial\nFacebook: https://www.facebook.com/SriVenkateswaraCreations\nYouTube: http://goo.gl/dwcKmr\nInstagram: https://www.instagram.com/srivenkateswaracreations\nTelegram: https://t.me/SVC_Official"
-    },
-    "defaultAudioLanguage": "te"
-    },
-    "contentDetails": {
-    "duration": "PT1M10S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "true",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "755273",
-    "likeCount": "50941",
-    "favoriteCount": "0",
-    "commentCount": "1326"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "XEq8yw4olIlQVBAnoWbP0c0RA2Y",
-    "id": "Iiny1GrfhYM",
-    "snippet": {
-    "publishedAt": "2023-10-17T14:32:32Z",
-    "channelId": "UC9RM-iSvTu1uPJb8X5yp3EQ",
-    "title": "South Africa's Slow, Inevitable March Towards Collapse",
-    "description": "Try Rocket Money for free: https://RocketMoney.com/wendover\n\nWatch Jet Lag: The Game at http://youtube.com/jetlagthegame \n\nBuy a Wendover Productions t-shirt: https://standard.tv/collections/wendover-productions/products/wendover-productions-shirt\n\nSubscribe to Half as Interesting (The other channel from Wendover Productions): https://www.youtube.com/halfasinteresting\n\nYoutube: http://www.YouTube.com/WendoverProductions\nInstagram: http://Instagram.com/sam.from.wendover\nTwitter: http://www.Twitter.com/WendoverPro\nSponsorship Enquiries: wendover@standard.tv\nOther emails: sam@wendover.productions\nReddit: http://Reddit.com/r/WendoverProductions\n\nWriting by Sam Denby and Tristan Purdy\nEditing by Alexander Williard\nAnimation led by Max Moser\nSound by Graham Haerther \nThumbnail by Simon Buckmaster\n\nReferences\n[1] https://origins.osu.edu/article/south-africa-mandela-apartheid-ramaphosa-zuma-corruption?language_content_entity=en \n[2] https://www.jstor.org/stable/pdf/48614444.pdf?refreqid=excelsior%3A551e31fbda4b25786b54c968593e28ba&ab_segments=0%2Fbasic_search_gsv2%2Fcontrol&origin=&initiator=&acceptTC=1 \n[3] https://www.news.uct.ac.za/article/-2013-05-13-black-middle-class-doubles-in-eight-years#:~:text=The%20Unilever%20Institute%27s%20latest%20study,over%20R400%2Dbillion%20per%20annum \n[4] https://www.statssa.gov.za/?p=12211 \n[5] https://data.worldbank.org/indicator/VC.IHR.PSRC.P5?locations=ZA \n[6] https://www.news24.com/citypress/news/rising-crime-low-prosecution-rates-how-law-enforcement-in-sa-has-all-but-collapsed-20191021 \n[7] https://www.statista.com/statistics/1378784/transnet-total-volume-of-freight-by-type/#:~:text=Transnet%20SOC%20Ltd%20recorded%20their,some%20173%20million%20metric%20tons \n[8] https://theconversation.com/suspension-of-two-south-african-judges-has-opened-up-debates-about-bad-working-conditions-and-poor-delivery-of-justice-212021 \n[9] https://www.eskom.co.za/distribution/customer-service/outages/municipal-loadshedding-schedules/eastern-cape/",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/Iiny1GrfhYM/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/Iiny1GrfhYM/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/Iiny1GrfhYM/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/Iiny1GrfhYM/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/Iiny1GrfhYM/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Wendover Productions",
-    "categoryId": "27",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "South Africa's Slow, Inevitable March Towards Collapse",
-    "description": "Try Rocket Money for free: https://RocketMoney.com/wendover\n\nWatch Jet Lag: The Game at http://youtube.com/jetlagthegame \n\nBuy a Wendover Productions t-shirt: https://standard.tv/collections/wendover-productions/products/wendover-productions-shirt\n\nSubscribe to Half as Interesting (The other channel from Wendover Productions): https://www.youtube.com/halfasinteresting\n\nYoutube: http://www.YouTube.com/WendoverProductions\nInstagram: http://Instagram.com/sam.from.wendover\nTwitter: http://www.Twitter.com/WendoverPro\nSponsorship Enquiries: wendover@standard.tv\nOther emails: sam@wendover.productions\nReddit: http://Reddit.com/r/WendoverProductions\n\nWriting by Sam Denby and Tristan Purdy\nEditing by Alexander Williard\nAnimation led by Max Moser\nSound by Graham Haerther \nThumbnail by Simon Buckmaster\n\nReferences\n[1] https://origins.osu.edu/article/south-africa-mandela-apartheid-ramaphosa-zuma-corruption?language_content_entity=en \n[2] https://www.jstor.org/stable/pdf/48614444.pdf?refreqid=excelsior%3A551e31fbda4b25786b54c968593e28ba&ab_segments=0%2Fbasic_search_gsv2%2Fcontrol&origin=&initiator=&acceptTC=1 \n[3] https://www.news.uct.ac.za/article/-2013-05-13-black-middle-class-doubles-in-eight-years#:~:text=The%20Unilever%20Institute%27s%20latest%20study,over%20R400%2Dbillion%20per%20annum \n[4] https://www.statssa.gov.za/?p=12211 \n[5] https://data.worldbank.org/indicator/VC.IHR.PSRC.P5?locations=ZA \n[6] https://www.news24.com/citypress/news/rising-crime-low-prosecution-rates-how-law-enforcement-in-sa-has-all-but-collapsed-20191021 \n[7] https://www.statista.com/statistics/1378784/transnet-total-volume-of-freight-by-type/#:~:text=Transnet%20SOC%20Ltd%20recorded%20their,some%20173%20million%20metric%20tons \n[8] https://theconversation.com/suspension-of-two-south-african-judges-has-opened-up-debates-about-bad-working-conditions-and-poor-delivery-of-justice-212021 \n[9] https://www.eskom.co.za/distribution/customer-service/outages/municipal-loadshedding-schedules/eastern-cape/"
+    "title": "Our FIRST LOOK at Fortnite Chapter 1!",
+    "description": "Today we finally got our first teaser trailer for Fortnite Chapter 1: OG and we got a lot of info on the 5 battlepass skins and the map! THIS IS CRAZY!\n\n🌟 Socials 🌟\n\n📺 Twitch: http://www.twitch.tv/sypherpk\n🐥 Twitter: http://www.twitter.com/sypherpk \n📷 Instagram: https://www.instagram.com/sypherpk/ \n💌 Discord: https://discordapp.com/invite/sypherpk\n📚 Facebook: https://facebook.com/SypherPK\n\n🎥 Directed, Thumbnail by: JackZenn: \nhttps://twitter.com/JackMelaschenko\n\n🎥 Edit by Jarrett\n\nHey everyone it’s SypherPK, and Welcome back to another fortnite battle royale vid! I try to keep these vids as clean and family friendly as possible! Hope you enjoy!\n\n#fortnite  #sypherpk #chapter1"
     },
     "defaultAudioLanguage": "en"
     },
     "contentDetails": {
-    "duration": "PT23M6S",
+    "duration": "PT8M2S",
     "dimension": "2d",
     "definition": "hd",
-    "caption": "true",
+    "caption": "false",
     "licensedContent": true,
     "contentRating": {},
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "940721",
-    "likeCount": "33781",
+    "viewCount": "2079322",
+    "likeCount": "68149",
     "favoriteCount": "0",
-    "commentCount": "5851"
+    "commentCount": "3482"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "0GmLlHSfWVSdIj8zBnidNi2imq8",
-    "id": "EgeV0n9L2es",
+    "etag": "eWY9CUnBuqDD_sr1Xld9STkhGpI",
+    "id": "KFEoS80xBCE",
     "snippet": {
-    "publishedAt": "2023-10-18T13:01:38Z",
-    "channelId": "UCZ4AMrDcNrfy3X6nsU8-rPg",
-    "title": "China’s Crumbling Economic Story",
-    "description": "Go to our sponsor https://betterhelp.com/ee to get 10% off your first month, and talk to a licensed therapist today.\n\nDeng Xiaoping's reforms in the 80s transformed Shenzhen, a small town near Hong Kong, into an economic powerhouse. China's rapid growth lifted millions from poverty but did it grow too quickly to be sustainable? Now China faces deflation, and experts are worried that this could spell the end of the economic miracle.\n\nThis video was made possible by our Patreon community! ❤️\nSee new videos early, participate in exclusive Q&As, and more!\n➡️ https://www.patreon.com/EconomicsExplained\n\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nThe Economic Explained team uses Statista for conducting our research. Check out their YouTube channel: https://www.youtube.com/channel/UCuj2Bne141HGmYFsbkfnbqw\n\nEnjoyed the video? Comment below! 💬\n⭑ Enjoyed? Hit the like button! 👍\n\nCheck out our second channel Economics Explained Essentials → https://www.youtube.com/@economicsexplainedessentia551\n\n✉️ Business Enquiries → hello@economicsexplained.com\n\n🎧 Listen to EE on Spotify! 👉 https://open.spotify.com/show/5TFVUEJnYLOCmmfaDNHaM2\nAlso on Apple Podcasts or anywhere else you listen!\nFollow EE on social media:\nTwitter 🐦 → https://twitter.com/EconomicsEx\nFacebook → https://www.facebook.com/EconomicsEx\nInstagram → https://www.instagram.com/economicsexplained/\nTikTok → https://www.tiktok.com/@economicsexplained\n\n#EconomicsExplained #chinaeconomy #betterhelp \n\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\n\nECONOMICS EXPLAINED IS MADE POSSIBLE BY OUR PATREON COMMUNITY 👊🙏\nSupport EE by becoming a Patron today! 👉 https://www.patreon.com/EconomicsExplained\n\nThe video you’re watching right now would not exist without the monthly support provided by our generous Patrons:\n👑 ROYALTY CLASS 👑\nJuan Benet\n\nELITE CLASS\nCharles Youngs\n\nUPPER CLASS\nJeromy Johnson\n\nUPPER MIDDLE CLASS\nWendover Productions, Igor Bazarny, Andrew Harrison, Paul Ashworth, Laor Glukhovsky, Kib Bibens-LeFebvre, Post Apocalyptic In Missouri, Brett Jubinville, JKH, Anthony Roberts, jill hoffman, Nathan Ngumi, Forodon, Michael Ling, Sophie G, Frank Soltero, Grégoire Duchêne, Jay Eno, David Poliakoff, Stephanie Roth, Peter Wesselius, std__mpa, Pineapples&bricks, Adrian Bellomo, Rory Struthers.\n\nMIDDLE CLASS\nSteffen Lindner, Hayden van Reyswoud, John C, Donald Wedington, Demo sthenes, Rimvydas, John Downie, Sridev, Matt McKee, Victor T., Andrew Vinnichenko, Zachary Kasow, Johannes, Nigel Pauli, Jacob, Pedro Brito, Marton Szasz, Travis Thompson, Matthew Eggleston, Michael Kürbis, Anthony, Trevor, Marcel Roquette, Daniel Hall, John D Tyler, Petronio Coelho, Kevin MacIntyre, Craig Mews, Jonathan Krailler, Franklin, PM, Jack Annear, michael, Connor Costello, Reuben Field, Siegfried Eggl, How long can a profile name be... this long... Wow, this is longer than I would have expected. Good lord, the letters! Secunda!, Will, Andrey Kalganov, David Taylor, Scott Greenwood, Jane Walerud, Simon Sturmer, Zachary Demko, Michael Wolff, Ed, Daniel Alberto Vázquez Rodríguez, Kamil Sicinski, Dodd Willingham, David McIlveen, Arend Peter Castelein, Kent Klatchuk, Hugh Harris, David W., Chris Hawkins, Robert Nyborg, Leo Vassershteyn, Kheng Lai Tan, Roman~1, Wesley Fite, Zac Woodrell, Michael D. Hall, Randy Cleary, Long Phan, Liubov Zvereva, AB3, Karan Mehta, Arjan, Marton Csikos, Alex, Justin Smith, Wees Kendall, John Issitt, Eric Slimko, Empyre18, Brian Jackson, Istvan P, Joe Ryan, Patrick Staight, Shane Guthrie, Elisabeth Stanfield, Joshua White, Andrew Baartz, Ash, Abel, Kim Brand, Ted Marcy, Jim Kirker, roGER, Leonid Sorokoumov, Nicholas Luchetta, Kenneth Lum, Thomas Davenport, Robert Abraham, Ps0Fa, Klaus Clemens, Derrick Yowell, BUBBA CONWAY, Seth, Alex Wong, Jamie Costello, Rick Van Velden, Bacongravy, Leah Klearman, Jason, Tenebrion, Dragan Alexandru, Vladimir Zotov, Brian, Chris, DionysusLin, William Sherlock, Justin Thiele, Gerhardus.",
+    "publishedAt": "2023-11-01T05:37:02Z",
+    "channelId": "UClW4jraMKz6Qj69lJf-tODA",
+    "title": "YoungBoy Never Broke Again - Return of Goldie [Official Music Video]",
+    "description": "YoungBoy Never Broke Again –  \nStream/Download: https://youngboy.lnk.to/MaIGotAFamily\n \nSubscribe for more official content from YoungBoy NBA: \nhttps://youngboy.lnk.to/Subscribe\n \nConnect with YoungBoy Never Broke Again: \nhttp://www.youngboynba.com\nhttps://www.facebook.com/nbayoungboy\nhttps://www.twitter.com/GGYOUNGBOY\nhttps://www.instagram.com/nba_youngboy\nhttps://www.soundcloud.com/nba-youngboy\n \n\n#YoungBoyNeverBrokeAgain #3800Degrees",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/EgeV0n9L2es/default.jpg",
+    "url": "https://i.ytimg.com/vi/KFEoS80xBCE/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/EgeV0n9L2es/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/KFEoS80xBCE/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/EgeV0n9L2es/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/KFEoS80xBCE/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/EgeV0n9L2es/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/KFEoS80xBCE/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    }
+    },
+    "channelTitle": "YoungBoy Never Broke Again",
+    "tags": [
+    "YoungBoy Never Broke Again",
+    "NBA YoungBoy",
+    "YoungBoy Quando Rondo",
+    "YoungBoy Leak",
+    "Make No Sense YoungBoy",
+    "Youngboy Lost Motives",
+    "YoungBoy NBA Music Video",
+    "YoungBoy Never Broke Again TOP",
+    "nba youngboy top",
+    "YoungBoy NBA TOP album",
+    "7KTt4_M09Rw",
+    "0C80BSgjb8M",
+    "qChxuVxs8FA",
+    "dYk-yCsuTUo",
+    "6MCSr65d9Xc",
+    "ALimx-H8C6s",
+    "YoungBoy Never Broke Again Sincerely Kentrell",
+    "Sincerely Kentrell",
+    "Youngboy NBA Sincerely Kentrell",
+    "Sincerely Kentrell album",
+    "YBNBA Sincerely Kentrell",
+    "YB Sincerely Kentrell",
+    "Kentrell"
+    ],
+    "categoryId": "10",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "YoungBoy Never Broke Again - Return of Goldie [Official Music Video]",
+    "description": "YoungBoy Never Broke Again –  \nStream/Download: https://youngboy.lnk.to/MaIGotAFamily\n \nSubscribe for more official content from YoungBoy NBA: \nhttps://youngboy.lnk.to/Subscribe\n \nConnect with YoungBoy Never Broke Again: \nhttp://www.youngboynba.com\nhttps://www.facebook.com/nbayoungboy\nhttps://www.twitter.com/GGYOUNGBOY\nhttps://www.instagram.com/nba_youngboy\nhttps://www.soundcloud.com/nba-youngboy\n \n\n#YoungBoyNeverBrokeAgain #3800Degrees"
+    }
+    },
+    "contentDetails": {
+    "duration": "PT3M32S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": false,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "1345951",
+    "likeCount": "95004",
+    "favoriteCount": "0",
+    "commentCount": "8414"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "9JQFr5pk1D3OEQBS7VdgsgALz4c",
+    "id": "SfoPTgt4jXs",
+    "snippet": {
+    "publishedAt": "2023-11-01T16:00:12Z",
+    "channelId": "UC_F8DoJf9MZogEOU51TpTbQ",
+    "title": "New Champion Arrives! Little Prince! (Unlock for Free!)",
+    "description": "Unlock the new Champion, Little Prince, for FREE from November 6!\n\nTwitter ► https://twitter.com/ClashRoyale/\nInstagram ► https://www.instagram.com/clashroyale\nTikTok ► https://www.tiktok.com/@clashroyale\nFacebook ► https://www.facebook.com/ClashRoyale/\n\nENTER THE ARENA\nBuild your Battle Deck and outsmart the enemy in fast real-time battles. From the creators of CLASH OF CLANS comes a real-time multiplayer battle game starring your favourite Clash characters and more. Start battling against players from around the world!\n\nBECOME A MASTER OF STRATEGY AND DECK BUILDING\nChoose unique Cards to your Battle Deck and head to the Arena for Battle!\nPlace your Cards right and knock down the enemy King and Princesses from their Towers in a strategic and fast-paced match.\n\nCOLLECT AND UPGRADE 100+ CARDS\nHog Rider! Collect and upgrade 100+ Cards featuring the Clash of Clans troops, spells and defences you know and love and many others. Win battles and progress to new Arenas to unlock powerful new Cards to your collection!\n\nBATTLE YOUR WAY TO THE TOP\nBattle your way to the League and Global Tournaments to match against the best players in the world.\nCompete for glory and rewards!\n\nSEASONAL EVENTS\nUnlock new Seasonal items like Tower Skins, Emotes and powerful Magic Items with the Season Pass and participate in fun Challenges that put your skills to the test!\n\nJOIN A CLAN AND GO TO WAR\nJoin or form a Clan with other players to share Cards and battle in Clan Wars for BIG rewards!\n\nSee you in the Arena!\n#ClashRoyale #gaming #littleprince",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/SfoPTgt4jXs/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/SfoPTgt4jXs/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/SfoPTgt4jXs/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/SfoPTgt4jXs/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/EgeV0n9L2es/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/SfoPTgt4jXs/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "Economics Explained",
+    "channelTitle": "Clash Royale",
     "tags": [
-    "economics",
-    "economics explained",
-    "economy explained",
-    "china economy",
-    "xi jinping",
-    "chinese economy",
-    "china economic crisis",
-    "china economy collapse",
-    "china economy 2023",
-    "china real estate",
-    "china debt",
-    "evergrande crisis",
-    "evergrande crisis explained",
-    "evergrande bankruptcies"
+    "Clash Royale",
+    "Clash Royale Game",
+    "Supercell",
+    "Supercell Game",
+    "Clash Royale Supercell",
+    "Mobile Game"
     ],
-    "categoryId": "27",
+    "categoryId": "20",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en",
+    "localized": {
+    "title": "New Champion Arrives! Little Prince! (Unlock for Free!)",
+    "description": "Unlock the new Champion, Little Prince, for FREE from November 6!\n\nTwitter ► https://twitter.com/ClashRoyale/\nInstagram ► https://www.instagram.com/clashroyale\nTikTok ► https://www.tiktok.com/@clashroyale\nFacebook ► https://www.facebook.com/ClashRoyale/\n\nENTER THE ARENA\nBuild your Battle Deck and outsmart the enemy in fast real-time battles. From the creators of CLASH OF CLANS comes a real-time multiplayer battle game starring your favourite Clash characters and more. Start battling against players from around the world!\n\nBECOME A MASTER OF STRATEGY AND DECK BUILDING\nChoose unique Cards to your Battle Deck and head to the Arena for Battle!\nPlace your Cards right and knock down the enemy King and Princesses from their Towers in a strategic and fast-paced match.\n\nCOLLECT AND UPGRADE 100+ CARDS\nHog Rider! Collect and upgrade 100+ Cards featuring the Clash of Clans troops, spells and defences you know and love and many others. Win battles and progress to new Arenas to unlock powerful new Cards to your collection!\n\nBATTLE YOUR WAY TO THE TOP\nBattle your way to the League and Global Tournaments to match against the best players in the world.\nCompete for glory and rewards!\n\nSEASONAL EVENTS\nUnlock new Seasonal items like Tower Skins, Emotes and powerful Magic Items with the Season Pass and participate in fun Challenges that put your skills to the test!\n\nJOIN A CLAN AND GO TO WAR\nJoin or form a Clan with other players to share Cards and battle in Clan Wars for BIG rewards!\n\nSee you in the Arena!\n#ClashRoyale #gaming #littleprince"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT1M42S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "3873693",
+    "likeCount": "151171",
+    "favoriteCount": "0",
+    "commentCount": "3700"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "7Bf37tF9NwNC9YvxeHsBVJ0D-dg",
+    "id": "yOPRFVZklWA",
+    "snippet": {
+    "publishedAt": "2023-11-01T18:30:42Z",
+    "channelId": "UC-gW4TeZAlKm7UATp24JsWQ",
+    "title": "We Escaped The Backrooms",
+    "description": "But did we really? Can you really ever escape the backrooms?\nLeave a like and Subscribe if you enjoyed! Thanks =)\n\nAll the footage featured in this video was livestreamed on my Twitch channel!\nFollow it to catch the streams live when they happen! - https://www.twitch.tv/smii7y\n\nUSE CODE S7 ON GAMER SUPPS FOR 10% OFF YOUR ORDER: https://gamersupps.gg/s7\n\nCheck out my other channels!\nMain Channel:  https://www.youtube.com/c/SMii7Y\nStream VODs:  https://www.youtube.com/c/SMii7Yminus\n\nFollow my Stream, Social Medias and check out my Merch!\n📺 Stream - http://www.twitch.tv/smii7y\n🐦 Twitter - https://twitter.com/SMii7Y\n📷 Instagram - https://www.instagram.com/smii7y/\n📱 TikTok - https://www.tiktok.com/@thesmii7y\n👕 Merch - https://smii7y.store/\n\nFriends in the video:\nhttps://www.twitch.tv/jericho\nhttps://www.twitch.tv/EliLikesRice\nhttps://www.twitch.tv/fl0m\n\n🎵 Music by:\nhttp://www.epidemicsound.com/\nhttp://www.premiumbeat.com/\nhttp://audiojungle.net/\nincompetech.com \nLicensed under Creative Commons: By Attribution 3.0\nhttps://creativecommons.org/licenses/by/3.0/\nhttps://99sounds.org/\n\nOutro Music Created by:  https://www.youtube.com/@MattercellEntertainment",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/yOPRFVZklWA/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/yOPRFVZklWA/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/yOPRFVZklWA/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/yOPRFVZklWA/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/yOPRFVZklWA/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "SMii7Yplus",
+    "tags": [
+    "smii7y",
+    "smii7yplus",
+    "smii7y+",
+    "smii7y plus",
+    "backrooms",
+    "the backrooms",
+    "escape the backrooms",
+    "escape the backrooms game",
+    "escape the backrooms gameplay",
+    "escape the backrooms multiplayer",
+    "escape the backrooms all levels",
+    "escape the backrooms full walkthrough",
+    "escape the backrooms level fun",
+    "the backrooms game",
+    "backrooms game",
+    "backrooms found footage"
+    ],
+    "categoryId": "20",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "We Escaped The Backrooms",
+    "description": "But did we really? Can you really ever escape the backrooms?\nLeave a like and Subscribe if you enjoyed! Thanks =)\n\nAll the footage featured in this video was livestreamed on my Twitch channel!\nFollow it to catch the streams live when they happen! - https://www.twitch.tv/smii7y\n\nUSE CODE S7 ON GAMER SUPPS FOR 10% OFF YOUR ORDER: https://gamersupps.gg/s7\n\nCheck out my other channels!\nMain Channel:  https://www.youtube.com/c/SMii7Y\nStream VODs:  https://www.youtube.com/c/SMii7Yminus\n\nFollow my Stream, Social Medias and check out my Merch!\n📺 Stream - http://www.twitch.tv/smii7y\n🐦 Twitter - https://twitter.com/SMii7Y\n📷 Instagram - https://www.instagram.com/smii7y/\n📱 TikTok - https://www.tiktok.com/@thesmii7y\n👕 Merch - https://smii7y.store/\n\nFriends in the video:\nhttps://www.twitch.tv/jericho\nhttps://www.twitch.tv/EliLikesRice\nhttps://www.twitch.tv/fl0m\n\n🎵 Music by:\nhttp://www.epidemicsound.com/\nhttp://www.premiumbeat.com/\nhttp://audiojungle.net/\nincompetech.com \nLicensed under Creative Commons: By Attribution 3.0\nhttps://creativecommons.org/licenses/by/3.0/\nhttps://99sounds.org/\n\nOutro Music Created by:  https://www.youtube.com/@MattercellEntertainment"
+    }
+    },
+    "contentDetails": {
+    "duration": "PT47M13S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "1745666",
+    "likeCount": "92670",
+    "favoriteCount": "0",
+    "commentCount": "1928"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "nfpVKfT1x4VC7KI5qhtIE-3XiS0",
+    "id": "cIDK50IaVpg",
+    "snippet": {
+    "publishedAt": "2023-11-02T13:22:49Z",
+    "channelId": "UC_ntXHv-XdKCD7CPynVvnQw",
+    "title": "TEKKEN 8 - Victor Chevalier Reveal & Gameplay Trailer",
+    "description": "With him, violence is à la carte.\nVictor Chevalier, voiced by Vincent Cassel, slices his way into the #TEKKEN8 roster!\n\nPre-order TEKKEN 8 👉 https://bnent.eu/Preorder-TEKKEN8\nJoin the official TEKKEN server 👉 https://bnent.eu/TekkenDiscord\n\nFollow Bandai Namco Entertainment: \nInstagram: https://www.instagram.com/bandainamcous\nFacebook: https://www.facebook.com/BandaiNamcoUS\nTwitter: https://twitter.com/BandaiNamcoUS\nTwitch: http://www.twitch.tv/bandainamcous",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/cIDK50IaVpg/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/cIDK50IaVpg/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/cIDK50IaVpg/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/cIDK50IaVpg/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/cIDK50IaVpg/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Bandai Namco Entertainment America",
+    "tags": [
+    "Bandai Namco",
+    "Bandai Namco Entertainment",
+    "Video",
+    "Games",
+    "video games",
+    "namco bandai",
+    "United States",
+    "PS5",
+    "PS4",
+    "Xbox Series X"
+    ],
+    "categoryId": "20",
     "liveBroadcastContent": "none",
     "defaultLanguage": "en-US",
     "localized": {
-    "title": "China’s Crumbling Economic Story",
-    "description": "Go to our sponsor https://betterhelp.com/ee to get 10% off your first month, and talk to a licensed therapist today.\n\nDeng Xiaoping's reforms in the 80s transformed Shenzhen, a small town near Hong Kong, into an economic powerhouse. China's rapid growth lifted millions from poverty but did it grow too quickly to be sustainable? Now China faces deflation, and experts are worried that this could spell the end of the economic miracle.\n\nThis video was made possible by our Patreon community! ❤️\nSee new videos early, participate in exclusive Q&As, and more!\n➡️ https://www.patreon.com/EconomicsExplained\n\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nThe Economic Explained team uses Statista for conducting our research. Check out their YouTube channel: https://www.youtube.com/channel/UCuj2Bne141HGmYFsbkfnbqw\n\nEnjoyed the video? Comment below! 💬\n⭑ Enjoyed? Hit the like button! 👍\n\nCheck out our second channel Economics Explained Essentials → https://www.youtube.com/@economicsexplainedessentia551\n\n✉️ Business Enquiries → hello@economicsexplained.com\n\n🎧 Listen to EE on Spotify! 👉 https://open.spotify.com/show/5TFVUEJnYLOCmmfaDNHaM2\nAlso on Apple Podcasts or anywhere else you listen!\nFollow EE on social media:\nTwitter 🐦 → https://twitter.com/EconomicsEx\nFacebook → https://www.facebook.com/EconomicsEx\nInstagram → https://www.instagram.com/economicsexplained/\nTikTok → https://www.tiktok.com/@economicsexplained\n\n#EconomicsExplained #chinaeconomy #betterhelp \n\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\n\nECONOMICS EXPLAINED IS MADE POSSIBLE BY OUR PATREON COMMUNITY 👊🙏\nSupport EE by becoming a Patron today! 👉 https://www.patreon.com/EconomicsExplained\n\nThe video you’re watching right now would not exist without the monthly support provided by our generous Patrons:\n👑 ROYALTY CLASS 👑\nJuan Benet\n\nELITE CLASS\nCharles Youngs\n\nUPPER CLASS\nJeromy Johnson\n\nUPPER MIDDLE CLASS\nWendover Productions, Igor Bazarny, Andrew Harrison, Paul Ashworth, Laor Glukhovsky, Kib Bibens-LeFebvre, Post Apocalyptic In Missouri, Brett Jubinville, JKH, Anthony Roberts, jill hoffman, Nathan Ngumi, Forodon, Michael Ling, Sophie G, Frank Soltero, Grégoire Duchêne, Jay Eno, David Poliakoff, Stephanie Roth, Peter Wesselius, std__mpa, Pineapples&bricks, Adrian Bellomo, Rory Struthers.\n\nMIDDLE CLASS\nSteffen Lindner, Hayden van Reyswoud, John C, Donald Wedington, Demo sthenes, Rimvydas, John Downie, Sridev, Matt McKee, Victor T., Andrew Vinnichenko, Zachary Kasow, Johannes, Nigel Pauli, Jacob, Pedro Brito, Marton Szasz, Travis Thompson, Matthew Eggleston, Michael Kürbis, Anthony, Trevor, Marcel Roquette, Daniel Hall, John D Tyler, Petronio Coelho, Kevin MacIntyre, Craig Mews, Jonathan Krailler, Franklin, PM, Jack Annear, michael, Connor Costello, Reuben Field, Siegfried Eggl, How long can a profile name be... this long... Wow, this is longer than I would have expected. Good lord, the letters! Secunda!, Will, Andrey Kalganov, David Taylor, Scott Greenwood, Jane Walerud, Simon Sturmer, Zachary Demko, Michael Wolff, Ed, Daniel Alberto Vázquez Rodríguez, Kamil Sicinski, Dodd Willingham, David McIlveen, Arend Peter Castelein, Kent Klatchuk, Hugh Harris, David W., Chris Hawkins, Robert Nyborg, Leo Vassershteyn, Kheng Lai Tan, Roman~1, Wesley Fite, Zac Woodrell, Michael D. Hall, Randy Cleary, Long Phan, Liubov Zvereva, AB3, Karan Mehta, Arjan, Marton Csikos, Alex, Justin Smith, Wees Kendall, John Issitt, Eric Slimko, Empyre18, Brian Jackson, Istvan P, Joe Ryan, Patrick Staight, Shane Guthrie, Elisabeth Stanfield, Joshua White, Andrew Baartz, Ash, Abel, Kim Brand, Ted Marcy, Jim Kirker, roGER, Leonid Sorokoumov, Nicholas Luchetta, Kenneth Lum, Thomas Davenport, Robert Abraham, Ps0Fa, Klaus Clemens, Derrick Yowell, BUBBA CONWAY, Seth, Alex Wong, Jamie Costello, Rick Van Velden, Bacongravy, Leah Klearman, Jason, Tenebrion, Dragan Alexandru, Vladimir Zotov, Brian, Chris, DionysusLin, William Sherlock, Justin Thiele, Gerhardus."
+    "title": "TEKKEN 8 - Victor Chevalier Reveal & Gameplay Trailer",
+    "description": "With him, violence is à la carte.\nVictor Chevalier, voiced by Vincent Cassel, slices his way into the #TEKKEN8 roster!\n\nPre-order TEKKEN 8 👉 https://bnent.eu/Preorder-TEKKEN8\nJoin the official TEKKEN server 👉 https://bnent.eu/TekkenDiscord\n\nFollow Bandai Namco Entertainment: \nInstagram: https://www.instagram.com/bandainamcous\nFacebook: https://www.facebook.com/BandaiNamcoUS\nTwitter: https://twitter.com/BandaiNamcoUS\nTwitch: http://www.twitch.tv/bandainamcous"
     },
     "defaultAudioLanguage": "en"
     },
     "contentDetails": {
-    "duration": "PT16M43S",
+    "duration": "PT2M49S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
@@ -1212,189 +1538,85 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "376979",
-    "likeCount": "12197",
+    "viewCount": "411036",
+    "likeCount": "25101",
     "favoriteCount": "0",
-    "commentCount": "1228"
+    "commentCount": "4969"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "9-bX2aHpn7cJ8hEoiEt51_7LZW0",
-    "id": "cMnMzbzrIP0",
+    "etag": "JT3zzcZZWOHuNGqTpXnILpYwy1k",
+    "id": "cEvP5DgNNeI",
     "snippet": {
-    "publishedAt": "2023-10-18T16:00:35Z",
-    "channelId": "UCfyehHM_eo4g5JUyWmms2LA",
-    "title": "UK vs USA Food Fight | 5 Dishes - SAME name VERY Different! ft. @mythicalkitchen​ ⁠@TastingHistory",
-    "description": "It's UK vs USA in today's food fight! Pudding vs Pudding... Jelly vs Jelly... CHIP VS CHIP!! Who will come out on top?\n\nBig thanks to Josh and Max for joining us! Their links are below:\nhttps://www.youtube.com/@mythicalkitchen \nhttps://www.youtube.com/@tastinghistory \n\nTime to CANCEL your boring dinners! \n\nIt's easier than you think to cook up banging recipes... Click here to try Sidekick FREE for 30 days: https://bit.ly/3tfFgsR \n\nThe awesome benefits of the Sidekick app:\n- Unlock your kitchen confidence to discover awesome new ingredients and dishes\n- Reduce the stress of deciding what to cook EVERY day\n- Grocery shopping made simple, with an automatically-generated list\n- Cook more sustainably & reduce your food waste",
+    "publishedAt": "2023-11-01T22:10:29Z",
+    "channelId": "UC4f1JueVgo5t9HSmobCRPug",
+    "title": "Ariel Helwani, Chael Sonnen Clash Over Francis Ngannou Pay | The MMA Hour",
+    "description": "Chael Sonnen discusses the Fury vs. Ngannou clash, how much Francis Ngannou really made, what could be next for Ngannou, and more.\n\nJoin this channel to get access to perks:\nhttps://www.youtube.com/channel/UC4f1JueVgo5t9HSmobCRPug/join\n\nSubscribe to MMA Fighting on YouTube: http://goo.gl/dYpsgH\n\nSubscribe to The MMA Hour on iTunes: http://Apple.co/themmahour\nSubscribe to The MMA Hour on Spotify: https://open.spotify.com/show/0NUQhyUeYQcbtHOV10qmbb\nSubscribe to MMA Fighting feed on iTunes: https://podcasts.apple.com/us/podcast/mma-fighting/id320642139\n\nCheck out our full video catalog: http://goo.gl/u8VvLi\nVisit our playlists: http://goo.gl/eFhsvM\nLike MMAF on Facebook: http://goo.gl/uhdg7Z\nFollow on Twitter: http://goo.gl/nOATUI\nRead More: http://www.mmafighting.com\n\nMMA Fighting is your home for exclusive interviews, live shows, and more for one of the world's fastest-growing sports. Get latest news and more here: http://www.mmafighting.com",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/cMnMzbzrIP0/default.jpg",
+    "url": "https://i.ytimg.com/vi/cEvP5DgNNeI/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/cMnMzbzrIP0/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/cEvP5DgNNeI/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/cMnMzbzrIP0/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/cEvP5DgNNeI/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/cMnMzbzrIP0/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/cEvP5DgNNeI/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/cMnMzbzrIP0/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/cEvP5DgNNeI/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "Sorted Food",
+    "channelTitle": "MMAFightingonSBN",
     "tags": [
-    "uk vs usa",
-    "sorted",
-    "food",
-    "sortedfood",
-    "mythical kitchen",
-    "mythical morning",
-    "mythical kitchen last meal",
-    "mythical",
-    "sortedfood battle",
-    "sortedfood ultimate battle",
-    "sortedfood budget battle",
-    "sortedfood beat the chef",
-    "chef vs chef",
-    "sortedfood chef",
-    "food wars",
-    "fast food",
-    "united kingdom",
-    "jelly",
-    "pudding",
-    "biscuits",
-    "chips",
-    "fries",
-    "food challenge",
-    "food videos",
-    "food review",
-    "mythical morning taste test",
-    "chef vs chef sorted",
-    "tasting history",
-    "mythical josh",
-    "max miller"
-    ],
-    "categoryId": "26",
-    "liveBroadcastContent": "none",
-    "defaultLanguage": "en-GB",
-    "localized": {
-    "title": "UK vs USA Food Fight | 5 Dishes - SAME name VERY Different! ft. @mythicalkitchen​ ⁠@TastingHistory",
-    "description": "It's UK vs USA in today's food fight! Pudding vs Pudding... Jelly vs Jelly... CHIP VS CHIP!! Who will come out on top?\n\nBig thanks to Josh and Max for joining us! Their links are below:\nhttps://www.youtube.com/@mythicalkitchen \nhttps://www.youtube.com/@tastinghistory \n\nTime to CANCEL your boring dinners! \n\nIt's easier than you think to cook up banging recipes... Click here to try Sidekick FREE for 30 days: https://bit.ly/3tfFgsR \n\nThe awesome benefits of the Sidekick app:\n- Unlock your kitchen confidence to discover awesome new ingredients and dishes\n- Reduce the stress of deciding what to cook EVERY day\n- Grocery shopping made simple, with an automatically-generated list\n- Cook more sustainably & reduce your food waste"
-    },
-    "defaultAudioLanguage": "en-GB"
-    },
-    "contentDetails": {
-    "duration": "PT16M51S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "true",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "218327",
-    "likeCount": "15330",
-    "favoriteCount": "0",
-    "commentCount": "1919"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "CXcbzAjD7xYusIZS6WYZJGhstj4",
-    "id": "PXd9w7EC9_o",
-    "snippet": {
-    "publishedAt": "2023-10-17T16:45:49Z",
-    "channelId": "UCO4AcsPKEkIqDmbeiZLfd1A",
-    "title": "Kamaru Usman & Khamzat Chimaev interviewed by Chael Sonnen ahead of UFC 294 | ESPN MMA",
-    "description": "Stream UFC 294 on ESPN+ https://plus.espn.com/ufc/ppv\n\nChael Sonnen interviews Khamzat Chimaev and Kamaru Usman ahead of their co-main event at UFC 294.\n\n#UFC294 #UFC #MMA\n✔ For more UFC, sign up for ESPN+ http://espnplus.com/ufc/youtube\n✔ Get the ESPN App: http://www.espn.com/espn/apps/espn\n✔ Subscribe to ESPN on YouTube: http://es.pn/SUBSCRIBEtoYOUTUBE\n✔ Subscribe to ESPN FC on YouTube: http://bit.ly/SUBSCRIBEtoESPNFC\n✔ Subscribe to NBA on ESPN on YouTube: http://bit.ly/SUBSCRIBEtoNBAonESPN\n✔ Watch ESPN on YouTube TV: http://es.pn/YouTubeTV",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/PXd9w7EC9_o/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/PXd9w7EC9_o/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/PXd9w7EC9_o/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/PXd9w7EC9_o/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/PXd9w7EC9_o/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "ESPN MMA",
-    "tags": [
-    "mma espn",
-    "espn mma",
-    "mma",
-    "#mma",
+    "mma fighting",
+    "mixed martial arts",
+    "martial arts",
+    "ultimate fighting championship",
+    "combat sports",
+    "combat tv",
     "ufc",
-    "ufc espn",
-    "ufc on espn",
-    "nna on espn",
-    "espn ufc",
-    "mma news",
+    "mma",
+    "mma knockouts",
     "ufc news",
-    "dc & rc",
-    "ufc 294",
-    "#ufc294",
-    "chael sonnen espn",
+    "mma fight",
+    "mma news",
+    "fighter",
+    "boxing",
     "chael sonnen",
-    "sonnen",
-    "chael",
-    "kamaru usman espn",
-    "kamaru usman interview",
-    "kamaru usman",
-    "usman espn",
-    "usman interview",
-    "usman",
-    "khamzat chimaev espn",
-    "khamzat chimaev interview",
-    "khamzat chimaev vs kamaru usman",
-    "kamaru usman vs khamzat chimaev",
-    "khamzat chimaev",
-    "chimaev interview",
-    "chimaev espn",
-    "chimaev",
-    "sean strickland",
-    "strickland",
-    "kamaru"
+    "francis ngannou",
+    "tyson fury",
+    "ariel helwani",
+    "the mma hour with ariel helwani",
+    "dana white",
+    "top rank boxing",
+    "boxing vs. mma",
+    "bob arum",
+    "saudi arabia"
     ],
     "categoryId": "17",
     "liveBroadcastContent": "none",
     "localized": {
-    "title": "Kamaru Usman & Khamzat Chimaev interviewed by Chael Sonnen ahead of UFC 294 | ESPN MMA",
-    "description": "Stream UFC 294 on ESPN+ https://plus.espn.com/ufc/ppv\n\nChael Sonnen interviews Khamzat Chimaev and Kamaru Usman ahead of their co-main event at UFC 294.\n\n#UFC294 #UFC #MMA\n✔ For more UFC, sign up for ESPN+ http://espnplus.com/ufc/youtube\n✔ Get the ESPN App: http://www.espn.com/espn/apps/espn\n✔ Subscribe to ESPN on YouTube: http://es.pn/SUBSCRIBEtoYOUTUBE\n✔ Subscribe to ESPN FC on YouTube: http://bit.ly/SUBSCRIBEtoESPNFC\n✔ Subscribe to NBA on ESPN on YouTube: http://bit.ly/SUBSCRIBEtoNBAonESPN\n✔ Watch ESPN on YouTube TV: http://es.pn/YouTubeTV"
-    }
+    "title": "Ariel Helwani, Chael Sonnen Clash Over Francis Ngannou Pay | The MMA Hour",
+    "description": "Chael Sonnen discusses the Fury vs. Ngannou clash, how much Francis Ngannou really made, what could be next for Ngannou, and more.\n\nJoin this channel to get access to perks:\nhttps://www.youtube.com/channel/UC4f1JueVgo5t9HSmobCRPug/join\n\nSubscribe to MMA Fighting on YouTube: http://goo.gl/dYpsgH\n\nSubscribe to The MMA Hour on iTunes: http://Apple.co/themmahour\nSubscribe to The MMA Hour on Spotify: https://open.spotify.com/show/0NUQhyUeYQcbtHOV10qmbb\nSubscribe to MMA Fighting feed on iTunes: https://podcasts.apple.com/us/podcast/mma-fighting/id320642139\n\nCheck out our full video catalog: http://goo.gl/u8VvLi\nVisit our playlists: http://goo.gl/eFhsvM\nLike MMAF on Facebook: http://goo.gl/uhdg7Z\nFollow on Twitter: http://goo.gl/nOATUI\nRead More: http://www.mmafighting.com\n\nMMA Fighting is your home for exclusive interviews, live shows, and more for one of the world's fastest-growing sports. Get latest news and more here: http://www.mmafighting.com"
+    },
+    "defaultAudioLanguage": "en"
     },
     "contentDetails": {
-    "duration": "PT7M20S",
+    "duration": "PT50M46S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
@@ -1403,44 +1625,374 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "959975",
-    "likeCount": "18929",
+    "viewCount": "459826",
+    "likeCount": "11329",
     "favoriteCount": "0",
-    "commentCount": "4727"
+    "commentCount": "7237"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "0VMksCclG-o6P9eGuIup5GgSjvw",
-    "id": "O-5BmqCBivA",
+    "etag": "j8pKLwDG8QawYuqmLzf_pQhDEfk",
+    "id": "mTB5LsvPSvk",
     "snippet": {
-    "publishedAt": "2023-10-16T21:02:31Z",
-    "channelId": "UC7_YxT-KID8kRbqZo7MyscQ",
-    "title": "FAZBEAR NIGHTS",
-    "description": "LISTEN TO DISTRACTIBLE ►► https://open.spotify.com/show/2X40qLyoj1wQ2qE5FVpA7x\nLISTEN TO GMFST ►► https://open.spotify.com/show/4Hn3qhWe5NqnhLFKytyfFW",
+    "publishedAt": "2023-11-02T14:00:36Z",
+    "channelId": "UCkmAjbIecTIjTQctolYeuDw",
+    "title": "Man... Tough Times Ahead For Destiny, Bungie & The Community",
+    "description": "With new information coming to light about the situation at Bungie, I am much more worried than I was with my first video.  It is very clear that more drastic measures must be taken to bring this game back to life.  But what those measures are is anyone's guess.  Had a LONG discussion about everything that's been going on recently with the layoffs and the news about The Final Shape.  I tried to compile all my thoughts from said discussion into a video.  Might've missed a thing or two, but I think I got most of it.  I don't thrive in these kinds of environments and I really hate making these kinds of videos.  I wish things were different.\n\nPodcast goes here when it's live.\n\nCoolguy video: https://www.youtube.com/watch?v=B0oBaZZVf10\n\nIGN article: https://www.ign.com/articles/pete-parsons-tells-employees-bungie-kept-the-right-people-to-work-on-destiny-2\n\nBloomberg article: https://www.bloomberg.com/news/articles/2023-10-31/sony-s-bungie-game-unit-cut-jobs-as-destiny-2-popularity-waned\n\nDatto's Stream Archive: https://www.youtube.com/channel/UCHsE-1yrzdq868vA_VdgKgA\n\nWatch Datto Live at https://www.twitch.tv/Datto on Tuesdays, Wednesdays and Fridays.\n\nDatto is now partnered with Logitech! Use \"Datto10\" at checkout to get a 10% discount on Logitech and Logitech G products. https://logi.gg/Datto for Logitech, https://logi.link/Datto for Logitech G\n\n5% discount on ASTRO gear: http://www.astro.family/DATTO (works in all available regions)\n\nCheck out the new Datto Signature Series PC at Evolve and save money when you use code Datto at checkout! https://www.evolvepcs.gg/products/datto\n\nEpic Games Store Creator Code: HelloDatto\n\nDanielle's Advanced.GG code: TRVL at checkout (Datto has no affiliation with advanced.gg)\n\nDatto Does Destiny Social Media:\nTwitter: https://www.twitter.com/DattosDestiny\nTwitch: https://www.twitch.tv/Datto",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/O-5BmqCBivA/default.jpg",
+    "url": "https://i.ytimg.com/vi/mTB5LsvPSvk/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/O-5BmqCBivA/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/mTB5LsvPSvk/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/O-5BmqCBivA/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/mTB5LsvPSvk/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/O-5BmqCBivA/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/mTB5LsvPSvk/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/O-5BmqCBivA/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/mTB5LsvPSvk/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Datto",
+    "tags": [
+    "datto",
+    "destiny gameplay",
+    "destiny 2",
+    "destiny 2 gameplay",
+    "datto does destiny",
+    "destiny",
+    "destiny new gameplay",
+    "guide",
+    "season 22",
+    "season of the witch",
+    "final shape",
+    "bungie layoffs",
+    "season 23",
+    "episode 1",
+    "bungie",
+    "datto's thoughts",
+    "datto reacts",
+    "reaction",
+    "react",
+    "friends per second",
+    "marathon",
+    "2024",
+    "2025"
+    ],
+    "categoryId": "20",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "Man... Tough Times Ahead For Destiny, Bungie & The Community",
+    "description": "With new information coming to light about the situation at Bungie, I am much more worried than I was with my first video.  It is very clear that more drastic measures must be taken to bring this game back to life.  But what those measures are is anyone's guess.  Had a LONG discussion about everything that's been going on recently with the layoffs and the news about The Final Shape.  I tried to compile all my thoughts from said discussion into a video.  Might've missed a thing or two, but I think I got most of it.  I don't thrive in these kinds of environments and I really hate making these kinds of videos.  I wish things were different.\n\nPodcast goes here when it's live.\n\nCoolguy video: https://www.youtube.com/watch?v=B0oBaZZVf10\n\nIGN article: https://www.ign.com/articles/pete-parsons-tells-employees-bungie-kept-the-right-people-to-work-on-destiny-2\n\nBloomberg article: https://www.bloomberg.com/news/articles/2023-10-31/sony-s-bungie-game-unit-cut-jobs-as-destiny-2-popularity-waned\n\nDatto's Stream Archive: https://www.youtube.com/channel/UCHsE-1yrzdq868vA_VdgKgA\n\nWatch Datto Live at https://www.twitch.tv/Datto on Tuesdays, Wednesdays and Fridays.\n\nDatto is now partnered with Logitech! Use \"Datto10\" at checkout to get a 10% discount on Logitech and Logitech G products. https://logi.gg/Datto for Logitech, https://logi.link/Datto for Logitech G\n\n5% discount on ASTRO gear: http://www.astro.family/DATTO (works in all available regions)\n\nCheck out the new Datto Signature Series PC at Evolve and save money when you use code Datto at checkout! https://www.evolvepcs.gg/products/datto\n\nEpic Games Store Creator Code: HelloDatto\n\nDanielle's Advanced.GG code: TRVL at checkout (Datto has no affiliation with advanced.gg)\n\nDatto Does Destiny Social Media:\nTwitter: https://www.twitter.com/DattosDestiny\nTwitch: https://www.twitch.tv/Datto"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT26M3S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "186926",
+    "likeCount": "10695",
+    "favoriteCount": "0",
+    "commentCount": "1756"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "CZezDgi05m2dU9cHk6s4qBUE3-c",
+    "id": "yAN5uspO_hk",
+    "snippet": {
+    "publishedAt": "2023-11-02T12:59:49Z",
+    "channelId": "UC2dIDJBf9W88PxGm-uHZPaQ",
+    "title": "Shōgun - Official Trailer | Hiroyuki Sanada, Cosmo Jarvis, Anna Sawai | FX",
+    "description": "FX’s Shōgun – OFFICIAL TRAILER | An epic saga of war, passion, and power set in Feudal Japan. Coming February 2024 on Hulu and FX.\n\nSubscribe now for more Shōgun clips: http://bit.ly/SubscribeFX  |  Visit Official Site http://www.fxnetworks.com/shows/shogun\n\nBased on James Clavell’s novel, FX’s Shōgun is set in Japan in the year 1600 at the dawn of a century-defining civil war. Lord Yoshii Toranaga is fighting for his life as his enemies on the Council of Regents unite against him, when a mysterious European ship is found marooned in a nearby fishing village.\n\nLike FX on Facebook:  http://bit.ly/FXNetworksFacebook  \nFollow FX on Twitter: http://bit.ly/FXNetworksTW \nFollow FX on Instagram: http://bit.ly/FXNetworksInstagram  \n\nShōgun - Official Trailer | Hiroyuki Sanada, Cosmo Jarvis, Anna Sawai | FX\nhttps://www.youtube.com/user/FXNetworks",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/yAN5uspO_hk/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/yAN5uspO_hk/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/yAN5uspO_hk/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/yAN5uspO_hk/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/yAN5uspO_hk/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "FX Networks",
+    "tags": [
+    "FX",
+    "Shogun",
+    "James Clavell",
+    "novel",
+    "Japan",
+    "1600s",
+    "civil war",
+    "Yoshii Toranaga",
+    "tv series",
+    "fx",
+    "stream on hulu",
+    "japanese drama",
+    "Hiroyuki Sanada",
+    "Cosmo Jarvis",
+    "Anna Sawai",
+    "trailer",
+    "official trailer",
+    "japanese civil war",
+    "japanese history",
+    "historical drama",
+    "samurai",
+    "japanese general",
+    "samurai army",
+    "female samurai",
+    "army leader",
+    "japanese army",
+    "war drama",
+    "war drama series",
+    "shogun fx",
+    "new shogun series",
+    "new series 2024",
+    "new tv shows 2024",
+    "japanese lord",
+    "war council",
+    "feudal japan",
+    "feudalism"
+    ],
+    "categoryId": "24",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "Shōgun - Official Trailer | Hiroyuki Sanada, Cosmo Jarvis, Anna Sawai | FX",
+    "description": "FX’s Shōgun – OFFICIAL TRAILER | An epic saga of war, passion, and power set in Feudal Japan. Coming February 2024 on Hulu and FX.\n\nSubscribe now for more Shōgun clips: http://bit.ly/SubscribeFX  |  Visit Official Site http://www.fxnetworks.com/shows/shogun\n\nBased on James Clavell’s novel, FX’s Shōgun is set in Japan in the year 1600 at the dawn of a century-defining civil war. Lord Yoshii Toranaga is fighting for his life as his enemies on the Council of Regents unite against him, when a mysterious European ship is found marooned in a nearby fishing village.\n\nLike FX on Facebook:  http://bit.ly/FXNetworksFacebook  \nFollow FX on Twitter: http://bit.ly/FXNetworksTW \nFollow FX on Instagram: http://bit.ly/FXNetworksInstagram  \n\nShōgun - Official Trailer | Hiroyuki Sanada, Cosmo Jarvis, Anna Sawai | FX\nhttps://www.youtube.com/user/FXNetworks"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT2M48S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "1104682",
+    "likeCount": "11008",
+    "favoriteCount": "0",
+    "commentCount": "957"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "-Q80RTT2rFxCdaD9IrcxXAj7eFk",
+    "id": "VfX-brlBH18",
+    "snippet": {
+    "publishedAt": "2023-11-01T14:00:12Z",
+    "channelId": "UC701pqb1-HJPS4RMjSmK4Yg",
+    "title": "Walmart Black Friday Deals | Jingle Bell Rockin’",
+    "description": "On Wednesdays, we shop Walmart’s Black Friday deals. Head online next Wednesday, 11/8 at 3 PM ET to get the hottest new Black Friday deals.\n\r\nSave Money. Live Better.\r\n\r\nSubscribe to Walmart on YouTube: http://bit.ly/1tVy1CI  \r\nLike Walmart on Facebook: http://on.fb.me/1qS59V6 \r\nFollow Walmart on Pinterest: http://bit.ly/1vR6XBY \r\nFollow Walmart on Twitter: http://bit.ly/1pMbNfy \r\nFollow Walmart on Instagram: http://bit.ly/1FMiiJX",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/VfX-brlBH18/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/VfX-brlBH18/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/VfX-brlBH18/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/VfX-brlBH18/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/VfX-brlBH18/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Walmart",
+    "tags": [
+    "#Walmart",
+    "#Walmart+",
+    "#BlackFriday",
+    "#BlackFridayDeals",
+    "Walmart",
+    "Walmart+",
+    "Black Friday",
+    "Black Friday Deals",
+    "Walmart Black Friday Deals",
+    "Mean Girls",
+    "#WalmartBlackFridayDeals",
+    "#MeanGirls"
+    ],
+    "categoryId": "26",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "Walmart Black Friday Deals | Jingle Bell Rockin’",
+    "description": "On Wednesdays, we shop Walmart’s Black Friday deals. Head online next Wednesday, 11/8 at 3 PM ET to get the hottest new Black Friday deals.\n\r\nSave Money. Live Better.\r\n\r\nSubscribe to Walmart on YouTube: http://bit.ly/1tVy1CI  \r\nLike Walmart on Facebook: http://on.fb.me/1qS59V6 \r\nFollow Walmart on Pinterest: http://bit.ly/1vR6XBY \r\nFollow Walmart on Twitter: http://bit.ly/1pMbNfy \r\nFollow Walmart on Instagram: http://bit.ly/1FMiiJX"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT1M57S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": false,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "802534",
+    "likeCount": "29065",
+    "favoriteCount": "0",
+    "commentCount": "1539"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "Ijebt5YJ6iKMdZ-Qm4YBmVX_VPg",
+    "id": "VbR4Hs2zApU",
+    "snippet": {
+    "publishedAt": "2023-11-02T00:45:01Z",
+    "channelId": "UC_F8DoJf9MZogEOU51TpTbQ",
+    "title": "Little Prince Gameplay Reveal! New Champion! (TV Royale)",
+    "description": "NEW CHAMPION\nLittle Prince might be a spoiled brat but he is a versatile card not to be messed with. Attack ground and air Troops with his repeating crossbow and when you get into trouble, summon Guardian to protect him!\n\nNEW SEASON\n- Join the Battle in the new TAVERN FIGHT Arena!\n- New Archers Evolution!\n- Unlock epic Little Prince Emotes, Tower Skins and Battle Banners!\n\nSee you in the Arena!\n\nTwitter ► https://twitter.com/ClashRoyale/\nInstagram ► https://www.instagram.com/clashroyale\nTikTok ► https://www.tiktok.com/@clashroyale\nFacebook ► https://www.facebook.com/ClashRoyale/\n\n#clashroyale #littleprince #gameplay",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/VbR4Hs2zApU/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/VbR4Hs2zApU/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/VbR4Hs2zApU/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/VbR4Hs2zApU/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/VbR4Hs2zApU/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Clash Royale",
+    "tags": [
+    "Clash Royale",
+    "Clash Royale Game",
+    "Supercell",
+    "Supercell Game",
+    "Clash Royale Supercell",
+    "Mobile Game"
+    ],
+    "categoryId": "20",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en",
+    "localized": {
+    "title": "Little Prince Gameplay Reveal! New Champion! (TV Royale)",
+    "description": "NEW CHAMPION\nLittle Prince might be a spoiled brat but he is a versatile card not to be messed with. Attack ground and air Troops with his repeating crossbow and when you get into trouble, summon Guardian to protect him!\n\nNEW SEASON\n- Join the Battle in the new TAVERN FIGHT Arena!\n- New Archers Evolution!\n- Unlock epic Little Prince Emotes, Tower Skins and Battle Banners!\n\nSee you in the Arena!\n\nTwitter ► https://twitter.com/ClashRoyale/\nInstagram ► https://www.instagram.com/clashroyale\nTikTok ► https://www.tiktok.com/@clashroyale\nFacebook ► https://www.facebook.com/ClashRoyale/\n\n#clashroyale #littleprince #gameplay"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT3M43S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "685947",
+    "likeCount": "42180",
+    "favoriteCount": "0",
+    "commentCount": "2001"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "C88gu0OF1VQHHQZTHr06oSegJwI",
+    "id": "HWx2f0vGKWQ",
+    "snippet": {
+    "publishedAt": "2023-11-01T19:06:33Z",
+    "channelId": "UC7_YxT-KID8kRbqZo7MyscQ",
+    "title": "DON'T SCREAM (literally)",
+    "description": "World's Quietest Let's Play returns with Don't Scream, a game where you if you scream you LOSE!\nLISTEN TO DISTRACTIBLE ►► https://open.spotify.com/show/2X40qLyoj1wQ2qE5FVpA7x\n\nPlay the Game ► https://store.steampowered.com/app/2497900/DONT_SCREAM/\n\nEdited By ► https://www.youtube.com/nerdfiction\nEdited By ► https://twitter.com/rad_r\nAnd ► https://www.youtube.com/LixianTV\n\nScary Games Playlist ► https://www.youtube.com/playlist?list=PL3tRBEVW0hiBSFOFhTC5wt75P2BES0rAo",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/HWx2f0vGKWQ/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/HWx2f0vGKWQ/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/HWx2f0vGKWQ/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/HWx2f0vGKWQ/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/HWx2f0vGKWQ/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
@@ -1448,23 +2000,29 @@ export const youtube_sample=
     "channelTitle": "Markiplier",
     "tags": [
     "markiplier",
-    "five nights at freddys",
-    "fnaf",
-    "fnaf fan game",
-    "fazbear nights",
-    "fnaf movie"
+    "don't scream",
+    "dont scream game",
+    "you scream you lose",
+    "scary games",
+    "indie horror",
+    "proximity chat",
+    "jumpscares",
+    "jump scare",
+    "scares",
+    "scare reactions",
+    "world's quietest lets play"
     ],
     "categoryId": "20",
     "liveBroadcastContent": "none",
     "defaultLanguage": "en",
     "localized": {
-    "title": "FAZBEAR NIGHTS",
-    "description": "LISTEN TO DISTRACTIBLE ►► https://open.spotify.com/show/2X40qLyoj1wQ2qE5FVpA7x\nLISTEN TO GMFST ►► https://open.spotify.com/show/4Hn3qhWe5NqnhLFKytyfFW"
+    "title": "DON'T SCREAM (literally)",
+    "description": "World's Quietest Let's Play returns with Don't Scream, a game where you if you scream you LOSE!\nLISTEN TO DISTRACTIBLE ►► https://open.spotify.com/show/2X40qLyoj1wQ2qE5FVpA7x\n\nPlay the Game ► https://store.steampowered.com/app/2497900/DONT_SCREAM/\n\nEdited By ► https://www.youtube.com/nerdfiction\nEdited By ► https://twitter.com/rad_r\nAnd ► https://www.youtube.com/LixianTV\n\nScary Games Playlist ► https://www.youtube.com/playlist?list=PL3tRBEVW0hiBSFOFhTC5wt75P2BES0rAo"
     },
     "defaultAudioLanguage": "en"
     },
     "contentDetails": {
-    "duration": "PT1H14M16S",
+    "duration": "PT23M5S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
@@ -1473,189 +2031,60 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "2090342",
-    "likeCount": "119964",
+    "viewCount": "2062181",
+    "likeCount": "146864",
     "favoriteCount": "0",
-    "commentCount": "3551"
+    "commentCount": "6260"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "ftPdzCFll7mqreAjGDC5OoBxJDY",
-    "id": "8oOVNMjM1Jk",
+    "etag": "Nwo54O6SJj2LznuQKWV47XC-sPQ",
+    "id": "YdyfAQue4p8",
     "snippet": {
-    "publishedAt": "2023-10-18T13:00:01Z",
-    "channelId": "UCpy5dRhZd-JbZP4NsrnLt1w",
-    "title": "FERRARI - Official Trailer - In Theaters Christmas",
-    "description": "It is the summer of 1957. Behind the spectacle of Formula 1, ex-racer Enzo Ferrari is in crisis. Bankruptcy threatens the factory he and his wife, Laura built from nothing ten years earlier. Their volatile marriage has been battered by the loss of their son, Dino a year earlier. Ferrari struggles to acknowledge his son Piero with Lina Lardi. Meanwhile, his drivers' passion to win pushes them to the edge as they launch into the treacherous 1,000-mile race across Italy, the Mille Miglia.\n\nIn Theaters Christmas\n\nDirected by Michael Mann\nWritten by Troy Kennedy Martin\nStarring Adam Driver, Penélope Cruz, Shailene Woodley, Sarah Gordon, Gabriel Leone, Jack O'Connell, Patrick Dempsey",
+    "publishedAt": "2023-11-02T01:00:15Z",
+    "channelId": "UC3S6nIDGJ5OtpC-mbvFA8Ew",
+    "title": "Little Prince Gameplay",
+    "description": "Little Prince and Guardian ability gameplay with @clashwithshane \n\nCode OJ\nSupercell Store ► https://store.supercell.com/en?boost=oj\nCR ► https://link.clashroyale.com/en?supportcreator?code=oj\nBS ► https://link.brawlstars.com/supportcreator/en?code=oj\nCoC ► https://link.clashofclans.com/en?action=SupportCreator&id=oj\n\nChannels\nLive Stream ► https://www.youtube.com/channel/UCbfwKVaFIfVDyVDndGrTKTg\nPodcast ► https://www.youtube.com/@PeelingTheOrange\nJuicy News ► https://www.youtube.com/channel/UC4rD2NGH3LxRNeF6VCDLeiQ\nMore Juice ► https://www.youtube.com/channel/UCqycdxt7I6RhNaUV_iSOEVg\nCheesy Clips ► https://www.youtube.com/channel/UCQC8shNPvBl_AmGJ3sNT17w\n\nSPONSORS\n▶ Set yourself apart from the rest, check out Samsung Galaxy: https://trb.gg/samsunggalaxy\n▶ AT&T 5G. Fast. Reliable. Secure. https://trb.gg/ATT  \n\nSTATS\nBrawlify ► https://brawlify.com\nDeck Shop ► https://www.deckshop.pro\nRoyale API ► https://royaleapi.com/\n\nSOCIALS\nSubscribe ► YT http://bit.ly/ojsub\nTwitter ► http://twitter.com/orangejuice\nInstagram ► https://www.instagram.com/ojeveryday\nFacebook ► https://www.facebook.com/orangejuicegaming\nTwitch ► https://www.twitch.tv/orangejuice\n\nDISCORD\nClash Royale ► https://discord.gg/oj\nBrawl Stars ► https://discord.gg/bs\nGeneral ► https://discord.gg/ojg\n\nTRIBE:\nYouTube ▶ https://youtube.com/tribegaming\nTwitter ▶ https://twitter.com/tribegaming\nDiscord ▶ https://discord.gg/tribegaming\nInstagram ▶ https://instagram.com/tribegaming\nTikTok ▶ https://www.tiktok.com/@tribegaming \n\nBIZ EMAIL:\n▶ OJ@tribegaming.gg\n\n#ojgaming #supercellpartner",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/8oOVNMjM1Jk/default.jpg",
+    "url": "https://i.ytimg.com/vi/YdyfAQue4p8/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/8oOVNMjM1Jk/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/YdyfAQue4p8/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/8oOVNMjM1Jk/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/YdyfAQue4p8/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/8oOVNMjM1Jk/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/YdyfAQue4p8/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/8oOVNMjM1Jk/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/YdyfAQue4p8/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "NEON",
-    "categoryId": "1",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "FERRARI - Official Trailer - In Theaters Christmas",
-    "description": "It is the summer of 1957. Behind the spectacle of Formula 1, ex-racer Enzo Ferrari is in crisis. Bankruptcy threatens the factory he and his wife, Laura built from nothing ten years earlier. Their volatile marriage has been battered by the loss of their son, Dino a year earlier. Ferrari struggles to acknowledge his son Piero with Lina Lardi. Meanwhile, his drivers' passion to win pushes them to the edge as they launch into the treacherous 1,000-mile race across Italy, the Mille Miglia.\n\nIn Theaters Christmas\n\nDirected by Michael Mann\nWritten by Troy Kennedy Martin\nStarring Adam Driver, Penélope Cruz, Shailene Woodley, Sarah Gordon, Gabriel Leone, Jack O'Connell, Patrick Dempsey"
-    },
-    "defaultAudioLanguage": "en"
-    },
-    "contentDetails": {
-    "duration": "PT2M27S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "true",
-    "licensedContent": false,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "1188406",
-    "likeCount": "5306",
-    "favoriteCount": "0",
-    "commentCount": "420"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "IzguHcMpxRB-mk_4W9e-Ya4e3v4",
-    "id": "OLju-cMjgco",
-    "snippet": {
-    "publishedAt": "2023-10-18T05:58:10Z",
-    "channelId": "UC68nKdrLbLL0Vj7ilVkLmmg",
-    "title": "Keedaa Cola - Official Trailer | Tharun Bhascker | VG Sainma | Vivek Sagar",
-    "description": "For more latest songs & videos, subscribe 👉 https://bit.ly/Saregama_Telugu\n\nGet ready for a rollercoaster of laughs and thrills with 'Keedaa Cola,' a film brought to you by VG Sainma, directed by the National Award-winning director Tharun Bhascker!\n\nKeedaa Cola is about a hilarious group that takes on a challenge of a lifetime when they decide to make quick money by planting a cockroach into a soft drink bottle. Will they hit the jackpot?\n\nWritten & Directed by Tharun Bhascker Dhaassyam\nProducers : K. Vivek Sudhanshu, Saikrishna Gadwal, Srinivas Kaushik Nanduri, Sripad\nNandiraj & Upendra Varma\nDistributor : Suresh Productions\nPresenter : Rana Daggubati\nWriters : Pranay Koppala, Ramya Kakumanu, Shanthan Raj\nMusic : Vivek Sagar\nMusic Label : Saregama\nSound Design : Varun Venugopal\nCinematography : AJ Aaron\nArt Director : Ashish Teja Pulala\nCostumes : Poojitha Thadikonda\nEditor : Upendra Varma\nVFX : Nagu Talari & Ashok Mocharla\nRe-Recording Mixer: Koteswara Rao S.V.\nExecutive Producers : K. Vivek Sudhanshu, Saikrishna Gadwal, Srinivas Kaushik Nanduri\nDI Colorist : Avinash Jagdish Shukla\nAction Director : Raj Kumar\nPRO : Vamsi Shekar\nPublicity Design : Aesthetic Kunjamma\nMarketing: Ticket Factory\n\nLabel: Saregama India Limited, A RPSG Group Company\n\nTo buy Carvaan, visit https://www.saregama.com/carvaan/telugu\nTo buy virus free original tracks, visit  https://www.saregama.com/musicstore\nFollow us on: YouTube:https://www.youtube.com/channel/saregamatelugu\nFacebook: http://www.facebook.com/Saregamatelugu\nX: https://twitter.com/saregamasouth\n\n#KeedaaCola #SaregamaTelugu",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/OLju-cMjgco/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/OLju-cMjgco/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/OLju-cMjgco/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/OLju-cMjgco/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/OLju-cMjgco/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Saregama Telugu",
-    "tags": [
-    "keedaa cola",
-    "keedaa cola trailer",
-    "keeda cola teaser",
-    "Tharun Bhascker",
-    "Brahmanandam"
-    ],
-    "categoryId": "1",
+    "channelTitle": "Orange Juice Gaming",
+    "categoryId": "20",
     "liveBroadcastContent": "none",
     "defaultLanguage": "en",
     "localized": {
-    "title": "Keedaa Cola - Official Trailer | Tharun Bhascker | VG Sainma | Vivek Sagar",
-    "description": "For more latest songs & videos, subscribe 👉 https://bit.ly/Saregama_Telugu\n\nGet ready for a rollercoaster of laughs and thrills with 'Keedaa Cola,' a film brought to you by VG Sainma, directed by the National Award-winning director Tharun Bhascker!\n\nKeedaa Cola is about a hilarious group that takes on a challenge of a lifetime when they decide to make quick money by planting a cockroach into a soft drink bottle. Will they hit the jackpot?\n\nWritten & Directed by Tharun Bhascker Dhaassyam\nProducers : K. Vivek Sudhanshu, Saikrishna Gadwal, Srinivas Kaushik Nanduri, Sripad\nNandiraj & Upendra Varma\nDistributor : Suresh Productions\nPresenter : Rana Daggubati\nWriters : Pranay Koppala, Ramya Kakumanu, Shanthan Raj\nMusic : Vivek Sagar\nMusic Label : Saregama\nSound Design : Varun Venugopal\nCinematography : AJ Aaron\nArt Director : Ashish Teja Pulala\nCostumes : Poojitha Thadikonda\nEditor : Upendra Varma\nVFX : Nagu Talari & Ashok Mocharla\nRe-Recording Mixer: Koteswara Rao S.V.\nExecutive Producers : K. Vivek Sudhanshu, Saikrishna Gadwal, Srinivas Kaushik Nanduri\nDI Colorist : Avinash Jagdish Shukla\nAction Director : Raj Kumar\nPRO : Vamsi Shekar\nPublicity Design : Aesthetic Kunjamma\nMarketing: Ticket Factory\n\nLabel: Saregama India Limited, A RPSG Group Company\n\nTo buy Carvaan, visit https://www.saregama.com/carvaan/telugu\nTo buy virus free original tracks, visit  https://www.saregama.com/musicstore\nFollow us on: YouTube:https://www.youtube.com/channel/saregamatelugu\nFacebook: http://www.facebook.com/Saregamatelugu\nX: https://twitter.com/saregamasouth\n\n#KeedaaCola #SaregamaTelugu"
-    },
-    "defaultAudioLanguage": "te"
-    },
-    "contentDetails": {
-    "duration": "PT2M54S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "true",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "1777803",
-    "likeCount": "47587",
-    "favoriteCount": "0",
-    "commentCount": "565"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "6C6ipwSjTK8ObYbCjARvxq4PQcY",
-    "id": "2G1-nWjFm0k",
-    "snippet": {
-    "publishedAt": "2023-10-17T20:51:03Z",
-    "channelId": "UCMJbbWyIziiUamP5JKK9yAA",
-    "title": "Breaking All the Rules For Our Best Event Ever...",
-    "description": "1 MONTH AWAY!!! GRAB TICKETS HERE - https://tickets.thefoat.com/FreedomFactory/event-242841",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/2G1-nWjFm0k/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/2G1-nWjFm0k/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/2G1-nWjFm0k/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/2G1-nWjFm0k/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/2G1-nWjFm0k/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Cleetus2 McFarland",
-    "categoryId": "2",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Breaking All the Rules For Our Best Event Ever...",
-    "description": "1 MONTH AWAY!!! GRAB TICKETS HERE - https://tickets.thefoat.com/FreedomFactory/event-242841"
+    "title": "Little Prince Gameplay",
+    "description": "Little Prince and Guardian ability gameplay with @clashwithshane \n\nCode OJ\nSupercell Store ► https://store.supercell.com/en?boost=oj\nCR ► https://link.clashroyale.com/en?supportcreator?code=oj\nBS ► https://link.brawlstars.com/supportcreator/en?code=oj\nCoC ► https://link.clashofclans.com/en?action=SupportCreator&id=oj\n\nChannels\nLive Stream ► https://www.youtube.com/channel/UCbfwKVaFIfVDyVDndGrTKTg\nPodcast ► https://www.youtube.com/@PeelingTheOrange\nJuicy News ► https://www.youtube.com/channel/UC4rD2NGH3LxRNeF6VCDLeiQ\nMore Juice ► https://www.youtube.com/channel/UCqycdxt7I6RhNaUV_iSOEVg\nCheesy Clips ► https://www.youtube.com/channel/UCQC8shNPvBl_AmGJ3sNT17w\n\nSPONSORS\n▶ Set yourself apart from the rest, check out Samsung Galaxy: https://trb.gg/samsunggalaxy\n▶ AT&T 5G. Fast. Reliable. Secure. https://trb.gg/ATT  \n\nSTATS\nBrawlify ► https://brawlify.com\nDeck Shop ► https://www.deckshop.pro\nRoyale API ► https://royaleapi.com/\n\nSOCIALS\nSubscribe ► YT http://bit.ly/ojsub\nTwitter ► http://twitter.com/orangejuice\nInstagram ► https://www.instagram.com/ojeveryday\nFacebook ► https://www.facebook.com/orangejuicegaming\nTwitch ► https://www.twitch.tv/orangejuice\n\nDISCORD\nClash Royale ► https://discord.gg/oj\nBrawl Stars ► https://discord.gg/bs\nGeneral ► https://discord.gg/ojg\n\nTRIBE:\nYouTube ▶ https://youtube.com/tribegaming\nTwitter ▶ https://twitter.com/tribegaming\nDiscord ▶ https://discord.gg/tribegaming\nInstagram ▶ https://instagram.com/tribegaming\nTikTok ▶ https://www.tiktok.com/@tribegaming \n\nBIZ EMAIL:\n▶ OJ@tribegaming.gg\n\n#ojgaming #supercellpartner"
     },
     "defaultAudioLanguage": "en"
     },
     "contentDetails": {
-    "duration": "PT9M2S",
+    "duration": "PT13M8S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
@@ -1664,68 +2093,79 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "462842",
-    "likeCount": "25459",
+    "viewCount": "812813",
+    "likeCount": "30407",
     "favoriteCount": "0",
-    "commentCount": "1147"
+    "commentCount": "1207"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "zzLDdUCITBanYqhRGE9uQZCtXXo",
-    "id": "q-P76-Sz1YA",
+    "etag": "3YKQSn75kVZiJAEhBZMi27c0qpw",
+    "id": "WwaXV6rbnxE",
     "snippet": {
-    "publishedAt": "2023-10-17T20:13:21Z",
-    "channelId": "UCeLICYOqHfIrfSAQq1TT7PA",
-    "title": "15 Things Your Kitchen Doesn't Need",
-    "description": "If you declutter your kitchen it will be easier to keep clean and tidy AND you'll probably find that you enjoy cooking more and eat out less, win-win! Today let's talk about 15 items that your kitchen doesn't need whether your goal is to be a minimalist or just live more simply!\n\n:: IN THIS VIDEO ::\n\nMy Plaid Shirt: https://amzn.to/3s4EIrY\nDansko House Shoes: https://amzn.to/46QFGqE\nDrawer Knife Block: https://amzn.to/3QkK63v\nKnife Magnet: https://amzn.to/3S14msk\nBamboo Drawer Dividers: https://amzn.to/3S3vXJr\nDish Clothes: https://amzn.to/401EH4D\nSlide Out Cutting Board & Baking Sheet Rack: https://amzn.to/3rVrkGJ\n\n:: RECENTLY MENTIONED ::\n\nTom's YouTube Channel (Rusty Judgment): https://www.youtube.com/@RustyJudgment\n\nBuy the Bundt Cake Book (& Donate) here: https://cli.re/bundt-cake-recipe-book\n\nDecluttering by Faith Devotional: https://cli.re/Devotional\n\nMinimalism by the Numbers Printable: https://cli.re/Minimalism-Inventory\n\nLOOKING FOR MORE SUPPORT? \n\nWe have a few ways that we can come alongside you:\n\n1) PRIVATE DECLUTTERING GROUP:\n\nThis takes place in a private Facebook group. Here's what you can expect:\n- 5-10 minute videos each weekday with guided decluttering tasks\n- monthly themes, weekly challenges\n- 1 hour live guided decluttering sessions twice a month for accountability\n- encouragement & support from other members\n- cost is $15/month\n\nThis is ideal if you're looking for more motivation & accountability.\n\nTo learn more and to sign up, visit here: https://cli.re/minimal-mom-private-group\n\n2) DECLUTTER YOUR HOME IN 15 MINUTES A DAY WORKBOOK:\n\nThis workbook is designed to walk you through decluttering each area of your home in 15 minute lessons.\n\n- 168 full color pages\n- easy to follow lessons designed for limited time & energy\n- our key concepts (like inventory, the silent to-do list, the endowment effect & more) are spread throughout the book, too\n\nIdeal for those looking for a self-paced guidebook to declutter their home quickly & efficiently.\n\nThe workbooks are $20 (digital or spiral bound)\nShipping: $4 flat rate domestic US\n\nFind more details here: https://cli.re/declutter-workbook\n\n3) DECLUTTER YOUR HOME IN 15 MINUTES A DAY COURSE:\n\nDeclutter Your Home in 15 Minutes a Day course: https://cli.re/Course\n\nIn the Declutter Your Home in 15 Minutes a Day course we go through the workbook, breaking down specific areas of your home in detail to be able to declutter faster and with more confidence. If you want to know specifics (like how many of each thing to keep) this course is for you.\n..................................\n\n:: DECLUTTERING PLAYLISTS ::\n\nNew to our channel & Minimalism? Start Here :: https://cli.re/START-HERE\nKitchen Decluttering :: https://cli.re/Kitchen-Decluttering\nStorage Spaces :: https://cli.re/declutter-storage-spaces\nKids' Toys :: https://cli.re/toys-playlist\nSentimental Things :: https://cli.re/Decluttering-Sentimental-Stuff\n\n:: OUR AMAZON STOREFRONT :: https://www.amazon.com/shop/minimalmom ::\nThank you for your support!\n\n:: C U R R E N T L Y   R E A D I N G ::\n\n\"Get Your Life Back\" by John Eldredge: https://amzn.to/32M6I4k\n\n\"Essentialism\" by Greg McKeown: https://amzn.to/2Ow3Cgk\n\n\n:: LISTEN FOR FREE ON AUDIBLE :: https://amzn.to/2ItCr2f\n\n\n🖤 FACEBOOK: https://www.facebook.com/minimalmom/\n🖤 INSTAGRAM: https://www.instagram.com/the.minimal.mom/\n\n\n:: M O S T   P O P U L A R   O N   O U R   B L O G   R I G H T   N O W ::\n\nPumpkin Spice Bundt Cake: https://cli.re/pumpkin-bundt\n\nChocolate Chip Cookie Bars: https://cli.re/choco-chip-cookie-bars\n\nChocolate Sour Cream Bundt Cake: https://cli.re/chocolate-bundt\n\nMinimal Mom Frog Planner: https://cli.re/Free-Planner\n\nMinimalist Meal Planning System: https://cli.re/meal-planning\n\n#minimalism #familyminimalism #minimalist\n\n\n:: M O S T    P O P U L A R   V I D E O S    R I G H T    N O W :: \n\n57 Things We No Longer Buy: https://youtu.be/jTX02y0nJBw\n\nOrganized Minimalist HOUSE TOUR: https://youtu.be/qP7R_cvgwYs\n\nCook MORE, Clean LESS: https://youtu.be/0t1ulgDtoDA\n\nHow to Declutter WITHOUT Making a Mess: https://youtu.be/7yQqvQ99MVw\n\nThe Silent To-Do List: https://youtu.be/BtpAbdv4d98\n\n\n**AFFILIATE LINKS! THANK YOU!!!**\n\n..............\n🛍 Affiliate links:\n\n📷 Camera #1 (that I LOVE!! We made our first 450 video with this & still highly recommend): Canon G7X Mark II https://amzn.to/2o9hWLi\n\n📷 Camera #2 (also really like & easy to use!): Canon M50 https://amzn.to/3jwkEro  with Sigma 16mm Lens https://amzn.to/3h7YkDd and shotgun mic https://amzn.to/3jxYYeC\n\n🖤 Tripod: https://amzn.to/2MMFzHs\n\n..............\nRoyalty-free music used with permission from the YouTube Creator Studio, Epidemic Sound and purchased from AudioJungle.net",
+    "publishedAt": "2023-11-01T14:30:16Z",
+    "channelId": "UChBEbMKI1eCcejTtmI32UEw",
+    "title": "I Tried Every Fast Food Fried Chicken Sandwich In America",
+    "description": "Get MY NEW Cookbook: https://bit.ly/TextureOverTaste\n\nFor International Cookbooks, Signed Copies, Other Stores: https://bit.ly/WeissmanCookbook\n\nCome To the BOOK TOUR: https://geni.us/TextureOverTasteTour\n\nFOLLOW ME:\nInstagram: https://www.instagram.com/joshuaweissman\nTik Tok: https://www.tiktok.com/@flakeysalt\nTwitter: https://twitter.com/therealweissman\nFacebook: https://www.facebook.com/thejoshuaweissman\nSubreddit: https://www.reddit.com/r/JoshuaWeissman/\nDiscord Server: https://discord.gg/joshuaweissman\n---------------------------------------------------------------",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/q-P76-Sz1YA/default.jpg",
+    "url": "https://i.ytimg.com/vi/WwaXV6rbnxE/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/q-P76-Sz1YA/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/WwaXV6rbnxE/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/q-P76-Sz1YA/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/WwaXV6rbnxE/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/q-P76-Sz1YA/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/WwaXV6rbnxE/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/q-P76-Sz1YA/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/WwaXV6rbnxE/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "The Minimal Mom",
+    "channelTitle": "Joshua Weissman",
     "tags": [
-    "minimalism",
-    "family minimalism",
-    "minimalist",
-    "the minimal mom",
-    "the minimalist mom",
-    "minimalist home"
+    "sat bawl pro",
+    "joshua weissman",
+    "fast food",
+    "fried chicken sandwich",
+    "fast food fried chicken",
+    "fried chicken",
+    "chicken sandwich",
+    "popeyes chicken sandwich",
+    "best fast food chicken sandwich",
+    "best fried chicken sandwich fast food",
+    "bought every fast food chicken sandwich",
+    "fast food chicken",
+    "fried chicken sandwich taste test",
+    "best fried chicken",
+    "fast food chicken sandwich",
+    "chicken sandwich fast food",
+    "popeyes chicken sandwich vs chick fil a",
+    "best fried chicken sandwich"
     ],
     "categoryId": "26",
     "liveBroadcastContent": "none",
-    "defaultLanguage": "en",
     "localized": {
-    "title": "15 Things Your Kitchen Doesn't Need",
-    "description": "If you declutter your kitchen it will be easier to keep clean and tidy AND you'll probably find that you enjoy cooking more and eat out less, win-win! Today let's talk about 15 items that your kitchen doesn't need whether your goal is to be a minimalist or just live more simply!\n\n:: IN THIS VIDEO ::\n\nMy Plaid Shirt: https://amzn.to/3s4EIrY\nDansko House Shoes: https://amzn.to/46QFGqE\nDrawer Knife Block: https://amzn.to/3QkK63v\nKnife Magnet: https://amzn.to/3S14msk\nBamboo Drawer Dividers: https://amzn.to/3S3vXJr\nDish Clothes: https://amzn.to/401EH4D\nSlide Out Cutting Board & Baking Sheet Rack: https://amzn.to/3rVrkGJ\n\n:: RECENTLY MENTIONED ::\n\nTom's YouTube Channel (Rusty Judgment): https://www.youtube.com/@RustyJudgment\n\nBuy the Bundt Cake Book (& Donate) here: https://cli.re/bundt-cake-recipe-book\n\nDecluttering by Faith Devotional: https://cli.re/Devotional\n\nMinimalism by the Numbers Printable: https://cli.re/Minimalism-Inventory\n\nLOOKING FOR MORE SUPPORT? \n\nWe have a few ways that we can come alongside you:\n\n1) PRIVATE DECLUTTERING GROUP:\n\nThis takes place in a private Facebook group. Here's what you can expect:\n- 5-10 minute videos each weekday with guided decluttering tasks\n- monthly themes, weekly challenges\n- 1 hour live guided decluttering sessions twice a month for accountability\n- encouragement & support from other members\n- cost is $15/month\n\nThis is ideal if you're looking for more motivation & accountability.\n\nTo learn more and to sign up, visit here: https://cli.re/minimal-mom-private-group\n\n2) DECLUTTER YOUR HOME IN 15 MINUTES A DAY WORKBOOK:\n\nThis workbook is designed to walk you through decluttering each area of your home in 15 minute lessons.\n\n- 168 full color pages\n- easy to follow lessons designed for limited time & energy\n- our key concepts (like inventory, the silent to-do list, the endowment effect & more) are spread throughout the book, too\n\nIdeal for those looking for a self-paced guidebook to declutter their home quickly & efficiently.\n\nThe workbooks are $20 (digital or spiral bound)\nShipping: $4 flat rate domestic US\n\nFind more details here: https://cli.re/declutter-workbook\n\n3) DECLUTTER YOUR HOME IN 15 MINUTES A DAY COURSE:\n\nDeclutter Your Home in 15 Minutes a Day course: https://cli.re/Course\n\nIn the Declutter Your Home in 15 Minutes a Day course we go through the workbook, breaking down specific areas of your home in detail to be able to declutter faster and with more confidence. If you want to know specifics (like how many of each thing to keep) this course is for you.\n..................................\n\n:: DECLUTTERING PLAYLISTS ::\n\nNew to our channel & Minimalism? Start Here :: https://cli.re/START-HERE\nKitchen Decluttering :: https://cli.re/Kitchen-Decluttering\nStorage Spaces :: https://cli.re/declutter-storage-spaces\nKids' Toys :: https://cli.re/toys-playlist\nSentimental Things :: https://cli.re/Decluttering-Sentimental-Stuff\n\n:: OUR AMAZON STOREFRONT :: https://www.amazon.com/shop/minimalmom ::\nThank you for your support!\n\n:: C U R R E N T L Y   R E A D I N G ::\n\n\"Get Your Life Back\" by John Eldredge: https://amzn.to/32M6I4k\n\n\"Essentialism\" by Greg McKeown: https://amzn.to/2Ow3Cgk\n\n\n:: LISTEN FOR FREE ON AUDIBLE :: https://amzn.to/2ItCr2f\n\n\n🖤 FACEBOOK: https://www.facebook.com/minimalmom/\n🖤 INSTAGRAM: https://www.instagram.com/the.minimal.mom/\n\n\n:: M O S T   P O P U L A R   O N   O U R   B L O G   R I G H T   N O W ::\n\nPumpkin Spice Bundt Cake: https://cli.re/pumpkin-bundt\n\nChocolate Chip Cookie Bars: https://cli.re/choco-chip-cookie-bars\n\nChocolate Sour Cream Bundt Cake: https://cli.re/chocolate-bundt\n\nMinimal Mom Frog Planner: https://cli.re/Free-Planner\n\nMinimalist Meal Planning System: https://cli.re/meal-planning\n\n#minimalism #familyminimalism #minimalist\n\n\n:: M O S T    P O P U L A R   V I D E O S    R I G H T    N O W :: \n\n57 Things We No Longer Buy: https://youtu.be/jTX02y0nJBw\n\nOrganized Minimalist HOUSE TOUR: https://youtu.be/qP7R_cvgwYs\n\nCook MORE, Clean LESS: https://youtu.be/0t1ulgDtoDA\n\nHow to Declutter WITHOUT Making a Mess: https://youtu.be/7yQqvQ99MVw\n\nThe Silent To-Do List: https://youtu.be/BtpAbdv4d98\n\n\n**AFFILIATE LINKS! THANK YOU!!!**\n\n..............\n🛍 Affiliate links:\n\n📷 Camera #1 (that I LOVE!! We made our first 450 video with this & still highly recommend): Canon G7X Mark II https://amzn.to/2o9hWLi\n\n📷 Camera #2 (also really like & easy to use!): Canon M50 https://amzn.to/3jwkEro  with Sigma 16mm Lens https://amzn.to/3h7YkDd and shotgun mic https://amzn.to/3jxYYeC\n\n🖤 Tripod: https://amzn.to/2MMFzHs\n\n..............\nRoyalty-free music used with permission from the YouTube Creator Studio, Epidemic Sound and purchased from AudioJungle.net"
+    "title": "I Tried Every Fast Food Fried Chicken Sandwich In America",
+    "description": "Get MY NEW Cookbook: https://bit.ly/TextureOverTaste\n\nFor International Cookbooks, Signed Copies, Other Stores: https://bit.ly/WeissmanCookbook\n\nCome To the BOOK TOUR: https://geni.us/TextureOverTasteTour\n\nFOLLOW ME:\nInstagram: https://www.instagram.com/joshuaweissman\nTik Tok: https://www.tiktok.com/@flakeysalt\nTwitter: https://twitter.com/therealweissman\nFacebook: https://www.facebook.com/thejoshuaweissman\nSubreddit: https://www.reddit.com/r/JoshuaWeissman/\nDiscord Server: https://discord.gg/joshuaweissman\n---------------------------------------------------------------"
     },
     "defaultAudioLanguage": "en"
     },
     "contentDetails": {
-    "duration": "PT12M18S",
+    "duration": "PT23M1S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
@@ -1734,85 +2174,406 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "272434",
-    "likeCount": "7404",
+    "viewCount": "1375092",
+    "likeCount": "52296",
     "favoriteCount": "0",
-    "commentCount": "498"
+    "commentCount": "4317"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "Iy1MgCjYJPEyPff8iq-q3FeN7u0",
-    "id": "dfEA-udzjjQ",
+    "etag": "0lWFagJ1ed0Iiynvp09rDTLlZWY",
+    "id": "WpaW8PwZ_UU",
     "snippet": {
-    "publishedAt": "2023-10-18T16:00:06Z",
-    "channelId": "UCf5CjDJvsFvtVIhkfmKAwAA",
-    "title": "THE BOYS IN THE BOAT | Official Trailer",
-    "description": "This Christmas, the race is on. Watch the official trailer for The Boys In The Boat, from director George Clooney, starring Joel Edgerton and Callum Turner. \n\nBased on the best-selling book about the inspirational true story of the 1936 University of Washington rowing team that competed for gold at the Summer Olympics in Berlin. See the film only in theaters this Christmas.\n\nDirected By: George Clooney\nStarring: Joel Edgerton and Callum Turner\nWritten By: Mark L. Smith\n\nFollow @BoysInTheBoatMovie on Social: \nhttps://www.instagram.com/boysintheboatmovie\nhttps://www.facebook.com/BoysInTheBoatMovie\n\nAbout MGM Studios: Metro Goldwyn Mayer (MGM) is a leading entertainment company focused on the production and global distribution of film and television content across all platforms. The company owns one of the world’s deepest libraries of premium film and television content as well as the premium pay television network MGM+, which is available throughout the U.S. via cable, satellite, telco and digital distributors.  In addition, MGM has investments in numerous other television channels, digital platforms and interactive ventures and is producing premium short-form content for distribution. \n\nConnect with MGM Studios Online\nVisit the MGM Studios WEBSITE: http://www.mgm.com/\nCheck out MGM on TIKTOK: https://www.tiktok.com/@mgmstudios/ \nFollow MGM Studios on INSTAGRAM: https://www.instagram.com/mgmstudios/ \nFollow MGM Studios on TWITTER: https://twitter.com/mgmstudios\nLike MGM Studios on FACEBOOK: https://www.facebook.com/mgm/ \n\nTHE BOYS IN THE BOAT | Official Trailer\nhttps://www.youtube.com/MGM",
+    "publishedAt": "2023-11-02T15:50:23Z",
+    "channelId": "UC3HPbvB6f58X_7SMIp6OPYw",
+    "title": "The Victor Wembanyama era has begun",
+    "description": "Victor Wembanyama's 8-foot wingspan is redefining the dimensions of basketball. This detailed film breakdown & scouting report explores how the Spurs rookie phenom is using length to dominate on defense and add value on offense. \n\nSupport at Patreon: https://www.patreon.com/thinkingbasketball\nBook: https://www.amazon.com/Thinking-Basketball-Ben-Taylor/dp/1532968175\nPodcast: https://player.fm/series/thinking-basketball or at https://www.stitcher.com/podcast/ben-taylor/thinking-basketball-podcast\nWebsite: https://www.backpicks.com\nTwitter: @elgee35\n\nBen Taylor is the author of Thinking Basketball, a Nylon Calculus contributor, creator of the Backpicks Top 40 series & host of the Thinking Basketball podcast.\n\nStats courtesy:\nhttp://www.pbpstats.com @bballport\nhttps://www.basketball-reference.com\nhttps://stats.nba.com\n-----\nFootage in this video is owned by the NBA and its partners. It is intended for critique and education.\n\nMusic by csus (instrumental)\n\n#ThinkingBasketball",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/dfEA-udzjjQ/default.jpg",
+    "url": "https://i.ytimg.com/vi/WpaW8PwZ_UU/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/dfEA-udzjjQ/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/WpaW8PwZ_UU/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/dfEA-udzjjQ/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/WpaW8PwZ_UU/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/dfEA-udzjjQ/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/WpaW8PwZ_UU/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/dfEA-udzjjQ/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/WpaW8PwZ_UU/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "MGM",
+    "channelTitle": "Thinking Basketball",
     "tags": [
-    "MGM",
-    "MGM Studios",
-    "Metro-Goldwyn- Mayer",
-    "Metro Pictures Corporations",
-    "Goldwyn Pictures",
-    "Louis B. Mayer Pictures",
-    "MGM Pictures",
-    "United Artists",
-    "Metro MGM/UA",
-    "Boys In The Boat",
-    "Boys In The Boat Trailer",
-    "Boys In The Boat Official Trailer",
-    "Official Trailer Boys In The Boat",
-    "George Clooney",
-    "Joel Edgerton",
-    "Callum Turner",
-    "Peter Guinness",
-    "Sam Strike",
-    "Thomas Elms",
-    "Jack Mulhern",
-    "The Boys In The Boat",
-    "The Boys In The Boat Official Trailer",
-    "The Boys In The Boat Trailer"
+    "NBA",
+    "NBA film analysis",
+    "NBA Analytics",
+    "Thinking Basketball",
+    "highlights",
+    "NBA highlights",
+    "NBA film breakdown",
+    "NBA scouting reports",
+    "scouting reports",
+    "Xs and Os",
+    "Victor Wembanyama",
+    "San Antonio Spurs",
+    "ROY",
+    "Rookie of the Year",
+    "DPOY",
+    "best defensive rookies",
+    "8-footer",
+    "Phoenix Suns",
+    "comeback",
+    "Kevin Durant",
+    "All-defense",
+    "best shot blockers",
+    "lob finishing"
     ],
-    "categoryId": "24",
+    "categoryId": "17",
     "liveBroadcastContent": "none",
-    "defaultLanguage": "en",
+    "defaultLanguage": "en-US",
     "localized": {
-    "title": "THE BOYS IN THE BOAT | Official Trailer",
-    "description": "This Christmas, the race is on. Watch the official trailer for The Boys In The Boat, from director George Clooney, starring Joel Edgerton and Callum Turner. \n\nBased on the best-selling book about the inspirational true story of the 1936 University of Washington rowing team that competed for gold at the Summer Olympics in Berlin. See the film only in theaters this Christmas.\n\nDirected By: George Clooney\nStarring: Joel Edgerton and Callum Turner\nWritten By: Mark L. Smith\n\nFollow @BoysInTheBoatMovie on Social: \nhttps://www.instagram.com/boysintheboatmovie\nhttps://www.facebook.com/BoysInTheBoatMovie\n\nAbout MGM Studios: Metro Goldwyn Mayer (MGM) is a leading entertainment company focused on the production and global distribution of film and television content across all platforms. The company owns one of the world’s deepest libraries of premium film and television content as well as the premium pay television network MGM+, which is available throughout the U.S. via cable, satellite, telco and digital distributors.  In addition, MGM has investments in numerous other television channels, digital platforms and interactive ventures and is producing premium short-form content for distribution. \n\nConnect with MGM Studios Online\nVisit the MGM Studios WEBSITE: http://www.mgm.com/\nCheck out MGM on TIKTOK: https://www.tiktok.com/@mgmstudios/ \nFollow MGM Studios on INSTAGRAM: https://www.instagram.com/mgmstudios/ \nFollow MGM Studios on TWITTER: https://twitter.com/mgmstudios\nLike MGM Studios on FACEBOOK: https://www.facebook.com/mgm/ \n\nTHE BOYS IN THE BOAT | Official Trailer\nhttps://www.youtube.com/MGM"
+    "title": "The Victor Wembanyama era has begun",
+    "description": "Victor Wembanyama's 8-foot wingspan is redefining the dimensions of basketball. This detailed film breakdown & scouting report explores how the Spurs rookie phenom is using length to dominate on defense and add value on offense. \n\nSupport at Patreon: https://www.patreon.com/thinkingbasketball\nBook: https://www.amazon.com/Thinking-Basketball-Ben-Taylor/dp/1532968175\nPodcast: https://player.fm/series/thinking-basketball or at https://www.stitcher.com/podcast/ben-taylor/thinking-basketball-podcast\nWebsite: https://www.backpicks.com\nTwitter: @elgee35\n\nBen Taylor is the author of Thinking Basketball, a Nylon Calculus contributor, creator of the Backpicks Top 40 series & host of the Thinking Basketball podcast.\n\nStats courtesy:\nhttp://www.pbpstats.com @bballport\nhttps://www.basketball-reference.com\nhttps://stats.nba.com\n-----\nFootage in this video is owned by the NBA and its partners. It is intended for critique and education.\n\nMusic by csus (instrumental)\n\n#ThinkingBasketball"
     },
     "defaultAudioLanguage": "en-US"
     },
     "contentDetails": {
-    "duration": "PT2M34S",
+    "duration": "PT8M30S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "191445",
+    "likeCount": "7449",
+    "favoriteCount": "0",
+    "commentCount": "541"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "lptnb3wqXjap9Jj2QE2m4kHdNU0",
+    "id": "1giQVuoTAFM",
+    "snippet": {
+    "publishedAt": "2023-11-01T04:00:10Z",
+    "channelId": "UCurpiDXSkcUbgdMwHNZkrCg",
+    "title": "Mariah Carey - IT'S TIME!!",
+    "description": "Mariah Carey announces IT'S TIME for the holiday season to start!\n\nJoin Mariah on the Merry Christmas One And All! Tour\nTickets are available @ mariahcarey.lnk.to/ChristmasTour\n\nWed Nov 15 | Highland, CA | Yaamava Casino\n\nFri Nov 17 | Los Angeles, CA | Hollywood Bowl \n\nSun Nov 19 | Los Angeles, CA | Hollywood Bowl\n\nTue Nov 21 | Denver, CO | Ball Arena\n\nFri Nov 24 | Kansas City, MO | T-Mobile Center\n\nMon Nov 27 | Toronto, ON | Scotiabank Arena\n\nWed Nov 29 | Montreal, QC | Centre Bell\n\nFri Dec 01 | Detroit, MI | Little Caesars Arena\n\nSun Dec 03 | Chicago, IL | United Center\n\nTue Dec 05 | Pittsburgh, PA | PPG Paints Arena\n\nThu Dec 07 | Cleveland, OH | Rocket Mortgage FieldHouse\n\nSat Dec 09 |  New York, NY | Madison Square Garden\n\nMon Dec 11 | Boston, MA | TD Garden\n\nWed Dec 13 | Philadelphia, PA | Wells Fargo Center\n\nFri Dec 15 | Baltimore, MD | CFG Bank Arena\n\nSun Dec 17 | New York, NY | Madison Square Garden \n\n\n#MariahCarey #ItsTime #MerryChristmasOneAndAll",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/1giQVuoTAFM/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/1giQVuoTAFM/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/1giQVuoTAFM/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/1giQVuoTAFM/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/1giQVuoTAFM/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Mariah Carey",
+    "categoryId": "10",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "Mariah Carey - IT'S TIME!!",
+    "description": "Mariah Carey announces IT'S TIME for the holiday season to start!\n\nJoin Mariah on the Merry Christmas One And All! Tour\nTickets are available @ mariahcarey.lnk.to/ChristmasTour\n\nWed Nov 15 | Highland, CA | Yaamava Casino\n\nFri Nov 17 | Los Angeles, CA | Hollywood Bowl \n\nSun Nov 19 | Los Angeles, CA | Hollywood Bowl\n\nTue Nov 21 | Denver, CO | Ball Arena\n\nFri Nov 24 | Kansas City, MO | T-Mobile Center\n\nMon Nov 27 | Toronto, ON | Scotiabank Arena\n\nWed Nov 29 | Montreal, QC | Centre Bell\n\nFri Dec 01 | Detroit, MI | Little Caesars Arena\n\nSun Dec 03 | Chicago, IL | United Center\n\nTue Dec 05 | Pittsburgh, PA | PPG Paints Arena\n\nThu Dec 07 | Cleveland, OH | Rocket Mortgage FieldHouse\n\nSat Dec 09 |  New York, NY | Madison Square Garden\n\nMon Dec 11 | Boston, MA | TD Garden\n\nWed Dec 13 | Philadelphia, PA | Wells Fargo Center\n\nFri Dec 15 | Baltimore, MD | CFG Bank Arena\n\nSun Dec 17 | New York, NY | Madison Square Garden \n\n\n#MariahCarey #ItsTime #MerryChristmasOneAndAll"
+    }
+    },
+    "contentDetails": {
+    "duration": "PT35S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": false,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "1789064",
+    "likeCount": "108822",
+    "favoriteCount": "0",
+    "commentCount": "7198"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "iQAFqP1u4b-4qOEPrlaQamHba6M",
+    "id": "jH3wmjaoADY",
+    "snippet": {
+    "publishedAt": "2023-11-02T13:00:40Z",
+    "channelId": "UCqC_GY2ZiENFz2pwL0cSfAw",
+    "title": "Green Day - Look Ma, No Brains! (Official Music Video)",
+    "description": "Got brains? We sure don't 🚫🧠 Our new song \"Look Ma, No Brains\" is out everywhere now, so ya know what to do https://greenday.lnk.to/LMNB \n\nPre-order Saviors, out January 19th, 2024 https://GreenDay.lnk.to/saviors \nListen to \"The American Dream Is Killing Me\" https://GreenDay.lnk.to/TADIKM\n\nTHE SAVIORS TOUR\n\nIt’s the moment you’ve been waiting for… taking The Saviors Tour on the road all summer long next year to celebrate 30 years of 'Dookie,' 20 years of 'American Idiot' + our new album 'Saviors'!!!\n\nNORTH AMERICA\n\nWe're heading out at the end of July with The Smashing Pumpkins, Rancid and The Linda Lindas 🤯🤯🤯 fueled by Monster Energy. Sign up to the mailing list by Tuesday, November 7th to get access to pre-sale tickets https://greenday.com/tour The code will be sent at 3pm PT on the 7th. Pre-sale starts Wednesday, November 8th @ 10am local. General on sale is Friday, November 10th @ 10am local. \n\nUNITED KINGDOM & EUROPE\n\nWe'll see you starting in June with support on select dates from Nothing But Thieves, The Hives, Donots, The Interrupters and Maid of Ace. Pre-order 'Saviors’ from our webstore by Tuesday, 7th November @ 3pm GMT to get first access to pre-sale tickets https://GreenDay.lnk.to/SVRSd2c The codes will be sent Tuesday 7th, November @ 5pm GMT. Already pre-ordered from the store? You’ll be included! The pre-sale starts Wednesday, 8th November at  9:30am GMT / 10:30am CET. General on sale is Friday, 10th November @ 9:30am GMT / 10:30am CET. \n\nCREDITS \n\nDirector / Camera - Ryan Baxley\nDirector / Editor - Brendan Walter\nProduction Design - Rob Fidel\nGaffer - Skott Khuu\nKey Grip - Sergio Silva\nGrip - Bows Yang\nSet Decorator - Brandon Schwartzel\nSet Decorator / Costume - Alice Baxley\nPatient - Axel Stash\nNurse - Lisa Cole\nHair and Makeup - Kerrie Urban\nDrum Tech - Nathaniel Mela\nGuitar Tech - Hans Buscher\nBTS - Jasper Graham\n\nWebsite https://greenday.com/ \nTour Dates https://greenday.com/tour/ \nSign Up To Email List https://greenday.com/sign-up/ \nTikTok https://www.tiktok.com/@greenday\nFacebook https://www.facebook.com/greenday \nInstagram https://www.instagram.com/greenday/ \nTwitter https://twitter.com/greenday\n\nLYRICS \n\nDon’t know much about history \n\nBecause I never learned how to read \nDrop out I’m a knucklehead\nSick boy and I shit the bed  \n \nMaybe I’m in love with a deviant\nMaybe I got terminal vertigo  \n \nSlam danced on my face again\nNonsense is my heroin \nRude boy going comatose \nDrop out and I’m adios  \n \nMaybe I’m in love with a deviant\nMaybe I got terminal vertigo\nI defy the science of the missing link \nOh God, I think I’m gonna lose my skull \n \nI said look ma, I ain’t got no brains \nI’m a goner and I don’t feel no pain \nI’m with stupid and I’m all by myself \n’Cause I’m special and I don’t need your help\n \nI’m gone gone gone and I’m far away \nI lost my head and I’m here to say \nOh mama, mama mama ma \nI’m all grown up\nIt’s too late now for my suicide  \n \nI said look ma, I ain’t got no brains \nI’m a goner and I don’t feel no pain \nI’m with stupid and I’m all by myself \n’Cause I’m special and I don’t need your help\n\n#GreenDay #LookMaNoBrains #Saviors #TheSaviorsTour",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/jH3wmjaoADY/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/jH3wmjaoADY/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/jH3wmjaoADY/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/jH3wmjaoADY/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/jH3wmjaoADY/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Green Day",
+    "tags": [
+    "Green Day",
+    "Look Ma No Brains!",
+    "Look Ma No Brains! Music Video",
+    "Green Day Look Ma No Brains!",
+    "Green Day Look Ma No Brains! Music Video",
+    "Green Day lyrics",
+    "Look Ma No Brains! lyrics",
+    "Green Day Look Ma No Brains! lyrics",
+    "Saviors",
+    "Green Day Saviors",
+    "Saviors Green Day",
+    "Green Day Album",
+    "Album Green Day",
+    "Green Day Saviors Album",
+    "green day no brains",
+    "green day look ma",
+    "the american dream is killing me",
+    "wake me up when september ends",
+    "american idiot",
+    "green day new album",
+    "saviors tour"
+    ],
+    "categoryId": "10",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "Green Day - Look Ma, No Brains! (Official Music Video)",
+    "description": "Got brains? We sure don't 🚫🧠 Our new song \"Look Ma, No Brains\" is out everywhere now, so ya know what to do https://greenday.lnk.to/LMNB \n\nPre-order Saviors, out January 19th, 2024 https://GreenDay.lnk.to/saviors \nListen to \"The American Dream Is Killing Me\" https://GreenDay.lnk.to/TADIKM\n\nTHE SAVIORS TOUR\n\nIt’s the moment you’ve been waiting for… taking The Saviors Tour on the road all summer long next year to celebrate 30 years of 'Dookie,' 20 years of 'American Idiot' + our new album 'Saviors'!!!\n\nNORTH AMERICA\n\nWe're heading out at the end of July with The Smashing Pumpkins, Rancid and The Linda Lindas 🤯🤯🤯 fueled by Monster Energy. Sign up to the mailing list by Tuesday, November 7th to get access to pre-sale tickets https://greenday.com/tour The code will be sent at 3pm PT on the 7th. Pre-sale starts Wednesday, November 8th @ 10am local. General on sale is Friday, November 10th @ 10am local. \n\nUNITED KINGDOM & EUROPE\n\nWe'll see you starting in June with support on select dates from Nothing But Thieves, The Hives, Donots, The Interrupters and Maid of Ace. Pre-order 'Saviors’ from our webstore by Tuesday, 7th November @ 3pm GMT to get first access to pre-sale tickets https://GreenDay.lnk.to/SVRSd2c The codes will be sent Tuesday 7th, November @ 5pm GMT. Already pre-ordered from the store? You’ll be included! The pre-sale starts Wednesday, 8th November at  9:30am GMT / 10:30am CET. General on sale is Friday, 10th November @ 9:30am GMT / 10:30am CET. \n\nCREDITS \n\nDirector / Camera - Ryan Baxley\nDirector / Editor - Brendan Walter\nProduction Design - Rob Fidel\nGaffer - Skott Khuu\nKey Grip - Sergio Silva\nGrip - Bows Yang\nSet Decorator - Brandon Schwartzel\nSet Decorator / Costume - Alice Baxley\nPatient - Axel Stash\nNurse - Lisa Cole\nHair and Makeup - Kerrie Urban\nDrum Tech - Nathaniel Mela\nGuitar Tech - Hans Buscher\nBTS - Jasper Graham\n\nWebsite https://greenday.com/ \nTour Dates https://greenday.com/tour/ \nSign Up To Email List https://greenday.com/sign-up/ \nTikTok https://www.tiktok.com/@greenday\nFacebook https://www.facebook.com/greenday \nInstagram https://www.instagram.com/greenday/ \nTwitter https://twitter.com/greenday\n\nLYRICS \n\nDon’t know much about history \n\nBecause I never learned how to read \nDrop out I’m a knucklehead\nSick boy and I shit the bed  \n \nMaybe I’m in love with a deviant\nMaybe I got terminal vertigo  \n \nSlam danced on my face again\nNonsense is my heroin \nRude boy going comatose \nDrop out and I’m adios  \n \nMaybe I’m in love with a deviant\nMaybe I got terminal vertigo\nI defy the science of the missing link \nOh God, I think I’m gonna lose my skull \n \nI said look ma, I ain’t got no brains \nI’m a goner and I don’t feel no pain \nI’m with stupid and I’m all by myself \n’Cause I’m special and I don’t need your help\n \nI’m gone gone gone and I’m far away \nI lost my head and I’m here to say \nOh mama, mama mama ma \nI’m all grown up\nIt’s too late now for my suicide  \n \nI said look ma, I ain’t got no brains \nI’m a goner and I don’t feel no pain \nI’m with stupid and I’m all by myself \n’Cause I’m special and I don’t need your help\n\n#GreenDay #LookMaNoBrains #Saviors #TheSaviorsTour"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT2M11S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "238968",
+    "likeCount": "22445",
+    "favoriteCount": "0",
+    "commentCount": "1704"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "l9TN_u13XbaGM2_1tQzK9ohhSzU",
+    "id": "j_v3WS7_5AY",
+    "snippet": {
+    "publishedAt": "2023-11-01T20:29:58Z",
+    "channelId": "UC1es5fp8FEK1L0EgHjCvmtQ",
+    "title": "Antonio Pierce and Champ Kelly Presser - 11.1.23 | Raiders | NFL",
+    "description": "Interim Head Coach Antonio Pierce and Interim General Manager Champ Kelly address the media.\n\nVisit https://www.Raiders.com for more. \n\n#LasVegasRaiders #NFL #RaiderNation\n\nKeep up-to-date on all things Raiders: \nStay informed: https://www.raiders.com/tickets/newsletter\nDownload our app: http://onelink.to/8ykuaj \nFollow: https://Twitter.com/Raiders \nLike: https://Facebook.com/Raiders \nShop at Raider Image: https://www.raiderimage.com/ \n\nFor More Raiders NFL Action: https://bit.ly/2M3EeKQ\n\nStart your free trial of NFL Game Pass: http://www.pntra.com/t/RkFHRUxGSUlBS01FR0lBSUlMRUg",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/j_v3WS7_5AY/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/j_v3WS7_5AY/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/j_v3WS7_5AY/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/j_v3WS7_5AY/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/j_v3WS7_5AY/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Raiders",
+    "tags": [
+    "raiders",
+    "las vegas raiders",
+    "livestream",
+    "live",
+    "presser",
+    "silver and black",
+    "raiders interviews",
+    "sound",
+    "podium",
+    "coach gruden",
+    "saints",
+    "patriots",
+    "football",
+    "gruden",
+    "guenther",
+    "paul guenther",
+    "patrick mahomes",
+    "win",
+    "derek carr",
+    "henry ruggs",
+    "josh jacobs",
+    "tom brady",
+    "bruce arians",
+    "chris godwin",
+    "browns",
+    "mike mayock",
+    "2021 nfl",
+    "carl nassib",
+    "la rams",
+    "los angeles",
+    "2022 NFL Combine",
+    "nfl combine",
+    "indy",
+    "josh mcdaniels",
+    "dave ziegler",
+    "scouting",
+    "prospects",
+    "scouts",
+    "andy reid",
+    "2022 nfl draft"
+    ],
+    "categoryId": "17",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "Antonio Pierce and Champ Kelly Presser - 11.1.23 | Raiders | NFL",
+    "description": "Interim Head Coach Antonio Pierce and Interim General Manager Champ Kelly address the media.\n\nVisit https://www.Raiders.com for more. \n\n#LasVegasRaiders #NFL #RaiderNation\n\nKeep up-to-date on all things Raiders: \nStay informed: https://www.raiders.com/tickets/newsletter\nDownload our app: http://onelink.to/8ykuaj \nFollow: https://Twitter.com/Raiders \nLike: https://Facebook.com/Raiders \nShop at Raider Image: https://www.raiderimage.com/ \n\nFor More Raiders NFL Action: https://bit.ly/2M3EeKQ\n\nStart your free trial of NFL Game Pass: http://www.pntra.com/t/RkFHRUxGSUlBS01FR0lBSUlMRUg"
+    },
+    "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+    "duration": "PT23M44S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "194012",
+    "likeCount": "7824",
+    "favoriteCount": "0",
+    "commentCount": "2138"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "VM-0qldrMZctK_VXRz2ycBRFbbA",
+    "id": "0-kASUEEXn8",
+    "snippet": {
+    "publishedAt": "2023-11-01T13:00:00Z",
+    "channelId": "UCGIY_O-8vW4rfX98KlMkvRg",
+    "title": "Mario Kart 8 Deluxe - Booster Course Pass Wave 6 - Course Overview",
+    "description": "Head to the starting line, Wave 6 is almost here! Eight additional courses and four new characters come to the final Wave of the #MarioKart 8 Deluxe – Booster Course Pass on 11/9. \n\nGet the Booster Course Pass now:  https://mariokart8.nintendo.com/booster-course-pass/\n\nSubscribe for more Nintendo fun! https://goo.gl/HYYsot\n\nVisit Nintendo.com for all the latest! http://www.nintendo.com/\n\nLike Nintendo on Facebook: http://www.facebook.com/Nintendo\nFollow us on Twitter: http://twitter.com/NintendoAmerica\nFollow us on Instagram: http://instagram.com/NintendoAmerica\nFollow us on Pinterest: http://pinterest.com/Nintendo",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/0-kASUEEXn8/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/0-kASUEEXn8/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/0-kASUEEXn8/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/0-kASUEEXn8/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/0-kASUEEXn8/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Nintendo of America",
+    "tags": [
+    "nintendo",
+    "game",
+    "gameplay",
+    "fun",
+    "video game",
+    "action",
+    "adventure",
+    "rpg",
+    "play",
+    "switch",
+    "nintendo switch"
+    ],
+    "categoryId": "20",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "Mario Kart 8 Deluxe - Booster Course Pass Wave 6 - Course Overview",
+    "description": "Head to the starting line, Wave 6 is almost here! Eight additional courses and four new characters come to the final Wave of the #MarioKart 8 Deluxe – Booster Course Pass on 11/9. \n\nGet the Booster Course Pass now:  https://mariokart8.nintendo.com/booster-course-pass/\n\nSubscribe for more Nintendo fun! https://goo.gl/HYYsot\n\nVisit Nintendo.com for all the latest! http://www.nintendo.com/\n\nLike Nintendo on Facebook: http://www.facebook.com/Nintendo\nFollow us on Twitter: http://twitter.com/NintendoAmerica\nFollow us on Instagram: http://instagram.com/NintendoAmerica\nFollow us on Pinterest: http://pinterest.com/Nintendo"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT2M",
     "dimension": "2d",
     "definition": "hd",
     "caption": "true",
@@ -1821,369 +2582,143 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "857034",
-    "likeCount": "1124",
+    "viewCount": "1199684",
+    "likeCount": "59131",
     "favoriteCount": "0",
-    "commentCount": "83"
+    "commentCount": "7124"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "2orGea-gMVxCP3HfrCUney25fQM",
-    "id": "CxENQ-GoEy4",
+    "etag": "DT4NbrXA3gRmCmqv7JU79xrbGKY",
+    "id": "VdevUOdi8e8",
     "snippet": {
-    "publishedAt": "2023-10-18T08:31:50Z",
-    "channelId": "UCF8HUTbUwPKh2Q-KpGOCVGw",
-    "title": "U.S. President Joe Biden arrives in Israel",
-    "description": "U.S. President Joe Biden arrived in Tel Aviv, Israel, on Wednesday as part of a trip to express “solidarity” with the country following a devastating Oct. 7 attack by Palestinian militant group Hamas.",
+    "publishedAt": "2023-11-02T16:00:23Z",
+    "channelId": "UCDGmojLIoWpXok597xYo8cg",
+    "title": "Billie Eilish - when the party's over [feat. boygenius] (Live from Electric Ballroom)",
+    "description": "Listen to \"when the party's over\", available everywhere: https://billieeilish.lnk.to/Music\n \nSign up to Billie’s text and email lists for early access to merch drops and more: https://BillieEilish.lnk.to/Subscribe\n\nFollow Billie Eilish:\nFacebook: https://BillieEilish.lnk.to/Facebook\nInstagram: https://BillieEilish.lnk.to/Instagram\nTwitter: https://BillieEilish.lnk.to/Twitter\nTikTok: https://BillieEilish.lnk.to/TikTok\nYouTube: https://www.youtube.com/billieeilish\nEmail/SMS: https://BillieEilish.lnk.to/Subscribe \nStore: https://BillieEilish.lnk.to/Store\n\nMusic video by Billie Eilish performing when the party's over (Live From Electric Ballroom). © 2023 Darkroom/Interscope Records\n\nhttp://vevo.ly/4sng56",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/CxENQ-GoEy4/default.jpg",
+    "url": "https://i.ytimg.com/vi/VdevUOdi8e8/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/CxENQ-GoEy4/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/VdevUOdi8e8/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/CxENQ-GoEy4/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/VdevUOdi8e8/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/CxENQ-GoEy4/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/VdevUOdi8e8/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/CxENQ-GoEy4/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/VdevUOdi8e8/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "CNBC International TV",
+    "channelTitle": "BillieEilishVEVO",
     "tags": [
-    "Street Signs Europe"
+    "Billie",
+    "Eilish",
+    "when",
+    "the",
+    "party's",
+    "over",
+    "(Live",
+    "From",
+    "Electric",
+    "Ballroom)",
+    "Darkroom",
+    "Alternative"
     ],
-    "categoryId": "25",
+    "categoryId": "10",
     "liveBroadcastContent": "none",
     "localized": {
-    "title": "U.S. President Joe Biden arrives in Israel",
-    "description": "U.S. President Joe Biden arrived in Tel Aviv, Israel, on Wednesday as part of a trip to express “solidarity” with the country following a devastating Oct. 7 attack by Palestinian militant group Hamas."
+    "title": "Billie Eilish - when the party's over [feat. boygenius] (Live from Electric Ballroom)",
+    "description": "Listen to \"when the party's over\", available everywhere: https://billieeilish.lnk.to/Music\n \nSign up to Billie’s text and email lists for early access to merch drops and more: https://BillieEilish.lnk.to/Subscribe\n\nFollow Billie Eilish:\nFacebook: https://BillieEilish.lnk.to/Facebook\nInstagram: https://BillieEilish.lnk.to/Instagram\nTwitter: https://BillieEilish.lnk.to/Twitter\nTikTok: https://BillieEilish.lnk.to/TikTok\nYouTube: https://www.youtube.com/billieeilish\nEmail/SMS: https://BillieEilish.lnk.to/Subscribe \nStore: https://BillieEilish.lnk.to/Store\n\nMusic video by Billie Eilish performing when the party's over (Live From Electric Ballroom). © 2023 Darkroom/Interscope Records\n\nhttp://vevo.ly/4sng56"
     },
     "defaultAudioLanguage": "en"
     },
     "contentDetails": {
-    "duration": "PT1M15S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "459530",
-    "likeCount": "3124",
-    "favoriteCount": "0",
-    "commentCount": "3531"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "wdjvXLkoHOg__F5vpGd00gPAqy8",
-    "id": "VcJTVfYhJQM",
-    "snippet": {
-    "publishedAt": "2023-10-18T04:46:29Z",
-    "channelId": "UCs231K71Bnu5295_x0MB5Pg",
-    "title": "Resumen - Perú 0 - 2 Argentina - Eliminatorias Sudamericanas para el Mundial 2026",
-    "description": "Argentina, líder absoluto de las Eliminatorias Sudamericanas para el Mundial 2026, venció esta noche con autoridad a Perú por 2 a 0 en el Estadio Nacional de Lima, con un doblete de su capitán, Lionel Messi, quien retornó a la titularidad tras dos fechas.\n\nMirá más contenidos destacados de Perú vs Argentina en https://www.youtube.com/playlist?list=PLxaulh35hPBsmxaXX8ozwzpC51NE4roob\n\nMirá TVP en Vivo en https://youtube.com/TVPublicaArgentina/live\n\nSuscribite en https://youtube.com/TVPublicaArgentina?sub_confirmation=1\n\nhttps://tvpublica.com.ar\nhttps://instagram.com/tv_publica\nhttps://twitter.com/tv_publica\nhttps://twitch.tv/tvpublica\nhttps://facebook.com/tvpublica\nhttps://tiktok.com/@tv_publica",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/VcJTVfYhJQM/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/VcJTVfYhJQM/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/VcJTVfYhJQM/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/VcJTVfYhJQM/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/VcJTVfYhJQM/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Televisión Pública",
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "defaultLanguage": "es-419",
-    "localized": {
-    "title": "Resumen - Perú 0 - 2 Argentina - Eliminatorias Sudamericanas para el Mundial 2026",
-    "description": "Argentina, líder absoluto de las Eliminatorias Sudamericanas para el Mundial 2026, venció esta noche con autoridad a Perú por 2 a 0 en el Estadio Nacional de Lima, con un doblete de su capitán, Lionel Messi, quien retornó a la titularidad tras dos fechas.\n\nMirá más contenidos destacados de Perú vs Argentina en https://www.youtube.com/playlist?list=PLxaulh35hPBsmxaXX8ozwzpC51NE4roob\n\nMirá TVP en Vivo en https://youtube.com/TVPublicaArgentina/live\n\nSuscribite en https://youtube.com/TVPublicaArgentina?sub_confirmation=1\n\nhttps://tvpublica.com.ar\nhttps://instagram.com/tv_publica\nhttps://twitter.com/tv_publica\nhttps://twitch.tv/tvpublica\nhttps://facebook.com/tvpublica\nhttps://tiktok.com/@tv_publica"
-    },
-    "defaultAudioLanguage": "es-419"
-    },
-    "contentDetails": {
-    "duration": "PT3M48S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "356751",
-    "likeCount": "2889",
-    "favoriteCount": "0",
-    "commentCount": "357"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "hiGqvzNZzkUL8vOvmgjMZCQE13Q",
-    "id": "nrOUq7eQ9bg",
-    "snippet": {
-    "publishedAt": "2023-10-17T16:28:47Z",
-    "channelId": "UCvgfXK4nTYKudb0rFR6noLA",
-    "title": "UFC 294 Embedded: Vlog Series - Episode 2",
-    "description": "Champ Alexander Volkanovski shares his motivation. Johnny Walker makes animal friends. Khamzat Chimaev goes hard in S&C. Magomed Ankalaev and Said Nurmagomedov train together. Kamaru Usman arrives on short notice. Champ Islam Makhachev plays soccer. Don't miss UFC 294 on Saturday, October 21. \n\n@VisitAbuDhabiChannel \n\nSubscribe to get all the latest UFC content: https://ufc.ac/3u8FIJp\n\nExperience UFC live with UFC FIGHT PASS, the digital subscription service of the UFC. Visit https://ufcfightpass.com/\n\nTo order UFC Pay-Per-Views on ESPN+, visit https://ufc.ac/3NKBvmx (U.S. only)\n\nTo order UFC Pay-Per-Views, visit http://welcome.ufcfightpass.com/#PPV (Non U.S.)\n\n👉 Shop official UFC Gear, visit https://ufcstore.com\n👉 Shop official UFC Memorabilia, visit https://ufccollectibles.com\n👉 Shop official UFC VIP Live Event Experiences, visit https://ufc.ac/3Oz2gLH\n\nConnect with UFC online and on Social:\n🔴 Website: http://www.ufc.com\n🔵 Twitter: http://www.twitter.com/ufc\n🔵 Facebook: http://www.facebook.com/ufc\n🔴 Instagram: http://www.instagram.com/ufc\n🟡 Snapchat: UFC\n🟣 Twitch: https://www.twitch.tv/ufc\n\nConnect with UFC FIGHT PASS on Social:\n🔵 Twitter: http://www.twitter.com/ufcfightpass\n🔵 Facebook: http://www.facebook.com/ufcfightpass\n🔴 Instagram: http://www.instagram.com/ufcfightpass\n\n#UFC #UFC294 #InAbuDhabi #VisitAbuDhabi",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/nrOUq7eQ9bg/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/nrOUq7eQ9bg/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/nrOUq7eQ9bg/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/nrOUq7eQ9bg/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/nrOUq7eQ9bg/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "UFC",
-    "tags": [
-    "ufc",
-    "mma",
-    "ultimate fighting championship",
-    "Islam",
-    "Makhachev",
-    "Alexander",
-    "Volkanovski",
-    "Khamzat",
-    "Chimaev",
-    "Kamaru",
-    "Usman",
-    "Johnny",
-    "Walker",
-    "Abu Dhabi",
-    "Embedded",
-    "UFC 294"
-    ],
-    "categoryId": "17",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "UFC 294 Embedded: Vlog Series - Episode 2",
-    "description": "Champ Alexander Volkanovski shares his motivation. Johnny Walker makes animal friends. Khamzat Chimaev goes hard in S&C. Magomed Ankalaev and Said Nurmagomedov train together. Kamaru Usman arrives on short notice. Champ Islam Makhachev plays soccer. Don't miss UFC 294 on Saturday, October 21. \n\n@VisitAbuDhabiChannel \n\nSubscribe to get all the latest UFC content: https://ufc.ac/3u8FIJp\n\nExperience UFC live with UFC FIGHT PASS, the digital subscription service of the UFC. Visit https://ufcfightpass.com/\n\nTo order UFC Pay-Per-Views on ESPN+, visit https://ufc.ac/3NKBvmx (U.S. only)\n\nTo order UFC Pay-Per-Views, visit http://welcome.ufcfightpass.com/#PPV (Non U.S.)\n\n👉 Shop official UFC Gear, visit https://ufcstore.com\n👉 Shop official UFC Memorabilia, visit https://ufccollectibles.com\n👉 Shop official UFC VIP Live Event Experiences, visit https://ufc.ac/3Oz2gLH\n\nConnect with UFC online and on Social:\n🔴 Website: http://www.ufc.com\n🔵 Twitter: http://www.twitter.com/ufc\n🔵 Facebook: http://www.facebook.com/ufc\n🔴 Instagram: http://www.instagram.com/ufc\n🟡 Snapchat: UFC\n🟣 Twitch: https://www.twitch.tv/ufc\n\nConnect with UFC FIGHT PASS on Social:\n🔵 Twitter: http://www.twitter.com/ufcfightpass\n🔵 Facebook: http://www.facebook.com/ufcfightpass\n🔴 Instagram: http://www.instagram.com/ufcfightpass\n\n#UFC #UFC294 #InAbuDhabi #VisitAbuDhabi"
-    },
-    "defaultAudioLanguage": "en"
-    },
-    "contentDetails": {
-    "duration": "PT8M57S",
+    "duration": "PT4M22S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
     "licensedContent": true,
     "regionRestriction": {
     "blocked": [
-    "BR"
+    "BY",
+    "IO",
+    "KP",
+    "RU",
+    "SS"
     ]
     },
     "contentRating": {},
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "1265190",
-    "likeCount": "26878",
+    "viewCount": "246491",
+    "likeCount": "36835",
     "favoriteCount": "0",
-    "commentCount": "2019"
+    "commentCount": "1913"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "yrAsubSvJtg-QX2_62POBMrPNNE",
-    "id": "02xmR4rS3UE",
+    "etag": "nHkUy5zBMzEsN08qBx2HjC01YOg",
+    "id": "7x0Zj0DyFXU",
     "snippet": {
-    "publishedAt": "2023-10-18T17:00:07Z",
-    "channelId": "UCniqtXw3nZho_0HEO5IBqvg",
-    "title": "Madison Beer - Sweet Relief (Official Music Video)",
-    "description": "Madison Beer - Sweet Relief (Official Music Video)\n\n\"Silence Between Songs\" avaialble at: https://MadisonBeer.lnk.to/SilenceBetweenSongs\n\nFollow Madison:\nInstagram: https://www.instagram.com/madisonbeer\nTwitter: https://twitter.com/madisonbeer\nFacebook: https://www.facebook.com/madisonellebeer\n\n(C) 2023 Epic Records/Sing It Loud\n\n#MadisonBeer #SilenceBetweenSongs #SweetRelief",
+    "publishedAt": "2023-11-01T18:54:12Z",
+    "channelId": "UCHsRtomD4twRf5WVHHk-cMw",
+    "title": "Are Anteaters OP?",
+    "description": "Sign up to Brilliant using my link to start your 30-day free trial and get 20% off your an annual subscription: https://brilliant.org/TierZoo\n\n3D Animation: VFX Grace https://www.youtube.com/@UCi1gfzh-ZIQjphg2Xkj_OLA \nEditing/VFX: twitter.com/PSMotionGraphic\n\nSource Footage from: \nGetty Images\nPond5\nShutterStock\nAnteater sleeping under tail clip courtesy of @butthoss on instagram\n\nTrack List:\nELDEN RING OST - Godskin Apostles (Boss Theme) [EXTENDED]\nEyewitness Theme \nBlack Ops 2 Theme\nOld RuneScape Soundtrack- The Trade Parade\nEyewitness Outro",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/02xmR4rS3UE/default.jpg",
+    "url": "https://i.ytimg.com/vi/7x0Zj0DyFXU/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/02xmR4rS3UE/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/7x0Zj0DyFXU/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/02xmR4rS3UE/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/7x0Zj0DyFXU/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/02xmR4rS3UE/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/7x0Zj0DyFXU/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/02xmR4rS3UE/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/7x0Zj0DyFXU/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "MadisonBeerMusicVEVO",
-    "tags": [
-    "sing it loud",
-    "dangerous",
-    "madison beer dangerous",
-    "hurts like hell",
-    "home with you",
-    "say it to myself",
-    "selfish",
-    "selfish video",
-    "dangerous video",
-    "life support",
-    "selfish alan walker",
-    "have never felt more alive",
-    "baby",
-    "pop up",
-    "madison beer pop up",
-    "pop up video",
-    "baby jonas blue",
-    "jonas blue remix",
-    "baby remix",
-    "showed me",
-    "madison beer showed me",
-    "showed me madison beer",
-    "showed me official music video",
-    "madison beer official music video",
-    "home to another one"
-    ],
-    "categoryId": "10",
+    "channelTitle": "TierZoo",
+    "categoryId": "27",
     "liveBroadcastContent": "none",
     "localized": {
-    "title": "Madison Beer - Sweet Relief (Official Music Video)",
-    "description": "Madison Beer - Sweet Relief (Official Music Video)\n\n\"Silence Between Songs\" avaialble at: https://MadisonBeer.lnk.to/SilenceBetweenSongs\n\nFollow Madison:\nInstagram: https://www.instagram.com/madisonbeer\nTwitter: https://twitter.com/madisonbeer\nFacebook: https://www.facebook.com/madisonellebeer\n\n(C) 2023 Epic Records/Sing It Loud\n\n#MadisonBeer #SilenceBetweenSongs #SweetRelief"
-    }
+    "title": "Are Anteaters OP?",
+    "description": "Sign up to Brilliant using my link to start your 30-day free trial and get 20% off your an annual subscription: https://brilliant.org/TierZoo\n\n3D Animation: VFX Grace https://www.youtube.com/@UCi1gfzh-ZIQjphg2Xkj_OLA \nEditing/VFX: twitter.com/PSMotionGraphic\n\nSource Footage from: \nGetty Images\nPond5\nShutterStock\nAnteater sleeping under tail clip courtesy of @butthoss on instagram\n\nTrack List:\nELDEN RING OST - Godskin Apostles (Boss Theme) [EXTENDED]\nEyewitness Theme \nBlack Ops 2 Theme\nOld RuneScape Soundtrack- The Trade Parade\nEyewitness Outro"
+    },
+    "defaultAudioLanguage": "en"
     },
     "contentDetails": {
-    "duration": "PT2M48S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "regionRestriction": {
-    "blocked": [
-    "RU"
-    ]
-    },
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "152303",
-    "likeCount": "22442",
-    "favoriteCount": "0",
-    "commentCount": "1151"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "bdQz6e6tuPHjprM_asUNL6iUi-w",
-    "id": "aU8GQ08LaMo",
-    "snippet": {
-    "publishedAt": "2023-10-17T18:00:01Z",
-    "channelId": "UCeGGpOehPGG7vQMUVc7tG8Q",
-    "title": "What's Going On With Digital Circus?",
-    "description": "So the pilot for Digital Circus was released...here's my review \n\nSaber's Socials \n►Follow Saber on Twitter: https://twitter.com/Saberspark\n►Follow Saber on Twitch: https://www.twitch.tv/saberspark_\n►Support Saber on Patreon: https://www.patreon.com/saberspark\n\nVideo Credits\n►Edits by CosmicKeyframe \nhttps://www.youtube.com/@CosmicKeyframeProductions \n►Thumbnail by Rishi \nhttps://twitter.com/rishicoyote\n►Audio Edits by dBPony\nhttps://www.dbcentralaudio.com/\n►Intro Music/Outro Music by Hirosashii\nhttps://www.youtube.com/user/Hirosashii",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/aU8GQ08LaMo/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/aU8GQ08LaMo/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/aU8GQ08LaMo/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/aU8GQ08LaMo/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/aU8GQ08LaMo/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Saberspark",
-    "tags": [
-    "saberspark",
-    "saber",
-    "animation",
-    "digital circus",
-    "review",
-    "glitch productions",
-    "glitch"
-    ],
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "What's Going On With Digital Circus?",
-    "description": "So the pilot for Digital Circus was released...here's my review \n\nSaber's Socials \n►Follow Saber on Twitter: https://twitter.com/Saberspark\n►Follow Saber on Twitch: https://www.twitch.tv/saberspark_\n►Support Saber on Patreon: https://www.patreon.com/saberspark\n\nVideo Credits\n►Edits by CosmicKeyframe \nhttps://www.youtube.com/@CosmicKeyframeProductions \n►Thumbnail by Rishi \nhttps://twitter.com/rishicoyote\n►Audio Edits by dBPony\nhttps://www.dbcentralaudio.com/\n►Intro Music/Outro Music by Hirosashii\nhttps://www.youtube.com/user/Hirosashii"
-    }
-    },
-    "contentDetails": {
-    "duration": "PT9M11S",
+    "duration": "PT9M7S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
@@ -2192,334 +2727,526 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "512399",
-    "likeCount": "42165",
+    "viewCount": "666757",
+    "likeCount": "59222",
     "favoriteCount": "0",
-    "commentCount": "2171"
+    "commentCount": "2315"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "0melt-7rVHdjZ65BQ2K4dimwwmU",
-    "id": "6ivbacZJ19c",
+    "etag": "dhabTl3eA4TeCvfkXEnviwklAv8",
+    "id": "cHUimyBo7DM",
     "snippet": {
-    "publishedAt": "2023-10-17T18:00:03Z",
-    "channelId": "UCAts6tUdnEQIWZ8EAdVBDKA",
-    "title": "Highest Value Item Takes Owner Completely By Surprise | Antiques Roadshow",
-    "description": "*All valuations were correct at the time of broadcast.* This lady brought in a box of gold jewellery for the Antiques Roadshow expert to look at, but it was actually the necklace she was wearing that intrigued the expert most. Dating from about 1840, it has a surprising valuation that shocks the owner. Hugh Scully and the experts from Antiques Roadshow take a look at some fantastic antiques and the history and stories surrounding them. This clip was filmed in Lyme Park in 1999.\n\nWelcome to the home of Antiques Roadshow on YouTube. Here you'll find all the best clips from Britain’s most popular antiques appraisal show. From items that have been handed down the generations to those picked up in junk shops, discover their history and delight in the possibility that it could in fact be a priceless treasure. \n\nSubscribe to the channel so that you don't miss a thing: https://www.youtube.com/channel/UCAts6tUdnEQIWZ8EAdVBDKA \n\nStream full episodes of Antiques Roadshow on BBC iPlayer: https://www.bbc.co.uk/iplayer/episodes/b006mj2y/antiques-roadshow\n\nThis is a commercial channel from BBC Studios. To contact us or provide feedback please visit: https://www.bbcstudios.com/contact/contact-us/",
+    "publishedAt": "2023-11-01T18:28:31Z",
+    "channelId": "UCwYzZs_hwA6NdaQp6Hjhe5w",
+    "title": "GENIE Trailer (2023) Melissa McCarthy",
+    "description": "GENIE Trailer (2023) Melissa McCarthy, Paapa Essiedu\n© 2023 - Peacock",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/6ivbacZJ19c/default.jpg",
+    "url": "https://i.ytimg.com/vi/cHUimyBo7DM/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/6ivbacZJ19c/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/cHUimyBo7DM/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/6ivbacZJ19c/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/cHUimyBo7DM/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/6ivbacZJ19c/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/cHUimyBo7DM/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/6ivbacZJ19c/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/cHUimyBo7DM/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "BBC Antiques Roadshow",
+    "channelTitle": "Movie Coverage",
     "tags": [
-    "Antiques",
-    "Antiques Roadshow",
-    "Roadshow",
-    "crafts",
-    "models",
-    "paintings",
-    "art",
-    "sculptures",
-    "ceramics",
-    "treasure",
-    "bbc",
-    "bbc studios",
-    "jewellery",
-    "watches",
-    "books",
-    "photography",
-    "old",
-    "classic",
-    "clocks",
-    "furniture",
-    "carpets",
-    "rugs",
-    "coins",
-    "medals",
-    "collectables",
-    "decor",
-    "furnishings",
-    "telescopes",
-    "salvage",
-    "busts",
-    "ephermera",
-    "mirrors",
-    "toys",
-    "tools",
-    "silver",
-    "gold",
-    "metals",
-    "textiles",
-    "wood carvings",
-    "walking sticks",
-    "canes",
-    "vintage clothes",
-    "transport",
-    "british",
-    "brooch",
-    "german",
-    "germany",
-    "beaming",
-    "jewel",
-    "gilded",
-    "gilding",
-    "jewels",
-    "diamond",
-    "ruby",
-    "diamonds",
-    "rubies",
-    "emerald",
-    "emeralds",
-    "ring"
+    "movie",
+    "film",
+    "cinema",
+    "coverage",
+    "trailer",
+    "2023",
+    "coverage trailer",
+    "movie 2023",
+    "trailer movie",
+    "trailer 2023",
+    "Genie",
+    "Genie Trailer",
+    "Melissa McCarthy",
+    "Paapa Essiedu"
     ],
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "defaultLanguage": "en-GB",
-    "localized": {
-    "title": "Highest Value Item Takes Owner Completely By Surprise | Antiques Roadshow",
-    "description": "*All valuations were correct at the time of broadcast.* This lady brought in a box of gold jewellery for the Antiques Roadshow expert to look at, but it was actually the necklace she was wearing that intrigued the expert most. Dating from about 1840, it has a surprising valuation that shocks the owner. Hugh Scully and the experts from Antiques Roadshow take a look at some fantastic antiques and the history and stories surrounding them. This clip was filmed in Lyme Park in 1999.\n\nWelcome to the home of Antiques Roadshow on YouTube. Here you'll find all the best clips from Britain’s most popular antiques appraisal show. From items that have been handed down the generations to those picked up in junk shops, discover their history and delight in the possibility that it could in fact be a priceless treasure. \n\nSubscribe to the channel so that you don't miss a thing: https://www.youtube.com/channel/UCAts6tUdnEQIWZ8EAdVBDKA \n\nStream full episodes of Antiques Roadshow on BBC iPlayer: https://www.bbc.co.uk/iplayer/episodes/b006mj2y/antiques-roadshow\n\nThis is a commercial channel from BBC Studios. To contact us or provide feedback please visit: https://www.bbcstudios.com/contact/contact-us/"
-    },
-    "defaultAudioLanguage": "en"
-    },
-    "contentDetails": {
-    "duration": "PT3M19S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "true",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "560229",
-    "likeCount": "721",
-    "favoriteCount": "0",
-    "commentCount": "29"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "gSgJEA7O_49OSWnEewHTwOLoA-0",
-    "id": "vrgRiR563H8",
-    "snippet": {
-    "publishedAt": "2023-10-18T16:00:47Z",
-    "channelId": "UCqg5FCR7NrpvlBWMXdt-5Vg",
-    "title": "Armored Core VI (Zero Punctuation)",
-    "description": "Join our Patreon for a week of Early Access to all of our Premium video series including Zero Punctuation, Cold Take, Extra Punctuation, Adventure is Nigh and more! Just $2/month with a 7 day free trial. ►► https://www.patreon.com/the_escapist\n\nThis week on Zero Punctuation, Yahtzee reviews Armored Core VI.\n\nJoin our growing Discord community: https://discord.gg/A6T2gKrDwB\n\nSubscribe to Escapist Magazine! ►► http://bit.ly/Sub2Escapist\n\n---\n\n\n\n---\n\nThe Escapist Merch Store ►►https://teespring.com/stores/the-escapist-store\nJoin us on Twitch ►► https://www.twitch.tv/the_escapist_official\nLike us on Facebook ►► http://www.facebook.com/EscapistMag\nFollow us on Twitter ►► https://twitter.com/EscapistMag",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/vrgRiR563H8/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/vrgRiR563H8/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/vrgRiR563H8/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/vrgRiR563H8/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/vrgRiR563H8/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "The Escapist",
-    "tags": [
-    "Zero Punctuation",
-    "ZP",
-    "Armored Core VI",
-    "The Escapist",
-    "Yahtzee",
-    "Yahtzee Croshaw",
-    "Review",
-    "Impressions"
-    ],
-    "categoryId": "20",
-    "liveBroadcastContent": "none",
-    "defaultLanguage": "en-US",
-    "localized": {
-    "title": "Armored Core VI (Zero Punctuation)",
-    "description": "Join our Patreon for a week of Early Access to all of our Premium video series including Zero Punctuation, Cold Take, Extra Punctuation, Adventure is Nigh and more! Just $2/month with a 7 day free trial. ►► https://www.patreon.com/the_escapist\n\nThis week on Zero Punctuation, Yahtzee reviews Armored Core VI.\n\nJoin our growing Discord community: https://discord.gg/A6T2gKrDwB\n\nSubscribe to Escapist Magazine! ►► http://bit.ly/Sub2Escapist\n\n---\n\n\n\n---\n\nThe Escapist Merch Store ►►https://teespring.com/stores/the-escapist-store\nJoin us on Twitch ►► https://www.twitch.tv/the_escapist_official\nLike us on Facebook ►► http://www.facebook.com/EscapistMag\nFollow us on Twitter ►► https://twitter.com/EscapistMag"
-    },
-    "defaultAudioLanguage": "en"
-    },
-    "contentDetails": {
-    "duration": "PT6M17S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "true",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "205976",
-    "likeCount": "13247",
-    "favoriteCount": "0",
-    "commentCount": "611"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "Tck5cTE1iPQTLRURfC0jsiUM2Fw",
-    "id": "SAga7yxRHa4",
-    "snippet": {
-    "publishedAt": "2023-10-18T17:05:20Z",
-    "channelId": "UC6G2vAJrt407lwiynW116Eg",
-    "title": "The Kid LAROI, Jung Kook & Central Cee - TOO MUCH (Official Teaser)",
-    "description": "\"TOO MUCH\" with Jung Kook & Central Cee Dropping October 20th\n\npre-order: https://tklmerch.com/\npre-save: https://toomuchmag.com/\n\nThursday October 19 @ 12 PM ET - Video Premiere Page Launch\nThursday October 19 @ 7 PM ET - Available to Stream and Watch Everywhere\nFriday October 20 @ 12 AM ET - Available to Download Everywhere\n\nALBUM IN NOVEMBER \n\n#TheKidLAROI #CentralCee #JungKook",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/SAga7yxRHa4/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/SAga7yxRHa4/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/SAga7yxRHa4/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/SAga7yxRHa4/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/SAga7yxRHa4/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "The Kid LAROI.",
-    "tags": [
-    "laroi",
-    "bts",
-    "jung kook",
-    "jungkook",
-    "the kid laroi",
-    "thekidlaroi",
-    "central cee",
-    "centralcee",
-    "cench",
-    "laroi new song",
-    "laroi new music",
-    "too much",
-    "toomuch",
-    "the first time",
-    "tft",
-    "thefirsttime"
-    ],
-    "categoryId": "10",
+    "categoryId": "1",
     "liveBroadcastContent": "none",
     "defaultLanguage": "en",
     "localized": {
-    "title": "The Kid LAROI, Jung Kook & Central Cee - TOO MUCH (Official Teaser)",
-    "description": "\"TOO MUCH\" with Jung Kook & Central Cee Dropping October 20th\n\npre-order: https://tklmerch.com/\npre-save: https://toomuchmag.com/\n\nThursday October 19 @ 12 PM ET - Video Premiere Page Launch\nThursday October 19 @ 7 PM ET - Available to Stream and Watch Everywhere\nFriday October 20 @ 12 AM ET - Available to Download Everywhere\n\nALBUM IN NOVEMBER \n\n#TheKidLAROI #CentralCee #JungKook"
+    "title": "GENIE Trailer (2023) Melissa McCarthy",
+    "description": "GENIE Trailer (2023) Melissa McCarthy, Paapa Essiedu\n© 2023 - Peacock"
     },
     "defaultAudioLanguage": "en-US"
     },
     "contentDetails": {
-    "duration": "PT16S",
+    "duration": "PT2M32S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
-    "licensedContent": false,
+    "licensedContent": true,
     "contentRating": {},
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "144091",
-    "likeCount": "26791",
+    "viewCount": "420474",
+    "likeCount": "5758",
     "favoriteCount": "0",
-    "commentCount": "1407"
+    "commentCount": "322"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "ej6CLg0zoFhI5x2GkglnS08lzuA",
-    "id": "L7NOxuOuxTY",
+    "etag": "ARUo16ZhOyiaRTBIFA6pW2Zor2o",
+    "id": "E72wnbus4aE",
     "snippet": {
-    "publishedAt": "2023-10-18T04:38:16Z",
-    "channelId": "UCWkTX0S0Ii5pT2aRVz7Zctw",
-    "title": "D-backs vs. Phillies Game 2 Highlights (10/17/23) | MLB Highlights",
-    "description": "D-backs vs. Phillies full NLCS Game 2 highlights from 10/17/23\n\n#ringthebell  #phillies  #mlb \n\nJoin the conversation!\nTwitter: http://twitter.com/phillies\nFacebook: http://facebook.com/phillies\nInstagram: http://instagram.com/phillies\nTiktok: @phillies \nBeyond the Bell Blog: https://beyondthebell.mlblogs.com/",
+    "publishedAt": "2023-11-01T21:26:14Z",
+    "channelId": "UCgCudMsK-kxYxB2RgiS3bzQ",
+    "title": "Best Chandler Moments (Mashup) | Friends | TBS",
+    "description": "Matthew Perry gave us so many memorable moments as the lovably sarcastic Chandler Bing. A beloved member of the cast, Friends would not have been the same without him. Thanks for all the laughs, Matthew. \n\n#Friends #MatthewPerry #TBS\n\nSUBSCRIBE: http://bit.ly/TBSSub \nDownload the TBS App: http://bit.ly/1qBbkMW\n\nAbout Friends:\nPull up a couch and relax at Central Perk, where six Friends gather to talk about life and love. Friends tells the story of siblings Ross (David Schwimmer) and Monica (Courteney Cox) Geller, and their friends, Chandler Bing (Matthew Perry), Phoebe Buffay (Lisa Kudrow), Joey Tribbiani (Matt LeBlanc), and Rachel Green (Jennifer Aniston).\n\nFull episodes: https://www.tbs.com/shows/friends\n\nGet Social With Friends:\nFacebook: https://www.facebook.com/friends.tv/\nTwitter: https://twitter.com/FriendsTV\nInstagram: https://www.instagram.com/friends/?hl=en\n\nAbout TBS:  \nThe home of Friends, Young Sheldon, The Big Bang Theory, American Dad, AEW, The Cube, Miracle Workers, Friday Night Vibes, Wipeout, movies and more.\n\nGet more TBS:  \nFull Episodes: http://www.TBS.com/shows/  \nYouTube: http://www.YouTube.com/TBS  \nTikTok: https://www.tiktok.com/@tbsnetwork\nTwitter: https://Twitter.com/TBSNetwork\nFacebook: http://Facebook.com/TBSNetwork  \nInstagram: https://Instagram.com/TBSNetwork  \n\nBest Chandler Moments (Mashup) | Friends | TBS\nhttps://youtu.be/E72wnbus4aE\n\nTBS\nhttp://www.YouTube.com/user/TBS",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/L7NOxuOuxTY/default.jpg",
+    "url": "https://i.ytimg.com/vi/E72wnbus4aE/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/L7NOxuOuxTY/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/E72wnbus4aE/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/L7NOxuOuxTY/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/E72wnbus4aE/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/L7NOxuOuxTY/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/E72wnbus4aE/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/L7NOxuOuxTY/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/E72wnbus4aE/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "Philadelphia Phillies",
+    "channelTitle": "TBS",
+    "tags": [
+    "TBS",
+    "TBS Network",
+    "TBS Shows",
+    "TBS Funny",
+    "New TBS",
+    "friends",
+    "friends tbs",
+    "friends on tbs",
+    "courteney cox",
+    "phoebe buffay",
+    "ross geller",
+    "matt leblanc",
+    "jennifer aniston",
+    "david schwimmer",
+    "matthew perry",
+    "monica geller",
+    "rachel green",
+    "lisa kudrow",
+    "joey tribbiani",
+    "chandler bing",
+    "friends clip tbs",
+    "ross",
+    "friends compilation",
+    "friends mashup",
+    "Best Chandler Moments",
+    "Chandler",
+    "rachel",
+    "monica",
+    "phoebe",
+    "matthew perry funny",
+    "matthew perry chandler bing",
+    "matthew perry memoir",
+    "matthew perry life"
+    ],
+    "categoryId": "24",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en",
+    "localized": {
+    "title": "Best Chandler Moments (Mashup) | Friends | TBS",
+    "description": "Matthew Perry gave us so many memorable moments as the lovably sarcastic Chandler Bing. A beloved member of the cast, Friends would not have been the same without him. Thanks for all the laughs, Matthew. \n\n#Friends #MatthewPerry #TBS\n\nSUBSCRIBE: http://bit.ly/TBSSub \nDownload the TBS App: http://bit.ly/1qBbkMW\n\nAbout Friends:\nPull up a couch and relax at Central Perk, where six Friends gather to talk about life and love. Friends tells the story of siblings Ross (David Schwimmer) and Monica (Courteney Cox) Geller, and their friends, Chandler Bing (Matthew Perry), Phoebe Buffay (Lisa Kudrow), Joey Tribbiani (Matt LeBlanc), and Rachel Green (Jennifer Aniston).\n\nFull episodes: https://www.tbs.com/shows/friends\n\nGet Social With Friends:\nFacebook: https://www.facebook.com/friends.tv/\nTwitter: https://twitter.com/FriendsTV\nInstagram: https://www.instagram.com/friends/?hl=en\n\nAbout TBS:  \nThe home of Friends, Young Sheldon, The Big Bang Theory, American Dad, AEW, The Cube, Miracle Workers, Friday Night Vibes, Wipeout, movies and more.\n\nGet more TBS:  \nFull Episodes: http://www.TBS.com/shows/  \nYouTube: http://www.YouTube.com/TBS  \nTikTok: https://www.tiktok.com/@tbsnetwork\nTwitter: https://Twitter.com/TBSNetwork\nFacebook: http://Facebook.com/TBSNetwork  \nInstagram: https://Instagram.com/TBSNetwork  \n\nBest Chandler Moments (Mashup) | Friends | TBS\nhttps://youtu.be/E72wnbus4aE\n\nTBS\nhttp://www.YouTube.com/user/TBS"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT5M10S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "333817",
+    "likeCount": "7513",
+    "favoriteCount": "0",
+    "commentCount": "439"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "Jm2Xt2LFSp_nfuLnUhgFtk8XM2M",
+    "id": "-wDKyUtL8Mk",
+    "snippet": {
+    "publishedAt": "2023-11-01T01:00:53Z",
+    "channelId": "UCw1SQ6QRRtfAhrN_cjkrOgA",
+    "title": "I Used Fortnite Admin Cheats",
+    "description": "This was very broken\n🎥SECOND CHANNEL - https://www.youtube.com/user/CrushSlash\n🐤TWITTER - https://twitter.com/lazarbeam\n📷INSTAGRAM - https://instagram.com/lazarbeamyt",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/-wDKyUtL8Mk/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/-wDKyUtL8Mk/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/-wDKyUtL8Mk/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/-wDKyUtL8Mk/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/-wDKyUtL8Mk/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "LazarBeam",
+    "categoryId": "20",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "I Used Fortnite Admin Cheats",
+    "description": "This was very broken\n🎥SECOND CHANNEL - https://www.youtube.com/user/CrushSlash\n🐤TWITTER - https://twitter.com/lazarbeam\n📷INSTAGRAM - https://instagram.com/lazarbeamyt"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT9M43S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "1887124",
+    "likeCount": "99931",
+    "favoriteCount": "0",
+    "commentCount": "3630"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "XdD1nsVF2dFURwso3GX5ff4eovU",
+    "id": "BxqglDF5U18",
+    "snippet": {
+    "publishedAt": "2023-11-01T22:11:36Z",
+    "channelId": "UCR1PVwrPjpz0U_Fbju-BAzQ",
+    "title": "AI Celebrities Are Creepy and Weird",
+    "description": "💻 Thanks to Opera for sponsoring this video! Get a browser that’s literally better at everything, download Opera today:\n\nhttps://opr.as/Opera-browser-JarvisJohnson\n\nSIGN UP TO BE NOTIFIED ABOUT THE NEW DROP\n► https://jarvis.store\n\nSOCIALS\n► https://instagram.com/jarvis\n► https://twitter.com/jarvis\n\nMAIN CHANNEL\n► https://www.youtube.com/jarvis\n\nSubreddit ▸ https://reddit.com/r/unnamedfanbase\nMerch ▸ https://jarvis.store\nP.O. Box ▸ 3108 Glendale Blvd Suite 540, Los Angeles CA 90039\n\nMusic: Night In Venice by Kevin MacLeod\nFree download: https://filmmusic.io/song/5763-night-in-venice\nLicensed under CC BY 4.0: https://filmmusic.io/standard-license",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/BxqglDF5U18/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/BxqglDF5U18/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/BxqglDF5U18/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/BxqglDF5U18/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/BxqglDF5U18/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Jarvis Johnson! GOLD",
+    "categoryId": "24",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "AI Celebrities Are Creepy and Weird",
+    "description": "💻 Thanks to Opera for sponsoring this video! Get a browser that’s literally better at everything, download Opera today:\n\nhttps://opr.as/Opera-browser-JarvisJohnson\n\nSIGN UP TO BE NOTIFIED ABOUT THE NEW DROP\n► https://jarvis.store\n\nSOCIALS\n► https://instagram.com/jarvis\n► https://twitter.com/jarvis\n\nMAIN CHANNEL\n► https://www.youtube.com/jarvis\n\nSubreddit ▸ https://reddit.com/r/unnamedfanbase\nMerch ▸ https://jarvis.store\nP.O. Box ▸ 3108 Glendale Blvd Suite 540, Los Angeles CA 90039\n\nMusic: Night In Venice by Kevin MacLeod\nFree download: https://filmmusic.io/song/5763-night-in-venice\nLicensed under CC BY 4.0: https://filmmusic.io/standard-license"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT14M9S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "215590",
+    "likeCount": "18106",
+    "favoriteCount": "0",
+    "commentCount": "894"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "jkJwKFZoMHHSHnwyExHFpqkgtnw",
+    "id": "m7oAcv6vI0I",
+    "snippet": {
+    "publishedAt": "2023-11-01T03:00:09Z",
+    "channelId": "UCTkXRDQl0luXxVQrRQvWS6w",
+    "title": "Minecraft CHICKEN vs HUNTER",
+    "description": "Minecraft CHICKEN vs HUNTER... I have to take a CHICKEN to beat the ender dragon. My friend has to stop me. Should be easy right?\n\nFollow my socials:\n➽ Twitter - @dream\n➽ Instagram - @dreamwastaken\n➽ Snapchat - @dream\n\nGeorge: @GeorgeNotFound \n\nThis video is a different Minecraft challenge concept that we have never done before! It's similar to Minecraft Manhunt, in that I have to beat the game while George tries to hunt the CHICKEN, instead of me. The chicken heals over time like a player, and has 20 hearts.\n\nIt's a race, and it's super intense and we had a lot of laughs. I love doing these challenges.\n\nNot Minecraft, But Water Rises or Minecraft, But Lava Rises, or any other but challenge like that. This is a speed run / speed runner of Minecraft against a killer / assassin\n\n#MinecraftChallenge",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/m7oAcv6vI0I/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/m7oAcv6vI0I/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/m7oAcv6vI0I/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/m7oAcv6vI0I/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/m7oAcv6vI0I/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Dream",
+    "tags": [
+    "minecraft",
+    "dream",
+    "dream minecraft"
+    ],
+    "categoryId": "20",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "Minecraft CHICKEN vs HUNTER",
+    "description": "Minecraft CHICKEN vs HUNTER... I have to take a CHICKEN to beat the ender dragon. My friend has to stop me. Should be easy right?\n\nFollow my socials:\n➽ Twitter - @dream\n➽ Instagram - @dreamwastaken\n➽ Snapchat - @dream\n\nGeorge: @GeorgeNotFound \n\nThis video is a different Minecraft challenge concept that we have never done before! It's similar to Minecraft Manhunt, in that I have to beat the game while George tries to hunt the CHICKEN, instead of me. The chicken heals over time like a player, and has 20 hearts.\n\nIt's a race, and it's super intense and we had a lot of laughs. I love doing these challenges.\n\nNot Minecraft, But Water Rises or Minecraft, But Lava Rises, or any other but challenge like that. This is a speed run / speed runner of Minecraft against a killer / assassin\n\n#MinecraftChallenge"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT28M53S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "1687424",
+    "likeCount": "151212",
+    "favoriteCount": "0",
+    "commentCount": "8137"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "NV01KS-uOQAxWPVSsD0CFJwgHBI",
+    "id": "1EEkRcEpePA",
+    "snippet": {
+    "publishedAt": "2023-11-01T21:00:37Z",
+    "channelId": "UCZdQjaSoLjIzFnWsDQOv4ww",
+    "title": "Launching our New 60ft Trimaran! (La Vagabonde III)",
+    "description": "If you’re struggling, consider therapy with our sponsor BetterHelp. Click https://BetterHelp.com/sailing for a 10% discount on your first month of therapy with a\nlicensed professional specific to your needs.\n\n---\n\n⛵ NEED MORE CONTENT FROM SLV? Join our crew on Patreon for previews of future episodes and regular live streams to chat with us in real time http://bit.ly/SLVPatreon\n\n⛵ BOOK A TRIP with VagabondeAdventures: https://www.vagabondeadventures.com/our-trips\n📨 For more info, email Jack at: info@vagabondeadventures.com\n\n👙 ELAYNA'S SWIMWEAR COLLECTION: (Get your Vaga Bella Swimwear today!)\nhttps://vagabellaswim.com/\n\n📖 ELAYNA'S BOOK FOR SALE: (Grab your copy of The Little Sailor's ABCs!)\nhttps://www.silverwoodbooks.co.uk/product/9781800422315/little-sailors-abcs-the-by-elayna-carausu\n\n📖 Pre-order Elayna's NEW BOOK 'First Mate Lenny' : https://www.penguin.com.au/books/first-mate-lenny-9781761341175\n\nEPISODE CHAPTERS:\n0:00 - Start\n1:00 - Good morning Vietnam\n1:25 - Betterhelp (Ad)\n2:50 - Visiting Rapido's HQ\n3:20 - Blessing our New Home\n5:00 - Boarding LVIII\n9:00 - Q&A\n11:45 - Lenny & Darwin see LV III\n14:00 - LV III takes flight!\n17:05 - Touch down! (LV III is in the water)\n20:00 - Reflecting on our next steps...\n\n----\n\nOFFICIAL SLV MERCH:\nhttp://shop-lavagabonde.com\n\nOUR WEBSITE:\nhttp://sailing-lavagabonde.com\n\nANIMATIONS:\nIG: @hudson_animation\nWebsite: https://www.hudson-animation.com/\n\nELAYNA'S MUSIC:\nhttps://elaynac.bandcamp.com\n\nFAQ:\nWhat products do we use?\nhttps://shop-lavagabonde.com/collections/products-we-use\nWhat cameras do we use?\nBIG CAMERA: http://amzn.to/1t6fAfY\nOTHER BIG CAMERA: http://amzn.to/2rybQE2\nHANDY CAM: http://amzn.to/25KvT0x\nGOPRO: http://amzn.to/1t6haPc\nDRONE: http://amzn.to/2ooXPLs\nWhat software do we use?\nPremiere Pro https://adobe.ly/2vzkB2I\nPredict Wind http://bit.ly/PredictWindForecasts",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/1EEkRcEpePA/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/1EEkRcEpePA/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/1EEkRcEpePA/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/1EEkRcEpePA/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/1EEkRcEpePA/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Sailing La Vagabonde",
+    "categoryId": "19",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en",
+    "localized": {
+    "title": "Launching our New 60ft Trimaran! (La Vagabonde III)",
+    "description": "If you’re struggling, consider therapy with our sponsor BetterHelp. Click https://BetterHelp.com/sailing for a 10% discount on your first month of therapy with a\nlicensed professional specific to your needs.\n\n---\n\n⛵ NEED MORE CONTENT FROM SLV? Join our crew on Patreon for previews of future episodes and regular live streams to chat with us in real time http://bit.ly/SLVPatreon\n\n⛵ BOOK A TRIP with VagabondeAdventures: https://www.vagabondeadventures.com/our-trips\n📨 For more info, email Jack at: info@vagabondeadventures.com\n\n👙 ELAYNA'S SWIMWEAR COLLECTION: (Get your Vaga Bella Swimwear today!)\nhttps://vagabellaswim.com/\n\n📖 ELAYNA'S BOOK FOR SALE: (Grab your copy of The Little Sailor's ABCs!)\nhttps://www.silverwoodbooks.co.uk/product/9781800422315/little-sailors-abcs-the-by-elayna-carausu\n\n📖 Pre-order Elayna's NEW BOOK 'First Mate Lenny' : https://www.penguin.com.au/books/first-mate-lenny-9781761341175\n\nEPISODE CHAPTERS:\n0:00 - Start\n1:00 - Good morning Vietnam\n1:25 - Betterhelp (Ad)\n2:50 - Visiting Rapido's HQ\n3:20 - Blessing our New Home\n5:00 - Boarding LVIII\n9:00 - Q&A\n11:45 - Lenny & Darwin see LV III\n14:00 - LV III takes flight!\n17:05 - Touch down! (LV III is in the water)\n20:00 - Reflecting on our next steps...\n\n----\n\nOFFICIAL SLV MERCH:\nhttp://shop-lavagabonde.com\n\nOUR WEBSITE:\nhttp://sailing-lavagabonde.com\n\nANIMATIONS:\nIG: @hudson_animation\nWebsite: https://www.hudson-animation.com/\n\nELAYNA'S MUSIC:\nhttps://elaynac.bandcamp.com\n\nFAQ:\nWhat products do we use?\nhttps://shop-lavagabonde.com/collections/products-we-use\nWhat cameras do we use?\nBIG CAMERA: http://amzn.to/1t6fAfY\nOTHER BIG CAMERA: http://amzn.to/2rybQE2\nHANDY CAM: http://amzn.to/25KvT0x\nGOPRO: http://amzn.to/1t6haPc\nDRONE: http://amzn.to/2ooXPLs\nWhat software do we use?\nPremiere Pro https://adobe.ly/2vzkB2I\nPredict Wind http://bit.ly/PredictWindForecasts"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT21M8S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "429821",
+    "likeCount": "29048",
+    "favoriteCount": "0",
+    "commentCount": "1696"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "wDVm78l5q1IKakQeGmSY_zxBGXc",
+    "id": "L-J4R6wJcMo",
+    "snippet": {
+    "publishedAt": "2023-11-01T16:50:17Z",
+    "channelId": "UCqMtxjKnR7ySbEZSs2N-v0Q",
+    "title": "Rich Eisen: What Led to the Raiders Firing HC Josh McDaniels | The Rich Eisen Show",
+    "description": "Rich Eisen reacts to the Las Vegas Raiders firing Head Coach Josh McDaniels after a disappointing 3-5 start to their season.\n\nTune in to the Emmy-nominated Rich Eisen Show live for FREE on The Roku Channel at https://go.roku.com/thericheisenshow and also streaming on Audacy, Sirius channel 218 and XM channel 202 weekdays from 12--3 PM ET! \n\nShowcasing insightful sports expertise with an offbeat mix of humor and pop culture, The Rich Eisen Show attracts the most recognizable names in sports and entertainment. \n\nSubscribe here to keep up with the internet's best sports and pop culture commentary, interviews, and much more! \n\n------ SUBSCRIBE HERE: \nhttps://bit.ly/2VjWSBC \n\nFOLLOW US HERE: \nhttps://www.instagram.com/richeisenshow/ \nhttps://www.twitter.com/RichEisenShow \nhttps://www.facebook.com/RichEisenShow \nhttps://www.tiktok.com/@thericheisenshow \nhttps://www.audacy.com/richeisen/listen \n\n#richeisenshow #nfl #raiders",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/L-J4R6wJcMo/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/L-J4R6wJcMo/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/L-J4R6wJcMo/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/L-J4R6wJcMo/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/L-J4R6wJcMo/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "The Rich Eisen Show",
+    "tags": [
+    "Rich Eisen",
+    "Rich Eisen Show",
+    "sports",
+    "NFL",
+    "football",
+    "college football",
+    "CFP",
+    "NBA",
+    "basketball",
+    "MLB",
+    "baseball",
+    "pop culture",
+    "Roku",
+    "NFL Network",
+    "Chris Brockman",
+    "TJ Jefferson",
+    "Del Tufo",
+    "Super Bowl",
+    "Football",
+    "CFB",
+    "College Football",
+    "Baseball",
+    "NFL Draft",
+    "Raiders",
+    "Las Vegas Raiders",
+    "Jimmy G",
+    "Garoppolo",
+    "Davante Adams",
+    "Josh McDaniels",
+    "Josh Jacobs",
+    "Chandler Jones",
+    "Aidan O’Connell",
+    "just win baby",
+    "silver and black",
+    "raider nation",
+    "Maxx Crosby",
+    "AFC West",
+    "Chiefs",
+    "Chargers",
+    "Broncos",
+    "Josh McDaniels fired"
+    ],
     "categoryId": "17",
     "liveBroadcastContent": "none",
     "localized": {
-    "title": "D-backs vs. Phillies Game 2 Highlights (10/17/23) | MLB Highlights",
-    "description": "D-backs vs. Phillies full NLCS Game 2 highlights from 10/17/23\n\n#ringthebell  #phillies  #mlb \n\nJoin the conversation!\nTwitter: http://twitter.com/phillies\nFacebook: http://facebook.com/phillies\nInstagram: http://instagram.com/phillies\nTiktok: @phillies \nBeyond the Bell Blog: https://beyondthebell.mlblogs.com/"
-    },
-    "defaultAudioLanguage": "en"
+    "title": "Rich Eisen: What Led to the Raiders Firing HC Josh McDaniels | The Rich Eisen Show",
+    "description": "Rich Eisen reacts to the Las Vegas Raiders firing Head Coach Josh McDaniels after a disappointing 3-5 start to their season.\n\nTune in to the Emmy-nominated Rich Eisen Show live for FREE on The Roku Channel at https://go.roku.com/thericheisenshow and also streaming on Audacy, Sirius channel 218 and XM channel 202 weekdays from 12--3 PM ET! \n\nShowcasing insightful sports expertise with an offbeat mix of humor and pop culture, The Rich Eisen Show attracts the most recognizable names in sports and entertainment. \n\nSubscribe here to keep up with the internet's best sports and pop culture commentary, interviews, and much more! \n\n------ SUBSCRIBE HERE: \nhttps://bit.ly/2VjWSBC \n\nFOLLOW US HERE: \nhttps://www.instagram.com/richeisenshow/ \nhttps://www.twitter.com/RichEisenShow \nhttps://www.facebook.com/RichEisenShow \nhttps://www.tiktok.com/@thericheisenshow \nhttps://www.audacy.com/richeisen/listen \n\n#richeisenshow #nfl #raiders"
+    }
     },
     "contentDetails": {
-    "duration": "PT12M48S",
+    "duration": "PT11M32S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
@@ -2528,487 +3255,412 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "176129",
-    "likeCount": "3171",
+    "viewCount": "263760",
+    "likeCount": "4513",
     "favoriteCount": "0",
-    "commentCount": "336"
+    "commentCount": "1092"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "P2GLDXeTrPlOMsI_JitzdnYEUb8",
-    "id": "NQJEygbNghg",
+    "etag": "CwyhatCPLAg3du-OkqPoauNXCzI",
+    "id": "5m5ybZD_z6A",
     "snippet": {
-    "publishedAt": "2023-10-17T17:00:23Z",
-    "channelId": "UC4sf8XtH_uXnwNP699luQVQ",
-    "title": "Cody & Noel Do ANOTHER Escape Room",
-    "description": "If you’re struggling, consider therapy with our sponsor BetterHelp. Click https://betterhelp.com/tinymeatgang for a 10% discount on your first month of therapy with a licensed professional specific to your needs.\n\nSpecial thank you to Jae and Trey at Random Order Studios! Check out their YouTube channel here: @RandomOrderStudios \n\nThey're going back in! This episode the guys, once again, take on the struggle of a brand new escape room. Set underwater in the fabled Atlantis they face the obstacle of escaping the room and collecting the lost ocean treasures. Follow along to see if they dominate the room alongside our guests and friends Jae and Trey! Will they escape and set a NEW record? Watch now! \n\nWant more TMG? Head to http://tmgstudios.tv and subscribe to get access to other Cody & Noel Do episodes including a longer version of this episode.\n\nBuy Our Merch: http://shoptmgstudios.com \n\nJAE & TREY  @RandomOrderStudios  https://www.instagram.com/treyrichards/ https://www.instagram.com/jaerichards/\nhttps://www.instagram.com/randomordershow/?hl=en\n\nCODY @CodyKo http://twitter.com/codyko http://instagram.com/codyko\n\nNOEL @thenoelmiller http://twitter.com/thenoelmiller http://instagram.com/thenoelmiller\n\nHosted by Cody Ko & Noel Miller, Created by TMG Studios, Cody Ko & Noel Miller, and Produced by TMG Studios, Cody Ko & Noel Miller.",
+    "publishedAt": "2023-10-31T18:49:06Z",
+    "channelId": "UCzQUP1qoWDoEbmsQxvdjxgQ",
+    "title": "Joe Tries to Shoot an Arrow Into the CyberTruck",
+    "description": "Taken from JRE #2054 w/Elon Musk:\nhttps://open.spotify.com/episode/7edwvm2c6Ieuzun4xtFYCJ?si=52dfc75569054d62",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/NQJEygbNghg/default.jpg",
+    "url": "https://i.ytimg.com/vi/5m5ybZD_z6A/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/NQJEygbNghg/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/5m5ybZD_z6A/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/NQJEygbNghg/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/5m5ybZD_z6A/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/NQJEygbNghg/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/5m5ybZD_z6A/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/NQJEygbNghg/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/5m5ybZD_z6A/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "TMG Studios",
-    "categoryId": "22",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Cody & Noel Do ANOTHER Escape Room",
-    "description": "If you’re struggling, consider therapy with our sponsor BetterHelp. Click https://betterhelp.com/tinymeatgang for a 10% discount on your first month of therapy with a licensed professional specific to your needs.\n\nSpecial thank you to Jae and Trey at Random Order Studios! Check out their YouTube channel here: @RandomOrderStudios \n\nThey're going back in! This episode the guys, once again, take on the struggle of a brand new escape room. Set underwater in the fabled Atlantis they face the obstacle of escaping the room and collecting the lost ocean treasures. Follow along to see if they dominate the room alongside our guests and friends Jae and Trey! Will they escape and set a NEW record? Watch now! \n\nWant more TMG? Head to http://tmgstudios.tv and subscribe to get access to other Cody & Noel Do episodes including a longer version of this episode.\n\nBuy Our Merch: http://shoptmgstudios.com \n\nJAE & TREY  @RandomOrderStudios  https://www.instagram.com/treyrichards/ https://www.instagram.com/jaerichards/\nhttps://www.instagram.com/randomordershow/?hl=en\n\nCODY @CodyKo http://twitter.com/codyko http://instagram.com/codyko\n\nNOEL @thenoelmiller http://twitter.com/thenoelmiller http://instagram.com/thenoelmiller\n\nHosted by Cody Ko & Noel Miller, Created by TMG Studios, Cody Ko & Noel Miller, and Produced by TMG Studios, Cody Ko & Noel Miller."
-    },
-    "defaultAudioLanguage": "en-US"
-    },
-    "contentDetails": {
-    "duration": "PT29M47S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "221938",
-    "likeCount": "14006",
-    "favoriteCount": "0",
-    "commentCount": "411"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "tK7bHdBp_5k3AwA4hbe4RQPUG8k",
-    "id": "QbIUZGasc8k",
-    "snippet": {
-    "publishedAt": "2023-10-16T17:00:13Z",
-    "channelId": "UCSDG3M0e2mGX9_qtHEtzj2Q",
-    "title": "Squirrel Uses Evasive Tactics Against Bobcat | RingTV",
-    "description": "Morris says the area around his home is full of wetlands, so wildlife is abundant. Bobcats are just one of the many critters his neighbors have spotted, but never has Morris seen a bobcat interact with a squirrel. In this video, we witness a squirrel use some amazing speed and acrobatics to evade the predator!\n\nBuild Your Ring of Security: http://to.ring.com/ytbundles\nGet Ring for your whole home: http://to.ring.com/ytcollections\nTweet us at https://twitter.com/ring\nSee more Ring stories at https://facebook.com/ring\nFollow us on https://instagram.com/ring\nFor the latest news and tips on home security, visit https://blog.ring.com\n\nRing provides effective, affordable whole-home security that works together to give you peace of mind. Upgrade your home security with Ring video doorbells, smart lighting, an alarm system, and more. And review, save, and share your Ring videos anytime with a Ring Protect Plan. So no matter where you are, with Ring you’re always home. Check out the full line of Ring smart home security products at ring.com.\n\n#ring #ringdoorbell",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/QbIUZGasc8k/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/QbIUZGasc8k/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/QbIUZGasc8k/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/QbIUZGasc8k/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/QbIUZGasc8k/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Ring",
+    "channelTitle": "PowerfulJRE",
     "tags": [
-    "security cameras",
-    "security system",
-    "home security",
-    "home security systems",
-    "home security camera system",
-    "doorbell camera",
-    "ring",
-    "ring camera",
-    "ring doorbell",
-    "ring doorbell camera",
-    "caught on ring",
-    "doorbell camera footage",
-    "ring security camera",
-    "ring tv",
-    "ring doorbell sound",
-    "ring doorbell installation",
-    "doorbell",
-    "doorbell news",
-    "how to install ring doorbell",
-    "porch pirates caught",
-    "squirrel",
-    "squirrel evades cat",
-    "bobcat",
-    "puma",
-    "bobcat chasing squirrel",
-    "squirrel being chased"
-    ],
-    "categoryId": "28",
-    "liveBroadcastContent": "none",
-    "defaultLanguage": "en-US",
-    "localized": {
-    "title": "Squirrel Uses Evasive Tactics Against Bobcat | RingTV",
-    "description": "Morris says the area around his home is full of wetlands, so wildlife is abundant. Bobcats are just one of the many critters his neighbors have spotted, but never has Morris seen a bobcat interact with a squirrel. In this video, we witness a squirrel use some amazing speed and acrobatics to evade the predator!\n\nBuild Your Ring of Security: http://to.ring.com/ytbundles\nGet Ring for your whole home: http://to.ring.com/ytcollections\nTweet us at https://twitter.com/ring\nSee more Ring stories at https://facebook.com/ring\nFollow us on https://instagram.com/ring\nFor the latest news and tips on home security, visit https://blog.ring.com\n\nRing provides effective, affordable whole-home security that works together to give you peace of mind. Upgrade your home security with Ring video doorbells, smart lighting, an alarm system, and more. And review, save, and share your Ring videos anytime with a Ring Protect Plan. So no matter where you are, with Ring you’re always home. Check out the full line of Ring smart home security products at ring.com.\n\n#ring #ringdoorbell"
-    },
-    "defaultAudioLanguage": "en-US"
-    },
-    "contentDetails": {
-    "duration": "PT23S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": false,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "209948",
-    "likeCount": "1649",
-    "favoriteCount": "0",
-    "commentCount": "168"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "LMYxb4obSO6Hv1gV2e4ieyH7vk4",
-    "id": "ZBl48MK17cI",
-    "snippet": {
-    "publishedAt": "2023-10-18T08:58:25Z",
-    "channelId": "UCvhVqA_5HnM7M5X6OcZlMbg",
-    "title": "CHUU 츄 'Howl' MV",
-    "description": "CHUU 1ST MINI ALBUM [Howl]\n🎧 2023.10.18 6PM (KST) Released\n\n#츄 #CHUU #Howl #하울 \n\n✦ More information about CHUU\nINSTAGRAM | https://www.instagram.com/chuu_atrp/\nTWITTER | https://twitter.com/chuu_atrp\nWEVERSE | https://weverse.io/chuu/\nNAVER POST | https://post.naver.com/atrp_corp\nFACEBOOK | https://www.facebook.com/chuu.atrp\nTIKTOK | https://www.tiktok.com/@chuu.atrp",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/ZBl48MK17cI/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/ZBl48MK17cI/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/ZBl48MK17cI/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/ZBl48MK17cI/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/ZBl48MK17cI/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "CHUU Official",
-    "tags": [
-    "김지우",
-    "jiwoo",
-    "ATRP",
-    "에이티알피",
-    "kpop",
-    "idol",
-    "뮤직비디오",
-    "뮤비",
-    "MV",
-    "Musicvideo",
-    "츄 솔로",
-    "츄 노래"
-    ],
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "CHUU 츄 'Howl' MV",
-    "description": "CHUU 1ST MINI ALBUM [Howl]\n🎧 2023.10.18 6PM (KST) Released\n\n#츄 #CHUU #Howl #하울 \n\n✦ More information about CHUU\nINSTAGRAM | https://www.instagram.com/chuu_atrp/\nTWITTER | https://twitter.com/chuu_atrp\nWEVERSE | https://weverse.io/chuu/\nNAVER POST | https://post.naver.com/atrp_corp\nFACEBOOK | https://www.facebook.com/chuu.atrp\nTIKTOK | https://www.tiktok.com/@chuu.atrp"
-    },
-    "defaultAudioLanguage": "ko"
-    },
-    "contentDetails": {
-    "duration": "PT3M24S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "2758124",
-    "likeCount": "48519",
-    "favoriteCount": "0",
-    "commentCount": "2750"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "OIshPaMy8w0mxec_J4rV2Q3Jgzg",
-    "id": "O83lwTRfFH4",
-    "snippet": {
-    "publishedAt": "2023-10-16T17:15:01Z",
-    "channelId": "UCfp86n--4JvqKbunwSI2lYQ",
-    "title": "I DIRECTED MY OWN DATING SHOW",
-    "description": "Go to our sponsor https://betterhelp.com/codyko for 10% off your first month of therapy with BetterHelp and get matched with a therapist who will listen and help.\n\n\n\nmerch: ko-official.com\npodcast: https://www.youtube.com/tinymeatgang\n2nd channel: https://www.youtube.com/channel/UCy06jHRS_82N2i5v1YL7glQ\n\ninstagram: http://instagram.com/codyko\ntwitter: http://twitter.com/codyko\n\nbusiness: mahzad.babayan@unitedtalent.com\n\nedited by zade: \ntwitter http://twitter.com/realzade \ninsta https://www.instagram.com/reallyzade\n\n\nbutton music: William Statler - Der Jungespiele (Anunoby Original’s New Masters Edit)  \nSUBSCRIBE TO CUT: https://www.youtube.com/@cut",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/O83lwTRfFH4/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/O83lwTRfFH4/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/O83lwTRfFH4/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/O83lwTRfFH4/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/O83lwTRfFH4/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Cody Ko",
-    "tags": [
-    "cody",
-    "cody ko",
-    "codyko"
+    "Joe Rogan Experience",
+    "JRE",
+    "Joe",
+    "Rogan",
+    "podcast",
+    "MMA",
+    "comedy",
+    "stand",
+    "up",
+    "funny",
+    "Freak",
+    "Party"
     ],
     "categoryId": "22",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "I DIRECTED MY OWN DATING SHOW",
-    "description": "Go to our sponsor https://betterhelp.com/codyko for 10% off your first month of therapy with BetterHelp and get matched with a therapist who will listen and help.\n\n\n\nmerch: ko-official.com\npodcast: https://www.youtube.com/tinymeatgang\n2nd channel: https://www.youtube.com/channel/UCy06jHRS_82N2i5v1YL7glQ\n\ninstagram: http://instagram.com/codyko\ntwitter: http://twitter.com/codyko\n\nbusiness: mahzad.babayan@unitedtalent.com\n\nedited by zade: \ntwitter http://twitter.com/realzade \ninsta https://www.instagram.com/reallyzade\n\n\nbutton music: William Statler - Der Jungespiele (Anunoby Original’s New Masters Edit)  \nSUBSCRIBE TO CUT: https://www.youtube.com/@cut"
-    },
-    "defaultAudioLanguage": "en"
-    },
-    "contentDetails": {
-    "duration": "PT19M33S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "1265718",
-    "likeCount": "99431",
-    "favoriteCount": "0",
-    "commentCount": "3880"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "nkg5mAol1GgcHNyMVje3h0Ee2cg",
-    "id": "cl9LZiB0oao",
-    "snippet": {
-    "publishedAt": "2023-10-16T22:30:06Z",
-    "channelId": "UCaeO5vkdj5xOQHp4UmIN6dw",
-    "title": "Snow White and the Evil Queen, Coming to Bentkey in 2024.",
-    "description": "Coming 2024, Snow White and the Evil Queen. A tale of timeless truth. Starring Brett Cooper as Snow White.\n\nhttps://feedlink.io/bentkey\n\n#Bentkey #BentkeyKids #KidsContent #DailyWire #DailyWirePlus #DailyWireKids #Entertainment #KidsEntertainment #KidsEntertainmentVideo #KidsEntertainmentSpecial #KidsEntertaining #SnowWhite #BrettCooper #Trailer #ShowTrailer @TheCommentsSection",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/cl9LZiB0oao/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/cl9LZiB0oao/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/cl9LZiB0oao/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/cl9LZiB0oao/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/cl9LZiB0oao/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "DailyWire+",
-    "tags": [
-    "snow white",
-    "snow white and the seven dwarfs",
-    "rachel zegler snow white",
-    "snow white 2024",
-    "disney snow white",
-    "snow white trailer",
-    "snow white remake",
-    "snow white live action",
-    "snow white 2024 trailer",
-    "snow white rachel zegler",
-    "snow white story",
-    "snow white and seven dwarfs",
-    "snow white song",
-    "snow white live action trailer disney",
-    "daily wire",
-    "brett cooper",
-    "bentkey",
-    "brett cooper snow white",
-    "bentkey snow white",
-    "snow white bentkey",
-    "daily wire snow white",
-    "snow white daily wire",
-    "teaser"
-    ],
-    "categoryId": "25",
     "liveBroadcastContent": "none",
     "defaultLanguage": "en",
     "localized": {
-    "title": "Snow White and the Evil Queen, Coming to Bentkey in 2024.",
-    "description": "Coming 2024, Snow White and the Evil Queen. A tale of timeless truth. Starring Brett Cooper as Snow White.\n\nhttps://feedlink.io/bentkey\n\n#Bentkey #BentkeyKids #KidsContent #DailyWire #DailyWirePlus #DailyWireKids #Entertainment #KidsEntertainment #KidsEntertainmentVideo #KidsEntertainmentSpecial #KidsEntertaining #SnowWhite #BrettCooper #Trailer #ShowTrailer @TheCommentsSection"
+    "title": "Joe Tries to Shoot an Arrow Into the CyberTruck",
+    "description": "Taken from JRE #2054 w/Elon Musk:\nhttps://open.spotify.com/episode/7edwvm2c6Ieuzun4xtFYCJ?si=52dfc75569054d62"
     },
-    "defaultAudioLanguage": "en"
+    "defaultAudioLanguage": "en-US"
     },
     "contentDetails": {
-    "duration": "PT51S",
+    "duration": "PT5M59S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
-    "licensedContent": false,
+    "licensedContent": true,
     "contentRating": {},
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "717903",
-    "likeCount": "49245",
+    "viewCount": "3776816",
+    "likeCount": "96600",
     "favoriteCount": "0",
-    "commentCount": "8271"
+    "commentCount": "10689"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "N4ulvLmakWQ8RVvFdZgddCW7a2Q",
-    "id": "AgJumADP1Bw",
+    "etag": "lnzbkGFVnPorrig32Sy1or2U4C0",
+    "id": "bO_rYiYmRFQ",
     "snippet": {
-    "publishedAt": "2023-10-17T17:55:36Z",
-    "channelId": "UCYzPXprvl5Y-Sf0g4vX-m6g",
-    "title": "Breaking into people's houses... in VR",
-    "description": "Let's break into people's houses in VR\nBuy MY coffee: https://topofthemornincoffee.com\n\nEdited By:  https://www.youtube.com/@Diceroll",
+    "publishedAt": "2023-11-02T00:01:43Z",
+    "channelId": "UC7am34-1rGU_ky1vWYnoOJQ",
+    "title": "FC Bayern is OUT! | 1. FC Saarbrücken vs. FC Bayern München 2-1 | Highlights | DFB-Pokal - Round 2",
+    "description": "Enjoy the highlights of 1. FC Saarbrücken vs. FC Bayern München from the Second Round of the DFB-Pokal season 2023/24. #DFBPokal #FCSFCB\n\nGoals: 0-1 Thomas Müller (16’), 1-1 Patrick Sontheimer (45+1’), 2-1 Marcel Gaus (90+6’)\n\n▶▶ Subscribe now for more German Football action and hit the bell 🔔: https://zly.de/dfb/yt_sub \n▶▶ Watch Highlights and LIVE games from the DFB-Pokal: https://go.dfb.de/DFB-Pokal-22-23",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/AgJumADP1Bw/default.jpg",
+    "url": "https://i.ytimg.com/vi/bO_rYiYmRFQ/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/AgJumADP1Bw/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/bO_rYiYmRFQ/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/AgJumADP1Bw/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/bO_rYiYmRFQ/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/AgJumADP1Bw/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/bO_rYiYmRFQ/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/AgJumADP1Bw/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/bO_rYiYmRFQ/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "jacksepticeye",
+    "channelTitle": "German Football",
     "tags": [
-    "jacksepticeye"
+    "1. FC Saarbrücken",
+    "Bayern",
+    "Bayern Munich",
+    "Best Of",
+    "DFB",
+    "DFB Pokal",
+    "DFB Pokal 2023/24",
+    "FC Bayern München",
+    "Football",
+    "German Cup",
+    "German Football",
+    "Germany",
+    "Highlights",
+    "POKAL",
+    "Saarbrücken",
+    "Second Round",
+    "Soccer",
+    "Summary"
+    ],
+    "categoryId": "17",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en",
+    "localized": {
+    "title": "FC Bayern is OUT! | 1. FC Saarbrücken vs. FC Bayern München 2-1 | Highlights | DFB-Pokal - Round 2",
+    "description": "Enjoy the highlights of 1. FC Saarbrücken vs. FC Bayern München from the Second Round of the DFB-Pokal season 2023/24. #DFBPokal #FCSFCB\n\nGoals: 0-1 Thomas Müller (16’), 1-1 Patrick Sontheimer (45+1’), 2-1 Marcel Gaus (90+6’)\n\n▶▶ Subscribe now for more German Football action and hit the bell 🔔: https://zly.de/dfb/yt_sub \n▶▶ Watch Highlights and LIVE games from the DFB-Pokal: https://go.dfb.de/DFB-Pokal-22-23"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT4M57S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "1164164",
+    "likeCount": "22122",
+    "favoriteCount": "0",
+    "commentCount": "1392"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "L-EJp2_20a6t3L6ACdMj9ZZWEZo",
+    "id": "2TrQwYTVyoU",
+    "snippet": {
+    "publishedAt": "2023-11-02T01:00:02Z",
+    "channelId": "UCU2PacFf99vhb3hNiYDmxww",
+    "title": "Chelsea 2-0 Blackburn | EXTENDED Highlights | Carabao Cup 4th Round 2023/24 | Chelsea FC",
+    "description": "Highlights of Chelsea's 2-0 Carabao Cup Fourth Round win against Blackburn Rovers at Stamford Bridge. Goals from Benoît Badiashile ('30) and Raheem Sterling ('59).\n\nSubscribe to our channel here: https://www.youtube.com/chelseafc?sub_confirmation=1\n\n---\n\nGoal/timings\n\n0:00 Intro/teams\n3:28 Benoît Badiashile Goal 30' (1-0)\n7:00 Raheem Sterling Goal 59' (2-0)\n\n---\n\n#Chelsea #ChelseaFC #Football #Soccer #Highlights #ExtendedHighlights #ChelseaBlackburn #Chelseavsblackburn #blackburnrovers #blackburn #Highlights #FootballHighlights #carabaocup \n\n---\n\nRECOMMENDED PLAYLISTS: \n\nExtended highlights: https://www.youtube.com/playlist?list=PLx6bGx4zt6EmVmETTXeFaDB9lJmffrYj9 \n\n2 minute highlights: https://www.youtube.com/playlist?list=PLx6bGx4zt6EmPriltuUixZVJGJxnVT3ZB \n\nPress conferences: https://www.youtube.com/playlist?list=PLx6bGx4zt6EmSoTHXQZUjw0sXqAAZiVqt \n\nPost match reactions: https://www.youtube.com/playlist?list=PLx6bGx4zt6ElEuVFW6koF5JRfGAiLnh8Y \n\nMatchday Unseen: https://www.youtube.com/playlist?list=PLx6bGx4zt6EljsDAbBW80yl4Wf3ZzIbGk \n\n---\n\nDownload Chelsea FC's official mobile app for EXCLUSIVE content: \nhttp://che.lc/5thstand\n\nFor all the latest updates, team news and launches, visit:\nhttp://che.lc/YTwebsite\n\n---\nABOUT CHELSEA FOOTBALL CLUB \n\nFounded in 1905, Chelsea Football Club is an English professional football club based in Fulham, West London with Stamford Bridge as the home of the club. Competing in the Premier League - the top division of English football, the club has had many successes, winning five Premier League titles. The club won their first major honour, the League championship in 1955, followed by the FA Cup in 1970, their first European honour, the Cup Winners' Cup in 1971, and became the third English club to win the Club World Cup in 2022. \n\nAs the Pride of London, Chelsea FC is one of the most success clubs in terms of overall trophies won. They are the only club to have won all three major European competitions twice and have taken the crown domestically, winning six league titles, eight FA Cups, five League Cups, and four FA Community Shields. Internationally, Chelsea have won the UEFA Champions League, the UEFA Europa League, the UEFA Cup Winners' Cup and the UEFA Super Cup twice each, and the FIFA Club World Cup once since their inception.\n\nThe Chelsea YouTube channel provides access to all the build-up, training and behind-the-scenes moments and matchday action along with all the unseen edits and player focus from Reece James, Thiago Silva and Enzo Fernandez to Sam Kerr, Fran Kirby and many more. It’s the only channel where you’ll get an authentic look at this great club including memorable nights with world-class heroes such as Peter Osgood, Gianfranco Zola, Frank Lampard, John Terry, Didier Drogba & Eden Hazard.",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/2TrQwYTVyoU/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/2TrQwYTVyoU/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/2TrQwYTVyoU/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/2TrQwYTVyoU/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/2TrQwYTVyoU/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Chelsea Football Club",
+    "tags": [
+    "chelsea",
+    "chelsea fc",
+    "fc chelsea",
+    "cfc",
+    "chelsea football club",
+    "football",
+    "soccer",
+    "sport",
+    "chelsea tv",
+    "carabao cup 2023-24",
+    "chelsea highlights",
+    "carabao cup highlights",
+    "carabao cup fourth round 2023-24",
+    "stamford bridge",
+    "efl cup",
+    "efl highlights",
+    "efl cup highlights",
+    "Benoît Badiashile goal v blacburn rovers",
+    "raheem sterling goal v blackburn rovers",
+    "chelsea 2-0 blackburn rovers"
+    ],
+    "categoryId": "17",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "Chelsea 2-0 Blackburn | EXTENDED Highlights | Carabao Cup 4th Round 2023/24 | Chelsea FC",
+    "description": "Highlights of Chelsea's 2-0 Carabao Cup Fourth Round win against Blackburn Rovers at Stamford Bridge. Goals from Benoît Badiashile ('30) and Raheem Sterling ('59).\n\nSubscribe to our channel here: https://www.youtube.com/chelseafc?sub_confirmation=1\n\n---\n\nGoal/timings\n\n0:00 Intro/teams\n3:28 Benoît Badiashile Goal 30' (1-0)\n7:00 Raheem Sterling Goal 59' (2-0)\n\n---\n\n#Chelsea #ChelseaFC #Football #Soccer #Highlights #ExtendedHighlights #ChelseaBlackburn #Chelseavsblackburn #blackburnrovers #blackburn #Highlights #FootballHighlights #carabaocup \n\n---\n\nRECOMMENDED PLAYLISTS: \n\nExtended highlights: https://www.youtube.com/playlist?list=PLx6bGx4zt6EmVmETTXeFaDB9lJmffrYj9 \n\n2 minute highlights: https://www.youtube.com/playlist?list=PLx6bGx4zt6EmPriltuUixZVJGJxnVT3ZB \n\nPress conferences: https://www.youtube.com/playlist?list=PLx6bGx4zt6EmSoTHXQZUjw0sXqAAZiVqt \n\nPost match reactions: https://www.youtube.com/playlist?list=PLx6bGx4zt6ElEuVFW6koF5JRfGAiLnh8Y \n\nMatchday Unseen: https://www.youtube.com/playlist?list=PLx6bGx4zt6EljsDAbBW80yl4Wf3ZzIbGk \n\n---\n\nDownload Chelsea FC's official mobile app for EXCLUSIVE content: \nhttp://che.lc/5thstand\n\nFor all the latest updates, team news and launches, visit:\nhttp://che.lc/YTwebsite\n\n---\nABOUT CHELSEA FOOTBALL CLUB \n\nFounded in 1905, Chelsea Football Club is an English professional football club based in Fulham, West London with Stamford Bridge as the home of the club. Competing in the Premier League - the top division of English football, the club has had many successes, winning five Premier League titles. The club won their first major honour, the League championship in 1955, followed by the FA Cup in 1970, their first European honour, the Cup Winners' Cup in 1971, and became the third English club to win the Club World Cup in 2022. \n\nAs the Pride of London, Chelsea FC is one of the most success clubs in terms of overall trophies won. They are the only club to have won all three major European competitions twice and have taken the crown domestically, winning six league titles, eight FA Cups, five League Cups, and four FA Community Shields. Internationally, Chelsea have won the UEFA Champions League, the UEFA Europa League, the UEFA Cup Winners' Cup and the UEFA Super Cup twice each, and the FIFA Club World Cup once since their inception.\n\nThe Chelsea YouTube channel provides access to all the build-up, training and behind-the-scenes moments and matchday action along with all the unseen edits and player focus from Reece James, Thiago Silva and Enzo Fernandez to Sam Kerr, Fran Kirby and many more. It’s the only channel where you’ll get an authentic look at this great club including memorable nights with world-class heroes such as Peter Osgood, Gianfranco Zola, Frank Lampard, John Terry, Didier Drogba & Eden Hazard."
+    },
+    "defaultAudioLanguage": "en-GB"
+    },
+    "contentDetails": {
+    "duration": "PT11M18S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "1448787",
+    "likeCount": "25227",
+    "favoriteCount": "0",
+    "commentCount": "1044"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "yXmoTAduxT9E-77tZYxZRF-GOaE",
+    "id": "iXizeL7vqqQ",
+    "snippet": {
+    "publishedAt": "2023-11-02T00:01:02Z",
+    "channelId": "UCywGl_BPp9QhD0uAcP2HsJw",
+    "title": "Manchester United 0 Newcastle United 3 | Carabao Cup Highlights",
+    "description": "The best of the action from our thrilling 3-0 win away at Manchester United to book our spot in the quarter final of the Carabao Cup.\n\nFor more from Newcastle United:\n\nTwitter 👉 https://twitter.com/NUFC\nFacebook 👉 https://www.facebook.com/newcastleunited\nInstagram 👉 https://www.instagram.com/nufc/?hl=en\nTikTok 👉 https://www.tiktok.com/@nufc?\nWebsite 👉 https://www.nufc.co.uk/",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/iXizeL7vqqQ/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/iXizeL7vqqQ/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/iXizeL7vqqQ/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/iXizeL7vqqQ/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    }
+    },
+    "channelTitle": "Newcastle United",
+    "tags": [
+    "newcastle united",
+    "nufc",
+    "football",
+    "premier league"
+    ],
+    "categoryId": "17",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "Manchester United 0 Newcastle United 3 | Carabao Cup Highlights",
+    "description": "The best of the action from our thrilling 3-0 win away at Manchester United to book our spot in the quarter final of the Carabao Cup.\n\nFor more from Newcastle United:\n\nTwitter 👉 https://twitter.com/NUFC\nFacebook 👉 https://www.facebook.com/newcastleunited\nInstagram 👉 https://www.instagram.com/nufc/?hl=en\nTikTok 👉 https://www.tiktok.com/@nufc?\nWebsite 👉 https://www.nufc.co.uk/"
+    },
+    "defaultAudioLanguage": "en-GB"
+    },
+    "contentDetails": {
+    "duration": "PT8M28S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "3254882",
+    "likeCount": "45978",
+    "favoriteCount": "0",
+    "commentCount": "2945"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "d106tW5CtwXQC_JnqDQsM93vXwc",
+    "id": "QZF8Of8s6Z0",
+    "snippet": {
+    "publishedAt": "2023-11-01T13:00:21Z",
+    "channelId": "UCCOSYITWQHRSUxvlQ4_PSCg",
+    "title": "Sonic Dream Team - Announce Trailer",
+    "description": "Join a race against time to stop Dr. Eggman’s bizarre dreams from coming true. Sonic Dream Team arrives December 5th exclusively on Apple Arcade!​\n\nPre-register now: https://apple.co/sonic-dream-team​\n\nDream Team Announce Track:​\nComposed by: Tee Lopes​\nInstrumentation: Jonny Atma​\n\nHuge shoutout to Powerhouse Animation Studios for helping bring this announcement to life!​\n\nCheck out our other social pages to stay-to-date on the latest Sonic happenings:\n\nhttps://twitter.com/sonic_hedgehog\nhttps://facebook.com/sonic\nhttps://instagram.com/sonicthehedgehog\nhttps://tiktok.com/@sonic_hedgehog",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/QZF8Of8s6Z0/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/QZF8Of8s6Z0/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/QZF8Of8s6Z0/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/QZF8Of8s6Z0/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/QZF8Of8s6Z0/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Sonic the Hedgehog",
+    "tags": [
+    "sonic",
+    "sonic the hedgehog"
     ],
     "categoryId": "20",
     "liveBroadcastContent": "none",
     "localized": {
-    "title": "Breaking into people's houses... in VR",
-    "description": "Let's break into people's houses in VR\nBuy MY coffee: https://topofthemornincoffee.com\n\nEdited By:  https://www.youtube.com/@Diceroll"
+    "title": "Sonic Dream Team - Announce Trailer",
+    "description": "Join a race against time to stop Dr. Eggman’s bizarre dreams from coming true. Sonic Dream Team arrives December 5th exclusively on Apple Arcade!​\n\nPre-register now: https://apple.co/sonic-dream-team​\n\nDream Team Announce Track:​\nComposed by: Tee Lopes​\nInstrumentation: Jonny Atma​\n\nHuge shoutout to Powerhouse Animation Studios for helping bring this announcement to life!​\n\nCheck out our other social pages to stay-to-date on the latest Sonic happenings:\n\nhttps://twitter.com/sonic_hedgehog\nhttps://facebook.com/sonic\nhttps://instagram.com/sonicthehedgehog\nhttps://tiktok.com/@sonic_hedgehog"
     },
     "defaultAudioLanguage": "en"
     },
     "contentDetails": {
-    "duration": "PT29M40S",
+    "duration": "PT30S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
-    "licensedContent": true,
+    "licensedContent": false,
     "contentRating": {},
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "825320",
-    "likeCount": "57587",
+    "viewCount": "527369",
+    "likeCount": "29649",
     "favoriteCount": "0",
-    "commentCount": "2108"
+    "commentCount": "6082"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "UZyd-MSbf3KqGc9Mzm_WPRwsuXo",
-    "id": "AQkc19RLSWc",
+    "etag": "NpyovfRtBQsRUmvjiux17GKhhPs",
+    "id": "_ONzjf7JaaM",
     "snippet": {
-    "publishedAt": "2023-10-17T17:32:33Z",
+    "publishedAt": "2023-11-01T17:48:33Z",
     "channelId": "UC-vaBe-YMpvcZL5rQ5OopZw",
-    "title": "A fresh start... my updated BARN tour!!",
-    "description": "thank you BetterHelp for sponsoring this vlog!! https://betterhelp.com/morganadamsvlogs for a 10% discount on your first month of therapy with a\n licensed professional specific to your needs\n\nFOLLOW ME ON INSTAGRAM:https://www.instagram.com/morganadams\nFOLLOW BD CONSTRUCTION: https://www.instagram.com/cobdconstruction/\n\ntimestamps\n0:00 - PAINT THE BARN RED\n3:45 - life changes quickly\n9:35 - PAINTING DAY 2\n11:50 - all the swatches\n19:22 - THE BARN IS DONE\n21:12 - move on girlie pops\n\nIf you're reading this comment: that's the hot goss",
+    "title": "A Week in My Life Renovating My House... *it's ALMOST finished*",
+    "description": "happy happy happy november :,)\n\nFOLLOW BD CONSTRUCTION:  https://www.instagram.com/cobdconstruction/\n\nFOLLOW ME ON INSTAGRAM: https://www.instagram.com/morganadams/?hl=en\n\nif you're reading this comment \"the moth was a paid actor\"",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/AQkc19RLSWc/default.jpg",
+    "url": "https://i.ytimg.com/vi/_ONzjf7JaaM/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/AQkc19RLSWc/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/_ONzjf7JaaM/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/AQkc19RLSWc/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/_ONzjf7JaaM/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/AQkc19RLSWc/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/_ONzjf7JaaM/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/AQkc19RLSWc/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/_ONzjf7JaaM/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
@@ -3028,10 +3680,8 @@ export const youtube_sample=
     "demo my house",
     "my house demo",
     "my house tour",
-    "home decor",
     "diy",
     "vlogmas",
-    "vlogmas day",
     "shane",
     "colorado",
     "christmas decor",
@@ -3046,22 +3696,23 @@ export const youtube_sample=
     "family channel",
     "family competition",
     "Ryland Shane morgan",
-    "christmas",
     "vlogger",
     "Morgan and trinity",
-    "barn tour",
-    "day in my life",
-    "renovation"
+    "home transformation",
+    "flipping my house",
+    "building a house",
+    "home update",
+    "home vlog"
     ],
     "categoryId": "22",
     "liveBroadcastContent": "none",
     "localized": {
-    "title": "A fresh start... my updated BARN tour!!",
-    "description": "thank you BetterHelp for sponsoring this vlog!! https://betterhelp.com/morganadamsvlogs for a 10% discount on your first month of therapy with a\n licensed professional specific to your needs\n\nFOLLOW ME ON INSTAGRAM:https://www.instagram.com/morganadams\nFOLLOW BD CONSTRUCTION: https://www.instagram.com/cobdconstruction/\n\ntimestamps\n0:00 - PAINT THE BARN RED\n3:45 - life changes quickly\n9:35 - PAINTING DAY 2\n11:50 - all the swatches\n19:22 - THE BARN IS DONE\n21:12 - move on girlie pops\n\nIf you're reading this comment: that's the hot goss"
+    "title": "A Week in My Life Renovating My House... *it's ALMOST finished*",
+    "description": "happy happy happy november :,)\n\nFOLLOW BD CONSTRUCTION:  https://www.instagram.com/cobdconstruction/\n\nFOLLOW ME ON INSTAGRAM: https://www.instagram.com/morganadams/?hl=en\n\nif you're reading this comment \"the moth was a paid actor\""
     }
     },
     "contentDetails": {
-    "duration": "PT25M30S",
+    "duration": "PT20M37S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
@@ -3070,630 +3721,86 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "194697",
-    "likeCount": "13473",
+    "viewCount": "184103",
+    "likeCount": "13807",
     "favoriteCount": "0",
-    "commentCount": "1319"
+    "commentCount": "749"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "Nj2Sx1qCf8T9pGl8lbftnRPs-6w",
-    "id": "FAoKiYeq0qQ",
+    "etag": "eJZHjj3b_WxCee3D2S5gk2Y4GTQ",
+    "id": "3yeRC6VhA1w",
     "snippet": {
-    "publishedAt": "2023-10-17T05:51:09Z",
-    "channelId": "UCKnodHJpZd8UbSvAufDd3_g",
-    "title": "Shannon Sharpe & Chad Johnson react to Unc's viral ESPN First Take makeup look | Nightcap",
-    "description": "Shannon Sharpe and Chad \"Ochocinco\" Johnson react to the entire internet clowning the makeup Shannon had on during ESPN's First Take and turning Unc into a meme... again.\n\nFollow Nightcap on all platforms: \nTwitter: https://twitter.com/NightcapShow_\nInstagram: https://www.instagram.com/nightcapshow_/\nTikTok: https://www.tiktok.com/@nightcapshow_\nFacebook: https://www.facebook.com/profile.php?id=61551822396133\n\nABOUT NIGHTCAP: \n'Nightcap with Unc and Ocho' is the new nightly sports talk destination with NFL legends Shannon Sharpe and Chad “Ochocinco” Johnson. Hang out with Unc and Ocho as they give their unfiltered takes on the latest headlines in pro and college football, and give their instant reactions to the biggest games moments after they end.\n\n#Nightcap #ShannonSharpe #Ochocinco",
+    "publishedAt": "2023-10-31T20:06:51Z",
+    "channelId": "UCo_IB5145EVNcf8hw1Kku7w",
+    "title": "Game Theory: Why YouTube Feels Boring",
+    "description": "New Official FNAF Merch Is Here!\n👉 Shop our new FNAF Collection ► https://theorywear.com\n\nDoes YouTube feel boring right now? Does a lot of the content you're seeing across the platform feel repetitive? \"I Went To EVERY Restaurant\", \"I Bought EVERY Item\", \"I Ate EVERY Burger\". Notice a pattern? Where did this trend of \"every\" video come from and more importantly, how is it impacting you, the viewer? You're gonna wanna tune in to this one friends because we're gonna talk about EVERYthing wrong with these kinds of videos. \n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n*🔽 Don’t Miss Out!*\nGet Your TheoryWear! ► https://theorywear.com/\nDive into the Reddit! ► https://www.reddit.com/r/GameTheorists/\n\nNeed Royalty Free Music for your Content? Try Epidemic Sound.\nGet Your 30 Day Free Trial Now ► http://share.epidemicsound.com/MatPat\n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n*👀 Watch MORE Theories:*\nFNAF, Bonnie's Haunted Past ►► https://youtu.be/cQZBxqmKLYs\nThe LOST Episode (Slenderman) ►► https://youtu.be/YEe5ECbD1eg\nSonic Rings Are A SCAM!  ►► https://youtu.be/Tqqsb0X3yHA\n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n*SUBSCRIBE to Game Theory!*\nhttps://www.youtube.com/@GameTheory/?sub_confirmation=1\n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n*Join Our Other YouTube Channels!*\n🎥   @FilmTheory  \n🍔   @FoodTheory  \n👔   @StyleTheorists    \n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n*Credits:*\nWriters: Matthew Patrick, Stephanie Patrick, and Tom Robinson\nEditors: Dan \"Cybert\" Seibert, JayskiBean, Pedro Freitas, Dom Sealion, and Lace\nSound Designer: Tyler Mascola\nThumbnail Artist: DasGnomo\n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n#YouTube #MrBeast #GMM #Excess #YouTubeTheory #Theory #GameTheory #Matpat",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/FAoKiYeq0qQ/default.jpg",
+    "url": "https://i.ytimg.com/vi/3yeRC6VhA1w/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/FAoKiYeq0qQ/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/3yeRC6VhA1w/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/FAoKiYeq0qQ/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/3yeRC6VhA1w/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/FAoKiYeq0qQ/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/3yeRC6VhA1w/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/FAoKiYeq0qQ/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/3yeRC6VhA1w/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "Nightcap",
+    "channelTitle": "The Game Theorists",
     "tags": [
-    "Nightcap",
-    "Shannon Sharpe",
-    "Ochocinco",
-    "Chad Johnson",
-    "Chad Ochocinco",
-    "Club Shay Shay",
-    "Nightcap Podcast",
-    "Shannon Sharpe Podcast",
-    "Ochocinco Podcast"
-    ],
-    "categoryId": "17",
-    "liveBroadcastContent": "none",
-    "defaultLanguage": "en-US",
-    "localized": {
-    "title": "Shannon Sharpe & Chad Johnson react to Unc's viral ESPN First Take makeup look | Nightcap",
-    "description": "Shannon Sharpe and Chad \"Ochocinco\" Johnson react to the entire internet clowning the makeup Shannon had on during ESPN's First Take and turning Unc into a meme... again.\n\nFollow Nightcap on all platforms: \nTwitter: https://twitter.com/NightcapShow_\nInstagram: https://www.instagram.com/nightcapshow_/\nTikTok: https://www.tiktok.com/@nightcapshow_\nFacebook: https://www.facebook.com/profile.php?id=61551822396133\n\nABOUT NIGHTCAP: \n'Nightcap with Unc and Ocho' is the new nightly sports talk destination with NFL legends Shannon Sharpe and Chad “Ochocinco” Johnson. Hang out with Unc and Ocho as they give their unfiltered takes on the latest headlines in pro and college football, and give their instant reactions to the biggest games moments after they end.\n\n#Nightcap #ShannonSharpe #Ochocinco"
-    },
-    "defaultAudioLanguage": "en-US"
-    },
-    "contentDetails": {
-    "duration": "PT9M49S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "611776",
-    "likeCount": "16420",
-    "favoriteCount": "0",
-    "commentCount": "3010"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "2FFsjTSYyE0fKTLUCm3aDCTL8xU",
-    "id": "uq4Vi8PyBFM",
-    "snippet": {
-    "publishedAt": "2023-10-17T17:30:05Z",
-    "channelId": "UCoOss5XiPpnLHGmLrBvNkJg",
-    "title": "clothes are so much worse now 😭",
-    "description": "Head to http://squarespace.com/minale to save 10% off your first purchase of a website or a domain!\n\n🕊️ PATREON: https://patreon.com/highbrowbymina 🕊️\nMake a One-Time Donation: https://ko-fi.com/minale\n\nPODCAST\nSpotify: https://open.spotify.com/show/3wvGhhd3yGEJhak11myA5N\nApple Podcasts: https://podcasts.apple.com/us/podcast/high-brow/id1677209917\nfor extra content every other Wednesday 😈\nInstagram: http://instagram.com/highbrow.pod\n\nPRODUCTION\nwritten by Mina Le \nedited by Charlee Reiff\n\nSOCIALS\nInstagram: http://instagram.com/gremlita\nTikTok: https://www.tiktok.com/@gremlita\nLetterboxd: http://boxd.it/7YgX\n\nCONTACT\nBusiness email: MinaLeTeam@WMEAgency.com\n\nBRANDS/ORGANIZATIONS MENTIONED\nSheep Inc https://us.sheepinc.com/\nFibershed https://fibershed.org/ \nTextile Exchange https://textileexchange.org/ \nWoolmark https://www.woolmark.com/environment/filterbyfabric/ \nFashion Revolution https://www.fashionrevolution.org/\nFashion Revolution's Key Organizations List https://www.fashionrevolution.org/key-organisations/ \nAtmos Magazine https://atmos.earth/ \nSustainable Baddie Magazine http://sustainablebaddie.com/\nPatagonia Action Works https://www.patagonia.com/actionworks/home/explore/all \n\nSOURCES\nbooks 📚\nOverdressed: The Shockingly High Cost of Cheap Fashion\nService and Style: How the American Department Store Fashioned the Middle Class by Jan Whitaker\nWardrobe Crisis: How We Went from Sunday Best to Fast Fashion by Clare Press\nClothing Poverty The Hidden World of Fast Fashion and Second-hand Clothes by Andrew Brooks\narticles 📰\nCable Crossings: The Aran Jumper as Myth and Merchandise by Siun Carden\nThe Knit of a Nation?: How Irishness was marketed to the world by the Aran sweater (1950-1980) by Pierce Kehoe\nhttps://www.newyorker.com/magazine/2005/02/14/sole-survivor\nhttps://www.telegraph.co.uk/news/worldnews/europe/italy/1494238/Now-you-can-walk-in-footsteps-of-5000-year-old-Iceman-wearing-his-boots.html \nhttps://www.theguardian.com/politics/2003/nov/20/uk.northernireland \nhttps://www.rte.ie/brainstorm/2020/0817/1159600-aran-jumper-taylor-swift-fashion-ireland-steve-mcqueen-marilyn-monroe-clancy-brothers/ \nhttps://www.investopedia.com/personal-finance/how-much-income-puts-you-top-1-5-10/ \nhttps://www.vogue.co.uk/fashion/article/aran-knit-renaissance \nhttps://www.newyorker.com/magazine/1999/02/01/the-crisis-in-cashmere\nhttps://threadreaderapp.com/thread/1597339373900824576.html \nhttp://www.theluxestrategist.com/quality-clothes-how-to-buy-better-sweaters-make-the-most-of-your-money\nhttps://www.sustainablejungle.com/sustainable-fashion/what-is-ethical-wool/\nhttps://scripps.ucsd.edu/news/not-so-biodegradable-new-study-finds-bio-based-plastic-and-plastic-blend-textiles-do-not\nhttps://invisibleworld.com/blogs/news/three-things-you-know-about-cashmere-sweaters-that-are-wrong \nhttps://www.theguardian.com/lifeandstyle/2023/may/30/how-to-pick-knits-six-questions-to-ask-before-buying-that-cardigan \nhttps://research.qut.edu.au/textiler/knowledge-base/blended-textiles/ \n\n0:00 - intro\n5:55 - defining the aran jumper\n8:04 - the aran jumper goes commercial\n12:55 - the quality debate\n23:42 - how to buy a sweater\n37:33 - conclusion",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/uq4Vi8PyBFM/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/uq4Vi8PyBFM/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/uq4Vi8PyBFM/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/uq4Vi8PyBFM/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/uq4Vi8PyBFM/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Mina Le",
-    "tags": [
-    "when harry met sally",
-    "fall",
-    "autumn",
-    "pumpkin spice latte",
-    "ben schwartz",
-    "sweater",
-    "wool",
-    "fabric",
-    "sustainability",
-    "how to buy",
-    "how to shop",
-    "mina le",
-    "video essay",
-    "history",
-    "commentary",
-    "analysis",
-    "fashion",
-    "textile",
-    "meg ryan",
-    "billy crystal",
-    "tiktok"
-    ],
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "clothes are so much worse now 😭",
-    "description": "Head to http://squarespace.com/minale to save 10% off your first purchase of a website or a domain!\n\n🕊️ PATREON: https://patreon.com/highbrowbymina 🕊️\nMake a One-Time Donation: https://ko-fi.com/minale\n\nPODCAST\nSpotify: https://open.spotify.com/show/3wvGhhd3yGEJhak11myA5N\nApple Podcasts: https://podcasts.apple.com/us/podcast/high-brow/id1677209917\nfor extra content every other Wednesday 😈\nInstagram: http://instagram.com/highbrow.pod\n\nPRODUCTION\nwritten by Mina Le \nedited by Charlee Reiff\n\nSOCIALS\nInstagram: http://instagram.com/gremlita\nTikTok: https://www.tiktok.com/@gremlita\nLetterboxd: http://boxd.it/7YgX\n\nCONTACT\nBusiness email: MinaLeTeam@WMEAgency.com\n\nBRANDS/ORGANIZATIONS MENTIONED\nSheep Inc https://us.sheepinc.com/\nFibershed https://fibershed.org/ \nTextile Exchange https://textileexchange.org/ \nWoolmark https://www.woolmark.com/environment/filterbyfabric/ \nFashion Revolution https://www.fashionrevolution.org/\nFashion Revolution's Key Organizations List https://www.fashionrevolution.org/key-organisations/ \nAtmos Magazine https://atmos.earth/ \nSustainable Baddie Magazine http://sustainablebaddie.com/\nPatagonia Action Works https://www.patagonia.com/actionworks/home/explore/all \n\nSOURCES\nbooks 📚\nOverdressed: The Shockingly High Cost of Cheap Fashion\nService and Style: How the American Department Store Fashioned the Middle Class by Jan Whitaker\nWardrobe Crisis: How We Went from Sunday Best to Fast Fashion by Clare Press\nClothing Poverty The Hidden World of Fast Fashion and Second-hand Clothes by Andrew Brooks\narticles 📰\nCable Crossings: The Aran Jumper as Myth and Merchandise by Siun Carden\nThe Knit of a Nation?: How Irishness was marketed to the world by the Aran sweater (1950-1980) by Pierce Kehoe\nhttps://www.newyorker.com/magazine/2005/02/14/sole-survivor\nhttps://www.telegraph.co.uk/news/worldnews/europe/italy/1494238/Now-you-can-walk-in-footsteps-of-5000-year-old-Iceman-wearing-his-boots.html \nhttps://www.theguardian.com/politics/2003/nov/20/uk.northernireland \nhttps://www.rte.ie/brainstorm/2020/0817/1159600-aran-jumper-taylor-swift-fashion-ireland-steve-mcqueen-marilyn-monroe-clancy-brothers/ \nhttps://www.investopedia.com/personal-finance/how-much-income-puts-you-top-1-5-10/ \nhttps://www.vogue.co.uk/fashion/article/aran-knit-renaissance \nhttps://www.newyorker.com/magazine/1999/02/01/the-crisis-in-cashmere\nhttps://threadreaderapp.com/thread/1597339373900824576.html \nhttp://www.theluxestrategist.com/quality-clothes-how-to-buy-better-sweaters-make-the-most-of-your-money\nhttps://www.sustainablejungle.com/sustainable-fashion/what-is-ethical-wool/\nhttps://scripps.ucsd.edu/news/not-so-biodegradable-new-study-finds-bio-based-plastic-and-plastic-blend-textiles-do-not\nhttps://invisibleworld.com/blogs/news/three-things-you-know-about-cashmere-sweaters-that-are-wrong \nhttps://www.theguardian.com/lifeandstyle/2023/may/30/how-to-pick-knits-six-questions-to-ask-before-buying-that-cardigan \nhttps://research.qut.edu.au/textiler/knowledge-base/blended-textiles/ \n\n0:00 - intro\n5:55 - defining the aran jumper\n8:04 - the aran jumper goes commercial\n12:55 - the quality debate\n23:42 - how to buy a sweater\n37:33 - conclusion"
-    },
-    "defaultAudioLanguage": "en"
-    },
-    "contentDetails": {
-    "duration": "PT40M45S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "true",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "291840",
-    "likeCount": "19766",
-    "favoriteCount": "0",
-    "commentCount": "1444"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "8DF4vi7t71Ed3CsWFV_dQQeG1G0",
-    "id": "rW_uCu1ElsI",
-    "snippet": {
-    "publishedAt": "2023-10-16T16:59:51Z",
-    "channelId": "UCt8jfvd9skBAOT6XJwc_mJg",
-    "title": "Pastor’s daughter lets it slip at the podium!",
-    "description": "Pastor’s daughter lets it slip at the podium! What do you think of when you hear the word “bud”??\n\nSubscribe to our channel:\nhttp://bit.ly/FamilyFeudSub\n\nGet the Family Feud board game:\nhttps://familyfeud.shop\n \nPlay Family Feud online:\nhttps://buzzrtv.com/play\n \nAudition to be on the show:\nhttps://www.familyfeud.com/audition",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/rW_uCu1ElsI/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/rW_uCu1ElsI/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/rW_uCu1ElsI/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/rW_uCu1ElsI/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/rW_uCu1ElsI/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Family Feud",
-    "tags": [
-    "family feud",
-    "family fued",
-    "steve harvey",
-    "steve harvey on family feud",
-    "family feud funny moments",
-    "celebrity family feud",
-    "funny family feud answers",
-    "family feud steve harvey funny moments",
-    "steve harvey family feud funny moments",
-    "funny answer on family feud",
-    "funny Steve Harvey reaction on family feud",
-    "dumb answer on family feud",
-    "steve harvey cracks up on family feud",
-    "steve harvey makes fun of family feud contestant",
-    "it's already up on the family feud board",
-    "dumb family feud answers"
-    ],
-    "categoryId": "24",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Pastor’s daughter lets it slip at the podium!",
-    "description": "Pastor’s daughter lets it slip at the podium! What do you think of when you hear the word “bud”??\n\nSubscribe to our channel:\nhttp://bit.ly/FamilyFeudSub\n\nGet the Family Feud board game:\nhttps://familyfeud.shop\n \nPlay Family Feud online:\nhttps://buzzrtv.com/play\n \nAudition to be on the show:\nhttps://www.familyfeud.com/audition"
-    },
-    "defaultAudioLanguage": "en"
-    },
-    "contentDetails": {
-    "duration": "PT3M9S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "true",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "938567",
-    "likeCount": "1725",
-    "favoriteCount": "0",
-    "commentCount": "162"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "pHlAwVx703rTkHazAL0To52r93k",
-    "id": "KHXZHL78ojc",
-    "snippet": {
-    "publishedAt": "2023-10-17T16:48:46Z",
-    "channelId": "UCDXnNCoOry4yQfckjcQd1Lg",
-    "title": "Brain MRI Results-Not What We Expected-Stage IV Cancer-NSCLC EGFR Exon 20",
-    "description": "P.O. Box \nJenny Appleford\n7211 Haven Ave, Unit E-407\nRancho Cucamonga, CA 91701\n\nKyle’s Channel:\nhttps://www.youtube.com/@kyleapple9702\n\nINSTAGRAM: jenny_appleford\nFACEBOOK: Our Brave Jenny \n\nFor business inquiries: veganapplefords@gmail.com \n\nDIAGNOSIS:\nMarch 19th, 2021 Stage IIIA Non Small Cell Lung Cancer (Non-Smoking)\n\nFebruary 2022 Stage IV Non Small Cell Lung Cancer (spreading to Brain, and other parts of lung and lymph nodes)\n\nGene Mutation EGFR with Exon 20 Insertion\n\nTREATMENTS: Received or currently Receiving\n2021: 8 Rounds of Chemotherapy (Carboplatin and Paclitaxel) with 30 concurrent radiation treatments to chest and lung\nFailed Immunotherapy directly after Chemo and Radiation (Durvalumab, 1 round)\n\n2022: Chemotherapy\n10 rounds of Chemotherapy (Carboplatin, Alimta, and Avastin) \n6 with Carboplatin, 4 without\n\nTargeted Brain Radiation (Completed)\n\nCURRENT TREATMENT:\nI am on a clinical trial for my specific gene mutation \n\nOur GoFundMe Link:\nhttps://gofund.me/5edf81e5\n\nThe purpose of my channel is to document my cancer journey to look back on, and/or help anyone else going through anything similar. It is also to potentially help loved ones supporting those who are in this fight as well. This is also an easy way to update a lot of people at once. My main goal is to have footage of this journey for my husband and children to look back on. I originally created this channel as a sort of video diary for my\n family. \n\nThank you so much for following along on this journey. Your love and support help me so much.",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/KHXZHL78ojc/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/KHXZHL78ojc/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/KHXZHL78ojc/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/KHXZHL78ojc/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/KHXZHL78ojc/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Jenny Apple",
-    "categoryId": "22",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "Brain MRI Results-Not What We Expected-Stage IV Cancer-NSCLC EGFR Exon 20",
-    "description": "P.O. Box \nJenny Appleford\n7211 Haven Ave, Unit E-407\nRancho Cucamonga, CA 91701\n\nKyle’s Channel:\nhttps://www.youtube.com/@kyleapple9702\n\nINSTAGRAM: jenny_appleford\nFACEBOOK: Our Brave Jenny \n\nFor business inquiries: veganapplefords@gmail.com \n\nDIAGNOSIS:\nMarch 19th, 2021 Stage IIIA Non Small Cell Lung Cancer (Non-Smoking)\n\nFebruary 2022 Stage IV Non Small Cell Lung Cancer (spreading to Brain, and other parts of lung and lymph nodes)\n\nGene Mutation EGFR with Exon 20 Insertion\n\nTREATMENTS: Received or currently Receiving\n2021: 8 Rounds of Chemotherapy (Carboplatin and Paclitaxel) with 30 concurrent radiation treatments to chest and lung\nFailed Immunotherapy directly after Chemo and Radiation (Durvalumab, 1 round)\n\n2022: Chemotherapy\n10 rounds of Chemotherapy (Carboplatin, Alimta, and Avastin) \n6 with Carboplatin, 4 without\n\nTargeted Brain Radiation (Completed)\n\nCURRENT TREATMENT:\nI am on a clinical trial for my specific gene mutation \n\nOur GoFundMe Link:\nhttps://gofund.me/5edf81e5\n\nThe purpose of my channel is to document my cancer journey to look back on, and/or help anyone else going through anything similar. It is also to potentially help loved ones supporting those who are in this fight as well. This is also an easy way to update a lot of people at once. My main goal is to have footage of this journey for my husband and children to look back on. I originally created this channel as a sort of video diary for my\n family. \n\nThank you so much for following along on this journey. Your love and support help me so much."
-    }
-    },
-    "contentDetails": {
-    "duration": "PT22M28S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "361305",
-    "likeCount": "26914",
-    "favoriteCount": "0",
-    "commentCount": "6035"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "nZIDFbkPx9fFRPyvMJzXfRWWfC8",
-    "id": "fooMEi_e-ZE",
-    "snippet": {
-    "publishedAt": "2023-10-16T21:00:17Z",
-    "channelId": "UCBODyKF0JMbUd6D9Bklyzbw",
-    "title": "I Attempted a 2 Person Nuzlocke with my Rival",
-    "description": "Thank you to @PokemonChallenges for getting carried!\nAlso, thanks to Air Up for sponsoring the video! Get your own here: https://airup.link/Alpharad1023 and use code ALPHA for 10% off your entire order.\n➤ STREAM: http://twitch.tv/alpharad\n➤ MERCH: http://pleasebuymymerch.com\n➤ TWITTER: https://twitter.com/alpharad\n➤ INSTAGRAM: https://www.instagram.com/alpharad\n#pokemon #alpharad #nuzlocke \n\nVIDEO EDITOR:\n➤ Vixento: https://twitter.com/vixento_\n\nFINAL CUT EDITOR: \n➤ me (carried)\n\nTHUMBNAIL ART:\n➤ Koro: http://twitter.com/wingedkoro\n\nSCRIPT CO-WRITER: \n➤ Jackie: https://twitter.com/jackie_peanuts",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/fooMEi_e-ZE/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/fooMEi_e-ZE/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/fooMEi_e-ZE/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/fooMEi_e-ZE/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/fooMEi_e-ZE/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Alpharad",
-    "tags": [
-    "alpharad"
+    "i tried every",
+    "$1 vs $1000000",
+    "every",
+    "i went to every",
+    "i ate every",
+    "i bought every",
+    "rhett and link",
+    "good mythical morning",
+    "mr beast",
+    "hopescopr",
+    "airrack",
+    "eddy burback",
+    "keith eats everything",
+    "mrwhosetheboss",
+    "youtube feels different",
+    "$1 vs $1000000000",
+    "I did every",
+    "game theorists",
+    "matpat",
+    "game theory",
+    "meta theory",
+    "meta game theory",
+    "matpat meta theory",
+    "youtube theory"
     ],
     "categoryId": "20",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "I Attempted a 2 Person Nuzlocke with my Rival",
-    "description": "Thank you to @PokemonChallenges for getting carried!\nAlso, thanks to Air Up for sponsoring the video! Get your own here: https://airup.link/Alpharad1023 and use code ALPHA for 10% off your entire order.\n➤ STREAM: http://twitch.tv/alpharad\n➤ MERCH: http://pleasebuymymerch.com\n➤ TWITTER: https://twitter.com/alpharad\n➤ INSTAGRAM: https://www.instagram.com/alpharad\n#pokemon #alpharad #nuzlocke \n\nVIDEO EDITOR:\n➤ Vixento: https://twitter.com/vixento_\n\nFINAL CUT EDITOR: \n➤ me (carried)\n\nTHUMBNAIL ART:\n➤ Koro: http://twitter.com/wingedkoro\n\nSCRIPT CO-WRITER: \n➤ Jackie: https://twitter.com/jackie_peanuts"
-    },
-    "defaultAudioLanguage": "en"
-    },
-    "contentDetails": {
-    "duration": "PT21M36S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "792990",
-    "likeCount": "48512",
-    "favoriteCount": "0",
-    "commentCount": "1762"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "UJpjlORh1l00ECHTbaJGPvkiNrU",
-    "id": "4-IY_oIeyKY",
-    "snippet": {
-    "publishedAt": "2023-10-17T12:44:51Z",
-    "channelId": "UCJiFgnnYpwlnadzTzhMnX_Q",
-    "title": "The Minecraft Mob Vote Was BOTTED - I Have Potential Evidence",
-    "description": "This years minecraft mob vote had a lot of drama, but one thing we weren't expecting was for it to have been botted. I was skeptical, but got in contact with a few individuals who gave me evidence I just couldn't ignore...\n\nThanks for watching! Subscribe and Join My Discord!\nDiscord - https://discord.gg/WGc9UNM\nTwitter - https://twitter.com/TheMisterEpicYT\nTwitch - https://www.twitch.tv/themisterepicyt\n\nJoin my OG Minecraft Server, The OG Network! (1.8-1.20): og-network.net\n - Website: https://og-network.net\n - Discord: https://discord.gg/G7zq6NPZnM\n\n0:00 – Intro\n0:36 – The Mob Vote Discord Bot\n1:14 – The Exploit\n3:00 – The Modified Script\n3:57 – The Botting Begins\n5:43 – Evidence That the Vote Was Botted\n7:13 – Evidence Against the Vote Being Botted\n\nMusic Used:\n1. Soundridemusic - Tensions Run High (https://youtu.be/2rOTgT0-ZEk?si=_N2oSUYKoQx1Aiqr)\n2. Scott Buckley - Machina\n3. Scott Buckley - Sanctuary\n\nIf there is any content in this video which you own and would like removed, than please contact me and I will be happy to oblige.\n\n#minecraft #minecraftlive #minecraftmobvote",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/4-IY_oIeyKY/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/4-IY_oIeyKY/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/4-IY_oIeyKY/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/4-IY_oIeyKY/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/4-IY_oIeyKY/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "TheMisterEpic",
-    "tags": [
-    "TheMisterEpic",
-    "themisterepic",
-    "minecraft",
-    "minecraft mob vote",
-    "minecraft mob vote 2023",
-    "minecraft live",
-    "minecraft live mob vote 2023",
-    "minecraft mob vote results",
-    "minecraft mob vote winner",
-    "minecraft crab",
-    "minecraft armadillo",
-    "minecraft penguin",
-    "minecraft mob vote 2023 results",
-    "minecraft 1.21",
-    "minecraft live recap",
-    "minecraft live summary",
-    "minecraft live rigged",
-    "stop the minecraft mob vote",
-    "minecraft mojang",
-    "minecraft microsoft",
-    "minecraft update",
-    "mob vote",
-    "mob vote 2023",
-    "1.21"
-    ],
-    "categoryId": "20",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "The Minecraft Mob Vote Was BOTTED - I Have Potential Evidence",
-    "description": "This years minecraft mob vote had a lot of drama, but one thing we weren't expecting was for it to have been botted. I was skeptical, but got in contact with a few individuals who gave me evidence I just couldn't ignore...\n\nThanks for watching! Subscribe and Join My Discord!\nDiscord - https://discord.gg/WGc9UNM\nTwitter - https://twitter.com/TheMisterEpicYT\nTwitch - https://www.twitch.tv/themisterepicyt\n\nJoin my OG Minecraft Server, The OG Network! (1.8-1.20): og-network.net\n - Website: https://og-network.net\n - Discord: https://discord.gg/G7zq6NPZnM\n\n0:00 – Intro\n0:36 – The Mob Vote Discord Bot\n1:14 – The Exploit\n3:00 – The Modified Script\n3:57 – The Botting Begins\n5:43 – Evidence That the Vote Was Botted\n7:13 – Evidence Against the Vote Being Botted\n\nMusic Used:\n1. Soundridemusic - Tensions Run High (https://youtu.be/2rOTgT0-ZEk?si=_N2oSUYKoQx1Aiqr)\n2. Scott Buckley - Machina\n3. Scott Buckley - Sanctuary\n\nIf there is any content in this video which you own and would like removed, than please contact me and I will be happy to oblige.\n\n#minecraft #minecraftlive #minecraftmobvote"
-    },
-    "defaultAudioLanguage": "en"
-    },
-    "contentDetails": {
-    "duration": "PT8M42S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "442520",
-    "likeCount": "35657",
-    "favoriteCount": "0",
-    "commentCount": "4964"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "Uq5P0oMUO6IkuJZWm9R3VRBgrVI",
-    "id": "Qtmrp_4BKRQ",
-    "snippet": {
-    "publishedAt": "2023-10-17T14:04:14Z",
-    "channelId": "UCsXVk37bltHxD1rDPwtNM8Q",
-    "title": "A Glimpse Into Our Future",
-    "description": "✨ WORLDWIDE SHIPPING AVAILABLE ✨ The 12,024 Human Era Calendar has landed! https://shop.kgs.link/12-024\nJoin us on an exploration of how different cosmic conditions could shape unique worlds and civilizations.\nStocks are highly limited, so don’t miss your chance to own a truly special piece of kurzgesagt.\n\n\nOUR CHANNELS\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nGerman:        https://kgs.link/youtubeDE\nSpanish:        https://kgs.link/youtubeES\nFrench:          https://kgs.link/youtubeFR\nPortuguese:  https://kgs.link/youtubePT\nArabic:           https://kgs.link/youtubeAR\nHindi:             https://kgs.link/youtubeHI\nJapanese:     https://kgs.link/youtubeJA\nKorean:          https://kgs.link/youtubeKO\n\n\nHOW CAN YOU SUPPORT US?\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nThis is how we make our living and it would be a pleasure if you support us!\n\nGet Prodcuts designed with ❤ https://shop-us.kurzgesagt.org  \nJoin the Patreon Bird Army 🐧  https://kgs.link/patreon  \n\n\nDISCUSSIONS & SOCIAL MEDIA\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nTikTok:           https://kgs.link/tiktok\nReddit:            https://kgs.link/reddit\nInstagram:     https://kgs.link/instagram\nTwitter:           https://kgs.link/twitter\nFacebook:      https://kgs.link/facebook\nDiscord:          https://kgs.link/discord\nNewsletter:    https://kgs.link/newsletter\n\n\nOUR VOICE\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nThe Kurzgesagt voice is from \nSteve Taylor:  https://kgs.link/youtube-voice\n\n\nOUR MUSIC ♬♪\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\n700+ minutes of Kurzgesagt Soundtracks by Epic Mountain:\n\nSpotify:            https://kgs.link/music-spotify\nSoundcloud:   https://kgs.link/music-soundcloud\nBandcamp:     https://kgs.link/music-bandcamp\nYoutube:          https://kgs.link/music-youtube\nFacebook:       https://kgs.link/music-facebook\n\nIf you want to help us caption this video, please send subtitles to subtitle@kurzgesagt.org\nYou can find info on what subtitle files work on YouTube here:\nhttps://support.google.com/youtube/answer/2734698?hl=en-GB&ref_topic=7296214\nThank you!",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/Qtmrp_4BKRQ/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/Qtmrp_4BKRQ/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/Qtmrp_4BKRQ/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/Qtmrp_4BKRQ/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/Qtmrp_4BKRQ/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Kurzgesagt – In a Nutshell",
-    "categoryId": "27",
-    "liveBroadcastContent": "none",
-    "defaultLanguage": "en-GB",
-    "localized": {
-    "title": "A Glimpse Into Our Future",
-    "description": "✨ WORLDWIDE SHIPPING AVAILABLE ✨ The 12,024 Human Era Calendar has landed! https://shop.kgs.link/12-024\nJoin us on an exploration of how different cosmic conditions could shape unique worlds and civilizations.\nStocks are highly limited, so don’t miss your chance to own a truly special piece of kurzgesagt.\n\n\nOUR CHANNELS\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nGerman:        https://kgs.link/youtubeDE\nSpanish:        https://kgs.link/youtubeES\nFrench:          https://kgs.link/youtubeFR\nPortuguese:  https://kgs.link/youtubePT\nArabic:           https://kgs.link/youtubeAR\nHindi:             https://kgs.link/youtubeHI\nJapanese:     https://kgs.link/youtubeJA\nKorean:          https://kgs.link/youtubeKO\n\n\nHOW CAN YOU SUPPORT US?\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nThis is how we make our living and it would be a pleasure if you support us!\n\nGet Prodcuts designed with ❤ https://shop-us.kurzgesagt.org  \nJoin the Patreon Bird Army 🐧  https://kgs.link/patreon  \n\n\nDISCUSSIONS & SOCIAL MEDIA\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nTikTok:           https://kgs.link/tiktok\nReddit:            https://kgs.link/reddit\nInstagram:     https://kgs.link/instagram\nTwitter:           https://kgs.link/twitter\nFacebook:      https://kgs.link/facebook\nDiscord:          https://kgs.link/discord\nNewsletter:    https://kgs.link/newsletter\n\n\nOUR VOICE\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nThe Kurzgesagt voice is from \nSteve Taylor:  https://kgs.link/youtube-voice\n\n\nOUR MUSIC ♬♪\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\n700+ minutes of Kurzgesagt Soundtracks by Epic Mountain:\n\nSpotify:            https://kgs.link/music-spotify\nSoundcloud:   https://kgs.link/music-soundcloud\nBandcamp:     https://kgs.link/music-bandcamp\nYoutube:          https://kgs.link/music-youtube\nFacebook:       https://kgs.link/music-facebook\n\nIf you want to help us caption this video, please send subtitles to subtitle@kurzgesagt.org\nYou can find info on what subtitle files work on YouTube here:\nhttps://support.google.com/youtube/answer/2734698?hl=en-GB&ref_topic=7296214\nThank you!"
-    },
-    "defaultAudioLanguage": "en"
-    },
-    "contentDetails": {
-    "duration": "PT1M42S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "true",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "679303",
-    "likeCount": "34616",
-    "favoriteCount": "0",
-    "commentCount": "1214"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "FTbtA3xCHnPZqnDXKXlyLQ1GsrI",
-    "id": "BiC9gh5C5w0",
-    "snippet": {
-    "publishedAt": "2023-10-17T15:01:12Z",
-    "channelId": "UCywhnhPP3dAw7huG_y0hdEg",
-    "title": "You Broke the News!!!!!",
-    "description": "Welcome to my first interactive special!",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/BiC9gh5C5w0/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/BiC9gh5C5w0/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/BiC9gh5C5w0/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/BiC9gh5C5w0/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/BiC9gh5C5w0/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "Brandon Rogers",
-    "categoryId": "10",
-    "liveBroadcastContent": "none",
-    "localized": {
-    "title": "You Broke the News!!!!!",
-    "description": "Welcome to my first interactive special!"
-    },
-    "defaultAudioLanguage": "en-US"
-    },
-    "contentDetails": {
-    "duration": "PT2M4S",
-    "dimension": "2d",
-    "definition": "hd",
-    "caption": "false",
-    "licensedContent": true,
-    "contentRating": {},
-    "projection": "rectangular"
-    },
-    "statistics": {
-    "viewCount": "296856",
-    "likeCount": "20694",
-    "favoriteCount": "0",
-    "commentCount": "817"
-    }
-    },
-    {
-    "kind": "youtube#video",
-    "etag": "AZJqKCovOl0skaFhH9yNZSE2kUw",
-    "id": "3ryID_SwU5E",
-    "snippet": {
-    "publishedAt": "2023-10-14T16:00:00Z",
-    "channelId": "UCX6OQ3DkcsbYNE6H8uQQuVA",
-    "title": "$1 Vs $100,000,000 House!",
-    "description": "I can’t believe how expensive the last house is\nBuy Feastables this Halloween! Our limited edition trick or treat bags are now available at Walmart, Target, and Albertsons stores nationwide\n\nIn case you want to buy the $139,000,000 House... https://www.instagram.com/1200belair/\n\nDiscover over 1 million mainstream tracks for your YouTube videos at Lickd: https://go.lickd.co/mb3\nTrack:“Up & Down” by The Chainsmokers, 347aidan License ID:  MEgkVpMo6r5\nLink: https://thechainsmokers.lnk.to/UAD\n\nNew Merch - https://mrbeast.store\n\nSUBSCRIBE OR I TAKE YOUR DOG\n╔═╦╗╔╦╗╔═╦═╦╦╦╦╗╔═╗\n║╚╣║║║╚╣╚╣╔╣╔╣║╚╣═╣ \n╠╗║╚╝║║╠╗║╚╣║║║║║═╣\n╚═╩══╩═╩═╩═╩╝╚╩═╩═╝\n\nFor any questions or inquiries regarding this video please reach out to chucky@mrbeastbusiness.com\n\n----------------------------------------------------------------\nfollow all of these or i will kick you\n• Facebook - https://www.facebook.com/MrBeast6000/\n• Twitter - https://twitter.com/MrBeast\n•  Instagram - https://www.instagram.com/mrbeast\n•  Im Hiring! - https://www.mrbeastjobs.com/\n--------------------------------------------------------------------",
-    "thumbnails": {
-    "default": {
-    "url": "https://i.ytimg.com/vi/3ryID_SwU5E/default.jpg",
-    "width": 120,
-    "height": 90
-    },
-    "medium": {
-    "url": "https://i.ytimg.com/vi/3ryID_SwU5E/mqdefault.jpg",
-    "width": 320,
-    "height": 180
-    },
-    "high": {
-    "url": "https://i.ytimg.com/vi/3ryID_SwU5E/hqdefault.jpg",
-    "width": 480,
-    "height": 360
-    },
-    "standard": {
-    "url": "https://i.ytimg.com/vi/3ryID_SwU5E/sddefault.jpg",
-    "width": 640,
-    "height": 480
-    },
-    "maxres": {
-    "url": "https://i.ytimg.com/vi/3ryID_SwU5E/maxresdefault.jpg",
-    "width": 1280,
-    "height": 720
-    }
-    },
-    "channelTitle": "MrBeast",
-    "categoryId": "24",
     "liveBroadcastContent": "none",
     "defaultLanguage": "en",
     "localized": {
-    "title": "$1 Vs $100,000,000 House!",
-    "description": "I can’t believe how expensive the last house is\nBuy Feastables this Halloween! Our limited edition trick or treat bags are now available at Walmart, Target, and Albertsons stores nationwide\n\nIn case you want to buy the $139,000,000 House... https://www.instagram.com/1200belair/\n\nDiscover over 1 million mainstream tracks for your YouTube videos at Lickd: https://go.lickd.co/mb3\nTrack:“Up & Down” by The Chainsmokers, 347aidan License ID:  MEgkVpMo6r5\nLink: https://thechainsmokers.lnk.to/UAD\n\nNew Merch - https://mrbeast.store\n\nSUBSCRIBE OR I TAKE YOUR DOG\n╔═╦╗╔╦╗╔═╦═╦╦╦╦╗╔═╗\n║╚╣║║║╚╣╚╣╔╣╔╣║╚╣═╣ \n╠╗║╚╝║║╠╗║╚╣║║║║║═╣\n╚═╩══╩═╩═╩═╩╝╚╩═╩═╝\n\nFor any questions or inquiries regarding this video please reach out to chucky@mrbeastbusiness.com\n\n----------------------------------------------------------------\nfollow all of these or i will kick you\n• Facebook - https://www.facebook.com/MrBeast6000/\n• Twitter - https://twitter.com/MrBeast\n•  Instagram - https://www.instagram.com/mrbeast\n•  Im Hiring! - https://www.mrbeastjobs.com/\n--------------------------------------------------------------------"
+    "title": "Game Theory: Why YouTube Feels Boring",
+    "description": "New Official FNAF Merch Is Here!\n👉 Shop our new FNAF Collection ► https://theorywear.com\n\nDoes YouTube feel boring right now? Does a lot of the content you're seeing across the platform feel repetitive? \"I Went To EVERY Restaurant\", \"I Bought EVERY Item\", \"I Ate EVERY Burger\". Notice a pattern? Where did this trend of \"every\" video come from and more importantly, how is it impacting you, the viewer? You're gonna wanna tune in to this one friends because we're gonna talk about EVERYthing wrong with these kinds of videos. \n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n*🔽 Don’t Miss Out!*\nGet Your TheoryWear! ► https://theorywear.com/\nDive into the Reddit! ► https://www.reddit.com/r/GameTheorists/\n\nNeed Royalty Free Music for your Content? Try Epidemic Sound.\nGet Your 30 Day Free Trial Now ► http://share.epidemicsound.com/MatPat\n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n*👀 Watch MORE Theories:*\nFNAF, Bonnie's Haunted Past ►► https://youtu.be/cQZBxqmKLYs\nThe LOST Episode (Slenderman) ►► https://youtu.be/YEe5ECbD1eg\nSonic Rings Are A SCAM!  ►► https://youtu.be/Tqqsb0X3yHA\n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n*SUBSCRIBE to Game Theory!*\nhttps://www.youtube.com/@GameTheory/?sub_confirmation=1\n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n*Join Our Other YouTube Channels!*\n🎥   @FilmTheory  \n🍔   @FoodTheory  \n👔   @StyleTheorists    \n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n*Credits:*\nWriters: Matthew Patrick, Stephanie Patrick, and Tom Robinson\nEditors: Dan \"Cybert\" Seibert, JayskiBean, Pedro Freitas, Dom Sealion, and Lace\nSound Designer: Tyler Mascola\nThumbnail Artist: DasGnomo\n‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐\n#YouTube #MrBeast #GMM #Excess #YouTubeTheory #Theory #GameTheory #Matpat"
     },
-    "defaultAudioLanguage": "en"
+    "defaultAudioLanguage": "en-US"
     },
     "contentDetails": {
-    "duration": "PT17M36S",
+    "duration": "PT17M10S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "true",
@@ -3702,88 +3809,151 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "95467066",
-    "likeCount": "3912940",
+    "viewCount": "1620480",
+    "likeCount": "114570",
     "favoriteCount": "0",
-    "commentCount": "115942"
+    "commentCount": "5020"
     }
     },
     {
     "kind": "youtube#video",
-    "etag": "WWC0EW5kfnBgu7OWspTCJnSh5zo",
-    "id": "ig3_Peen1ow",
+    "etag": "_KBjBacpSiiIvsj3BZ8v4Dg-s8c",
+    "id": "czjisEGe5Cw",
     "snippet": {
-    "publishedAt": "2023-10-16T14:00:34Z",
-    "channelId": "UCXBE_QQSZueB8082ml5fslg",
-    "title": "TIMTHETATMAN REACTS TO JYNXZI COACHING HIM",
-    "description": "Jynxzi: \nhttps://www.youtube.com/@Jynxzi\nhttps://www.twitch.tv/jynxzi\n\nLIKE and SUBSCRIBE with NOTIFICATIONS ON if you enjoyed the video! 👍\n\n\n💪BECOME A MEMBER OF THE STREAM - https://youtube.com/timthetatman/join\n💰 DONATE: https://streamlabs.com/timthetatman/tip\n👉JOIN THE DISCORD: https://discord.gg/timthetatman\n🔴 You can catch me live on Youtube! https://youtube.com/TimTheTatman\n🎥 MoreTimTheTatman: https://www.youtube.com/moretimthetatman\n🎥 TimTheTatman Two: https://youtube.com/TimTheTatmanTwo\n🎥 TimTheTatman VODs: https://www.youtube.com/timthetatmanvods\n🎥 TimTheTatman Shorts: https://youtube.com/TimTheTatmanShorts\n▶️ GET CONNECTED:\n🖥️ Website | https://timthetatman.com/\n🐦Twitter | https://twitter.com/timthetatman\n📷 Instagram | https://www.instagram.com/timthetatman/\n📱TikTok  | https://tiktok.com/@timthetatman\n\n🔥SPONSORS:\nAT&T | https://www.att.com/5gforyou\nNZXT | https://nzxt.co/TimNZXT\nMountain Dew | https://mtndewgaming.com/\nLG Ultragear | https://bit.ly/3A5B0MZ\nHerman Miller | https://bit.ly/3tcJ9vV\nFanDuel | https://www.fanduel.com/tatmansbk\nStreamlabs | https://streamlabs.com/goprime?promo=timthetatman-441d-10\n\n⭐COMPLEXITY: http://col.vg/Tim\n\nTHANKS FOR WATCHING!! 💖\n\n#timthetatman #rainbow6 #r6s #rainbowsixsiege",
+    "publishedAt": "2023-10-31T23:00:20Z",
+    "channelId": "UCHnyfMqiRRG1u-2MsSQLbXA",
+    "title": "The Problem With Science Communication",
+    "description": "To kickstart your business or online store with a free trial of Shopify, go to http://shopify.com/veritasium\n\nIf you’re looking for a molecular modeling kit, try Snatoms – a kit I invented where the atoms snap together magnetically – https://ve42.co/SnatomsV  \n\n▀▀▀\nHuge thanks to Carlo Rovelli: https://t.co/FF5ohRQB8R\nAnd Geraint Lewis: https://www.geraintflewis.com/\n\n▀▀▀\nImages and references:\nHolographic wormhole, via Nature - https://ve42.co/Holographic\n\n‘Did physicists create a wormhole in a quantum computer?’ by Davide Castelvecchi, via Nature - https://ve42.co/NatureWormhole\n\nTraversable Holographic Wormhole by Sarag Wells, via Vice - https://ve42.co/ViceWormhole\n\n‘Quantum teleportation opens a ‘wormhole in space–time’’ by Martijn Boerkamp, via Physics World - https://ve42.co/PWTeleportation\n\n‘Physicists Create a Holographic Wormhole’ by Natalie Wolchover, via Quanta - https://ve42.co/QuantaWormhole\n\n‘the Smallest, Crummiest Wormhole You Can Imagine’, via The New York Times - https://ve42.co/NYTWormhole\n\n‘How Physicists Created a Holographic, via Quanta - https://ve42.co/QuantaYTWormhole\n\nQuantum computer imagery, via Quantumai - https://ve42.co/Quantumai\n\n‘Nuclear fusion breakthrough’, via Sky News - https://ve42.co/SkyWormhole\n\n‘NASA scientist explains why images from new telescope astounded him’, via CNN on YouTube - https://ve42.co/CNNWormhole\n\n‘Neutrino Faster Than Speed of Light’, via Associated Press - https://ve42.co/APWormhole\n\n‘Michio Kaku on Quantum Computing’, via PowerfulJRE - https://ve42.co/JRE\n\nAskScience AMA Series, via r/askscience on Reddit - https://ve42.co/ClimateAMA\n\n‘Professor Andrei Linde celebrates physics breakthrough’, via Stanford  - https://ve42.co/AndreiLinde\n\n‘Gravitational waves turn to dust’ by Ian Sample, via The Guardian - https://ve42.co/Waves2Dust\n\n‘The First Room-Temperature Ambient-Pressure Superconductor’, Sukbae Lee, Ji-Hoon Kim, Young-Wan Kwon, 2023, via arXiv - https://ve42.co/Superconductor\n\n‘What's the buzz about LK-99?’, via Global News - https://ve42.co/GlobalLK99\n\nMeissner effect, via @andrewmccalip on Twitter - https://ve42.co/Meissner\n\n‘Will LK99 Superconductor CHANGE THE WORLD?’, via Breaking Points on YouTube - https://ve42.co/BreakingPoints\n\n‘Superconductor Breakthroughs’, via WSJ - https://ve42.co/WSJSuperconductor\n\nLK99 claims forum post, via Spacebattles - https://ve42.co/KL99Forum\n\nCopper graph, via Handbook of Electromagnetic Materials - https://ve42.co/CopperGraph\n\nLK-99 Superconductor ​showing levitation - https://ve42.co/Levitation\n\n‘Unreliable social science research’ by Cathleen O’Grady, via Science - https://ve42.co/SocialScience\n\nTiny Neutrinos article by Dennis Overbye, via The NYT - https://ve42.co/NYTNeutrinos\n\n‘The Crisis in Cosmology’ by Astrophysics in Process, via Medium - https://ve42.co/CosmoCrisis\n\n‘Some scientists speak of a “crisis in cosmology.”’ by Adam Frank, via Big Think - https://ve42.co/BigThinkCosmo\n\n‘Why is there a 'crisis' in cosmology?’ by Paul Sutter, via Space - https://ve42.co/SpaceCosmo\n\n‘Breakthrough in nuclear fusion, via PBS NewsHour on YouTube - https://ve42.co/PBSBreakthrough\n\nDOE National Lab press conference, via U.S. Department of Energy on YouTube - https://ve42.co/DOEPress\n\n‘Nuclear fusion breakthrough’ by Catherine Clifford, via CNBC - https://ve42.co/CNBCFusion\n\n‘US officials announce nuclear fusion breakthrough’, via CNN - https://ve42.co/CNNFusion\n\nNuclear fusion article, via CNN - https://ve42.co/CNNNuclear\n\nClimate catastrophe article by Robin McKie, via The Guardian - https://ve42.co/GuardianClimate\n\nNuclear fusion article by Nicola Davis, via The Guardian - https://ve42.co/GuardianFusion\n\nFusion breakthrough article, via Imperial College London - https://ve42.co/ImperialFusion\n\nWednesday briefing by Archive Bland, via The Guardian - https://ve42.co/GuardianBriefing\n\nSky Sport News Bulletin, via Sky Sport NZ on YouTube - https://ve42.co/SkyBulletin\n\nAlien Probe Ignored Us article by Ed Maz - https://ve42.co/AlienProbe\n\nAttempts to scan the mysterious Oumuamua 'comet' article by Shivali Best, via MailOnline - https://ve42.co/Oumuamua\n\n‘Have Aliens Found Us?’ by Isaac Chotiner - https://ve42.co/NYTAliens\n\n▀▀▀\nSpecial thanks to our Patreon supporters:\nAdam Foreman, Amadeo Bee, Anton Ragin, Balkrishna Heroor, Bernard McGee, Bill Linder, Burt Humburg, Chris Harper, Dave Kircher, Diffbot, Evgeny Skvortsov, Gnare, Jesse Brandsoy, John H. Austin, Jr., john kiehl, Josh Hibschman, Juan Benet, KeyWestr, Lee Redden, Marinus Kuivenhoven, Mario Bottion, Max Maladino, Meekay, meg noah, Michael Krugman, Paul Peijzel, Richard Sundvall, Sam Lutfi, Stephen Wilcox, Tj Steyn, TTST, Ubiquity Ventures\n\n▀▀▀\nWritten by Derek Muller\nEdited by Peter Nelson\nFilmed by Derek Muller\nProduced by Derek Muller\n\nAdditional video/photos supplied by Getty Images and Storyblocks\nMusic from Epidemic Sound\nThumbnail by Geoff Barrett",
     "thumbnails": {
     "default": {
-    "url": "https://i.ytimg.com/vi/ig3_Peen1ow/default.jpg",
+    "url": "https://i.ytimg.com/vi/czjisEGe5Cw/default.jpg",
     "width": 120,
     "height": 90
     },
     "medium": {
-    "url": "https://i.ytimg.com/vi/ig3_Peen1ow/mqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/czjisEGe5Cw/mqdefault.jpg",
     "width": 320,
     "height": 180
     },
     "high": {
-    "url": "https://i.ytimg.com/vi/ig3_Peen1ow/hqdefault.jpg",
+    "url": "https://i.ytimg.com/vi/czjisEGe5Cw/hqdefault.jpg",
     "width": 480,
     "height": 360
     },
     "standard": {
-    "url": "https://i.ytimg.com/vi/ig3_Peen1ow/sddefault.jpg",
+    "url": "https://i.ytimg.com/vi/czjisEGe5Cw/sddefault.jpg",
     "width": 640,
     "height": 480
     },
     "maxres": {
-    "url": "https://i.ytimg.com/vi/ig3_Peen1ow/maxresdefault.jpg",
+    "url": "https://i.ytimg.com/vi/czjisEGe5Cw/maxresdefault.jpg",
     "width": 1280,
     "height": 720
     }
     },
-    "channelTitle": "TimTheTatman",
+    "channelTitle": "Veritasium",
     "tags": [
-    "timthetatman",
-    "tatmanarmy",
-    "tim",
-    "the",
-    "tat",
-    "man",
-    "timthetatman ninja",
-    "nickmercs",
-    "funny moments",
-    "gameplay",
-    "compilation",
-    "funny",
-    "fat",
-    "streamer",
-    "timthetatman spectates",
-    "timthetatman highlights",
-    "timthetatman moments",
-    "best of",
-    "best of timthetatman",
-    "best of tim",
-    "timthetatman funny",
-    "timthetatman solo",
-    "LIVE",
-    "LIVESTREAM",
-    "STREAM",
-    "rainbow 6",
-    "r6s",
-    "rainbow six siege"
+    "veritasium",
+    "science",
+    "physics"
+    ],
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en",
+    "localized": {
+    "title": "The Problem With Science Communication",
+    "description": "To kickstart your business or online store with a free trial of Shopify, go to http://shopify.com/veritasium\n\nIf you’re looking for a molecular modeling kit, try Snatoms – a kit I invented where the atoms snap together magnetically – https://ve42.co/SnatomsV  \n\n▀▀▀\nHuge thanks to Carlo Rovelli: https://t.co/FF5ohRQB8R\nAnd Geraint Lewis: https://www.geraintflewis.com/\n\n▀▀▀\nImages and references:\nHolographic wormhole, via Nature - https://ve42.co/Holographic\n\n‘Did physicists create a wormhole in a quantum computer?’ by Davide Castelvecchi, via Nature - https://ve42.co/NatureWormhole\n\nTraversable Holographic Wormhole by Sarag Wells, via Vice - https://ve42.co/ViceWormhole\n\n‘Quantum teleportation opens a ‘wormhole in space–time’’ by Martijn Boerkamp, via Physics World - https://ve42.co/PWTeleportation\n\n‘Physicists Create a Holographic Wormhole’ by Natalie Wolchover, via Quanta - https://ve42.co/QuantaWormhole\n\n‘the Smallest, Crummiest Wormhole You Can Imagine’, via The New York Times - https://ve42.co/NYTWormhole\n\n‘How Physicists Created a Holographic, via Quanta - https://ve42.co/QuantaYTWormhole\n\nQuantum computer imagery, via Quantumai - https://ve42.co/Quantumai\n\n‘Nuclear fusion breakthrough’, via Sky News - https://ve42.co/SkyWormhole\n\n‘NASA scientist explains why images from new telescope astounded him’, via CNN on YouTube - https://ve42.co/CNNWormhole\n\n‘Neutrino Faster Than Speed of Light’, via Associated Press - https://ve42.co/APWormhole\n\n‘Michio Kaku on Quantum Computing’, via PowerfulJRE - https://ve42.co/JRE\n\nAskScience AMA Series, via r/askscience on Reddit - https://ve42.co/ClimateAMA\n\n‘Professor Andrei Linde celebrates physics breakthrough’, via Stanford  - https://ve42.co/AndreiLinde\n\n‘Gravitational waves turn to dust’ by Ian Sample, via The Guardian - https://ve42.co/Waves2Dust\n\n‘The First Room-Temperature Ambient-Pressure Superconductor’, Sukbae Lee, Ji-Hoon Kim, Young-Wan Kwon, 2023, via arXiv - https://ve42.co/Superconductor\n\n‘What's the buzz about LK-99?’, via Global News - https://ve42.co/GlobalLK99\n\nMeissner effect, via @andrewmccalip on Twitter - https://ve42.co/Meissner\n\n‘Will LK99 Superconductor CHANGE THE WORLD?’, via Breaking Points on YouTube - https://ve42.co/BreakingPoints\n\n‘Superconductor Breakthroughs’, via WSJ - https://ve42.co/WSJSuperconductor\n\nLK99 claims forum post, via Spacebattles - https://ve42.co/KL99Forum\n\nCopper graph, via Handbook of Electromagnetic Materials - https://ve42.co/CopperGraph\n\nLK-99 Superconductor ​showing levitation - https://ve42.co/Levitation\n\n‘Unreliable social science research’ by Cathleen O’Grady, via Science - https://ve42.co/SocialScience\n\nTiny Neutrinos article by Dennis Overbye, via The NYT - https://ve42.co/NYTNeutrinos\n\n‘The Crisis in Cosmology’ by Astrophysics in Process, via Medium - https://ve42.co/CosmoCrisis\n\n‘Some scientists speak of a “crisis in cosmology.”’ by Adam Frank, via Big Think - https://ve42.co/BigThinkCosmo\n\n‘Why is there a 'crisis' in cosmology?’ by Paul Sutter, via Space - https://ve42.co/SpaceCosmo\n\n‘Breakthrough in nuclear fusion, via PBS NewsHour on YouTube - https://ve42.co/PBSBreakthrough\n\nDOE National Lab press conference, via U.S. Department of Energy on YouTube - https://ve42.co/DOEPress\n\n‘Nuclear fusion breakthrough’ by Catherine Clifford, via CNBC - https://ve42.co/CNBCFusion\n\n‘US officials announce nuclear fusion breakthrough’, via CNN - https://ve42.co/CNNFusion\n\nNuclear fusion article, via CNN - https://ve42.co/CNNNuclear\n\nClimate catastrophe article by Robin McKie, via The Guardian - https://ve42.co/GuardianClimate\n\nNuclear fusion article by Nicola Davis, via The Guardian - https://ve42.co/GuardianFusion\n\nFusion breakthrough article, via Imperial College London - https://ve42.co/ImperialFusion\n\nWednesday briefing by Archive Bland, via The Guardian - https://ve42.co/GuardianBriefing\n\nSky Sport News Bulletin, via Sky Sport NZ on YouTube - https://ve42.co/SkyBulletin\n\nAlien Probe Ignored Us article by Ed Maz - https://ve42.co/AlienProbe\n\nAttempts to scan the mysterious Oumuamua 'comet' article by Shivali Best, via MailOnline - https://ve42.co/Oumuamua\n\n‘Have Aliens Found Us?’ by Isaac Chotiner - https://ve42.co/NYTAliens\n\n▀▀▀\nSpecial thanks to our Patreon supporters:\nAdam Foreman, Amadeo Bee, Anton Ragin, Balkrishna Heroor, Bernard McGee, Bill Linder, Burt Humburg, Chris Harper, Dave Kircher, Diffbot, Evgeny Skvortsov, Gnare, Jesse Brandsoy, John H. Austin, Jr., john kiehl, Josh Hibschman, Juan Benet, KeyWestr, Lee Redden, Marinus Kuivenhoven, Mario Bottion, Max Maladino, Meekay, meg noah, Michael Krugman, Paul Peijzel, Richard Sundvall, Sam Lutfi, Stephen Wilcox, Tj Steyn, TTST, Ubiquity Ventures\n\n▀▀▀\nWritten by Derek Muller\nEdited by Peter Nelson\nFilmed by Derek Muller\nProduced by Derek Muller\n\nAdditional video/photos supplied by Getty Images and Storyblocks\nMusic from Epidemic Sound\nThumbnail by Geoff Barrett"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT16M34S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "true",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "1659477",
+    "likeCount": "74921",
+    "favoriteCount": "0",
+    "commentCount": "3608"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "lam7Qz6VauFodITmPtU08FIS4IE",
+    "id": "q4Fl1ksPjnk",
+    "snippet": {
+    "publishedAt": "2023-11-01T15:50:36Z",
+    "channelId": "UCMlqYSFcNTrxDQO_T9GCsjg",
+    "title": "I'm Pissed Off.",
+    "description": "More Destiny 2 News / Bungie News.  We're getting more and more info as to why Pete Parsons & the Bungie Higher-ups have fired so many employees, and it's not good.  Missed Revenue targets by 45% and not enough pre-ordering the Final Shape?  This is just a massive garbage storm, and the gaming industry is in BAD shape.  Are people even excited for Marathon 2023?  With all these Bungie Layoffs and the Final Shape DELAYED, the TWAB tomorrow is gonna be really interesting.\n★ SUB UP and join the FalloutFam: https://goo.gl/pSrt3D ★\n★ Want an extra way to support? https://patreon.com/falloutplays  ★\nShoutout to the LONG-BARREL Patreons, of which there is only TWO: MELANIE & HALLANDREN!!!\n\n★ MY GAMING SETUP ★\nSure SM7B Microphone - https://amzn.to/2QtbiAT\nBlue Boom Arm - https://amzn.to/3lC6epa\nElgato Key Light - https://amzn.to/393ES6m\nLogitech BRIO Webcam - https://amzn.to/3lGwJK7\nElgato Stream Deck - https://amzn.to/3lAESjr\nUPLIFT Standing Desk - https://amzn.to/3lAuwQk\nElgato Capture Card (HD60 Pro1080) - https://amzn.to/2QtkJjN\nMouse (Logitech G502) - https://amzn.to/3vIDeRv\n\n★ REACH OUT TO ME, YO ★\nFOLLOW ME on Twitch! https://www.twitch.tv/falloutplays\nSUBSCRIBE to my channel: https://www.youtube.com/channel/UCMlqYSFcNTrxDQO_T9GCsjg?sub_confirmation=1\nFollow me on TWITTER: https://twitter.com/falloutplays\nJoin our DISCORD CHAT: https://discord.gg/falloutplays\nNew FACEBOOK Page: https://www.facebook.com/Fallout-Plays-107863573942772/?view_public_for=107863573942772\n\n★ SWEET MERCH ★\nTeeSpring! https://teespring.com/stores/falloutplays\n#Destiny2",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/q4Fl1ksPjnk/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/q4Fl1ksPjnk/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/q4Fl1ksPjnk/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/q4Fl1ksPjnk/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/q4Fl1ksPjnk/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Fallout Plays",
+    "tags": [
+    "Destiny 2 News",
+    "Bungie News",
+    "Destiny 2 News Today",
+    "Destiny 2 The Final Shape",
+    "Destiny 2 Layoffs",
+    "Bungie Layoffs 2023",
+    "Bungie Marathon",
+    "Bungie Fires",
+    "Michael Salvatori",
+    "bungie",
+    "destiny 2",
+    "destiny 2 news 2023",
+    "destiny 2 final shape",
+    "the final shape",
+    "destiny bungie",
+    "destiny 2 the final shape delayed",
+    "destiny 2 pvp",
+    "destiny 2 the final shape showcase",
+    "destiny 2 season 22",
+    "bungie layoffs",
+    "destiny 2 twab",
+    "destiny 2 update",
+    "bungie destiny 2 news"
     ],
     "categoryId": "20",
     "liveBroadcastContent": "none",
     "localized": {
-    "title": "TIMTHETATMAN REACTS TO JYNXZI COACHING HIM",
-    "description": "Jynxzi: \nhttps://www.youtube.com/@Jynxzi\nhttps://www.twitch.tv/jynxzi\n\nLIKE and SUBSCRIBE with NOTIFICATIONS ON if you enjoyed the video! 👍\n\n\n💪BECOME A MEMBER OF THE STREAM - https://youtube.com/timthetatman/join\n💰 DONATE: https://streamlabs.com/timthetatman/tip\n👉JOIN THE DISCORD: https://discord.gg/timthetatman\n🔴 You can catch me live on Youtube! https://youtube.com/TimTheTatman\n🎥 MoreTimTheTatman: https://www.youtube.com/moretimthetatman\n🎥 TimTheTatman Two: https://youtube.com/TimTheTatmanTwo\n🎥 TimTheTatman VODs: https://www.youtube.com/timthetatmanvods\n🎥 TimTheTatman Shorts: https://youtube.com/TimTheTatmanShorts\n▶️ GET CONNECTED:\n🖥️ Website | https://timthetatman.com/\n🐦Twitter | https://twitter.com/timthetatman\n📷 Instagram | https://www.instagram.com/timthetatman/\n📱TikTok  | https://tiktok.com/@timthetatman\n\n🔥SPONSORS:\nAT&T | https://www.att.com/5gforyou\nNZXT | https://nzxt.co/TimNZXT\nMountain Dew | https://mtndewgaming.com/\nLG Ultragear | https://bit.ly/3A5B0MZ\nHerman Miller | https://bit.ly/3tcJ9vV\nFanDuel | https://www.fanduel.com/tatmansbk\nStreamlabs | https://streamlabs.com/goprime?promo=timthetatman-441d-10\n\n⭐COMPLEXITY: http://col.vg/Tim\n\nTHANKS FOR WATCHING!! 💖\n\n#timthetatman #rainbow6 #r6s #rainbowsixsiege"
-    }
+    "title": "I'm Pissed Off.",
+    "description": "More Destiny 2 News / Bungie News.  We're getting more and more info as to why Pete Parsons & the Bungie Higher-ups have fired so many employees, and it's not good.  Missed Revenue targets by 45% and not enough pre-ordering the Final Shape?  This is just a massive garbage storm, and the gaming industry is in BAD shape.  Are people even excited for Marathon 2023?  With all these Bungie Layoffs and the Final Shape DELAYED, the TWAB tomorrow is gonna be really interesting.\n★ SUB UP and join the FalloutFam: https://goo.gl/pSrt3D ★\n★ Want an extra way to support? https://patreon.com/falloutplays  ★\nShoutout to the LONG-BARREL Patreons, of which there is only TWO: MELANIE & HALLANDREN!!!\n\n★ MY GAMING SETUP ★\nSure SM7B Microphone - https://amzn.to/2QtbiAT\nBlue Boom Arm - https://amzn.to/3lC6epa\nElgato Key Light - https://amzn.to/393ES6m\nLogitech BRIO Webcam - https://amzn.to/3lGwJK7\nElgato Stream Deck - https://amzn.to/3lAESjr\nUPLIFT Standing Desk - https://amzn.to/3lAuwQk\nElgato Capture Card (HD60 Pro1080) - https://amzn.to/2QtkJjN\nMouse (Logitech G502) - https://amzn.to/3vIDeRv\n\n★ REACH OUT TO ME, YO ★\nFOLLOW ME on Twitch! https://www.twitch.tv/falloutplays\nSUBSCRIBE to my channel: https://www.youtube.com/channel/UCMlqYSFcNTrxDQO_T9GCsjg?sub_confirmation=1\nFollow me on TWITTER: https://twitter.com/falloutplays\nJoin our DISCORD CHAT: https://discord.gg/falloutplays\nNew FACEBOOK Page: https://www.facebook.com/Fallout-Plays-107863573942772/?view_public_for=107863573942772\n\n★ SWEET MERCH ★\nTeeSpring! https://teespring.com/stores/falloutplays\n#Destiny2"
+    },
+    "defaultAudioLanguage": "en"
     },
     "contentDetails": {
-    "duration": "PT17M54S",
+    "duration": "PT9M5S",
     "dimension": "2d",
     "definition": "hd",
     "caption": "false",
@@ -3792,10 +3962,141 @@ export const youtube_sample=
     "projection": "rectangular"
     },
     "statistics": {
-    "viewCount": "499824",
-    "likeCount": "27476",
+    "viewCount": "206846",
+    "likeCount": "13667",
     "favoriteCount": "0",
-    "commentCount": "502"
+    "commentCount": "2141"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "bZWGoMBktlqrgzrYJuWL2XET--k",
+    "id": "N5qSNobCNUw",
+    "snippet": {
+    "publishedAt": "2023-11-01T01:30:09Z",
+    "channelId": "UC4rqhyiTs7XyuODcECvuiiQ",
+    "title": "Candy Games - Scott The Woz",
+    "description": "Scott wants to find the true meaning of Halloween. He then proceeds to play M&Ms Blast for Game Boy Advance. Happy Halloween!\n\nSecond Channel: @ScottsStash \nHighlights Channel: @ScottsSnippets \n\nMusic by\nChapman “Chipper” Hammond (https://www.chapmanhammondmusic.com/)\n\nTwitter: https://www.twitter.com/ScottTheWoz\nFacebook: https://www.facebook.com/ScottTheWoz/\nInstagram: https://www.instagram.com/scottthewoz/\n\nMusic Used:\nComing Soon",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/N5qSNobCNUw/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/N5qSNobCNUw/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/N5qSNobCNUw/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/N5qSNobCNUw/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/N5qSNobCNUw/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "Scott The Woz",
+    "categoryId": "20",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en",
+    "localized": {
+    "title": "Candy Games - Scott The Woz",
+    "description": "Scott wants to find the true meaning of Halloween. He then proceeds to play M&Ms Blast for Game Boy Advance. Happy Halloween!\n\nSecond Channel: @ScottsStash \nHighlights Channel: @ScottsSnippets \n\nMusic by\nChapman “Chipper” Hammond (https://www.chapmanhammondmusic.com/)\n\nTwitter: https://www.twitter.com/ScottTheWoz\nFacebook: https://www.facebook.com/ScottTheWoz/\nInstagram: https://www.instagram.com/scottthewoz/\n\nMusic Used:\nComing Soon"
+    },
+    "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+    "duration": "PT16M43S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "407845",
+    "likeCount": "34786",
+    "favoriteCount": "0",
+    "commentCount": "1972"
+    }
+    },
+    {
+    "kind": "youtube#video",
+    "etag": "J7MPEFGzIbLE9Tpr6IgzzE4YdEE",
+    "id": "m-MofxPhGso",
+    "snippet": {
+    "publishedAt": "2023-10-31T17:21:48Z",
+    "channelId": "UCdJdEguB1F1CiYe7OEi3SBg",
+    "title": "How to Get REVENGE | JonTron",
+    "description": "Play World of Tanks here: https://tanks.ly/3M3cg0u\nThank you World of Tanks for sponsoring this video. \nDuring registration use the code COMBAT to get for free: 7 days premium access, 250k credits, Cromwell B (tier 6). \n3 rental tanks for 10 battles each:  Tiger 131 (Tier 6) German heavy tank, T78 (Tier 6), and Type 64 (Tier 6). \nThe promo code is only for new players during registration.\n\n--\n\nFollow JonTron Here:\nInstagram: http://www.Instagram.com/jontronshow\nTwitter: http://www.Twitter.com/jontronshow\n\nBusiness Inquiries:\njontron(at)ellifyagency.com\n\n--\n\nCrew:\nJon Jafari - Director/Producer/Writer\nSergio Torres - Director of Photography/Line Producer/Creative\nAndrew Reynoso - Key Grip/Creative\nLewis Bown - Editor/Writer/Creative\nMaria Alexandria - Art/Special Effects/Costumes/Creative\nCharlotte Jafari - SmokeBae\n\nCast:\nSergio Torres - Blockbuster Employee",
+    "thumbnails": {
+    "default": {
+    "url": "https://i.ytimg.com/vi/m-MofxPhGso/default.jpg",
+    "width": 120,
+    "height": 90
+    },
+    "medium": {
+    "url": "https://i.ytimg.com/vi/m-MofxPhGso/mqdefault.jpg",
+    "width": 320,
+    "height": 180
+    },
+    "high": {
+    "url": "https://i.ytimg.com/vi/m-MofxPhGso/hqdefault.jpg",
+    "width": 480,
+    "height": 360
+    },
+    "standard": {
+    "url": "https://i.ytimg.com/vi/m-MofxPhGso/sddefault.jpg",
+    "width": 640,
+    "height": 480
+    },
+    "maxres": {
+    "url": "https://i.ytimg.com/vi/m-MofxPhGso/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720
+    }
+    },
+    "channelTitle": "JonTronShow",
+    "tags": [
+    "jontron",
+    "jontronshow",
+    "linda blair",
+    "exorcist",
+    "funny",
+    "vhs review",
+    "how to get revenge"
+    ],
+    "categoryId": "23",
+    "liveBroadcastContent": "none",
+    "localized": {
+    "title": "How to Get REVENGE | JonTron",
+    "description": "Play World of Tanks here: https://tanks.ly/3M3cg0u\nThank you World of Tanks for sponsoring this video. \nDuring registration use the code COMBAT to get for free: 7 days premium access, 250k credits, Cromwell B (tier 6). \n3 rental tanks for 10 battles each:  Tiger 131 (Tier 6) German heavy tank, T78 (Tier 6), and Type 64 (Tier 6). \nThe promo code is only for new players during registration.\n\n--\n\nFollow JonTron Here:\nInstagram: http://www.Instagram.com/jontronshow\nTwitter: http://www.Twitter.com/jontronshow\n\nBusiness Inquiries:\njontron(at)ellifyagency.com\n\n--\n\nCrew:\nJon Jafari - Director/Producer/Writer\nSergio Torres - Director of Photography/Line Producer/Creative\nAndrew Reynoso - Key Grip/Creative\nLewis Bown - Editor/Writer/Creative\nMaria Alexandria - Art/Special Effects/Costumes/Creative\nCharlotte Jafari - SmokeBae\n\nCast:\nSergio Torres - Blockbuster Employee"
+    }
+    },
+    "contentDetails": {
+    "duration": "PT15M17S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": true,
+    "contentRating": {},
+    "projection": "rectangular"
+    },
+    "statistics": {
+    "viewCount": "751351",
+    "likeCount": "65356",
+    "favoriteCount": "0",
+    "commentCount": "3619"
     }
     }
     ],
