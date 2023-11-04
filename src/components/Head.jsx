@@ -103,16 +103,16 @@ function Head() {
 
   return (
     <div className="grid grid-flow-col p-2 m-2 shadow-lg">
-      <div className="flex col-span-1">
+      <div className="flex col-span-1 ">
         <img
-          className="h-8 cursor-pointer"
+          className="h-8 cursor-pointe r"
           onClick={toggleMenuHandler}
           src="https://static.thenounproject.com/png/2254163-200.png"
           alt="hamlogo"
         />
         <Link to="/">
           <img
-            className="h-6 my-1 mx-2 cursor-pointer"
+            className="h-6 my-1 mx-2 cursor-pointer hidden sm:block"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/2560px-YouTube_Logo_2017.svg.png"
             alt="youtube"
           />
@@ -158,7 +158,6 @@ function Head() {
                   suggestion[0] && (
                     <li
                       onClick={() => {
-                        console.log("clicked");
                         setSearchQuery(s);
                         setshowSuggesation(false);
                       }}
@@ -173,7 +172,7 @@ function Head() {
           </div>
         )}
       </form>
-      <div className="col-span-1 ">
+      <div className="col-span-1 hidden sm:block">
         <NavLink to="/subscribe">
           <div>
             <button

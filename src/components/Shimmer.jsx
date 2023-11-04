@@ -6,7 +6,7 @@ for (let i = 1; i <= 30; i++) {
   numbersList.push(i);
 }
 
-console.log(numbersList);
+// console.log(numbersList);
 
 const Card=()=>{
     return(

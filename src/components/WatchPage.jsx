@@ -49,7 +49,7 @@ let handleClick=(vid)=>{
       SEARCH_RESULT_API + searchParams.get("sq_ch") + "&maxResults=10"
     );
     const data = await result.json();
-    console.log(data.items);
+    // console.log(data.items);
     setSuggVideos(data.items);
   };
   const handleDes = () => {
@@ -58,10 +58,10 @@ let handleClick=(vid)=>{
 
   const getDetails = async () => {
     try {
-      console.log(FETCH_API);
+      // console.log(FETCH_API);
       const response = await fetch(FETCH_API + "&id=" + searchParams.get("v"));
       const dataInbox = await response.json();
-      console.log(dataInbox);
+      // console.log(dataInbox);
       setVinfo(dataInbox);
     } catch (error) {
       console.error("Error fetching data:", error);
@@ -75,7 +75,7 @@ let handleClick=(vid)=>{
       <div className="mx-4 my-4 flex w-full">
         <div className="">
           <iframe
-            width="1200"
+            width="1000"
             height="600"
             src={"https://www.youtube.com/embed/" + searchParams.get("v")}
             title="YouTube video player"

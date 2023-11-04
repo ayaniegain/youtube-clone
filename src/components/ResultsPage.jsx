@@ -13,7 +13,7 @@ const SearchResults = () => {
   const getResult = async () => {
     const result = await fetch(SEARCH_RESULT_API + searchParams.get("q"));
     const data = await result.json();
-    console.log(data.items);
+    // console.log(data.items);
     setResultsArray(data.items);
   };
   return (

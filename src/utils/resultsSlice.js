@@ -22,7 +22,7 @@ const resultsSlice = createSlice({
         (item) => item[0].id !== action.payload
       );
 
-      console.log(removeItem);
+      // console.log(removeItem);
       state.allResults = removeItem;
     },
   },
