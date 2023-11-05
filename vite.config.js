@@ -8,7 +8,7 @@ export default defineConfig({
   
   server: {
     proxy: {
-      '/complete':'http://suggestqueries.google.com/'
+      '/complete':'http://suggestqueries.google.com'
     }
   }
 })
