@@ -4,7 +4,7 @@ import { toggleMenu } from "../utils/appSlice";
 import { YOUTUBE_SEARCH_API } from "../utils/constant";
 import { cacheResults } from "../utils/searchSlice";
 import { useRef } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink,useNavigate } from "react-router-dom";
 
 function Head() {
   let [searchQuery, setSearchQuery] = useState("");
@@ -13,6 +13,7 @@ function Head() {
   let [showSuggesation, setshowSuggesation] = useState(false);
   const searchCache = useSelector((store) => store.search);
   const subscribeResults = useSelector((store) => store.results.allResults);
+  const navigate=useNavigate();
 
   let cc = JSON.parse(localStorage.getItem("item"));
 
@@ -101,6 +102,13 @@ function Head() {
 
   // }
 
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     // console.log("Navigate");
+//     navigate("/search?q="+searchQuery)
+//     setshowSuggesation(false);
+// }
+
   return (
     <div className="grid grid-flow-col p-2 m-2 shadow-lg">
       <div className="flex col-span-1 ">
@@ -127,12 +135,19 @@ function Head() {
           onChange={(e) => setSearchQuery(e.target.value)}
           onFocus={() => setshowSuggesation(true)}
           // onBlur={() => setshowSuggesation(false)}
-
-          onKeyDown={(e) => {
-            if (e.keyCode === 13) {
-              window.location.href = "/results?q=" + searchQuery;
-            }
+          onBlur={() =>{
+            // const screenWidth = window.innerWidth;
+            // if(screenWidth<=640){
+            //   if(smSearch) setsmSearch(false);
+            // }
+           setTimeout(() => setshowSuggesation(false), 200)
           }}
+
+          // onKeyDown={(e) => {
+          //   if (e.key === 'Enter') {
+          //     handleSubmit(e);
+          //   }
+          // }}
         />
 
         <Link to={"/results?q=" + searchQuery}>
@@ -149,7 +164,7 @@ function Head() {
             🔍
           </button>
         </Link>
-
+{/* //suggestion */}
         {showSuggesation && (
           <div className="absolute scroll-my-2 bg-white mx-2 w-96 shadow-lg rounded">
             <ul>
