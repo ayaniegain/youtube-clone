@@ -51,12 +51,12 @@ Mytube is a YouTube clone built with React, JavaScript, Tailwind CSS, and Redux 
 
 ## screenshot
 
-![Screenshot (32)](https://github.com/ayaniegain/youtube-clone/assets/59463533/c9c1fb30-545a-48df-8aad-c1829c5af6b8)
+![Screenshot (29)](https://github.com/ayaniegain/youtube-clone/assets/59463533/f706eb6e-737a-4da0-a187-b3714f2bb90a)
 ![Screenshot (31)](https://github.com/ayaniegain/youtube-clone/assets/59463533/1d7667ef-c0f7-4dab-993f-adcaf66b5f14)
 ![Screenshot (30)](https://github.com/ayaniegain/youtube-clone/assets/59463533/868529f8-9364-4dbc-b7d9-1d3d74edb729)
-![Screenshot (29)](https://github.com/ayaniegain/youtube-clone/assets/59463533/f706eb6e-737a-4da0-a187-b3714f2bb90a)
-![Screenshot (34)](https://github.com/ayaniegain/youtube-clone/assets/59463533/225acc27-ebc7-485e-b4a8-f2da9c98920c)
+![Screenshot (32)](https://github.com/ayaniegain/youtube-clone/assets/59463533/c9c1fb30-545a-48df-8aad-c1829c5af6b8)
 ![Screenshot (33)](https://github.com/ayaniegain/youtube-clone/assets/59463533/3c2b72d9-1aca-47dc-9679-d37804cc2b97)
+![Screenshot (34)](https://github.com/ayaniegain/youtube-clone/assets/59463533/225acc27-ebc7-485e-b4a8-f2da9c98920c)
 
 ## Getting Started
 
