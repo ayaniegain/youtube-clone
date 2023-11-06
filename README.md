@@ -13,7 +13,6 @@
   <a href="https://github.com/yourusername/mytube/issues">Request Feature</a>
 </div>
 
-![Mytube Screenshot](./assets/screenshot.png)
 
 ## Table of Contents
 
@@ -49,6 +48,15 @@ Mytube is a YouTube clone built with React, JavaScript, Tailwind CSS, and Redux 
    - **Subscription Management**: Utilizes Redux to manage user subscriptions.
    - **Nested Comments**: Allows users to leave comments on videos and reply to existing comments.
    - **Detailed Video Pages**: Provides users with detailed video pages, including video description, views, likes, and related videos for a rich browsing experience.
+
+## screenshot
+
+![Screenshot (32)](https://github.com/ayaniegain/youtube-clone/assets/59463533/c9c1fb30-545a-48df-8aad-c1829c5af6b8)
+![Screenshot (31)](https://github.com/ayaniegain/youtube-clone/assets/59463533/1d7667ef-c0f7-4dab-993f-adcaf66b5f14)
+![Screenshot (30)](https://github.com/ayaniegain/youtube-clone/assets/59463533/868529f8-9364-4dbc-b7d9-1d3d74edb729)
+![Screenshot (29)](https://github.com/ayaniegain/youtube-clone/assets/59463533/f706eb6e-737a-4da0-a187-b3714f2bb90a)
+![Screenshot (34)](https://github.com/ayaniegain/youtube-clone/assets/59463533/225acc27-ebc7-485e-b4a8-f2da9c98920c)
+![Screenshot (33)](https://github.com/ayaniegain/youtube-clone/assets/59463533/3c2b72d9-1aca-47dc-9679-d37804cc2b97)
 
 ## Getting Started
 
